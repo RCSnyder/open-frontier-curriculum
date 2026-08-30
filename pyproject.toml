@@ -1,0 +1,50 @@
+[project]
+name = "open-frontier-curriculum-docs"
+version = "0.0.0"
+description = "Tooling for the Open Frontier Curriculum documentation site"
+requires-python = ">=3.12,<3.14"
+dependencies = []
+
+[dependency-groups]
+dev = [
+  "zensical>=0.0.57,<0.1",
+]
+
+[tool.uv]
+package = false
+
+# Repository releases use Git tags and release.toml. The uv project is only a
+# virtual documentation environment, so release automation does not rewrite uv.lock.
+[tool.semantic_release]
+commit_parser = "conventional"
+tag_format = "v{version}"
+version_toml = ["release.toml:version"]
+commit_message = "chore(release): v{version} [skip ci]"
+build_command = "python scripts/sync_release_version.py"
+assets = ["CITATION.cff", "data/program.json"]
+allow_zero_version = true
+major_on_zero = true
+
+[tool.semantic_release.branches.main]
+match = "^main$"
+prerelease = false
+
+[tool.semantic_release.commit_parser_options]
+minor_tags = ["feat"]
+patch_tags = ["fix", "perf", "docs", "refactor", "test", "build", "ci", "chore", "style"]
+other_allowed_tags = []
+parse_squash_commits = true
+ignore_merge_commits = true
+
+[tool.semantic_release.changelog]
+mode = "update"
+insertion_flag = "<!-- version list -->"
+exclude_commit_patterns = [
+  "chore(?:\\([^)]*?\\))?: .+",
+  "ci(?:\\([^)]*?\\))?: .+",
+  "style(?:\\([^)]*?\\))?: .+",
+  "test(?:\\([^)]*?\\))?: .+",
+  "build(?:\\([^)]*?\\))?: .+",
+  "refactor(?:\\([^)]*?\\))?: .+",
+  "Initial [Cc]ommit.*",
+]

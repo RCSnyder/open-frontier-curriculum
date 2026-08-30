@@ -1,0 +1,463 @@
+/* Open Frontier Curriculum UI
+   Dense reference layouts, accessible interaction, and mobile-first cards. */
+
+:root {
+  --md-text-font: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --md-code-font: ui-monospace, "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  --ofc-content-max: 94rem;
+  --ofc-reading-max: 58rem;
+  --ofc-radius: .55rem;
+  --ofc-radius-sm: .35rem;
+  --ofc-border: color-mix(in srgb, var(--md-default-fg-color) 14%, transparent);
+  --ofc-border-strong: color-mix(in srgb, var(--md-default-fg-color) 24%, transparent);
+  --ofc-surface: color-mix(in srgb, var(--md-default-bg-color) 96%, var(--md-default-fg-color) 4%);
+  --ofc-surface-raised: color-mix(in srgb, var(--md-default-bg-color) 92%, var(--md-default-fg-color) 8%);
+  --ofc-shadow: 0 .15rem .55rem rgb(0 0 0 / .07);
+  --ofc-shadow-hover: 0 .3rem 1rem rgb(0 0 0 / .11);
+
+  /* Semantic text colors. Keep these independent from theme opacity ladders. */
+  --ofc-text: #202a33;
+  --ofc-heading: #111820;
+  --ofc-muted: #52616f;
+  --ofc-subtle: #6b7885;
+  --ofc-link: #006d63;
+  --ofc-link-hover: #7a5100;
+
+  /* Dark enough for white header text in the light scheme. */
+  --md-primary-fg-color: #00695c;
+  --md-primary-fg-color--light: #00796b;
+  --md-primary-fg-color--dark: #004d40;
+}
+
+/*
+ * High-contrast dark palette. Zensical's slate scheme intentionally uses
+ * muted foreground opacities. That works for low-density docs, but it made
+ * titles, navigation, card copy, and metadata too faint in this site.
+ *
+ * These values target WCAG AA with ample margin on the dark surfaces below.
+ */
+[data-md-color-scheme="slate"] {
+  color-scheme: dark;
+
+  --md-default-bg-color: #0d1218;
+  --md-default-bg-color--light: #111821;
+  --md-default-bg-color--lighter: #18212b;
+  --md-default-bg-color--lightest: #212c37;
+
+  --md-default-fg-color: #e9eff5;
+  --md-default-fg-color--light: #bdc8d3;
+  --md-default-fg-color--lighter: #9eacba;
+  --md-default-fg-color--lightest: #344353;
+
+  --md-typeset-color: #e9eff5;
+  --md-typeset-a-color: #6ee7d8;
+  --md-primary-fg-color: #123f3b;
+  --md-primary-fg-color--light: #1f5d56;
+  --md-primary-fg-color--dark: #082e2b;
+  --md-accent-fg-color: #ffd166;
+  --md-accent-fg-color--transparent: rgb(255 209 102 / .14);
+
+  --md-code-fg-color: #dbe7ef;
+  --md-code-bg-color: #131b24;
+  --md-code-bg-color--light: #17212b;
+  --md-code-bg-color--lighter: #1b2732;
+  --md-typeset-table-color: #344353;
+  --md-typeset-table-color--light: rgb(255 255 255 / .045);
+  --md-admonition-fg-color: #e9eff5;
+  --md-admonition-bg-color: #121a23;
+  --md-footer-bg-color: #111821;
+  --md-footer-bg-color--dark: #0a0f14;
+  --md-footer-fg-color: #e9eff5;
+  --md-footer-fg-color--light: #bdc8d3;
+  --md-footer-fg-color--lighter: #9eacba;
+
+  --ofc-text: #e9eff5;
+  --ofc-heading: #f8fafc;
+  --ofc-muted: #bdc8d3;
+  --ofc-subtle: #9eacba;
+  --ofc-link: #6ee7d8;
+  --ofc-link-hover: #ffd166;
+  --ofc-border: #344353;
+  --ofc-border-strong: #526476;
+  --ofc-surface: #131b24;
+  --ofc-surface-raised: #18232e;
+  --ofc-shadow: 0 .15rem .55rem rgb(0 0 0 / .24);
+  --ofc-shadow-hover: 0 .35rem 1rem rgb(0 0 0 / .34);
+}
+
+/* Keep index pages wide enough for scanning without creating long prose lines. */
+.md-grid { max-width: var(--ofc-content-max); }
+.md-content__inner { min-width: 0; }
+.md-typeset {
+  color: var(--ofc-text);
+  line-height: 1.62;
+}
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6,
+.md-typeset strong { color: var(--ofc-heading); }
+.md-typeset a { color: var(--ofc-link); }
+.md-typeset a:hover { color: var(--ofc-link-hover); }
+.md-typeset > p,
+.md-typeset > blockquote,
+.md-typeset > ul:not(.grid),
+.md-typeset > ol:not(.grid) { max-width: var(--ofc-reading-max); }
+
+/* Basic type rhythm. */
+.md-typeset h1 {
+  font-weight: 730;
+  letter-spacing: -.025em;
+  line-height: 1.08;
+  margin-bottom: .8rem;
+}
+.md-typeset h2 {
+  font-weight: 680;
+  letter-spacing: -.012em;
+  line-height: 1.18;
+  margin-top: 1.85em;
+  scroll-margin-top: 5rem;
+}
+.md-typeset h3 {
+  font-weight: 650;
+  line-height: 1.25;
+  margin-top: 1.45em;
+  scroll-margin-top: 5rem;
+}
+.md-typeset h4 { scroll-margin-top: 5rem; }
+.md-typeset strong { font-weight: 670; }
+
+/* Home page. */
+.ofc-hero {
+  max-width: 72rem;
+  padding: clamp(.8rem, 3vw, 2rem) 0 .65rem;
+}
+.ofc-hero h1 {
+  font-size: clamp(2.3rem, 6vw, 4.8rem);
+  line-height: .98;
+  letter-spacing: -.052em;
+  margin-bottom: .7rem;
+  text-wrap: balance;
+}
+.ofc-deck {
+  font-size: clamp(1.02rem, 2vw, 1.32rem);
+  line-height: 1.42;
+  color: var(--ofc-muted);
+  max-width: 56rem;
+}
+.ofc-hypothesis {
+  margin-top: 1.15rem;
+  max-width: 64rem;
+  border-left: .18rem solid var(--md-primary-fg-color);
+  padding: .6rem 0 .6rem 1rem;
+  line-height: 1.55;
+}
+
+/* Metrics. */
+.ofc-stat-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: .65rem;
+  margin: 1rem 0 1.75rem;
+  max-width: 66rem;
+}
+.ofc-stat {
+  border: 1px solid var(--ofc-border);
+  border-radius: var(--ofc-radius);
+  padding: .82rem .9rem;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  background: var(--ofc-surface);
+}
+.ofc-stat b {
+  font-size: 1.65rem;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -.025em;
+}
+.ofc-stat span {
+  font-size: .78rem;
+  line-height: 1.25;
+  margin-top: .38rem;
+  color: var(--ofc-muted);
+}
+
+/* Zensical card grids. Use content blocks inside cards, never heading tags. */
+.md-typeset .grid.cards > ul,
+.md-typeset .grid.cards > ol {
+  align-items: stretch;
+}
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid.cards > ol > li {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  height: 100%;
+  gap: .48rem;
+  padding: .92rem 1rem;
+  border: 1px solid var(--ofc-border);
+  border-radius: var(--ofc-radius);
+  background: var(--ofc-surface);
+  box-shadow: none;
+  overflow-wrap: anywhere;
+}
+.md-typeset .grid.cards > ul > li > :first-child,
+.md-typeset .grid.cards > ol > li > :first-child { margin-top: 0; }
+.md-typeset .grid.cards > ul > li > :last-child,
+.md-typeset .grid.cards > ol > li > :last-child { margin-bottom: 0; }
+.md-typeset .grid.cards p { margin: 0; }
+
+@media (hover: hover) and (pointer: fine) {
+  .md-typeset .grid.cards > ul > li,
+  .md-typeset .grid.cards > ol > li {
+    transition: border-color 140ms ease, box-shadow 140ms ease, transform 140ms ease, background-color 140ms ease;
+  }
+  .md-typeset .grid.cards > ul > li:hover,
+  .md-typeset .grid.cards > ol > li:hover {
+    border-color: var(--ofc-border-strong);
+    background: var(--ofc-surface-raised);
+    box-shadow: var(--ofc-shadow-hover);
+    transform: translateY(-1px);
+  }
+}
+
+.ofc-card-title {
+  display: block;
+  font-size: .96rem;
+  line-height: 1.28;
+  letter-spacing: -.008em;
+  text-wrap: pretty;
+}
+.ofc-card-title a { color: var(--ofc-heading); }
+.ofc-card-title a:hover { color: var(--ofc-link-hover); }
+.ofc-card-copy {
+  display: block;
+  color: var(--ofc-muted);
+  font-size: .82rem;
+  line-height: 1.48;
+  text-wrap: pretty;
+}
+.ofc-card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .32rem;
+  margin-top: auto;
+  padding-top: .1rem;
+}
+.ofc-card-meta > span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.35rem;
+  padding: .12rem .42rem;
+  border: 1px solid var(--ofc-border);
+  border-radius: 999px;
+  color: var(--ofc-muted);
+  background: color-mix(in srgb, var(--md-default-bg-color) 92%, var(--md-default-fg-color) 8%);
+  font-size: .69rem;
+  font-weight: 620;
+  line-height: 1.1;
+  white-space: nowrap;
+}
+
+/* Grid density by information type. */
+.ofc-orientation-grid.grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.ofc-route-grid.grid { grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr)); }
+.ofc-compact.grid { grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr)); }
+.ofc-module-grid.grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.ofc-track-grid.grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.ofc-track-summary.grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.ofc-frontier-grid.grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+.ofc-track-grid > ul > li,
+.ofc-track-grid > ol > li { min-height: 9.25rem; }
+.ofc-track-summary > ul > li,
+.ofc-track-summary > ol > li { min-height: 7.5rem; }
+.ofc-module-grid > ul > li,
+.ofc-module-grid > ol > li { min-height: 8.6rem; }
+
+/* Counts and feasibility badges. */
+.ofc-count {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.35rem;
+  font-size: .7rem;
+  font-weight: 650;
+  padding: .1rem .4rem;
+  border-radius: 999px;
+  background: var(--ofc-surface-raised);
+  color: var(--ofc-muted);
+  vertical-align: .12em;
+}
+.ofc-badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.35rem;
+  font-size: .69rem;
+  line-height: 1.1;
+  font-weight: 720;
+  border-radius: 999px;
+  padding: .1rem .42rem;
+  border: 1px solid currentColor;
+}
+.ofc-a { color: #086548 !important; background: #e8f7f0 !important; }
+.ofc-b { color: #075b9f !important; background: #eaf5ff !important; }
+.ofc-c { color: #735200 !important; background: #fff6d9 !important; }
+.ofc-d { color: #963838 !important; background: #fff0f0 !important; }
+.ofc-e { color: #66328a !important; background: #f6eefc !important; }
+[data-md-color-scheme="slate"] .ofc-a { color: #78dbb3 !important; background: #12382d !important; }
+[data-md-color-scheme="slate"] .ofc-b { color: #8bcaff !important; background: #15354d !important; }
+[data-md-color-scheme="slate"] .ofc-c { color: #f4d06f !important; background: #3a3018 !important; }
+[data-md-color-scheme="slate"] .ofc-d { color: #ffaaaa !important; background: #452525 !important; }
+[data-md-color-scheme="slate"] .ofc-e { color: #d7b0f4 !important; background: #372344 !important; }
+.ofc-tech-meta {
+  margin: .3rem 0 1.25rem;
+  color: var(--ofc-muted);
+  font-size: .84rem;
+}
+
+/* Inline navigation without pipe separators. */
+.ofc-inline-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem .8rem;
+  margin-top: .8rem;
+}
+.ofc-inline-nav a {
+  display: inline-flex;
+  min-height: 2rem;
+  align-items: center;
+}
+
+/* Data tables: preserve density but never force desktop scale onto phones. */
+.md-typeset__table {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  -webkit-overflow-scrolling: touch;
+}
+.md-typeset__table table {
+  width: max-content;
+  min-width: 100%;
+  font-size: .79rem;
+  line-height: 1.45;
+}
+.md-typeset table th { white-space: nowrap; }
+
+/* Long technical labels and URLs should wrap rather than widen the layout. */
+.md-typeset a,
+.md-typeset code,
+.md-typeset td { overflow-wrap: anywhere; }
+
+/* Keyboard and assistive interaction. */
+.md-typeset a:focus-visible,
+.md-nav__link:focus-visible,
+.md-header a:focus-visible,
+.md-search__input:focus-visible {
+  outline: .16rem solid var(--md-accent-fg-color);
+  outline-offset: .14rem;
+  border-radius: var(--ofc-radius-sm);
+}
+.md-typeset .grid.cards > ul > li:focus-within,
+.md-typeset .grid.cards > ol > li:focus-within {
+  border-color: var(--md-accent-fg-color);
+  box-shadow: 0 0 0 .12rem color-mix(in srgb, var(--md-accent-fg-color) 24%, transparent);
+}
+
+/* Dark-mode chrome: navigation and search should not use faint slate text. */
+[data-md-color-scheme="slate"] .md-header,
+[data-md-color-scheme="slate"] .md-tabs {
+  color: #eef4f8;
+  background-color: var(--md-primary-fg-color);
+}
+[data-md-color-scheme="slate"] .md-header__button,
+[data-md-color-scheme="slate"] .md-header__title,
+[data-md-color-scheme="slate"] .md-tabs__link {
+  color: #eef4f8;
+}
+[data-md-color-scheme="slate"] .md-search__form {
+  background-color: #18232e;
+}
+[data-md-color-scheme="slate"] .md-search__input {
+  color: #f8fafc;
+}
+[data-md-color-scheme="slate"] .md-search__input::placeholder {
+  color: #bdc8d3;
+  opacity: 1;
+}
+[data-md-color-scheme="slate"] .md-search__icon {
+  color: #bdc8d3;
+}
+[data-md-color-scheme="slate"] .md-nav__link,
+[data-md-color-scheme="slate"] .md-tabs__link,
+[data-md-color-scheme="slate"] .md-footer-meta,
+[data-md-color-scheme="slate"] .md-search-result__meta,
+[data-md-color-scheme="slate"] .md-search-result__teaser {
+  color: #bdc8d3;
+}
+[data-md-color-scheme="slate"] .md-nav__link:hover,
+[data-md-color-scheme="slate"] .md-nav__link:focus,
+[data-md-color-scheme="slate"] .md-tabs__link:hover,
+[data-md-color-scheme="slate"] .md-tabs__link:focus,
+[data-md-color-scheme="slate"] .md-nav__item .md-nav__link--active {
+  color: #f8fafc;
+}
+[data-md-color-scheme="slate"] .md-typeset .admonition-title,
+[data-md-color-scheme="slate"] .md-typeset summary,
+[data-md-color-scheme="slate"] .md-typeset th {
+  color: #f1f5f9;
+}
+[data-md-color-scheme="slate"] .md-typeset code {
+  color: #e3edf5;
+}
+
+/* Keep touch layouts comfortably readable. */
+@media screen and (max-width: 76rem) {
+  .ofc-track-summary.grid { grid-template-columns: 1fr; }
+  .ofc-track-summary > ul > li,
+  .ofc-track-summary > ol > li { min-height: 0; }
+}
+
+@media screen and (max-width: 58rem) {
+  .ofc-module-grid.grid,
+  .ofc-track-grid.grid,
+  .ofc-frontier-grid.grid { grid-template-columns: 1fr; }
+  .ofc-track-grid > ul > li,
+  .ofc-track-grid > ol > li,
+  .ofc-module-grid > ul > li,
+  .ofc-module-grid > ol > li { min-height: 0; }
+}
+
+@media screen and (max-width: 44rem) {
+  .ofc-hero { padding-top: .6rem; }
+  .ofc-hero h1 { font-size: clamp(2.15rem, 13vw, 3.15rem); }
+  .ofc-hypothesis { font-size: .9rem; padding-left: .8rem; }
+  .ofc-stat-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .ofc-orientation-grid.grid,
+  .ofc-route-grid.grid,
+  .ofc-compact.grid { grid-template-columns: 1fr; }
+  .md-typeset .grid.cards > ul > li,
+  .md-typeset .grid.cards > ol > li { padding: .88rem .9rem; }
+  .ofc-card-title { font-size: .98rem; }
+  .ofc-card-copy { font-size: .84rem; }
+  .ofc-card-meta > span,
+  .ofc-badge,
+  .ofc-count { font-size: .72rem; }
+  .md-typeset h1 { font-size: 1.8rem; }
+  .md-typeset h2 { font-size: 1.3rem; }
+  .md-typeset h3 { font-size: 1.08rem; }
+  .md-typeset__table table { font-size: .77rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+  }
+}

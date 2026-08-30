@@ -1,0 +1,34 @@
+name: validate-canon
+
+on:
+  pull_request:
+  push:
+    branches: [main, master]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Install uv
+        uses: astral-sh/setup-uv@20cfd1bf945f4377ade1205e4dbc17946fc9a30d # v10.0.1
+        with:
+          version: "0.12.7"
+          enable-cache: true
+      - name: Install Python
+        run: uv python install
+      - name: Sync docs environment
+        run: uv sync --frozen
+      - name: Lint public prose
+        run: uv run --frozen python scripts/lint_prose.py
+      - name: Validate curriculum structure
+        run: uv run --frozen python scripts/validate_repo.py
+      - name: Audit UI source
+        run: uv run --frozen python scripts/audit_ui.py
+      - name: Build Zensical site
+        run: uv run --frozen zensical build --clean
+      - name: Audit built site
+        run: uv run --frozen python scripts/audit_ui.py --site site

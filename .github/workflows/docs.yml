@@ -1,0 +1,57 @@
+name: deploy-docs
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v7
+      - name: Install uv
+        uses: astral-sh/setup-uv@20cfd1bf945f4377ade1205e4dbc17946fc9a30d # v10.0.1
+        with:
+          version: "0.12.7"
+          enable-cache: false
+      - name: Install Python
+        run: uv python install
+      - name: Sync docs environment
+        run: uv sync --frozen
+      - name: Lint public prose
+        run: uv run --frozen python scripts/lint_prose.py
+      - name: Validate curriculum
+        run: uv run --frozen python scripts/validate_repo.py
+      - name: Audit UI source
+        run: uv run --frozen python scripts/audit_ui.py
+      - name: Build Zensical site
+        run: uv run --frozen zensical build --clean
+      - name: Audit built site
+        run: uv run --frozen python scripts/audit_ui.py --site site
+      - name: Configure Pages
+        uses: actions/configure-pages@v6
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      pages: write
+      id-token: write
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5

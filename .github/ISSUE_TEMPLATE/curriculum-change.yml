@@ -1,0 +1,56 @@
+name: Curriculum change
+description: Propose an evidence-backed addition, deletion, prerequisite change, or reordering
+title: "[Curriculum] "
+labels: ["curriculum"]
+body:
+  - type: textarea
+    id: capability
+    attributes:
+      label: Target capability
+      description: What should a learner be able to do after this change?
+    validations:
+      required: true
+  - type: textarea
+    id: current_failure
+    attributes:
+      label: Current failure
+      description: What breaks or remains fluffy in the current curriculum?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+    validations:
+      required: true
+  - type: textarea
+    id: deletion
+    attributes:
+      label: Deletion test and opportunity cost
+      description: What fails if omitted? What should be removed/compressed to pay for it?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Prefer primary/official sources.
+    validations:
+      required: true
+  - type: textarea
+    id: proof
+    attributes:
+      label: Proof of ownership
+      description: What derivation/problem/build/experiment/defense demonstrates mastery?
+    validations:
+      required: true
+  - type: textarea
+    id: counter
+    attributes:
+      label: Strongest argument against this change
+    validations:
+      required: true
+  - type: textarea
+    id: safety
+    attributes:
+      label: Safety / governance impact

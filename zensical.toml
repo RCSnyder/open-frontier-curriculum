@@ -1,0 +1,164 @@
+[project]
+site_name = "Open Frontier Curriculum"
+site_description = "Foundations, frontier technologies, and human judgment for the 21st century."
+site_author = "Open Frontier Curriculum contributors"
+site_url = "https://rcsnyder.github.io/open-frontier-curriculum/"
+repo_url = "https://github.com/RCSnyder/open-frontier-curriculum"
+edit_uri = "edit/main/docs/"
+docs_dir = "docs"
+site_dir = "site"
+copyright = "Open Frontier Curriculum text: CC BY 4.0"
+extra_css = ["stylesheets/extra.css"]
+
+# Keep navigation intentionally shallow. The Frontier 100 is explored through
+# class/track indexes and search rather than putting 100 pages in the sidebar.
+nav = [
+  { "Home" = "index.md" },
+  { "Start here" = [
+    "00-start-here/README.md",
+    "00-start-here/choose-your-path.md",
+    "00-start-here/first-30-days.md",
+    "00-start-here/execution-modes.md",
+    "00-start-here/using-ai.md",
+  ] },
+  { "Program" = [
+    "01-program/README.md",
+    "01-program/premise.md",
+    "01-program/dependency-map.md",
+    "02-core/README.md",
+  ] },
+  { "Foundations I" = [
+    "02-core/wave-1/README.md",
+    "02-core/wave-1/01-mathematical-reasoning-proof.md",
+    "02-core/wave-1/02-calculus-vector-calculus.md",
+    "02-core/wave-1/03-linear-algebra.md",
+    "02-core/wave-1/04-odes-dynamical-systems.md",
+    "02-core/wave-1/05-probability.md",
+    "02-core/wave-1/06-statistics-causal-inference.md",
+    "02-core/wave-1/07-scientific-computing.md",
+    "02-core/wave-1/08-optimization.md",
+    "02-core/wave-1/09-information-signals.md",
+    "02-core/wave-1/10-control-estimation.md",
+    "02-core/wave-1/11-metrology-experiments.md",
+  ] },
+  { "Foundations II" = [
+    "02-core/wave-2/README.md",
+    "02-core/wave-2/01-mechanics-electromagnetism.md",
+    "02-core/wave-2/02-thermodynamics-statistical-mechanics.md",
+    "02-core/wave-2/03-quantum-condensed-matter.md",
+    "02-core/wave-2/04-chemistry-materials.md",
+    "02-core/wave-2/05-electronics-embedded-systems.md",
+    "02-core/wave-2/06-mechanical-design-fluids-structures.md",
+    "02-core/wave-2/07-molecular-cell-biology.md",
+    "02-core/wave-2/08-genetics-evolution-systems-biology.md",
+    "02-core/wave-2/09-neuroscience-physiology.md",
+    "02-core/wave-2/10-manufacturing-operations.md",
+    "02-core/wave-2/11-safety-reliability-security.md",
+  ] },
+  { "Specializations" = [
+    "03-specializations/README.md",
+    "03-specializations/ai-autonomous-science.md",
+    "03-specializations/robotics-autonomous-manufacturing.md",
+    "03-specializations/energy-nuclear-fusion.md",
+    "03-specializations/materials-nano.md",
+    "03-specializations/synthetic-biology-longevity.md",
+    "03-specializations/neurotechnology-hmi.md",
+    "03-specializations/space-industry.md",
+  ] },
+  { "Human systems" = [
+    "04-integration/README.md",
+    "04-integration/human-systems.md",
+  ] },
+  { "Frontier 100" = [
+    "05-frontier/README.md",
+    "05-frontier/by-track.md",
+    "05-frontier/technology-map.md",
+    "05-frontier/class-a.md",
+    "05-frontier/class-b.md",
+    "05-frontier/class-c.md",
+    "05-frontier/class-d.md",
+    "05-frontier/class-e.md",
+  ] },
+  { "Proof of work" = [
+    "06-proof-of-work/README.md",
+    "06-proof-of-work/portfolio.md",
+    "06-proof-of-work/oral-defense.md",
+  ] },
+  { "Resources" = [
+    "07-resources/README.md",
+    "07-resources/essential-26.md",
+    "07-resources/textbooks/README.md",
+    "07-resources/free-path.md",
+    "07-resources/sources.md",
+  ] },
+  { "Contribute" = [
+    "08-community/README.md",
+    "08-community/contributing.md",
+    "08-community/style.md",
+    "08-community/ui-review.md",
+    "08-community/review-rubric.md",
+    "08-community/rfc-template.md",
+    "08-community/local-development.md",
+    "08-community/publishing.md",
+    "08-community/releases.md",
+  ] },
+]
+
+[project.theme]
+variant = "modern"
+font = false
+features = [
+  "navigation.tabs",
+  "navigation.sections",
+  "navigation.indexes",
+  "navigation.path",
+  "navigation.top",
+  "navigation.tracking",
+  "navigation.prune",
+  "toc.follow",
+  "search.highlight",
+  "content.code.copy",
+]
+
+[project.theme.icon]
+logo = "lucide/compass"
+
+# System-preference default, with explicit light/dark toggles.
+[[project.theme.palette]]
+media = "(prefers-color-scheme)"
+toggle.icon = "lucide/sun-moon"
+toggle.name = "Switch to light mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+primary = "teal"
+accent = "amber"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+primary = "teal"
+accent = "amber"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to system preference"
+
+[project.markdown_extensions]
+abbr = {}
+admonition = {}
+attr_list = {}
+def_list = {}
+footnotes = {}
+md_in_html = {}
+tables = {}
+toc.permalink = true
+pymdownx.arithmatex.generic = true
+pymdownx.details = {}
+pymdownx.highlight = {}
+pymdownx.inlinehilite = {}
+pymdownx.tabbed.alternate_style = true
+pymdownx.superfences.custom_fences = [
+  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" },
+]
