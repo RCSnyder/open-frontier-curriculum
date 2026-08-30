@@ -1,0 +1,59 @@
+{
+  "version": "0.6.2",
+  "curriculum_weeks": 136,
+  "waves": [
+    {
+      "wave": 1,
+      "weeks": 48,
+      "purpose": "universal reasoning"
+    },
+    {
+      "wave": 2,
+      "weeks": 52,
+      "purpose": "physical, biological, industrial substrates"
+    },
+    {
+      "wave": 3,
+      "weeks": 24,
+      "purpose": "choose one frontier specialization"
+    },
+    {
+      "wave": 4,
+      "weeks": 12,
+      "purpose": "integration, judgment, institutions, launch"
+    }
+  ],
+  "frontier_targets": 100,
+  "frontier_tracks": [
+    {
+      "code": "AI-AS",
+      "name": "AI, Autonomous Science & Agent Systems"
+    },
+    {
+      "code": "ROB",
+      "name": "Robotics & Autonomous Manufacturing"
+    },
+    {
+      "code": "ENE",
+      "name": "Energy, Nuclear & Fusion"
+    },
+    {
+      "code": "MAT",
+      "name": "Materials, Nano & Molecular Engineering"
+    },
+    {
+      "code": "BIO",
+      "name": "Synthetic Biology, Regeneration & Longevity"
+    },
+    {
+      "code": "NEU",
+      "name": "Neurotechnology & Human\u2013Machine Interfaces"
+    },
+    {
+      "code": "SPA",
+      "name": "Space Industry & Off-World Systems"
+    }
+  ],
+  "name": "Open Frontier Curriculum",
+  "hypothesis": "AI expands accessible capability and can compress some prerequisite study; durable foundations, expertise, empirical work, and human judgment remain important constraints and amplifiers."
+}

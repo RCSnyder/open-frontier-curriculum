@@ -1,0 +1,43 @@
+name: Frontier technology update
+description: Add or update a frontier target, feasibility class, bottleneck, or curriculum route
+title: "[Frontier] "
+labels: ["frontier-map"]
+body:
+  - type: input
+    id: target
+    attributes:
+      label: Technology
+    validations:
+      required: true
+  - type: dropdown
+    id: class
+    attributes:
+      label: Proposed feasibility class
+      options:
+        - A — deployed / early deployment
+        - B — active research / frontier
+        - C — known-physics large engineering
+        - D — no validated general mechanism
+        - E — no credible engineering path under current physics
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Current evidence
+      description: Cite recent primary/official evidence if changing a class or bottleneck.
+    validations:
+      required: true
+  - type: textarea
+    id: route
+    attributes:
+      label: Curriculum route
+      description: Wave 1 foundations, Wave 2 substrates, Wave 3 track.
+    validations:
+      required: true
+  - type: textarea
+    id: proof
+    attributes:
+      label: First proof-of-work
+    validations:
+      required: true
