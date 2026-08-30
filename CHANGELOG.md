@@ -2,6 +2,10 @@
 
 <!-- version list -->
 
+## v0.1.0 (2026-08-30)
+
+- Initial Release
+
 ## 0.6.2 - 2026-08-30
 
 - Fix GitHub Actions uv setup by using the current setup-uv v10.0.1 action.

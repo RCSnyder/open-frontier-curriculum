@@ -1,5 +1,5 @@
 {
-  "version": "0.6.2",
+  "version": "0.1.0",
   "curriculum_weeks": 136,
   "waves": [
     {
@@ -47,7 +47,7 @@
     },
     {
       "code": "NEU",
-      "name": "Neurotechnology & Human\u2013Machine Interfaces"
+      "name": "Neurotechnology & Human–Machine Interfaces"
     },
     {
       "code": "SPA",
