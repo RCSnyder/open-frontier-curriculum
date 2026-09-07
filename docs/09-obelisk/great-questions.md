@@ -1,0 +1,52 @@
+# Great questions
+
+These questions recur because they require several branches and cannot be settled by retrieval alone.
+
+- `GQ01` (L01) What is a good life, and which parts of that answer are empirical, cultural, personal, or philosophical? Route: PH/ML/HW
+- `GQ02` (L01) Which desires should be trusted, trained, resisted, or reinterpreted? Route: PH/ML
+- `GQ03` (L01) How should a person choose among incompatible worthwhile lives? Route: PH/HW/ML
+- `GQ04` (L01) What does it mean to change one's mind without losing integrity? Route: PH/ML/EX
+- `GQ05` (L02) What evidence should change a health decision, and how do we detect medical misinformation? Route: TS/PH/ML
+- `GQ06` (L02) How do sleep, movement, nutrition, stress, social connection, and environment interact over a lifetime? Route: TS/ML/HW
+- `GQ07` (L02) When should personal autonomy yield to public-health obligations, if ever? Route: PH/HW/TS
+- `GQ08` (L02) How should a person reason about low-probability but high-consequence health risks? Route: TS/PH/ML
+- `GQ09` (L03) What creates trust, and what justifies withdrawing it? Route: HW/PH/ML
+- `GQ10` (L03) What do people owe family, friends, strangers, and future generations? Route: PH/HW
+- `GQ11` (L03) How do love, attachment, power, obligation, consent, and freedom coexist? Route: PH/HW/EX
+- `GQ12` (L03) How can conflict improve a relationship or institution rather than merely damage it? Route: HW/EX/ML
+- `GQ13` (L04) Which everyday systems should a competent adult understand well enough to maintain or troubleshoot? Route: TS/DR
+- `GQ14` (L04) What is the right boundary between self-reliance and reliance on specialists? Route: PH/TS/HW
+- `GQ15` (L04) How much redundancy is rational in a household or community? Route: TS/HW
+- `GQ16` (L04) What practical skills preserve dignity and agency when infrastructure fails? Route: TS/ML
+- `GQ17` (L05) What is money, and how do money and credit reshape time, trust, and power? Route: HW/PH
+- `GQ18` (L05) When is debt productive, prudent, exploitative, or dangerous? Route: HW/TS
+- `GQ19` (L05) What makes an investment decision rational when the future is uncertain? Route: TS/HW/ML
+- `GQ20` (L05) What should a person optimize financially - and what should never be reduced to money? Route: PH/HW
+- `GQ21` (L06) What makes work worth doing beyond compensation? Route: PH/HW/ML
+- `GQ22` (L06) How does tacit knowledge become craft, and how can it be taught? Route: ML/TS/DR
+- `GQ23` (L06) When should a system standardize work and when should it preserve expert discretion? Route: HW/TS/ML
+- `GQ24` (L06) What obligations do creators and firms have to users, workers, communities, and the future? Route: PH/HW/TS
+- `GQ25` (L07) What does clarity require, and when can simplicity become distortion? Route: EX/PH
+- `GQ26` (L07) How do language and framing change what people can see, think, or choose? Route: EX/PH/HW
+- `GQ27` (L07) What makes persuasion legitimate rather than manipulative? Route: PH/EX/HW
+- `GQ28` (L07) What is lost in translation across languages, media, disciplines, and cultures? Route: EX/PH/DR/HW
+- `GQ29` (L08) What deserves to be memorized when information is instantly retrievable? Route: ML/PH
+- `GQ30` (L08) What makes a source trustworthy for this question, in this context? Route: PH/EX/ML
+- `GQ31` (L08) How do we distinguish a useful model from a merely predictive or persuasive one? Route: TS/PH
+- `GQ32` (L08) How can a learner enter an unfamiliar field without becoming hostage to its jargon or to AI summaries? Route: ML/PH/EX
+- `GQ33` (L09) Which computational abstractions illuminate reality and which conceal decisive constraints? Route: TS/PH
+- `GQ34` (L09) What should be delegated to AI, what should remain human, and who decides? Route: PH/HW/ML/TS
+- `GQ35` (L09) How should permissions, monitoring, recourse, and liability work for highly autonomous systems? Route: HW/PH/TS
+- `GQ36` (L09) How much technological dependence is compatible with meaningful human agency? Route: PH/HW/ML
+- `GQ37` (L10) What makes authority legitimate, and when is resistance justified? Route: PH/HW
+- `GQ38` (L10) Why do institutions behave differently from their formal rules? Route: HW/ML
+- `GQ39` (L10) How should societies make decisions when citizens disagree about both facts and values? Route: PH/HW/EX
+- `GQ40` (L10) What institutions keep learning when leaders, experts, or models are wrong? Route: HW/PH/TS
+- `GQ41` (L11) Which works and traditions deserve transmission, and who should decide? Route: EX/DR/PH/HW
+- `GQ42` (L11) Can taste be educated without becoming conformity? Route: DR/EX/PH/ML
+- `GQ43` (L11) How do religions, arts, stories, monuments, and rituals shape collective memory and identity? Route: HW/EX/DR/PH
+- `GQ44` (L11) What does cultural inheritance require from a creator who also wants to innovate? Route: DR/EX/PH
+- `GQ45` (L12) What are the hard physical and ecological constraints on human ambitions? Route: TS/HW
+- `GQ46` (L12) How should we value irreversible environmental loss under uncertainty? Route: PH/TS/HW
+- `GQ47` (L12) Which risks justify precaution, redundancy, or limits on individual freedom? Route: PH/HW/TS
+- `GQ48` (L12) What do present people owe future people when technology could radically transform civilization? Route: PH/HW/TS

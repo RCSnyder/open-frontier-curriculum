@@ -1,0 +1,51 @@
+{
+  "version": "0.6.0-rc.1",
+  "name": "Open Frontier Curriculum",
+  "release_state": "reference-candidate",
+  "architecture": {
+    "knowledge_trunks": 6,
+    "life_pillars": 12,
+    "formation_modes": 12,
+    "mastery_dimensions": 11
+  },
+  "counts": {
+    "modules": 84,
+    "nodes": 364,
+    "sources": 303,
+    "source_links": 911,
+    "life_competencies": 72,
+    "all_souls_prompts": 417
+  },
+  "branches": {
+    "TS": {
+      "modules": 22,
+      "nodes": 0,
+      "sources": 22
+    },
+    "PH": {
+      "modules": 0,
+      "nodes": 117,
+      "sources": 123
+    },
+    "HW": {
+      "modules": 19,
+      "nodes": 75,
+      "sources": 25
+    },
+    "EX": {
+      "modules": 14,
+      "nodes": 56,
+      "sources": 30
+    },
+    "ML": {
+      "modules": 16,
+      "nodes": 64,
+      "sources": 9
+    },
+    "DR": {
+      "modules": 13,
+      "nodes": 52,
+      "sources": 7
+    }
+  }
+}

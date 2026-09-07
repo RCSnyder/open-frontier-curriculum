@@ -1,0 +1,60 @@
+{
+  "version": "0.5.0",
+  "principle": "Use frozen unseen material where it can validly test intellectual or practical transfer, but do not pretend every life outcome has a clean hold-out. The Obelisk uses convergent evidence: external human acceptance criteria, professional standards, unseen transfer, adaptive-agency stress cases, real-world practice, and eventually longitudinal observation.",
+  "branches": [
+    {
+      "branch_id": "PH",
+      "status": "complete-current-round",
+      "evidence": "417 All Souls prompts",
+      "method": "historical exam prompt mapping",
+      "contamination_control": "corpus was recovered after the candidate graph existed; limitations documented in backtest data"
+    },
+    {
+      "branch_id": "HW",
+      "status": "pre-register-required",
+      "method": "blind comparative case packet",
+      "minimum_design": "at least 60 cases spanning regions, eras, institution types and scales; selected by an independent curator after graph freeze",
+      "scoring": "independent reviewers classify route quality, missing foundational family, missing fact, mastery failure, and disagreement",
+      "success": "two heterogeneous rounds with no new load-bearing family"
+    },
+    {
+      "branch_id": "EX",
+      "status": "pre-register-required",
+      "method": "blind mixed-mode expression battery",
+      "minimum_design": "unseen exposition, argument, interpretation, transformation, editing, speech, listening and audience-adaptation tasks; external texts not in the taught reading set",
+      "scoring": "expert/reader panel plus artifact rubric; include human-only and AI-assisted conditions",
+      "success": "no recurrent expressive capability outside the 14-module/56-outcome graph"
+    },
+    {
+      "branch_id": "ML",
+      "status": "pre-register-required",
+      "method": "prospective learning-transfer experiments",
+      "minimum_design": "learn unfamiliar material or skill under declared conditions; delayed retention, calibration, transfer, teaching, and AI-offloading measures",
+      "scoring": "pre/post/delayed performance and blinded evaluation; not self-report alone",
+      "success": "failures trace to mastery/implementation rather than a missing learning capability family"
+    },
+    {
+      "branch_id": "DR",
+      "status": "pre-register-required",
+      "method": "blinded design briefs and comparative critique",
+      "minimum_design": "unseen visual, data, spatial, object/interface and multimodal briefs plus blind ranking/critique sets from multiple traditions",
+      "scoring": "multiple expert/user reviewers; usability/reality measures where relevant; document inter-rater agreement",
+      "success": "no recurrent visual/spatial/interface/aesthetic-functional capability family outside the candidate graph"
+    },
+    {
+      "branch_id": "TS",
+      "status": "future-cross-branch-benchmark",
+      "method": "existing proof-of-work plus future hidden technical perturbations",
+      "minimum_design": "unseen derivations, experiments, builds, failure injections and cross-domain technical cases",
+      "scoring": "objective tests where possible plus defense",
+      "success": "technical module granularity remains sufficient or decomposes only when repeated gaps demand it"
+    }
+  ],
+  "construct_warning": "A hold-out corpus is evidence for a specific interpretation, not proof that a branch or the whole curriculum is universally valid.",
+  "all_souls_program": {
+    "status": "expand-from-philosophy-to-intellectual-suite",
+    "rationale": "The All Souls Examination Fellowship is unusually valuable because it uses open-ended specialist/general papers plus viva to distinguish among exceptional candidates using published criteria for depth, argument, independence, sources, breadth, clarity, responsiveness and potential.",
+    "current": "417 Philosophy + General prompts in canonical backtest data",
+    "next": "Backtest the frozen V0.4 graph against official Economics, English Literature, History, Law and Politics papers from available sittings; treat results as criterion-proxy evidence for HW/EX/general judgment, not complete life validation."
+  }
+}

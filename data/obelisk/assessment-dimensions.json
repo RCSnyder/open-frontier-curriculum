@@ -1,0 +1,101 @@
+{
+  "version": "0.3.0",
+  "assessment_dimensions": [
+    {
+      "ID": "D1",
+      "Dimension": "Independent floor",
+      "Question": "Can perform core operation without AI.",
+      "Mode": "A0 + A5",
+      "Where required": "Every foundation node",
+      "Why": "Prevents pure outsourcing and gives a diagnostic baseline."
+    },
+    {
+      "ID": "D2",
+      "Dimension": "Augmentation lift",
+      "Question": "How much better is work with AI, and why?",
+      "Mode": "A2",
+      "Where required": "Selected production tasks",
+      "Why": "Measures tool use without confusing it with knowledge."
+    },
+    {
+      "ID": "D3",
+      "Dimension": "Delegation competence",
+      "Question": "Can specify, permission, monitor, and stop an agent?",
+      "Mode": "A3",
+      "Where required": "All advanced learners",
+      "Why": "Treats delegation as an engineering/governance skill."
+    },
+    {
+      "ID": "D4",
+      "Dimension": "Verification",
+      "Question": "Can find planted errors, unsupported claims, contaminated sources, shortcutting, or metric gaming?",
+      "Mode": "A2-A4",
+      "Where required": "Every branch",
+      "Why": "AI abundance raises the value of evaluation."
+    },
+    {
+      "ID": "D5",
+      "Dimension": "Taste / selection",
+      "Question": "Can rank plausible outputs and improve the selected one for explicit reasons?",
+      "Mode": "O2",
+      "Where required": "Every branch",
+      "Why": "Measures judgment under abundance."
+    },
+    {
+      "ID": "D6",
+      "Dimension": "Transfer",
+      "Question": "Can use the model in a novel domain or representation?",
+      "Mode": "A0-A2",
+      "Where required": "Every module",
+      "Why": "Separates memorization from generative understanding."
+    },
+    {
+      "ID": "D7",
+      "Dimension": "Break / bound",
+      "Question": "Can construct counterexamples, edge cases, limiting cases, failure modes?",
+      "Mode": "A0-A4",
+      "Where required": "Every module",
+      "Why": "Prevents brittle competence."
+    },
+    {
+      "ID": "D8",
+      "Dimension": "Public defense",
+      "Question": "Can answer skeptical human questions and revise?",
+      "Mode": "A5 + O4",
+      "Where required": "Every capstone",
+      "Why": "Reveals unsupported assumptions and social reasoning."
+    },
+    {
+      "ID": "D9",
+      "Dimension": "Team / institutional competence",
+      "Question": "Can a group make a decision with dissent, roles, evidence, recourse, and accountability?",
+      "Mode": "O4",
+      "Where required": "Human Worlds + integrated capstones",
+      "Why": "Future problems are collective, not only individual."
+    },
+    {
+      "ID": "D10",
+      "Dimension": "Longitudinal retention",
+      "Question": "Does competence survive after weeks/months without the exact tool/task?",
+      "Mode": "A0 retest",
+      "Where required": "Sampled nodes",
+      "Why": "Output today is not learning."
+    },
+    {
+      "ID": "D11",
+      "Dimension": "Calibration",
+      "Question": "Do confidence and forecast probabilities match outcomes over time?",
+      "Mode": "ML + PH + TS",
+      "Where required": "Ongoing",
+      "Why": "Turns epistemic humility into a measurable habit."
+    },
+    {
+      "ID": "D12",
+      "Dimension": "Physical/reality check",
+      "Question": "Can claims survive measurement, build, field observation, or direct interaction?",
+      "Mode": "O3",
+      "Where required": "Technical + selected human domains",
+      "Why": "Prevents synthetic-data / synthetic-discourse closure."
+    }
+  ]
+}

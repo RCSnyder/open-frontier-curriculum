@@ -1,9 +1,17 @@
 ---
-title: "Electronics + embedded systems"
+title: Electronics + embedded systems
 wave: 2
 order: 5
 leverage: 97
+search:
+  exclude: true
 ---
+
+<!-- atlas-route -->
+> **Current study page: [Electronics + embedded systems](../../learn/ts-f16.md)**
+>
+> The earlier reference below is retained for continuity.
+<!-- /atlas-route -->
 
 # Electronics + embedded systems
 

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "policy", "connections"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "policy": {"type": "string", "minLength": 1},
+    "connections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["technology_id", "subject_id", "relationship", "rationale"],
+        "properties": {
+          "technology_id": {"type": "integer", "minimum": 1},
+          "subject_id": {"type": "string", "minLength": 1},
+          "relationship": {"enum": ["background", "extension"]},
+          "rationale": {"type": "string", "minLength": 1, "pattern": "\\S"}
+        }
+      }
+    }
+  }
+}

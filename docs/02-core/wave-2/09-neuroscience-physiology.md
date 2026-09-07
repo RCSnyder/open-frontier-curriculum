@@ -1,9 +1,17 @@
 ---
-title: "Neuroscience + physiology"
+title: Neuroscience + physiology
 wave: 2
 order: 9
 leverage: 94
+search:
+  exclude: true
 ---
+
+<!-- atlas-route -->
+> **Current study page: [Neuroscience + physiology](../../learn/ts-f20.md)**
+>
+> The earlier reference below is retained for continuity.
+<!-- /atlas-route -->
 
 # Neuroscience + physiology
 

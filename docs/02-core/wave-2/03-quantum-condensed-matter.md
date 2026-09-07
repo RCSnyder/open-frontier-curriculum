@@ -1,9 +1,17 @@
 ---
-title: "Quantum + condensed matter"
+title: Quantum + condensed matter
 wave: 2
 order: 3
 leverage: 96
+search:
+  exclude: true
 ---
+
+<!-- atlas-route -->
+> **Current study page: [Quantum + condensed matter](../../learn/ts-f14.md)**
+>
+> The earlier reference below is retained for continuity.
+<!-- /atlas-route -->
 
 # Quantum + condensed matter
 

@@ -1,0 +1,196 @@
+{
+  "schema_version": 1,
+  "release_version": "0.6.0-rc.1",
+  "engineering_status": "pass",
+  "scholarly_status": "not-reference-grade",
+  "empirical_claim_status": "not-established",
+  "python": "3.12.3",
+  "platform": "Windows",
+  "manifest_sha256": "85d169cda75d2a40648d27f1fdb92057ca2663ca32623e17764052d530b839c0",
+  "scope": "Local engineering checks; remote CI, full external links and human scholarly review are not covered",
+  "gates": [
+    {
+      "command": [
+        "uv",
+        "sync",
+        "--frozen"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "Audited 42 packages in 0.05ms\n"
+    },
+    {
+      "command": [
+        "uv",
+        "run",
+        "--frozen",
+        "ruff",
+        "check",
+        "scripts",
+        "tests"
+      ],
+      "exit_code": 0,
+      "stdout": "All checks passed!\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "compileall",
+        "-q",
+        "scripts",
+        "tests"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests"
+      ],
+      "exit_code": 0,
+      "stdout": "Audited 448 module/node records; 303 sources; 72 life competencies\nGraph audit: 0 errors; 0 warnings\nCatalog and manifests generated\nSynchronized release metadata and generated evidence to 0.6.0\n",
+      "stderr": "..........................................................\n----------------------------------------------------------------------\nRan 58 tests in 27.718s\n\nOK\n"
+    },
+    {
+      "command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "scripts/validate_repo.py"
+      ],
+      "exit_code": 0,
+      "stdout": "OBELISK VALIDATION PASSED\n - 6 branches\n - 84 modules\n - 364 nodes / outcomes\n - 303 sources\n - 911 source links\n - 12 life pillars / 72 life competencies\n - 417 All Souls hold-out rows\n - 18 foundational axioms / 14 transition theses\nREPOSITORY VALIDATION PASSED: graph, links, navigation, Frontier 100, seven tracks, legacy counts, release\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "scripts/audit_obelisk.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout": "Audited 448 module/node records; 303 sources; 72 life competencies\nGraph audit: 0 errors; 0 warnings\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "scripts/generate_obelisk_catalog.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout": "Catalog and manifests verified\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "scripts/lint_prose.py",
+        "--strict"
+      ],
+      "exit_code": 0,
+      "stdout": "PROSE LINT PASSED\nSOFT WARNINGS: 0\nNarrative sentences checked: 1283; over 32 words: 0\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "scripts/audit_ui.py"
+      ],
+      "exit_code": 0,
+      "stdout": "UI AUDIT PASSED\nUI WARNINGS: 0\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "scripts/audit_contrast.py"
+      ],
+      "exit_code": 0,
+      "stdout": "Dark-mode contrast\n - body text / page: 16.23:1 (#e9eff5 on #0d1218)\n - heading / page: 17.97:1 (#f8fafc on #0d1218)\n - muted copy / page: 11.07:1 (#bdc8d3 on #0d1218)\n - link / page: 12.61:1 (#6ee7d8 on #0d1218)\n - body text / card: 14.98:1 (#e9eff5 on #131b24)\n - heading / card: 16.59:1 (#f8fafc on #131b24)\n - muted copy / card: 10.22:1 (#bdc8d3 on #131b24)\n - link / card: 11.64:1 (#6ee7d8 on #131b24)\n - header text / primary surface: 11.15:1 (#f8fafc on #123f3b)\n - header chrome: 10.52:1 (#eef4f8 on #123f3b)\n - search placeholder: 9.38:1 (#bdc8d3 on #18232e)\n - A badge: 7.72:1\n - B badge: 7.27:1\n - C badge: 8.72:1\n - D badge: 7.50:1\n - E badge: 7.67:1\nCONTRAST AUDIT PASSED\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "scripts/check_saturation.py"
+      ],
+      "exit_code": 0,
+      "stdout": "OBELISK SATURATION STATUS\n - completeness attacks registered: 20\n - human_worlds_seed: 40 cases\n - agi_seed: 20 cases\n - obelisk_seed: 36 cases\n - all_souls_holdout: 417 cases\n - expression_verification_bank: 84 cases\n - human_worlds_legacy_verification_bank: 72 cases\n - PH has an external hold-out corpus.\n - HW / EX / ML / DR still need frozen external hold-outs before saturation can be claimed.\n - Two successive heterogeneous hold-out rounds with no new load-bearing family are required to freeze.\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "scripts/check_obelisk_release_readiness.py",
+        "--claim",
+        "candidate"
+      ],
+      "exit_code": 0,
+      "stdout": "TS: effective source coverage 22/22\nPH: effective source coverage 117/117\nHW: effective source coverage 94/94\nEX: effective source coverage 70/70\nML: effective source coverage 80/80\nDR: effective source coverage 65/65\n\nOBELISK REFERENCE-CANDIDATE READINESS: PASS\nThis does NOT assert empirical whole-life superiority or flourishing.\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "scripts/build_docs.py"
+      ],
+      "exit_code": 0,
+      "stdout": "Build started\nBuild finished in 10.79s\n",
+      "stderr": "No issues found\n"
+    },
+    {
+      "command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "scripts/audit_ui.py",
+        "--site",
+        ".verification/site"
+      ],
+      "exit_code": 0,
+      "stdout": "UI AUDIT PASSED\nUI WARNINGS: 0\n",
+      "stderr": ""
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "version": "0.3.0",
+  "responsibilities": [
+    {
+      "ID": "HR01",
+      "Responsibility": "Ends and problem formulation",
+      "Capability": "Decide what problem is worth solving, whose problem it is, and what success should mean.",
+      "Primary trunks": "PH + HW + EX",
+      "Training status": "Human-accountable",
+      "AGI/ASI interpretation": "AI may generate formulations; a human/institution must own the adopted objective."
+    },
+    {
+      "ID": "HR02",
+      "Responsibility": "Values, rights and legitimacy",
+      "Capability": "Identify moral conflicts, consent, rights, authority, distribution, and recourse.",
+      "Primary trunks": "PH + HW",
+      "Training status": "Human-accountable",
+      "AGI/ASI interpretation": "Capability cannot by itself settle legitimacy."
+    },
+    {
+      "ID": "HR03",
+      "Responsibility": "Epistemic standards",
+      "Capability": "Decide what evidence is sufficient, what remains uncertain, and when to suspend judgment.",
+      "Primary trunks": "PH + TS + ML",
+      "Training status": "Human-accountable",
+      "AGI/ASI interpretation": "AI can estimate; the learner must understand how confidence was earned."
+    },
+    {
+      "ID": "HR04",
+      "Responsibility": "Independent fallback models",
+      "Capability": "Retain enough internal knowledge to notice category errors, impossible claims, broken units, causal confusion, or evaluator gaming.",
+      "Primary trunks": "TS + PH + ML",
+      "Training status": "Must internalize",
+      "AGI/ASI interpretation": "Near-ASI may exceed manual verification; the goal becomes detecting classes of failure and knowing when independent experts/institutions are needed."
+    },
+    {
+      "ID": "HR05",
+      "Responsibility": "Taste and curation",
+      "Capability": "Select among abundant plausible outputs; articulate why one is more fitting, coherent, elegant, humane, robust, or original.",
+      "Primary trunks": "EX + DR + PH",
+      "Training status": "Must practice",
+      "AGI/ASI interpretation": "Taste is not 'AI cannot do this'; it is formation of human preference and quality judgment under abundance."
+    },
+    {
+      "ID": "HR06",
+      "Responsibility": "Relationships and coordination",
+      "Capability": "Listen, negotiate, teach, lead, collaborate, repair conflict, and build trust.",
+      "Primary trunks": "EX + HW + ML",
+      "Training status": "Must practice",
+      "AGI/ASI interpretation": "These remain normative and relational even when AI mediates them."
+    },
+    {
+      "ID": "HR07",
+      "Responsibility": "Embodied contact with reality",
+      "Capability": "Observe, measure, build, repair, move, care, and notice physical constraints.",
+      "Primary trunks": "TS + ML + practica",
+      "Training status": "Must practice",
+      "AGI/ASI interpretation": "Prevents an entirely synthetic epistemic life."
+    },
+    {
+      "ID": "HR08",
+      "Responsibility": "AI delegation and oversight",
+      "Capability": "Set permissions, decompose tasks, create evals, monitor drift, preserve provenance, and revoke authority.",
+      "Primary trunks": "TS + ML + PH + HW",
+      "Training status": "Must master",
+      "AGI/ASI interpretation": "This becomes a universal literacy, not an AI-specialist elective."
+    },
+    {
+      "ID": "HR09",
+      "Responsibility": "Institutional design",
+      "Capability": "Create organizations and rules that can learn, dissent, stop work, audit power, and survive leader/model error.",
+      "Primary trunks": "HW + PH",
+      "Training status": "Human-accountable",
+      "AGI/ASI interpretation": "Individual judgment is insufficient under superhuman systems."
+    },
+    {
+      "ID": "HR10",
+      "Responsibility": "Meaning, identity and culture",
+      "Capability": "Choose commitments, preserve plural traditions, create culture, and decide what forms of life are worth sustaining.",
+      "Primary trunks": "PH + EX + HW + DR",
+      "Training status": "Human-centered",
+      "AGI/ASI interpretation": "Do not reduce education to labor-market complementarity."
+    },
+    {
+      "ID": "HR11",
+      "Responsibility": "Resilience and optionality",
+      "Capability": "Maintain fallback skills, redundancy, privacy, security, and reversible choices under uncertain capability transitions.",
+      "Primary trunks": "TS + ML + HW",
+      "Training status": "Must master",
+      "AGI/ASI interpretation": "Avoid brittle dependence on one model/provider/institution."
+    },
+    {
+      "ID": "HR12",
+      "Responsibility": "Intergenerational stewardship",
+      "Capability": "Evaluate long-horizon effects on children, institutions, environment, culture, and future option value.",
+      "Primary trunks": "PH + HW + TS",
+      "Training status": "Human-accountable",
+      "AGI/ASI interpretation": "High capability increases the stakes of objective and governance mistakes."
+    }
+  ]
+}

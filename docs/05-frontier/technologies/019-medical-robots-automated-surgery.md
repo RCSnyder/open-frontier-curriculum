@@ -1,9 +1,9 @@
 ---
-title: "Medical robots / automated surgery"
+title: Medical robots / automated surgery
 rank: 19
-feasibility: "B"
-primary_track: "ROB"
-secondary_track: "NEU / AI-AS"
+feasibility: B
+primary_track: ROB
+secondary_track: NEU / AI-AS
 ---
 
 # 19 | Medical robots / automated surgery
@@ -12,7 +12,7 @@ secondary_track: "NEU / AI-AS"
 
 <span class="ofc-badge ofc-b">B | active frontier</span>
 
-**Primary track:** [Robotics & autonomous manufacturing](../../03-specializations/robotics-autonomous-manufacturing.md)  
+**Primary track:** [Robotics and autonomous manufacturing](../../03-specializations/robotics-autonomous-manufacturing.md)  
 **Secondary:** NEU / AI-AS
 
 </div>
@@ -25,8 +25,18 @@ Perception, tissue interaction, certification, human oversight
 
 - **Foundations I:** W1 control/estimation
 - **Foundations II:** W2 robotics, physiology, safety
-- **Specialization:** Robotics & autonomous manufacturing
+- **Specialization:** [Robotics and autonomous manufacturing](../../03-specializations/robotics-autonomous-manufacturing.md)
 
 ## First proof of work
 
 Simulated surgical-like manipulation task with force/safety constraints
+
+<!-- connected-study -->
+## Connected study
+
+Editorial study connections grounded in the existing technology bottlenecks and subject descriptions. Background is useful preparation, not a validated prerequisite or a complete technology curriculum.
+
+Specific subject connections have not been mapped yet.
+
+
+[Explore technologies](../README.md)

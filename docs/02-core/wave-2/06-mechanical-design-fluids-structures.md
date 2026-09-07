@@ -1,9 +1,17 @@
 ---
-title: "Mechanical design + fluids + structures"
+title: Mechanical design + fluids + structures
 wave: 2
 order: 6
 leverage: 97
+search:
+  exclude: true
 ---
+
+<!-- atlas-route -->
+> **Current study page: [Mechanical design + fluids + structures](../../learn/ts-f17.md)**
+>
+> The earlier reference below is retained for continuity.
+<!-- /atlas-route -->
 
 # Mechanical design + fluids + structures
 

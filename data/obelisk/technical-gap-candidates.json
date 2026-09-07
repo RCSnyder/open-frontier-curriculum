@@ -1,0 +1,29 @@
+{
+  "version": "0.3.0",
+  "candidates": [
+    {
+      "Candidate": "TS23 candidate",
+      "Module": "Computation, algorithms & complexity",
+      "Core content": "Algorithms; data structures; discrete models; computability; complexity; randomized/approximation ideas; cryptographic intuition.",
+      "Exit capability": "Reconstruct algorithmic tradeoffs, reason about tractability, and detect when 'AI solved it' hides computational or verification costs.",
+      "Why current core may not cover it": "Scientific computing is numerical; it does not substitute for general computer science.",
+      "Decision": "ADMIT unless existing modules can absorb it without distortion."
+    },
+    {
+      "Candidate": "TS24 candidate",
+      "Module": "Software, data, networks & distributed systems",
+      "Core content": "Software architecture; testing; versioning; OS/processes; databases; networks; distributed consensus/failure; observability; privacy; secure development.",
+      "Exit capability": "Design and audit a networked software service with explicit failure, security, data, and operational boundaries.",
+      "Why current core may not cover it": "Advanced civilization and AI infrastructure are software/networked systems; this is currently implicit.",
+      "Decision": "ADMIT unless TS23 is broadened enough without becoming unteachable."
+    },
+    {
+      "Candidate": "TS25 candidate",
+      "Module": "Earth systems, ecology & planetary constraints",
+      "Core content": "Climate/energy balance; atmosphere/ocean circulation; water; soils; biogeochemical cycles; ecosystems; population/ecology; resource flows; environmental risk.",
+      "Exit capability": "Trace coupled physical-biological-human constraints and identify hard planetary/transport/resource limits on interventions.",
+      "Why current core may not cover it": "Physics + biology do not automatically produce usable Earth-system intuition.",
+      "Decision": "KEEP AS CANDIDATE; backtest against climate, agriculture, water, biodiversity, mining, disaster cases."
+    }
+  ]
+}

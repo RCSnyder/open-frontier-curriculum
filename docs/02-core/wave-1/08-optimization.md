@@ -1,9 +1,17 @@
 ---
-title: "Optimization"
+title: Optimization
 wave: 1
 order: 8
 leverage: 96
+search:
+  exclude: true
 ---
+
+<!-- atlas-route -->
+> **Current study page: [Optimization](../../learn/ts-f08.md)**
+>
+> The earlier reference below is retained for continuity.
+<!-- /atlas-route -->
 
 # Optimization
 

@@ -1,0 +1,913 @@
+{
+  "version": "0.3.0",
+  "interfaces": [
+    {
+      "id": "IF-001",
+      "from": "TS-F06 Statistics & causal inference",
+      "to": "HW01 Social evidence",
+      "edge_type": "prerequisite",
+      "rationale": "Social claims must inherit estimand, selection, confounding, and uncertainty discipline.",
+      "status": "candidate",
+      "from_ids": [
+        "TS-F06"
+      ],
+      "to_ids": [
+        "HW01"
+      ]
+    },
+    {
+      "id": "IF-002",
+      "from": "TS-F08 Optimization",
+      "to": "HW06/HW08/HW19",
+      "edge_type": "constraint",
+      "rationale": "Objectives and incentives must be audited for gaming, distribution, and legitimacy.",
+      "status": "candidate",
+      "from_ids": [
+        "TS-F08"
+      ],
+      "to_ids": [
+        "HW06",
+        "HW08",
+        "HW19"
+      ]
+    },
+    {
+      "id": "IF-003",
+      "from": "TS-F11 Metrology & experiments",
+      "to": "HW01",
+      "edge_type": "prerequisite",
+      "rationale": "Constructs and measurements need calibration and error models.",
+      "status": "candidate",
+      "from_ids": [
+        "TS-F11"
+      ],
+      "to_ids": [
+        "HW01"
+      ]
+    },
+    {
+      "id": "IF-004",
+      "from": "TS-F21 Manufacturing & operations",
+      "to": "HW06/HW15/HW16",
+      "edge_type": "bidirectional",
+      "rationale": "Organizations, supply chains, learning curves, and institutions co-determine industrial capacity.",
+      "status": "candidate",
+      "from_ids": [
+        "TS-F21"
+      ],
+      "to_ids": [
+        "HW06",
+        "HW15",
+        "HW16"
+      ]
+    },
+    {
+      "id": "IF-005",
+      "from": "TS-F22 Safety & reliability",
+      "to": "HW06/HW07/HW10",
+      "edge_type": "bidirectional",
+      "rationale": "Failure can be technical, organizational, regulatory, or power-related.",
+      "status": "candidate",
+      "from_ids": [
+        "TS-F22"
+      ],
+      "to_ids": [
+        "HW06",
+        "HW07",
+        "HW10"
+      ]
+    },
+    {
+      "id": "IF-006",
+      "from": "PH-S08 Knowledge",
+      "to": "HW01",
+      "edge_type": "prerequisite",
+      "rationale": "Clarifies evidence, warrant, testimony, and understanding.",
+      "status": "candidate",
+      "from_ids": [
+        "PH-S08"
+      ],
+      "to_ids": [
+        "HW01"
+      ]
+    },
+    {
+      "id": "IF-007",
+      "from": "PH-S11 Social epistemology",
+      "to": "HW01/HW11",
+      "edge_type": "bidirectional",
+      "rationale": "Institutions shape who is believed, what counts as evidence, and how objectivity is organized.",
+      "status": "candidate",
+      "from_ids": [
+        "PH-S11"
+      ],
+      "to_ids": [
+        "HW01",
+        "HW11"
+      ]
+    },
+    {
+      "id": "IF-008",
+      "from": "PH-S18 Value & metaethics",
+      "to": "HW19",
+      "edge_type": "prerequisite",
+      "rationale": "Institutional objectives require explicit value assumptions.",
+      "status": "candidate",
+      "from_ids": [
+        "PH-S18"
+      ],
+      "to_ids": [
+        "HW19"
+      ]
+    },
+    {
+      "id": "IF-009",
+      "from": "PH-S23 Political authority",
+      "to": "HW07/HW10/HW11",
+      "edge_type": "bidirectional",
+      "rationale": "Normative legitimacy must be separated from empirical compliance and power.",
+      "status": "candidate",
+      "from_ids": [
+        "PH-S23"
+      ],
+      "to_ids": [
+        "HW07",
+        "HW10",
+        "HW11"
+      ]
+    },
+    {
+      "id": "IF-010",
+      "from": "PH-S25 Law & rights",
+      "to": "HW10",
+      "edge_type": "bidirectional",
+      "rationale": "Legal concepts need both normative analysis and institutional operation.",
+      "status": "candidate",
+      "from_ids": [
+        "PH-S25"
+      ],
+      "to_ids": [
+        "HW10"
+      ]
+    },
+    {
+      "id": "IF-011",
+      "from": "PH-S26 Power & oppression",
+      "to": "HW07/HW12",
+      "edge_type": "bidirectional",
+      "rationale": "Conceptual accounts of oppression connect to mechanisms of stratification and institutional reproduction.",
+      "status": "candidate",
+      "from_ids": [
+        "PH-S26"
+      ],
+      "to_ids": [
+        "HW07",
+        "HW12"
+      ]
+    },
+    {
+      "id": "IF-012",
+      "from": "PH-S33 Human sciences & history",
+      "to": "HW01/HW18",
+      "edge_type": "bidirectional",
+      "rationale": "Links philosophy of explanation/history to actual comparative and temporal methods.",
+      "status": "candidate",
+      "from_ids": [
+        "PH-S33"
+      ],
+      "to_ids": [
+        "HW01",
+        "HW18"
+      ]
+    },
+    {
+      "id": "IF-013",
+      "from": "EX-M04 Rhetoric & argument",
+      "to": "HW01/HW11/HW19",
+      "edge_type": "interface",
+      "rationale": "Political persuasion and policy defense require separating rhetorical effect from evidence.",
+      "status": "candidate",
+      "from_ids": [
+        "EX-M04"
+      ],
+      "to_ids": [
+        "HW01",
+        "HW11",
+        "HW19"
+      ]
+    },
+    {
+      "id": "IF-014",
+      "from": "EX-M06 Voice / register / persona",
+      "to": "HW02/HW14",
+      "edge_type": "interface",
+      "rationale": "Identity, status, and code choice have social meaning beyond propositional content.",
+      "status": "candidate",
+      "from_ids": [
+        "EX-M06"
+      ],
+      "to_ids": [
+        "HW02",
+        "HW14"
+      ]
+    },
+    {
+      "id": "IF-015",
+      "from": "EX-M10 Exposition / criticism",
+      "to": "HW19",
+      "edge_type": "output",
+      "rationale": "Institutional analysis must be exposable to skeptical inspection.",
+      "status": "candidate",
+      "from_ids": [
+        "EX-M10"
+      ],
+      "to_ids": [
+        "HW19"
+      ]
+    },
+    {
+      "id": "IF-016",
+      "from": "EX-M13 Oral speech",
+      "to": "HW19",
+      "edge_type": "output",
+      "rationale": "Capstones require live defense and revision under pressure.",
+      "status": "candidate",
+      "from_ids": [
+        "EX-M13"
+      ],
+      "to_ids": [
+        "HW19"
+      ]
+    },
+    {
+      "id": "IF-017",
+      "from": "ML02 Attention, working memory and cognitive load",
+      "to": "HW02/HW11",
+      "edge_type": "future interface",
+      "rationale": "Influence, media, and politics exploit limited attention.",
+      "status": "candidate",
+      "imported_from_label": "ML-M01 Attention",
+      "from_ids": [
+        "ML02"
+      ],
+      "to_ids": [
+        "HW02",
+        "HW11"
+      ]
+    },
+    {
+      "id": "IF-018",
+      "from": "ML06 Expertise; ML12 Social learning and mentorship",
+      "to": "HW06/HW15",
+      "edge_type": "future interface",
+      "rationale": "Organizations and development depend on skill acquisition and tacit knowledge.",
+      "status": "candidate",
+      "imported_from_label": "ML-M03 Learning / expertise",
+      "from_ids": [
+        "ML06",
+        "ML12"
+      ],
+      "to_ids": [
+        "HW06",
+        "HW15"
+      ]
+    },
+    {
+      "id": "IF-019",
+      "from": "ML14 Judgment under bounded cognition",
+      "to": "HW03/HW08/HW11",
+      "edge_type": "future interface",
+      "rationale": "Behavioral departures from idealized choice need a cognitive model.",
+      "status": "candidate",
+      "imported_from_label": "ML-M05 Judgment / decision",
+      "from_ids": [
+        "ML14"
+      ],
+      "to_ids": [
+        "HW03",
+        "HW08",
+        "HW11"
+      ]
+    },
+    {
+      "id": "IF-020",
+      "from": "DR03 Visual reasoning; DR06 Spatial representation",
+      "to": "HW04/HW13/HW19",
+      "edge_type": "future interface",
+      "rationale": "Networks, cities, maps, and institutional flows require non-textual representations.",
+      "status": "candidate",
+      "imported_from_label": "DR-D01 Visual / spatial representation",
+      "from_ids": [
+        "DR03",
+        "DR06"
+      ],
+      "to_ids": [
+        "HW04",
+        "HW13",
+        "HW19"
+      ]
+    },
+    {
+      "id": "IF-L01-ML",
+      "from": "L01",
+      "to": "ML",
+      "edge_type": "life-pillar-route",
+      "rationale": "Primary knowledge trunk for this life pillar.",
+      "status": "candidate",
+      "from_ids": [
+        "L01"
+      ],
+      "to_ids": [
+        "ML"
+      ]
+    },
+    {
+      "id": "IF-L01-PH",
+      "from": "L01",
+      "to": "PH",
+      "edge_type": "life-pillar-route",
+      "rationale": "Primary knowledge trunk for this life pillar.",
+      "status": "candidate",
+      "from_ids": [
+        "L01"
+      ],
+      "to_ids": [
+        "PH"
+      ]
+    },
+    {
+      "id": "IF-L02-TS",
+      "from": "L02",
+      "to": "TS",
+      "edge_type": "life-pillar-route",
+      "rationale": "Primary knowledge trunk for this life pillar.",
+      "status": "candidate",
+      "from_ids": [
+        "L02"
+      ],
+      "to_ids": [
+        "TS"
+      ]
+    },
+    {
+      "id": "IF-L02-ML",
+      "from": "L02",
+      "to": "ML",
+      "edge_type": "life-pillar-route",
+      "rationale": "Primary knowledge trunk for this life pillar.",
+      "status": "candidate",
+      "from_ids": [
+        "L02"
+      ],
+      "to_ids": [
+        "ML"
+      ]
+    },
+    {
+      "id": "IF-L02-HW",
+      "from": "L02",
+      "to": "HW",
+      "edge_type": "life-pillar-route",
+      "rationale": "Primary knowledge trunk for this life pillar.",
+      "status": "candidate",
+      "from_ids": [
+        "L02"
+      ],
+      "to_ids": [
+        "HW"
+      ]
+    },
+    {
+      "id": "IF-L03-HW",
+      "from": "L03",
+      "to": "HW",
+      "edge_type": "life-pillar-route",
+      "rationale": "Primary knowledge trunk for this life pillar.",
+      "status": "candidate",
+      "from_ids": [
+        "L03"
+      ],
+      "to_ids": [
+        "HW"
+      ]
+    },
+    {
+      "id": "IF-L03-EX",
+      "from": "L03",
+      "to": "EX",
+      "edge_type": "life-pillar-route",
+      "rationale": "Primary knowledge trunk for this life pillar.",
+      "status": "candidate",
+      "from_ids": [
+        "L03"
+      ],
+      "to_ids": [
+        "EX"
+      ]
+    },
+    {
+      "id": "IF-L03-ML",
+      "from": "L03",
+      "to": "ML",
+      "edge_type": "life-pillar-route",
+      "rationale": "Primary knowledge trunk for this life pillar.",
+      "status": "candidate",
+      "from_ids": [
+        "L03"
+      ],
+      "to_ids": [
+        "ML"
+      ]
+    },
+    {
+      "id": "IF-L03-PH",
+      "from": "L03",
+      "to": "PH",
+      "edge_type": "life-pillar-route",
+      "rationale": "Primary knowledge trunk for this life pillar.",
+      "status": "candidate",
+      "from_ids": [
+        "L03"
+      ],
+      "to_ids": [
+        "PH"
+      ]
+    },
+    {
+      "id": "IF-L04-TS",
+      "from": "L04",
+      "to": "TS",
+      "edge_type": "life-pillar-route",
+      "rationale": "Primary knowledge trunk for this life pillar.",
+      "status": "candidate",
+      "from_ids": [
+        "L04"
+      ],
+      "to_ids": [
+        "TS"
+      ]
+    },
+    {
+      "id": "IF-L04-ML",
+      "from": "L04",
+      "to": "ML",
+      "edge_type": "life-pillar-route",
+      "rationale": "Primary knowledge trunk for this life pillar.",
+      "status": "candidate",
+      "from_ids": [
+        "L04"
+      ],
+      "to_ids": [
+        "ML"
+      ]
+    },
+    {
+      "id": "IF-L04-DR",
+      "from": "L04",
+      "to": "DR",
+      "edge_type": "life-pillar-route",
+      "rationale": "Primary knowledge trunk for this life pillar.",
+      "status": "candidate",
+      "from_ids": [
+        "L04"
+      ],
+      "to_ids": [
+        "DR"
+      ]
+    },
+    {
+      "id": "IF-L05-HW",
+      "from": "L05",
+      "to": "HW",
+      "edge_type": "life-pillar-route",
+      "rationale": "Primary knowledge trunk for this life pillar.",
+      "status": "candidate",
+      "from_ids": [
+        "L05"
+      ],
+      "to_ids": [
+        "HW"
+      ]
+    },
+    {
+      "id": "IF-L05-TS",
+      "from": "L05",
+      "to": "TS",
+      "edge_type": "life-pillar-route",
+      "rationale": "Primary knowledge trunk for this life pillar.",
+      "status": "candidate",
+      "from_ids": [
+        "L05"
+      ],
+      "to_ids": [
+        "TS"
+      ]
+    },
+    {
+      "id": "IF-L05-ML",
+      "from": "L05",
+      "to": "ML",
+      "edge_type": "life-pillar-route",
+      "rationale": "Primary knowledge trunk for this life pillar.",
+      "status": "candidate",
+      "from_ids": [
+        "L05"
+      ],
+      "to_ids": [
+        "ML"
+      ]
+    },
+    {
+      "id": "IF-L06-TS",
+      "from": "L06",
+      "to": "TS",
+      "edge_type": "life-pillar-route",
+      "rationale": "Primary knowledge trunk for this life pillar.",
+      "status": "candidate",
+      "from_ids": [
+        "L06"
+      ],
+      "to_ids": [
+        "TS"
+      ]
+    },
+    {
+      "id": "IF-L06-HW",
+      "from": "L06",
+      "to": "HW",
+      "edge_type": "life-pillar-route",
+      "rationale": "Primary knowledge trunk for this life pillar.",
+      "status": "candidate",
+      "from_ids": [
+        "L06"
+      ],
+      "to_ids": [
+        "HW"
+      ]
+    },
+    {
+      "id": "IF-L06-EX",
+      "from": "L06",
+      "to": "EX",
+      "edge_type": "life-pillar-route",
+      "rationale": "Primary knowledge trunk for this life pillar.",
+      "status": "candidate",
+      "from_ids": [
+        "L06"
+      ],
+      "to_ids": [
+        "EX"
+      ]
+    },
+    {
+      "id": "IF-L06-ML",
+      "from": "L06",
+      "to": "ML",
+      "edge_type": "life-pillar-route",
+      "rationale": "Primary knowledge trunk for this life pillar.",
+      "status": "candidate",
+      "from_ids": [
+        "L06"
+      ],
+      "to_ids": [
+        "ML"
+      ]
+    },
+    {
+      "id": "IF-L06-DR",
+      "from": "L06",
+      "to": "DR",
+      "edge_type": "life-pillar-route",
+      "rationale": "Primary knowledge trunk for this life pillar.",
+      "status": "candidate",
+      "from_ids": [
+        "L06"
+      ],
+      "to_ids": [
+        "DR"
+      ]
+    },
+    {
+      "id": "IF-L07-EX",
+      "from": "L07",
+      "to": "EX",
+      "edge_type": "life-pillar-route",
+      "rationale": "Primary knowledge trunk for this life pillar.",
+      "status": "candidate",
+      "from_ids": [
+        "L07"
+      ],
+      "to_ids": [
+        "EX"
+      ]
+    },
+    {
+      "id": "IF-L07-PH",
+      "from": "L07",
+      "to": "PH",
+      "edge_type": "life-pillar-route",
+      "rationale": "Primary knowledge trunk for this life pillar.",
+      "status": "candidate",
+      "from_ids": [
+        "L07"
+      ],
+      "to_ids": [
+        "PH"
+      ]
+    },
+    {
+      "id": "IF-L07-HW",
+      "from": "L07",
+      "to": "HW",
+      "edge_type": "life-pillar-route",
+      "rationale": "Primary knowledge trunk for this life pillar.",
+      "status": "candidate",
+      "from_ids": [
+        "L07"
+      ],
+      "to_ids": [
+        "HW"
+      ]
+    },
+    {
+      "id": "IF-L07-DR",
+      "from": "L07",
+      "to": "DR",
+      "edge_type": "life-pillar-route",
+      "rationale": "Primary knowledge trunk for this life pillar.",
+      "status": "candidate",
+      "from_ids": [
+        "L07"
+      ],
+      "to_ids": [
+        "DR"
+      ]
+    },
+    {
+      "id": "IF-L08-ML",
+      "from": "L08",
+      "to": "ML",
+      "edge_type": "life-pillar-route",
+      "rationale": "Primary knowledge trunk for this life pillar.",
+      "status": "candidate",
+      "from_ids": [
+        "L08"
+      ],
+      "to_ids": [
+        "ML"
+      ]
+    },
+    {
+      "id": "IF-L08-PH",
+      "from": "L08",
+      "to": "PH",
+      "edge_type": "life-pillar-route",
+      "rationale": "Primary knowledge trunk for this life pillar.",
+      "status": "candidate",
+      "from_ids": [
+        "L08"
+      ],
+      "to_ids": [
+        "PH"
+      ]
+    },
+    {
+      "id": "IF-L08-TS",
+      "from": "L08",
+      "to": "TS",
+      "edge_type": "life-pillar-route",
+      "rationale": "Primary knowledge trunk for this life pillar.",
+      "status": "candidate",
+      "from_ids": [
+        "L08"
+      ],
+      "to_ids": [
+        "TS"
+      ]
+    },
+    {
+      "id": "IF-L08-EX",
+      "from": "L08",
+      "to": "EX",
+      "edge_type": "life-pillar-route",
+      "rationale": "Primary knowledge trunk for this life pillar.",
+      "status": "candidate",
+      "from_ids": [
+        "L08"
+      ],
+      "to_ids": [
+        "EX"
+      ]
+    },
+    {
+      "id": "IF-L09-TS",
+      "from": "L09",
+      "to": "TS",
+      "edge_type": "life-pillar-route",
+      "rationale": "Primary knowledge trunk for this life pillar.",
+      "status": "candidate",
+      "from_ids": [
+        "L09"
+      ],
+      "to_ids": [
+        "TS"
+      ]
+    },
+    {
+      "id": "IF-L09-PH",
+      "from": "L09",
+      "to": "PH",
+      "edge_type": "life-pillar-route",
+      "rationale": "Primary knowledge trunk for this life pillar.",
+      "status": "candidate",
+      "from_ids": [
+        "L09"
+      ],
+      "to_ids": [
+        "PH"
+      ]
+    },
+    {
+      "id": "IF-L09-HW",
+      "from": "L09",
+      "to": "HW",
+      "edge_type": "life-pillar-route",
+      "rationale": "Primary knowledge trunk for this life pillar.",
+      "status": "candidate",
+      "from_ids": [
+        "L09"
+      ],
+      "to_ids": [
+        "HW"
+      ]
+    },
+    {
+      "id": "IF-L09-ML",
+      "from": "L09",
+      "to": "ML",
+      "edge_type": "life-pillar-route",
+      "rationale": "Primary knowledge trunk for this life pillar.",
+      "status": "candidate",
+      "from_ids": [
+        "L09"
+      ],
+      "to_ids": [
+        "ML"
+      ]
+    },
+    {
+      "id": "IF-L10-HW",
+      "from": "L10",
+      "to": "HW",
+      "edge_type": "life-pillar-route",
+      "rationale": "Primary knowledge trunk for this life pillar.",
+      "status": "candidate",
+      "from_ids": [
+        "L10"
+      ],
+      "to_ids": [
+        "HW"
+      ]
+    },
+    {
+      "id": "IF-L10-PH",
+      "from": "L10",
+      "to": "PH",
+      "edge_type": "life-pillar-route",
+      "rationale": "Primary knowledge trunk for this life pillar.",
+      "status": "candidate",
+      "from_ids": [
+        "L10"
+      ],
+      "to_ids": [
+        "PH"
+      ]
+    },
+    {
+      "id": "IF-L10-EX",
+      "from": "L10",
+      "to": "EX",
+      "edge_type": "life-pillar-route",
+      "rationale": "Primary knowledge trunk for this life pillar.",
+      "status": "candidate",
+      "from_ids": [
+        "L10"
+      ],
+      "to_ids": [
+        "EX"
+      ]
+    },
+    {
+      "id": "IF-L11-EX",
+      "from": "L11",
+      "to": "EX",
+      "edge_type": "life-pillar-route",
+      "rationale": "Primary knowledge trunk for this life pillar.",
+      "status": "candidate",
+      "from_ids": [
+        "L11"
+      ],
+      "to_ids": [
+        "EX"
+      ]
+    },
+    {
+      "id": "IF-L11-DR",
+      "from": "L11",
+      "to": "DR",
+      "edge_type": "life-pillar-route",
+      "rationale": "Primary knowledge trunk for this life pillar.",
+      "status": "candidate",
+      "from_ids": [
+        "L11"
+      ],
+      "to_ids": [
+        "DR"
+      ]
+    },
+    {
+      "id": "IF-L11-HW",
+      "from": "L11",
+      "to": "HW",
+      "edge_type": "life-pillar-route",
+      "rationale": "Primary knowledge trunk for this life pillar.",
+      "status": "candidate",
+      "from_ids": [
+        "L11"
+      ],
+      "to_ids": [
+        "HW"
+      ]
+    },
+    {
+      "id": "IF-L11-PH",
+      "from": "L11",
+      "to": "PH",
+      "edge_type": "life-pillar-route",
+      "rationale": "Primary knowledge trunk for this life pillar.",
+      "status": "candidate",
+      "from_ids": [
+        "L11"
+      ],
+      "to_ids": [
+        "PH"
+      ]
+    },
+    {
+      "id": "IF-L12-TS",
+      "from": "L12",
+      "to": "TS",
+      "edge_type": "life-pillar-route",
+      "rationale": "Primary knowledge trunk for this life pillar.",
+      "status": "candidate",
+      "from_ids": [
+        "L12"
+      ],
+      "to_ids": [
+        "TS"
+      ]
+    },
+    {
+      "id": "IF-L12-HW",
+      "from": "L12",
+      "to": "HW",
+      "edge_type": "life-pillar-route",
+      "rationale": "Primary knowledge trunk for this life pillar.",
+      "status": "candidate",
+      "from_ids": [
+        "L12"
+      ],
+      "to_ids": [
+        "HW"
+      ]
+    },
+    {
+      "id": "IF-L12-PH",
+      "from": "L12",
+      "to": "PH",
+      "edge_type": "life-pillar-route",
+      "rationale": "Primary knowledge trunk for this life pillar.",
+      "status": "candidate",
+      "from_ids": [
+        "L12"
+      ],
+      "to_ids": [
+        "PH"
+      ]
+    },
+    {
+      "id": "IF-L12-DR",
+      "from": "L12",
+      "to": "DR",
+      "edge_type": "life-pillar-route",
+      "rationale": "Primary knowledge trunk for this life pillar.",
+      "status": "candidate",
+      "from_ids": [
+        "L12"
+      ],
+      "to_ids": [
+        "DR"
+      ]
+    }
+  ]
+}

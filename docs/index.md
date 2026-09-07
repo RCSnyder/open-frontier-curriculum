@@ -1,92 +1,74 @@
 ---
 hide:
-  - navigation
-  - toc
+	- toc
 ---
-
-<div class="ofc-hero" markdown>
 
 # Open Frontier Curriculum
 
-<div class="ofc-deck" markdown>
+<p class="atlas-intro">Understand the world. Exercise judgment. Give ideas form. Put understanding to work.</p>
 
-Foundations, frontier technologies, and human judgment for the 21st century.
+**Public preview.** [Publication status and evidence](project/evidence.md).
 
-</div>
+<div class="atlas-foundations">
 
-<div class="ofc-hypothesis" markdown>
+<a class="atlas-foundation atlas-capability" href="foundations/capability/">
+<img src="assets/atlas/circuit.jpg" alt="Electronic components and connections on a circuit board" width="640" height="240">
+<span class="atlas-role">Capability</span>
+<strong>Open Frontier</strong>
+<span>How does it work? What can I build and verify?</span>
+</a>
 
-**Hypothesis:** AI can reduce the time and labor needed to attempt some technical work. The effect is uneven. Foundational models, experiments, domain expertise, and human judgment still limit results.
+<a class="atlas-foundation atlas-context" href="foundations/context/">
+<img src="assets/atlas/water.jpg" alt="Water flowing through a river landscape" width="640" height="240">
+<span class="atlas-role">Context</span>
+<strong>Human Worlds</strong>
+<span>How do people, institutions and societies work?</span>
+</a>
 
-</div>
-</div>
+<a class="atlas-foundation atlas-judgment" href="foundations/judgment/">
+<img src="assets/atlas/library.jpg" alt="Books collected on library shelves" width="640" height="240">
+<span class="atlas-role">Judgment</span>
+<strong>Philosophy</strong>
+<span>What should I believe, value and do?</span>
+</a>
 
-## Orientation
-
-<div class="grid cards ofc-orientation-grid" markdown>
-
--   <span class="ofc-card-title">**What can I know?**</span>
-
-    <span class="ofc-card-copy">Mathematics, probability, computation, physics, biology, measurement.</span>
-
-    [Foundations](02-core/README.md)
-
--   <span class="ofc-card-title">**What should I do?**</span>
-
-    <span class="ofc-card-copy">Experiments, engineering, control, manufacturing, safety, proof of work.</span>
-
-    [Practice](06-proof-of-work/README.md)
-
--   <span class="ofc-card-title">**What may I hope?**</span>
-
-    <span class="ofc-card-copy">Deployed systems, active research, large engineering projects, and open technical problems.</span>
-
-    [Frontier 100](05-frontier/README.md)
-
--   <span class="ofc-card-title">**What is the human being?**</span>
-
-    <span class="ofc-card-copy">Physiology, mind, history, power, institutions, economics, communication.</span>
-
-    [Human systems](04-integration/README.md)
+<a class="atlas-foundation atlas-representation" href="foundations/representation/">
+<img src="assets/atlas/writing.jpg" alt="A pen and handwritten words on a page" width="640" height="240">
+<span class="atlas-role">Representation</span>
+<strong>Expressive Command</strong>
+<span>How can I interpret, articulate and give form to meaning?</span>
+</a>
 
 </div>
 
-## Contents
+## Begin with a question
 
-<div class="ofc-stat-grid" markdown>
+<div class="atlas-questions" markdown>
 
-<div class="ofc-stat"><b>22</b><span>foundation modules</span></div>
-<div class="ofc-stat"><b>7</b><span>specialization tracks</span></div>
-<div class="ofc-stat"><b>100</b><span>frontier targets</span></div>
-<div class="ofc-stat"><b>130</b><span>curated textbooks</span></div>
+**[When is an argument actually a proof?](learn/mathematical-reasoning.md)**
 
-</div>
+From algebra to precise claims, counterexamples and independent proof.
 
-## Curriculum route
+**[Why do shared interests fail to produce cooperation?](learn/collective-action.md)**
 
-```mermaid
-flowchart LR
-    A[Models and inference<br/>48 weeks] --> B[Physical, biological, industrial systems<br/>52 weeks]
-    B --> C[One specialization<br/>24 weeks]
-    C --> D[Human systems and deployment<br/>12 weeks]
-```
+Investigate a commons through incentives, evidence, rules and legitimacy.
 
-The week counts are a reference schedule. Each module has an exit capability, readings, reconstruction tasks, practical work, and a mastery gate.
+**[What can a whole work reveal that a summary cannot?](learn/reading-literature.md)**
 
-<div class="grid cards ofc-route-grid" markdown>
-
--   <span class="ofc-card-title">**[Ordered curriculum](00-start-here/README.md)**</span>
-
-    <span class="ofc-card-copy">Begin at Week 1. Advance after each mastery gate.</span>
-
--   <span class="ofc-card-title">**[Technology route](05-frontier/README.md)**</span>
-
-    <span class="ofc-card-copy">Start with a target. Trace its bottleneck and prerequisites.</span>
-
--   <span class="ofc-card-title">**[Subject route](07-resources/README.md)**</span>
-
-    <span class="ofc-card-copy">Use the maps and resource pages as a reference shelf.</span>
+Read a play, defend competing interpretations and transform a scene.
 
 </div>
 
-<small>The four orientation questions adapt a familiar Kantian set of questions. The labels organize the site; they do not imply one philosophical doctrine. See the [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/kant-reason/).</small>
+## Bring the foundations together
+
+**[Praxis: a shared-resource inquiry](praxis/index.md)**
+
+Model a resource, investigate its institutions, defend a decision and communicate it clearly.
+Connect the four perspectives in one coherent piece of work.
+
+---
+
+[Find your starting point](paths/index.md) · [Learning to learn](foundations/learning.md) · [Life in practice](life/index.md) · [Library](library/index.md)
+
+The minimum is a foundation for independent further learning, not a short survey of everything.
+Some subjects have complete practice sequences; others remain study outlines.

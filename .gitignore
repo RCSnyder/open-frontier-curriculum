@@ -1,7 +1,7 @@
-.DS_Store
+site/
+.verification/
 __pycache__/
 *.pyc
 .venv/
-site/
-.cache/
+.DS_Store
 .pytest_cache/

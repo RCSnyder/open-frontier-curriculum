@@ -1,9 +1,17 @@
 ---
-title: "Chemistry + materials"
+title: Chemistry + materials
 wave: 2
 order: 4
 leverage: 98
+search:
+  exclude: true
 ---
+
+<!-- atlas-route -->
+> **Current study page: [Chemistry + materials](../../learn/ts-f15.md)**
+>
+> The earlier reference below is retained for continuity.
+<!-- /atlas-route -->
 
 # Chemistry + materials
 

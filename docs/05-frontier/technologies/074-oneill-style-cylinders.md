@@ -1,9 +1,9 @@
 ---
-title: "O'Neill-style cylinders"
+title: O'Neill-style cylinders
 rank: 74
-feasibility: "C"
-primary_track: "SPA"
-secondary_track: "BIO / MAT"
+feasibility: C
+primary_track: SPA
+secondary_track: BIO / MAT
 ---
 
 # 74 | O'Neill-style cylinders
@@ -12,7 +12,7 @@ secondary_track: "BIO / MAT"
 
 <span class="ofc-badge ofc-c">C | known-physics large engineering</span>
 
-**Primary track:** [Space industry & off-world systems](../../03-specializations/space-industry.md)  
+**Primary track:** [Space industry and off-world systems](../../03-specializations/space-industry.md)  
 **Secondary:** BIO / MAT
 
 </div>
@@ -25,8 +25,18 @@ Industrial scale, ecology, governance
 
 - **Foundations I:** W1 dynamics/systems
 - **Foundations II:** W2 structures/ecology/manufacturing
-- **Specialization:** Space industry & off-world systems
+- **Specialization:** [Space industry and off-world systems](../../03-specializations/space-industry.md)
 
 ## First proof of work
 
 Cylinder dependency graph + structural/ecology budget
+
+<!-- connected-study -->
+## Connected study
+
+Editorial study connections grounded in the existing technology bottlenecks and subject descriptions. Background is useful preparation, not a validated prerequisite or a complete technology curriculum.
+
+Specific subject connections have not been mapped yet.
+
+
+[Explore technologies](../README.md)

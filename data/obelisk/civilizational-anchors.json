@@ -1,0 +1,581 @@
+{
+  "version": "0.3.0",
+  "anchors": [
+    {
+      "ID": "CA001",
+      "Region / tradition": "Ancient Mesopotamia",
+      "Domain": "Literature / civilization",
+      "Work / source family": "Epic of Gilgamesh",
+      "Reading mode": "Whole or substantial selections",
+      "Why retained": "Mortality, kingship, friendship, city, flood memory"
+    },
+    {
+      "ID": "CA002",
+      "Region / tradition": "Ancient India",
+      "Domain": "Philosophy / religion",
+      "Work / source family": "Principal Upanishads",
+      "Reading mode": "Selections",
+      "Why retained": "Self, ultimate reality, knowledge, renunciation"
+    },
+    {
+      "ID": "CA003",
+      "Region / tradition": "Ancient India",
+      "Domain": "Philosophy / religion / ethics",
+      "Work / source family": "Bhagavad Gita",
+      "Reading mode": "Whole",
+      "Why retained": "Duty, action, devotion, knowledge, moral conflict"
+    },
+    {
+      "ID": "CA004",
+      "Region / tradition": "Ancient India",
+      "Domain": "Politics / statecraft",
+      "Work / source family": "Arthashastra (Kautilya)",
+      "Reading mode": "Selections",
+      "Why retained": "Statecraft, intelligence, administration, incentives"
+    },
+    {
+      "ID": "CA005",
+      "Region / tradition": "Buddhist South Asia",
+      "Domain": "Philosophy / religion",
+      "Work / source family": "Dhammapada + early Buddhist discourses",
+      "Reading mode": "Selections",
+      "Why retained": "Suffering, mind, ethics, practice"
+    },
+    {
+      "ID": "CA006",
+      "Region / tradition": "Ancient China",
+      "Domain": "Philosophy / ethics",
+      "Work / source family": "Analects",
+      "Reading mode": "Whole / selections",
+      "Why retained": "Virtue, ritual, learning, government, relationships"
+    },
+    {
+      "ID": "CA007",
+      "Region / tradition": "Ancient China",
+      "Domain": "Philosophy",
+      "Work / source family": "Mencius",
+      "Reading mode": "Selections",
+      "Why retained": "Human nature, moral cultivation, legitimacy"
+    },
+    {
+      "ID": "CA008",
+      "Region / tradition": "Ancient China",
+      "Domain": "Philosophy",
+      "Work / source family": "Dao De Jing",
+      "Reading mode": "Whole",
+      "Why retained": "Order, action/non-action, language, political restraint"
+    },
+    {
+      "ID": "CA009",
+      "Region / tradition": "Ancient China",
+      "Domain": "Philosophy / literature",
+      "Work / source family": "Zhuangzi",
+      "Reading mode": "Selections",
+      "Why retained": "Perspective, language, spontaneity, skepticism"
+    },
+    {
+      "ID": "CA010",
+      "Region / tradition": "Ancient China",
+      "Domain": "Political thought",
+      "Work / source family": "Han Feizi",
+      "Reading mode": "Selections",
+      "Why retained": "Law, incentives, power, administration"
+    },
+    {
+      "ID": "CA011",
+      "Region / tradition": "Hebrew traditions",
+      "Domain": "Religion / literature / law",
+      "Work / source family": "Hebrew Bible / Tanakh",
+      "Reading mode": "Structured selections",
+      "Why retained": "Creation, covenant, law, prophecy, wisdom, exile"
+    },
+    {
+      "ID": "CA012",
+      "Region / tradition": "Christian traditions",
+      "Domain": "Religion / literature / ethics",
+      "Work / source family": "New Testament",
+      "Reading mode": "Structured selections",
+      "Why retained": "Jesus traditions, community, ethics, theology"
+    },
+    {
+      "ID": "CA013",
+      "Region / tradition": "Islamic traditions",
+      "Domain": "Religion / literature / law",
+      "Work / source family": "Qur'an",
+      "Reading mode": "Structured selections with historical commentary",
+      "Why retained": "Revelation, ethics, law, community, rhetoric"
+    },
+    {
+      "ID": "CA014",
+      "Region / tradition": "Ancient Greece",
+      "Domain": "Epic / literature",
+      "Work / source family": "Homer — Iliad and Odyssey",
+      "Reading mode": "Substantial selections or one whole epic",
+      "Why retained": "War, honor, homecoming, mortality, narrative form"
+    },
+    {
+      "ID": "CA015",
+      "Region / tradition": "Ancient Greece",
+      "Domain": "Drama / ethics",
+      "Work / source family": "Aeschylus / Sophocles / Euripides",
+      "Reading mode": "At least two complete plays",
+      "Why retained": "Law, fate, family, civic conflict, tragedy"
+    },
+    {
+      "ID": "CA016",
+      "Region / tradition": "Ancient Greece",
+      "Domain": "Philosophy",
+      "Work / source family": "Plato — Apology, Meno, Republic selections",
+      "Reading mode": "Whole short dialogues + selections",
+      "Why retained": "Inquiry, virtue, knowledge, justice, education"
+    },
+    {
+      "ID": "CA017",
+      "Region / tradition": "Ancient Greece",
+      "Domain": "Philosophy / politics",
+      "Work / source family": "Aristotle — Nicomachean Ethics + Politics selections",
+      "Reading mode": "Substantial selections",
+      "Why retained": "Virtue, flourishing, practical wisdom, constitutions"
+    },
+    {
+      "ID": "CA018",
+      "Region / tradition": "Ancient Greece",
+      "Domain": "Mathematics",
+      "Work / source family": "Euclid — Elements",
+      "Reading mode": "Selected propositions with proofs",
+      "Why retained": "Axiomatic method and proof"
+    },
+    {
+      "ID": "CA019",
+      "Region / tradition": "Ancient Greece",
+      "Domain": "History / politics",
+      "Work / source family": "Thucydides — Peloponnesian War",
+      "Reading mode": "Selections",
+      "Why retained": "Power, war, plague, rhetoric, political judgment"
+    },
+    {
+      "ID": "CA020",
+      "Region / tradition": "India",
+      "Domain": "Political / moral history",
+      "Work / source family": "Edicts of Ashoka",
+      "Reading mode": "Selections",
+      "Why retained": "Empire, moral governance, religious plurality"
+    },
+    {
+      "ID": "CA021",
+      "Region / tradition": "Rome",
+      "Domain": "Politics / rhetoric",
+      "Work / source family": "Cicero — On Duties / Republic selections",
+      "Reading mode": "Selections",
+      "Why retained": "Duty, republican government, rhetoric"
+    },
+    {
+      "ID": "CA022",
+      "Region / tradition": "Late Antiquity",
+      "Domain": "Philosophy / religion",
+      "Work / source family": "Augustine — Confessions",
+      "Reading mode": "Substantial selections",
+      "Why retained": "Memory, desire, selfhood, time, conversion"
+    },
+    {
+      "ID": "CA023",
+      "Region / tradition": "Islamic Golden Age",
+      "Domain": "Philosophy / medicine",
+      "Work / source family": "Ibn Sina (Avicenna) — philosophical/medical selections",
+      "Reading mode": "Selections",
+      "Why retained": "Reason, metaphysics, medicine, knowledge traditions"
+    },
+    {
+      "ID": "CA024",
+      "Region / tradition": "Islamic Golden Age",
+      "Domain": "Philosophy / religion",
+      "Work / source family": "Al-Ghazali — Deliverance from Error",
+      "Reading mode": "Whole / substantial selections",
+      "Why retained": "Doubt, reason, revelation, intellectual crisis"
+    },
+    {
+      "ID": "CA025",
+      "Region / tradition": "Al-Andalus",
+      "Domain": "Philosophy / religion",
+      "Work / source family": "Ibn Rushd (Averroes) — Decisive Treatise",
+      "Reading mode": "Whole / selections",
+      "Why retained": "Philosophy, law, revelation, interpretation"
+    },
+    {
+      "ID": "CA026",
+      "Region / tradition": "Jewish medieval thought",
+      "Domain": "Philosophy / religion",
+      "Work / source family": "Maimonides — Guide for the Perplexed",
+      "Reading mode": "Selections",
+      "Why retained": "Reason, scripture, negative theology, law"
+    },
+    {
+      "ID": "CA027",
+      "Region / tradition": "North Africa",
+      "Domain": "History / social theory",
+      "Work / source family": "Ibn Khaldun — Muqaddimah",
+      "Reading mode": "Substantial selections",
+      "Why retained": "State formation, solidarity, economy, historical explanation"
+    },
+    {
+      "ID": "CA028",
+      "Region / tradition": "West Africa",
+      "Domain": "Epic / oral tradition",
+      "Work / source family": "Sunjata / Sundiata epic",
+      "Reading mode": "Complete reputable translation where possible",
+      "Why retained": "Oral history, legitimacy, memory, performance"
+    },
+    {
+      "ID": "CA029",
+      "Region / tradition": "Mesoamerica",
+      "Domain": "Myth / history",
+      "Work / source family": "Popol Vuh",
+      "Reading mode": "Whole / substantial selections",
+      "Why retained": "Creation, lineage, myth, colonial transmission"
+    },
+    {
+      "ID": "CA030",
+      "Region / tradition": "Japan",
+      "Domain": "Literature",
+      "Work / source family": "Murasaki Shikibu — Tale of Genji",
+      "Reading mode": "Substantial selections",
+      "Why retained": "Court life, interiority, aesthetics, transience"
+    },
+    {
+      "ID": "CA031",
+      "Region / tradition": "Europe",
+      "Domain": "Literature / theology",
+      "Work / source family": "Dante — Divine Comedy",
+      "Reading mode": "Inferno whole + selections",
+      "Why retained": "Moral imagination, politics, cosmology, poetic architecture"
+    },
+    {
+      "ID": "CA032",
+      "Region / tradition": "Europe",
+      "Domain": "Essay / self-inquiry",
+      "Work / source family": "Montaigne — Essays",
+      "Reading mode": "Selected essays",
+      "Why retained": "Skepticism, self-knowledge, custom, education"
+    },
+    {
+      "ID": "CA033",
+      "Region / tradition": "England",
+      "Domain": "Drama / literature",
+      "Work / source family": "Shakespeare — King Lear + one additional play",
+      "Reading mode": "Whole plays",
+      "Why retained": "Language, power, family, tragedy, ambiguity"
+    },
+    {
+      "ID": "CA034",
+      "Region / tradition": "Spain",
+      "Domain": "Novel",
+      "Work / source family": "Cervantes — Don Quixote",
+      "Reading mode": "Substantial / whole",
+      "Why retained": "Reality, fiction, identity, modern novel"
+    },
+    {
+      "ID": "CA035",
+      "Region / tradition": "Europe",
+      "Domain": "Scientific method / philosophy",
+      "Work / source family": "Francis Bacon — Novum Organum",
+      "Reading mode": "Selections",
+      "Why retained": "Induction, experiment, idols, organized inquiry"
+    },
+    {
+      "ID": "CA036",
+      "Region / tradition": "Europe",
+      "Domain": "Philosophy",
+      "Work / source family": "Descartes — Meditations",
+      "Reading mode": "Whole",
+      "Why retained": "Doubt, mind, knowledge, method"
+    },
+    {
+      "ID": "CA037",
+      "Region / tradition": "Europe",
+      "Domain": "Politics",
+      "Work / source family": "Hobbes — Leviathan",
+      "Reading mode": "Selections",
+      "Why retained": "State, fear, authority, social order"
+    },
+    {
+      "ID": "CA038",
+      "Region / tradition": "Europe",
+      "Domain": "Politics / epistemology",
+      "Work / source family": "Locke — Second Treatise + Essay selections",
+      "Reading mode": "Selections",
+      "Why retained": "Rights, property, government, knowledge"
+    },
+    {
+      "ID": "CA039",
+      "Region / tradition": "Europe",
+      "Domain": "Philosophy",
+      "Work / source family": "Spinoza — Ethics",
+      "Reading mode": "Selections with reconstruction",
+      "Why retained": "God/nature, mind, freedom, ethics, geometric method"
+    },
+    {
+      "ID": "CA040",
+      "Region / tradition": "Europe",
+      "Domain": "Science",
+      "Work / source family": "Galileo — Dialogue / Two New Sciences selections",
+      "Reading mode": "Selections",
+      "Why retained": "Experiment, mathematization, scientific controversy"
+    },
+    {
+      "ID": "CA041",
+      "Region / tradition": "Europe",
+      "Domain": "Science / mathematics",
+      "Work / source family": "Newton — Principia / Opticks selections",
+      "Reading mode": "Selections + worked reconstructions",
+      "Why retained": "Mechanics, mathematical physics, experiment"
+    },
+    {
+      "ID": "CA042",
+      "Region / tradition": "Scotland",
+      "Domain": "Philosophy",
+      "Work / source family": "Hume — Enquiry Concerning Human Understanding",
+      "Reading mode": "Whole",
+      "Why retained": "Causation, induction, evidence, skepticism"
+    },
+    {
+      "ID": "CA043",
+      "Region / tradition": "Scotland",
+      "Domain": "Economics / moral philosophy",
+      "Work / source family": "Adam Smith — Theory of Moral Sentiments + Wealth of Nations selections",
+      "Reading mode": "Selections",
+      "Why retained": "Sympathy, markets, division of labor, institutions"
+    },
+    {
+      "ID": "CA044",
+      "Region / tradition": "Europe",
+      "Domain": "Philosophy",
+      "Work / source family": "Kant — Groundwork + selected critical texts",
+      "Reading mode": "Whole Groundwork + selections",
+      "Why retained": "Autonomy, duty, reason, limits of knowledge"
+    },
+    {
+      "ID": "CA045",
+      "Region / tradition": "Britain",
+      "Domain": "Political philosophy",
+      "Work / source family": "Mary Wollstonecraft — Vindication of the Rights of Woman",
+      "Reading mode": "Whole / substantial",
+      "Why retained": "Equality, education, dependence, rights"
+    },
+    {
+      "ID": "CA046",
+      "Region / tradition": "France / US",
+      "Domain": "Politics / sociology",
+      "Work / source family": "Tocqueville — Democracy in America",
+      "Reading mode": "Selections",
+      "Why retained": "Equality, associations, majority power, democracy"
+    },
+    {
+      "ID": "CA047",
+      "Region / tradition": "Britain",
+      "Domain": "Political philosophy",
+      "Work / source family": "J.S. Mill — On Liberty",
+      "Reading mode": "Whole",
+      "Why retained": "Freedom, individuality, social authority"
+    },
+    {
+      "ID": "CA048",
+      "Region / tradition": "Europe",
+      "Domain": "Political economy",
+      "Work / source family": "Marx — Economic and Philosophic Manuscripts / Capital selections",
+      "Reading mode": "Selections",
+      "Why retained": "Capital, labor, class, commodity, historical change"
+    },
+    {
+      "ID": "CA049",
+      "Region / tradition": "Britain",
+      "Domain": "Science",
+      "Work / source family": "Darwin — On the Origin of Species",
+      "Reading mode": "Substantial selections",
+      "Why retained": "Natural selection, evidence, scientific explanation"
+    },
+    {
+      "ID": "CA050",
+      "Region / tradition": "United States",
+      "Domain": "Autobiography / politics",
+      "Work / source family": "Frederick Douglass — Narrative",
+      "Reading mode": "Whole",
+      "Why retained": "Slavery, literacy, freedom, testimony"
+    },
+    {
+      "ID": "CA051",
+      "Region / tradition": "United States",
+      "Domain": "Social thought",
+      "Work / source family": "W.E.B. Du Bois — The Souls of Black Folk",
+      "Reading mode": "Whole / substantial",
+      "Why retained": "Race, double consciousness, reconstruction, education"
+    },
+    {
+      "ID": "CA052",
+      "Region / tradition": "India",
+      "Domain": "Literature / humanism",
+      "Work / source family": "Rabindranath Tagore — selected poetry/essays",
+      "Reading mode": "Selections",
+      "Why retained": "Nationalism, education, cosmopolitanism, beauty"
+    },
+    {
+      "ID": "CA053",
+      "Region / tradition": "China",
+      "Domain": "Literature",
+      "Work / source family": "Lu Xun — selected stories/essays",
+      "Reading mode": "Selections",
+      "Why retained": "Modernity, culture, social criticism"
+    },
+    {
+      "ID": "CA054",
+      "Region / tradition": "Japan",
+      "Domain": "Literature",
+      "Work / source family": "Natsume Sōseki — Kokoro",
+      "Reading mode": "Whole",
+      "Why retained": "Modernity, individualism, obligation, isolation"
+    },
+    {
+      "ID": "CA055",
+      "Region / tradition": "Britain",
+      "Domain": "Literature / criticism",
+      "Work / source family": "Virginia Woolf — A Room of One's Own + selected fiction",
+      "Reading mode": "Whole essay + selections",
+      "Why retained": "Gender, art, material conditions, modernism"
+    },
+    {
+      "ID": "CA056",
+      "Region / tradition": "Caribbean / France",
+      "Domain": "Political thought",
+      "Work / source family": "Frantz Fanon — selected works",
+      "Reading mode": "Selections",
+      "Why retained": "Colonialism, violence, identity, decolonization"
+    },
+    {
+      "ID": "CA057",
+      "Region / tradition": "Europe / US",
+      "Domain": "Political thought",
+      "Work / source family": "Hannah Arendt — selected works",
+      "Reading mode": "Selections",
+      "Why retained": "Totalitarianism, action, responsibility, public life"
+    },
+    {
+      "ID": "CA058",
+      "Region / tradition": "France",
+      "Domain": "Philosophy / gender",
+      "Work / source family": "Simone de Beauvoir — The Second Sex selections",
+      "Reading mode": "Selections",
+      "Why retained": "Freedom, gender, otherness, social construction"
+    },
+    {
+      "ID": "CA059",
+      "Region / tradition": "Nigeria",
+      "Domain": "Literature",
+      "Work / source family": "Chinua Achebe — Things Fall Apart",
+      "Reading mode": "Whole",
+      "Why retained": "Colonial encounter, culture, tragedy, narrative authority"
+    },
+    {
+      "ID": "CA060",
+      "Region / tradition": "Argentina",
+      "Domain": "Literature",
+      "Work / source family": "Jorge Luis Borges — selected stories",
+      "Reading mode": "Selections",
+      "Why retained": "Infinity, identity, interpretation, form"
+    },
+    {
+      "ID": "CA061",
+      "Region / tradition": "Colombia",
+      "Domain": "Literature",
+      "Work / source family": "Gabriel García Márquez — One Hundred Years of Solitude",
+      "Reading mode": "Whole",
+      "Why retained": "Memory, history, myth, family, modern Latin America"
+    },
+    {
+      "ID": "CA062",
+      "Region / tradition": "United States",
+      "Domain": "Literature",
+      "Work / source family": "Toni Morrison — Beloved",
+      "Reading mode": "Whole",
+      "Why retained": "Memory, slavery, trauma, language, moral imagination"
+    },
+    {
+      "ID": "CA063",
+      "Region / tradition": "Computation",
+      "Domain": "Computer science",
+      "Work / source family": "Alan Turing — Computing Machinery and Intelligence",
+      "Reading mode": "Whole paper",
+      "Why retained": "Computation, intelligence, imitation, philosophy of AI"
+    },
+    {
+      "ID": "CA064",
+      "Region / tradition": "Information",
+      "Domain": "Science / engineering",
+      "Work / source family": "Claude Shannon — A Mathematical Theory of Communication",
+      "Reading mode": "Selections with mathematical work",
+      "Why retained": "Information, entropy, communication"
+    },
+    {
+      "ID": "CA065",
+      "Region / tradition": "Science",
+      "Domain": "Philosophy/history of science",
+      "Work / source family": "Thomas Kuhn — Structure of Scientific Revolutions",
+      "Reading mode": "Whole / substantial",
+      "Why retained": "Paradigms, normal science, scientific change"
+    },
+    {
+      "ID": "CA066",
+      "Region / tradition": "Environment",
+      "Domain": "Science / public argument",
+      "Work / source family": "Rachel Carson — Silent Spring",
+      "Reading mode": "Whole / substantial",
+      "Why retained": "Ecology, evidence, regulation, public science"
+    },
+    {
+      "ID": "CA067",
+      "Region / tradition": "Institutions",
+      "Domain": "Political economy",
+      "Work / source family": "Elinor Ostrom — Governing the Commons",
+      "Reading mode": "Substantial",
+      "Why retained": "Commons, institutions, field evidence, governance design"
+    },
+    {
+      "ID": "CA068",
+      "Region / tradition": "Development",
+      "Domain": "Economics / philosophy",
+      "Work / source family": "Amartya Sen — Development as Freedom",
+      "Reading mode": "Substantial",
+      "Why retained": "Capability, development, freedom, institutions"
+    },
+    {
+      "ID": "CA069",
+      "Region / tradition": "Justice",
+      "Domain": "Political philosophy",
+      "Work / source family": "John Rawls — A Theory of Justice",
+      "Reading mode": "Selections",
+      "Why retained": "Fairness, institutions, original position, public reason"
+    },
+    {
+      "ID": "CA070",
+      "Region / tradition": "Psychology / judgment",
+      "Domain": "Behavioral science",
+      "Work / source family": "Representative primary research on judgment and decision-making",
+      "Reading mode": "Curated papers / synthesis",
+      "Why retained": "Heuristics, bias, calibration, replication-aware reading"
+    },
+    {
+      "ID": "CA071",
+      "Region / tradition": "Systems",
+      "Domain": "Engineering / cybernetics",
+      "Work / source family": "Norbert Wiener — Cybernetics / The Human Use of Human Beings",
+      "Reading mode": "Selections",
+      "Why retained": "Feedback, control, automation, society"
+    },
+    {
+      "ID": "CA072",
+      "Region / tradition": "Technology / risk",
+      "Domain": "Safety engineering",
+      "Work / source family": "Nancy Leveson — system safety writings",
+      "Reading mode": "Selections / technical spine",
+      "Why retained": "Complex systems, accidents, control, safety governance"
+    }
+  ]
+}

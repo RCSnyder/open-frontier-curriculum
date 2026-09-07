@@ -1,9 +1,17 @@
 ---
-title: "Calculus + vector calculus"
+title: Calculus + vector calculus
 wave: 1
 order: 2
 leverage: 99
+search:
+  exclude: true
 ---
+
+<!-- atlas-route -->
+> **Current study page: [Calculus + vector calculus](../../learn/ts-f02.md)**
+>
+> The earlier reference below is retained for continuity.
+<!-- /atlas-route -->
 
 # Calculus + vector calculus
 

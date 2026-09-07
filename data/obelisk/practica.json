@@ -1,0 +1,68 @@
+{
+  "version": "0.3.0",
+  "practica": [
+    {
+      "ID": "PRA01",
+      "Practicum": "Reality Lab",
+      "Cadence / task": "Weekly direct observation/measurement/build/field task.",
+      "What it trains": "Calibration, uncertainty, craft, patience, physical constraint.",
+      "Evidence": "Instrument/field notebook + independent reproduction."
+    },
+    {
+      "ID": "PRA02",
+      "Practicum": "Taste Studio",
+      "Cadence / task": "Weekly blind comparison and critique across writing, proof, software, visual design, products, institutions, art.",
+      "What it trains": "Quality discrimination, vocabulary, curation, revision.",
+      "Evidence": "Rank → justify → compare with expert/peer → revise → track calibration."
+    },
+    {
+      "ID": "PRA03",
+      "Practicum": "Decision & Forecasting Lab",
+      "Cadence / task": "Recurring probabilistic forecasts and consequential decision journals.",
+      "What it trains": "Calibration, base rates, uncertainty, postmortem discipline.",
+      "Evidence": "Scored forecasts + decision records + update quality."
+    },
+    {
+      "ID": "PRA04",
+      "Practicum": "AI Evals Lab",
+      "Cadence / task": "Seeded model errors, prompt injection, shortcutting, evaluator gaming, provenance and delegation tasks.",
+      "What it trains": "AI stewardship and adversarial thinking.",
+      "Evidence": "Hidden eval suite + failure taxonomy + rollback."
+    },
+    {
+      "ID": "PRA05",
+      "Practicum": "Conversation & Conflict Lab",
+      "Cadence / task": "Listening, negotiation, disagreement mapping, teaching, feedback, repair.",
+      "What it trains": "Human coordination and leadership.",
+      "Evidence": "Recorded interaction + peer/examiner review + redo."
+    },
+    {
+      "ID": "PRA06",
+      "Practicum": "Civic / Institutional Lab",
+      "Cadence / task": "Run a club/lab/team constitution, budget, rules, grievance/appeal, meeting and revision process.",
+      "What it trains": "Institutions, legitimacy, accountability, collective learning.",
+      "Evidence": "Operational constitution + incident + reform cycle."
+    },
+    {
+      "ID": "PRA07",
+      "Practicum": "Life Operations Lab",
+      "Cadence / task": "Budgeting, contracts, digital security, cooking/nutrition basics, first aid/emergency response, maintenance/repair, scheduling.",
+      "What it trains": "Practical independence and resilience.",
+      "Evidence": "Live demonstrations and scenario tests; theory routed to TS/HW/ML."
+    },
+    {
+      "ID": "PRA08",
+      "Practicum": "Teaching Lab",
+      "Cadence / task": "Teach a difficult concept to younger/peer learners, diagnose misunderstanding, revise explanation.",
+      "What it trains": "Learning science, empathy, communication.",
+      "Evidence": "Pre/post learner evidence + teaching reflection."
+    },
+    {
+      "ID": "PRA09",
+      "Practicum": "Long Project Studio",
+      "Cadence / task": "12–24 week ambiguous project with real stakeholder and changing constraints.",
+      "What it trains": "Agency, persistence, integration, project judgment.",
+      "Evidence": "Milestones, pivots, stakeholder feedback, final defense."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "version": "0.3.0",
+  "roles": [
+    {
+      "ID": "RA01",
+      "Role": "Spine",
+      "Rule": "One demanding but teachable reference that gives coherent structure.",
+      "Why": "Prevents fragmented link collections."
+    },
+    {
+      "ID": "RA02",
+      "Role": "Primary source",
+      "Rule": "Original paper/text/data/artifact when the field has a meaningful primary-source tradition.",
+      "Why": "Lets learners see what later summaries changed."
+    },
+    {
+      "ID": "RA03",
+      "Role": "Rival / counterpoint",
+      "Rule": "A serious alternative theory, interpretation, design tradition, or critique.",
+      "Why": "Prevents the spine from becoming invisible orthodoxy."
+    },
+    {
+      "ID": "RA04",
+      "Role": "Historical predecessor",
+      "Rule": "An earlier model that was useful but limited, where pedagogically valuable.",
+      "Why": "Shows why ideas changed and what problems they solved."
+    },
+    {
+      "ID": "RA05",
+      "Role": "Modern synthesis",
+      "Rule": "Current review, handbook, or advanced text that updates the field.",
+      "Why": "Prevents historical canon from freezing knowledge."
+    },
+    {
+      "ID": "RA06",
+      "Role": "Case / failure",
+      "Rule": "A real event, experiment, system failure, institution, lawsuit, design, or controversy.",
+      "Why": "Connects concepts to consequences."
+    },
+    {
+      "ID": "RA07",
+      "Role": "Global counter-case",
+      "Rule": "Material from another region/tradition/institutional form when the domain could otherwise provincialize.",
+      "Why": "Tests universality."
+    },
+    {
+      "ID": "RA08",
+      "Role": "Data / object / work",
+      "Rule": "Dataset, map, proof, codebase, building, painting, performance, specimen, machine, archive, or other non-prose object.",
+      "Why": "Knowledge is not only books."
+    },
+    {
+      "ID": "RA09",
+      "Role": "Reference",
+      "Rule": "Encyclopedia, standard, handbook, glossary, atlas, code, API spec, legal text, or database.",
+      "Why": "Teaches professional lookup."
+    },
+    {
+      "ID": "RA10",
+      "Role": "Open access preference",
+      "Rule": "Prefer legal open/public-domain editions when quality is adequate; do not lower intellectual quality merely to force everything free.",
+      "Why": "Keeps the open curriculum usable while respecting source licenses."
+    },
+    {
+      "ID": "RA11",
+      "Role": "Whole-work discipline",
+      "Rule": "For selected important works, read whole books/plays/papers rather than only excerpts or summaries.",
+      "Why": "Builds stamina, context, memory, and encounter with extended argument/form."
+    },
+    {
+      "ID": "RA12",
+      "Role": "Reading ledger",
+      "Rule": "Record claim, question, passage locator, disagreement, connection, and what changed in the learner's model.",
+      "Why": "Turns reading into cumulative inquiry."
+    }
+  ]
+}

@@ -1,9 +1,9 @@
 ---
-title: "Personalized genomic medicine"
+title: Personalized genomic medicine
 rank: 22
-feasibility: "A"
-primary_track: "BIO"
-secondary_track: "AI-AS"
+feasibility: A
+primary_track: BIO
+secondary_track: AI-AS
 ---
 
 # 22 | Personalized genomic medicine
@@ -12,7 +12,7 @@ secondary_track: "AI-AS"
 
 <span class="ofc-badge ofc-a">A | deployed / early deployment</span>
 
-**Primary track:** [Synthetic biology, regeneration & longevity](../../03-specializations/synthetic-biology-longevity.md)  
+**Primary track:** [Synthetic biology, regeneration and longevity](../../03-specializations/synthetic-biology-longevity.md)  
 **Secondary:** AI-AS
 
 </div>
@@ -25,8 +25,18 @@ Effect heterogeneity, interpretation, privacy
 
 - **Foundations I:** W1 probability/causal
 - **Foundations II:** W2 genetics/physiology/safety
-- **Specialization:** Synthetic biology, regeneration & longevity
+- **Specialization:** [Synthetic biology, regeneration and longevity](../../03-specializations/synthetic-biology-longevity.md)
 
 ## First proof of work
 
-Genotype->risk decision model with calibration and causal caveats
+Genotype -> risk decision model with calibration and causal caveats
+
+<!-- connected-study -->
+## Connected study
+
+Editorial study connections grounded in the existing technology bottlenecks and subject descriptions. Background is useful preparation, not a validated prerequisite or a complete technology curriculum.
+
+Specific subject connections have not been mapped yet.
+
+
+[Explore technologies](../README.md)

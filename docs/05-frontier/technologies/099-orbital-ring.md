@@ -1,9 +1,9 @@
 ---
-title: "Orbital ring"
+title: Orbital ring
 rank: 99
-feasibility: "C"
-primary_track: "SPA"
-secondary_track: "MAT / ENE"
+feasibility: C
+primary_track: SPA
+secondary_track: MAT / ENE
 ---
 
 # 99 | Orbital ring
@@ -12,7 +12,7 @@ secondary_track: "MAT / ENE"
 
 <span class="ofc-badge ofc-c">C | known-physics large engineering</span>
 
-**Primary track:** [Space industry & off-world systems](../../03-specializations/space-industry.md)  
+**Primary track:** [Space industry and off-world systems](../../03-specializations/space-industry.md)  
 **Secondary:** MAT / ENE
 
 </div>
@@ -25,8 +25,18 @@ Megastructure control, construction, debris
 
 - **Foundations I:** W1 dynamics/control
 - **Foundations II:** W2 structures/materials
-- **Specialization:** Space industry & off-world systems
+- **Specialization:** [Space industry and off-world systems](../../03-specializations/space-industry.md)
 
 ## First proof of work
 
 Dynamic/stress/control conceptual feasibility model
+
+<!-- connected-study -->
+## Connected study
+
+Editorial study connections grounded in the existing technology bottlenecks and subject descriptions. Background is useful preparation, not a validated prerequisite or a complete technology curriculum.
+
+Specific subject connections have not been mapped yet.
+
+
+[Explore technologies](../README.md)

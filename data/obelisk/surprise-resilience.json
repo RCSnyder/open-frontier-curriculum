@@ -1,0 +1,158 @@
+{
+  "version": "0.5.0",
+  "construct_name": "adaptive orientation under surprise (subordinate stress-test)",
+  "definition": "The ability to remain oriented and recover competent agency when facing an important situation that is novel, ambiguous, cross-domain, emotionally charged, time-constrained, or partly outside prior expertise.",
+  "anti_claim": "No curriculum can make a person unsurprised by life. Novelty scenarios only test a subset of adaptive agency and must not displace knowledge, relationships, culture, craft, meaning, taste or stewardship.",
+  "scoring_dimensions": [
+    {
+      "id": "SR1",
+      "name": "Situation classification",
+      "question": "What kind of problem is this, and which parts are technical, empirical, normative, relational, institutional, or existential?"
+    },
+    {
+      "id": "SR2",
+      "name": "Stakes and triage",
+      "question": "What can cause irreversible harm soon, and what can wait?"
+    },
+    {
+      "id": "SR3",
+      "name": "Uncertainty calibration",
+      "question": "What is known, unknown, assumed, contested, and time-sensitive?"
+    },
+    {
+      "id": "SR4",
+      "name": "Knowledge mobilization",
+      "question": "Which existing models/skills apply, and where are their boundaries?"
+    },
+    {
+      "id": "SR5",
+      "name": "Unknown-unknown detection",
+      "question": "What expertise, data, stakeholder, or failure mode might be missing from the frame?"
+    },
+    {
+      "id": "SR6",
+      "name": "Learning velocity",
+      "question": "Can the learner acquire the missing domain knowledge quickly enough to improve the decision?"
+    },
+    {
+      "id": "SR7",
+      "name": "Expertise and help-seeking",
+      "question": "Does the learner know when to escalate to qualified professionals or affected people?"
+    },
+    {
+      "id": "SR8",
+      "name": "Reversibility and option value",
+      "question": "Does the learner preserve safe exits, redundancy, and future information where possible?"
+    },
+    {
+      "id": "SR9",
+      "name": "Coordination and communication",
+      "question": "Can the learner align people, institutions, and AI tools without losing accountability?"
+    },
+    {
+      "id": "SR10",
+      "name": "Ethics / rights / care",
+      "question": "Are vulnerable people, consent, rights, duties, and distributional effects recognized?"
+    },
+    {
+      "id": "SR11",
+      "name": "Execution under pressure",
+      "question": "Can the learner actually carry out the chosen plan safely and adapt as conditions change?"
+    },
+    {
+      "id": "SR12",
+      "name": "Post-outcome update",
+      "question": "Does the learner learn from the result, revise models, repair harm, and preserve the lesson?"
+    }
+  ],
+  "scenario_families": [
+    [
+      "SF01",
+      "Health uncertainty",
+      "Conflicting evidence, symptoms/diagnosis uncertainty, care navigation, time pressure; scoring must reward safe scope and professional escalation."
+    ],
+    [
+      "SF02",
+      "Financial shock",
+      "Income loss, debt, fraud, insurance, liquidity, caregiving or housing tradeoffs."
+    ],
+    [
+      "SF03",
+      "Relationship rupture",
+      "Trust, betrayal, consent/boundaries, grief, caregiving, family conflict, reconciliation or exit."
+    ],
+    [
+      "SF04",
+      "Household / infrastructure failure",
+      "Power, water, transport, equipment, safety, logistics, repair-or-escalate decisions."
+    ],
+    [
+      "SF05",
+      "Career / automation discontinuity",
+      "Role disappears, new technology changes skill value, learner must retrain and reorient."
+    ],
+    [
+      "SF06",
+      "Information attack",
+      "Fabricated but persuasive sources, propaganda, deepfakes, conflicting experts, social pressure."
+    ],
+    [
+      "SF07",
+      "Institutional failure",
+      "Rules, incentives and metrics diverge; whistleblowing, recourse, organizational responsibility."
+    ],
+    [
+      "SF08",
+      "Civic / legal conflict",
+      "Rights, law, public goods, legitimacy, disagreement, procedure and collective action."
+    ],
+    [
+      "SF09",
+      "AI agent failure",
+      "Shortcutting, evaluator gaming, compromised provenance, privacy/security breach, goal misspecification."
+    ],
+    [
+      "SF10",
+      "Physical / environmental hazard",
+      "Disaster, pollution, extreme weather, supply disruption, field-model mismatch."
+    ],
+    [
+      "SF11",
+      "Moral tragedy / value collision",
+      "No clean optimum; duties and harms conflict and loss is unavoidable."
+    ],
+    [
+      "SF12",
+      "Unfamiliar domain",
+      "A problem from a field not explicitly taught; learner receives limited time/resources to orient and learn."
+    ],
+    [
+      "SF13",
+      "Cultural / interpretive surprise",
+      "Unfamiliar tradition, norm, language, aesthetic or historical frame makes default assumptions fail."
+    ],
+    [
+      "SF14",
+      "Opportunity surprise",
+      "Unexpected high-upside opportunity with asymmetric uncertainty, commitments and opportunity costs."
+    ],
+    [
+      "SF15",
+      "Meaning / mortality",
+      "Death, failure, identity disruption, success without purpose, or conflict among life commitments."
+    ]
+  ],
+  "protocol": {
+    "bank_creation": "Curate scenarios after graph/version freeze. Use multiple independent curators and rotate banks so designers cannot teach to exact cases.",
+    "conditions": [
+      "human-only baseline",
+      "normal tools",
+      "AI-augmented/delegated",
+      "degraded-tool/fallback for selected cases"
+    ],
+    "scoring": "Use multi-rater analytic rubrics plus consequential outcome measures where possible; preserve qualitative examiner comments.",
+    "anti_goodhart": "Do not publish the exact hidden bank. Publish construct/rubric families. Refresh cases and include decoys where formulaic checklists would fail.",
+    "success_pattern": "No expectation of perfect answers. Strong performance means appropriate orientation, calibrated uncertainty, robust process, safe action, intelligent escalation, and learning."
+  },
+  "role": "One adversarial stress-test within broad human formation; not the Obelisk telos."
+}

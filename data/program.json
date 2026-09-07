@@ -1,59 +1,94 @@
 {
-  "version": "0.1.0",
-  "curriculum_weeks": 136,
-  "waves": [
-    {
-      "wave": 1,
-      "weeks": 48,
-      "purpose": "universal reasoning"
-    },
-    {
-      "wave": 2,
-      "weeks": 52,
-      "purpose": "physical, biological, industrial substrates"
-    },
-    {
-      "wave": 3,
-      "weeks": 24,
-      "purpose": "choose one frontier specialization"
-    },
-    {
-      "wave": 4,
-      "weeks": 12,
-      "purpose": "integration, judgment, institutions, launch"
-    }
-  ],
+  "version": "0.6.0-rc.1",
+  "name": "Open Frontier Curriculum",
+  "legacy_technical_program_weeks": 136,
   "frontier_targets": 100,
   "frontier_tracks": [
     {
       "code": "AI-AS",
-      "name": "AI, Autonomous Science & Agent Systems"
+      "name": "AI and autonomous science",
+      "count": 13
     },
     {
       "code": "ROB",
-      "name": "Robotics & Autonomous Manufacturing"
+      "name": "Robotics and autonomous manufacturing",
+      "count": 11
     },
     {
       "code": "ENE",
-      "name": "Energy, Nuclear & Fusion"
+      "name": "Energy, nuclear and fusion",
+      "count": 8
     },
     {
       "code": "MAT",
-      "name": "Materials, Nano & Molecular Engineering"
+      "name": "Materials, nano and molecular engineering",
+      "count": 11
     },
     {
       "code": "BIO",
-      "name": "Synthetic Biology, Regeneration & Longevity"
+      "name": "Synthetic biology, regeneration and longevity",
+      "count": 22
     },
     {
       "code": "NEU",
-      "name": "Neurotechnology & Human–Machine Interfaces"
+      "name": "Neurotechnology and human-machine interfaces",
+      "count": 12
     },
     {
       "code": "SPA",
-      "name": "Space Industry & Off-World Systems"
+      "name": "Space industry and off-world systems",
+      "count": 23
     }
   ],
-  "name": "Open Frontier Curriculum",
-  "hypothesis": "AI expands accessible capability and can compress some prerequisite study; durable foundations, expertise, empirical work, and human judgment remain important constraints and amplifiers."
+  "obelisk": {
+    "version": "0.6.0-rc.1",
+    "name": "Open Frontier Curriculum",
+    "release_state": "reference-candidate",
+    "architecture": {
+      "knowledge_trunks": 6,
+      "life_pillars": 12,
+      "formation_modes": 12,
+      "mastery_dimensions": 11
+    },
+    "counts": {
+      "modules": 84,
+      "nodes": 364,
+      "sources": 303,
+      "source_links": 911,
+      "life_competencies": 72,
+      "all_souls_prompts": 417
+    },
+    "branches": {
+      "TS": {
+        "modules": 22,
+        "nodes": 0,
+        "sources": 22
+      },
+      "PH": {
+        "modules": 0,
+        "nodes": 117,
+        "sources": 123
+      },
+      "HW": {
+        "modules": 19,
+        "nodes": 75,
+        "sources": 25
+      },
+      "EX": {
+        "modules": 14,
+        "nodes": 56,
+        "sources": 30
+      },
+      "ML": {
+        "modules": 16,
+        "nodes": 64,
+        "sources": 9
+      },
+      "DR": {
+        "modules": 13,
+        "nodes": 52,
+        "sources": 7
+      }
+    }
+  }
 }

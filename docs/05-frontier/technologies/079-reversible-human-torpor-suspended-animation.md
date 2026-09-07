@@ -1,9 +1,9 @@
 ---
-title: "Reversible human torpor/suspended animation"
+title: Reversible human torpor/suspended animation
 rank: 79
-feasibility: "B"
-primary_track: "BIO"
-secondary_track: "NEU / SPA"
+feasibility: B
+primary_track: BIO
+secondary_track: NEU / SPA
 ---
 
 # 79 | Reversible human torpor/suspended animation
@@ -12,7 +12,7 @@ secondary_track: "NEU / SPA"
 
 <span class="ofc-badge ofc-b">B | active frontier</span>
 
-**Primary track:** [Synthetic biology, regeneration & longevity](../../03-specializations/synthetic-biology-longevity.md)  
+**Primary track:** [Synthetic biology, regeneration and longevity](../../03-specializations/synthetic-biology-longevity.md)  
 **Secondary:** NEU / SPA
 
 </div>
@@ -25,8 +25,18 @@ Mechanism, organ protection, recovery
 
 - **Foundations I:** W1 causal/physiology dynamics
 - **Foundations II:** W2 physiology/cell biology/safety
-- **Specialization:** Synthetic biology, regeneration & longevity
+- **Specialization:** [Synthetic biology, regeneration and longevity](../../03-specializations/synthetic-biology-longevity.md)
 
 ## First proof of work
 
 Physiology/control/risk decomposition; no medical protocol
+
+<!-- connected-study -->
+## Connected study
+
+Editorial study connections grounded in the existing technology bottlenecks and subject descriptions. Background is useful preparation, not a validated prerequisite or a complete technology curriculum.
+
+Specific subject connections have not been mapped yet.
+
+
+[Explore technologies](../README.md)

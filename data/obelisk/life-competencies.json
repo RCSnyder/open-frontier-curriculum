@@ -1,0 +1,653 @@
+{
+  "version": "0.3.0",
+  "life_competencies": [
+    {
+      "Node": "L01-C01",
+      "Pillar": "L01",
+      "Competency": "Values, commitments & goal hierarchy",
+      "Knowledge to study": "values; goals; identity; opportunity cost; roles",
+      "Judgment to form": "Distinguish chosen commitments from inherited/status incentives; resolve conflicts among goals",
+      "Practice": "Write and revise a one-year / five-year goal hierarchy",
+      "Evidence": "Goal map + decision postmortem"
+    },
+    {
+      "Node": "L01-C02",
+      "Pillar": "L01",
+      "Competency": "Attention & time governance",
+      "Knowledge to study": "attention; calendars; deep work; interruption; energy rhythms",
+      "Judgment to form": "Know what deserves attention and what should be refused/deferred",
+      "Practice": "Run a 3-week attention/time experiment",
+      "Evidence": "Time audit + before/after evidence"
+    },
+    {
+      "Node": "L01-C03",
+      "Pillar": "L01",
+      "Competency": "Habits & environment design",
+      "Knowledge to study": "cue; friction; routine; reinforcement; precommitment",
+      "Judgment to form": "Prefer system design to heroic willpower when behavior is predictable",
+      "Practice": "Build one useful habit and remove one harmful loop",
+      "Evidence": "Habit protocol + adherence data"
+    },
+    {
+      "Node": "L01-C04",
+      "Pillar": "L01",
+      "Competency": "Emotion & self-regulation",
+      "Knowledge to study": "emotion; appraisal; stress; impulse; recovery",
+      "Judgment to form": "Recognize when emotion is information, noise, or a state requiring delay/help",
+      "Practice": "Use a regulation protocol in a real stressful decision",
+      "Evidence": "Reflection + observed/recorded outcome"
+    },
+    {
+      "Node": "L01-C05",
+      "Pillar": "L01",
+      "Competency": "Decision process & calibration",
+      "Knowledge to study": "base rates; forecasts; expected value; uncertainty; regret; reversibility",
+      "Judgment to form": "Match decision process to stakes, uncertainty, and reversibility",
+      "Practice": "Maintain decision/forecast journal",
+      "Evidence": "Calibration and decision review"
+    },
+    {
+      "Node": "L01-C06",
+      "Pillar": "L01",
+      "Competency": "Meaning, identity & mortality",
+      "Knowledge to study": "identity; narrative; vocation; suffering; mortality; philosophical/religious worldviews",
+      "Judgment to form": "Hold existential commitments reflectively without confusing meaning with empirical proof",
+      "Practice": "Write and defend a personal philosophy provisionally",
+      "Evidence": "Essay + dialogue + revision"
+    },
+    {
+      "Node": "L02-C01",
+      "Pillar": "L02",
+      "Competency": "Health information & care navigation",
+      "Knowledge to study": "health literacy; evidence; screening; prevention; medical system; informed consent",
+      "Judgment to form": "Know when self-care is appropriate and when qualified professional help is needed",
+      "Practice": "Compare sources/services and prepare for a clinical visit",
+      "Evidence": "Health-source audit + care-navigation scenario"
+    },
+    {
+      "Node": "L02-C02",
+      "Pillar": "L02",
+      "Competency": "Sleep, recovery & circadian health",
+      "Knowledge to study": "sleep architecture; circadian rhythm; fatigue; recovery",
+      "Judgment to form": "Trade short-term productivity against long-term cognition/health realistically",
+      "Practice": "Run a sleep/recovery experiment",
+      "Evidence": "Diary + performance comparison"
+    },
+    {
+      "Node": "L02-C03",
+      "Pillar": "L02",
+      "Competency": "Nutrition & food environment",
+      "Knowledge to study": "energy balance; macro/micronutrients; dietary patterns; food safety; marketing",
+      "Judgment to form": "Evaluate diet claims by evidence, context, sustainability, and feasibility",
+      "Practice": "Plan/cook a week of nutritious food within constraints",
+      "Evidence": "Meal plan + cost/nutrition audit + cooking demo"
+    },
+    {
+      "Node": "L02-C04",
+      "Pillar": "L02",
+      "Competency": "Movement, strength & aerobic capacity",
+      "Knowledge to study": "fitness; strength; mobility; endurance; training adaptation; injury prevention",
+      "Judgment to form": "Select sustainable activity based on goals, health status, enjoyment, and risk",
+      "Practice": "Complete a progressive training block",
+      "Evidence": "Baseline/post measures + technique check"
+    },
+    {
+      "Node": "L02-C05",
+      "Pillar": "L02",
+      "Competency": "Mental health & help-seeking",
+      "Knowledge to study": "stress; mood; anxiety; addiction; coping; social support; crisis recognition",
+      "Judgment to form": "Distinguish ordinary distress from patterns that warrant support; reject stigma and pseudo-diagnosis",
+      "Practice": "Build support/resources plan; practice supportive conversation",
+      "Evidence": "Scenario + resource map"
+    },
+    {
+      "Node": "L02-C06",
+      "Pillar": "L02",
+      "Competency": "Sexual/reproductive health, consent & safety",
+      "Knowledge to study": "reproduction; contraception; STI prevention; consent; boundaries; sexual development",
+      "Judgment to form": "Make informed, respectful, risk-aware decisions with explicit consent and care",
+      "Practice": "Analyze scenarios and locate valid services/information",
+      "Evidence": "Scenario defense + information audit"
+    },
+    {
+      "Node": "L03-C01",
+      "Pillar": "L03",
+      "Competency": "Listening & perspective taking",
+      "Knowledge to study": "active listening; empathy; inference vs observation; cultural context",
+      "Judgment to form": "Represent another person's position fairly before responding",
+      "Practice": "Structured listening interview",
+      "Evidence": "Partner-rated summary accuracy"
+    },
+    {
+      "Node": "L03-C02",
+      "Pillar": "L03",
+      "Competency": "Friendship & trust",
+      "Knowledge to study": "reciprocity; reliability; disclosure; boundaries; repair",
+      "Judgment to form": "Distinguish intimacy from dependency, loyalty from enabling, trust from naivety",
+      "Practice": "Maintain/repair a real commitment",
+      "Evidence": "Reflection + counterpart feedback"
+    },
+    {
+      "Node": "L03-C03",
+      "Pillar": "L03",
+      "Competency": "Consent, boundaries & autonomy",
+      "Knowledge to study": "consent; coercion; privacy; power; refusal; negotiation",
+      "Judgment to form": "Recognize power asymmetry and preserve the other's meaningful ability to say no",
+      "Practice": "Role-play boundary/consent negotiations",
+      "Evidence": "Observed scenario + redo"
+    },
+    {
+      "Node": "L03-C04",
+      "Pillar": "L03",
+      "Competency": "Conflict, negotiation & repair",
+      "Knowledge to study": "interests; positions; emotion; status; apology; mediation; bargaining",
+      "Judgment to form": "Separate factual, value, identity, and relationship conflict; choose process accordingly",
+      "Practice": "Mediate or resolve a structured conflict",
+      "Evidence": "Agreement/repair record + postmortem"
+    },
+    {
+      "Node": "L03-C05",
+      "Pillar": "L03",
+      "Competency": "Family systems & caregiving",
+      "Knowledge to study": "family roles; development; dependency; care work; kinship; intergenerational obligations",
+      "Judgment to form": "Balance autonomy, duty, limited resources, and diverse family forms without one idealized template",
+      "Practice": "Complete a real care/service responsibility",
+      "Evidence": "Care log + reflection + recipient feedback where appropriate"
+    },
+    {
+      "Node": "L03-C06",
+      "Pillar": "L03",
+      "Competency": "Belonging, hospitality & community",
+      "Knowledge to study": "social networks; inclusion; loneliness; ritual; community norms",
+      "Judgment to form": "Create connection without coercive conformity; notice exclusion and power",
+      "Practice": "Host/organize a recurring small community activity",
+      "Evidence": "Participation + learning review"
+    },
+    {
+      "Node": "L04-C01",
+      "Pillar": "L04",
+      "Competency": "Food preparation & kitchen systems",
+      "Knowledge to study": "knife/heat safety; recipes; timing; preservation; sanitation; pantry systems",
+      "Judgment to form": "Balance cost, nutrition, time, waste, preference, and safety",
+      "Practice": "Cook multiple complete meals from raw ingredients",
+      "Evidence": "Live cooking + food-safety check"
+    },
+    {
+      "Node": "L04-C02",
+      "Pillar": "L04",
+      "Competency": "Cleaning, laundry & household hygiene",
+      "Knowledge to study": "materials; surfactants; sanitation; textiles; routines",
+      "Judgment to form": "Use enough cleanliness for health/material care without magical thinking or waste",
+      "Practice": "Run a household maintenance schedule",
+      "Evidence": "Inspection + materials reasoning"
+    },
+    {
+      "Node": "L04-C03",
+      "Pillar": "L04",
+      "Competency": "Tools, fasteners & basic repair",
+      "Knowledge to study": "hand tools; power-tool basics; fasteners; adhesives; troubleshooting; tolerances",
+      "Judgment to form": "Know when to repair, replace, stop, or hire a qualified trade",
+      "Practice": "Repair or assemble several real objects",
+      "Evidence": "Live tool demonstration + repair artifact"
+    },
+    {
+      "Node": "L04-C04",
+      "Pillar": "L04",
+      "Competency": "Utilities, home systems & energy",
+      "Knowledge to study": "electricity; water; HVAC; ventilation; breakers; leaks; energy use",
+      "Judgment to form": "Recognize dangerous conditions and avoid unsafe DIY beyond competence",
+      "Practice": "Map a home's major systems and shutoffs",
+      "Evidence": "System map + emergency drill"
+    },
+    {
+      "Node": "L04-C05",
+      "Pillar": "L04",
+      "Competency": "Transport, navigation & logistics",
+      "Knowledge to study": "maps; routing; vehicle/transit basics; trip planning; maintenance; accessibility",
+      "Judgment to form": "Trade cost/time/risk/reliability/environmental impact",
+      "Practice": "Plan and execute a multi-leg real journey",
+      "Evidence": "Route plan + contingency + execution"
+    },
+    {
+      "Node": "L04-C06",
+      "Pillar": "L04",
+      "Competency": "Emergency readiness & first response",
+      "Knowledge to study": "hazards; first aid basics; emergency communications; fire/weather preparedness; supplies",
+      "Judgment to form": "Prioritize life safety, call qualified responders, and act within training",
+      "Practice": "Complete recognized first-aid/CPR training where available and run drills",
+      "Evidence": "Credential/equivalent + scenario"
+    },
+    {
+      "Node": "L05-C01",
+      "Pillar": "L05",
+      "Competency": "Cash flow, budgeting & tradeoffs",
+      "Knowledge to study": "income; expenses; fixed/variable costs; cash flow; inflation; opportunity cost",
+      "Judgment to form": "Build budgets that reflect values and uncertainty rather than false precision",
+      "Practice": "Maintain a real/simulated monthly budget",
+      "Evidence": "Reconciled cash-flow model"
+    },
+    {
+      "Node": "L05-C02",
+      "Pillar": "L05",
+      "Competency": "Saving, compounding & liquidity",
+      "Knowledge to study": "interest; compounding; emergency reserves; time horizon",
+      "Judgment to form": "Trade liquidity, return, risk, and optionality",
+      "Practice": "Model savings paths under shocks",
+      "Evidence": "Scenario model + decision memo"
+    },
+    {
+      "Node": "L05-C03",
+      "Pillar": "L05",
+      "Competency": "Credit, debt & borrowing",
+      "Knowledge to study": "APR; amortization; credit reports; collateral; default; predatory terms",
+      "Judgment to form": "Evaluate total cost and downside, not monthly payment alone",
+      "Practice": "Compare three borrowing offers",
+      "Evidence": "Cost table + contract red-flag audit"
+    },
+    {
+      "Node": "L05-C04",
+      "Pillar": "L05",
+      "Competency": "Risk, insurance & protection",
+      "Knowledge to study": "risk pooling; deductible; limits; exclusions; liability; expected loss",
+      "Judgment to form": "Insure catastrophic risks before trivial volatility; understand exclusions",
+      "Practice": "Analyze auto/home/health/disability/life examples appropriate to stage",
+      "Evidence": "Coverage-gap memo"
+    },
+    {
+      "Node": "L05-C05",
+      "Pillar": "L05",
+      "Competency": "Investing, diversification & retirement",
+      "Knowledge to study": "risk/return; diversification; fees; taxes; index concepts; retirement accounts; behavioral traps",
+      "Judgment to form": "Match portfolio complexity to goals, horizon, capacity, and evidence",
+      "Practice": "Build a simple policy statement and stress test",
+      "Evidence": "Investment policy + drawdown scenario"
+    },
+    {
+      "Node": "L05-C06",
+      "Pillar": "L05",
+      "Competency": "Taxes, contracts, fraud & consumer defense",
+      "Knowledge to study": "tax basics; withholding; contracts; warranties; identity theft; scams; dispute/recourse",
+      "Judgment to form": "Read before signing; recognize asymmetric incentives and high-pressure tactics",
+      "Practice": "Complete a sample return/contract/scam investigation",
+      "Evidence": "Document audit + recourse plan"
+    },
+    {
+      "Node": "L06-C01",
+      "Pillar": "L06",
+      "Competency": "Craft apprenticeship & standards",
+      "Knowledge to study": "skill decomposition; standards; tacit knowledge; deliberate practice; quality",
+      "Judgment to form": "Know what 'good work' looks like and how to learn from expert critique",
+      "Practice": "Pursue one craft/technical skill for 100+ deliberate hours",
+      "Evidence": "Before/after portfolio + external review"
+    },
+    {
+      "Node": "L06-C02",
+      "Pillar": "L06",
+      "Competency": "Project formulation & execution",
+      "Knowledge to study": "scope; requirements; milestones; dependencies; risk; change control",
+      "Judgment to form": "Protect the objective while changing the plan when evidence changes",
+      "Practice": "Run a 12–24 week project",
+      "Evidence": "Project log + delivered artifact"
+    },
+    {
+      "Node": "L06-C03",
+      "Pillar": "L06",
+      "Competency": "Teamwork, leadership & followership",
+      "Knowledge to study": "roles; trust; coordination; feedback; accountability; leadership; service",
+      "Judgment to form": "Lead when needed, follow competently, and make dissent safe",
+      "Practice": "Rotate roles on a real team",
+      "Evidence": "360 feedback + incident review"
+    },
+    {
+      "Node": "L06-C04",
+      "Pillar": "L06",
+      "Competency": "Operations, quality & reliability",
+      "Knowledge to study": "process; queue; bottleneck; standard work; quality; maintenance; incident learning",
+      "Judgment to form": "Improve throughput without hiding defects or externalizing risk",
+      "Practice": "Map and improve a recurring process",
+      "Evidence": "Before/after process metrics"
+    },
+    {
+      "Node": "L06-C05",
+      "Pillar": "L06",
+      "Competency": "Enterprise, customers & value creation",
+      "Knowledge to study": "need discovery; product/service; pricing; unit economics; competition; ethics",
+      "Judgment to form": "Distinguish actual value from persuasion and extractive lock-in",
+      "Practice": "Serve a real customer/user or run micro-enterprise simulation",
+      "Evidence": "User evidence + unit economics"
+    },
+    {
+      "Node": "L06-C06",
+      "Pillar": "L06",
+      "Competency": "Career, reputation & service",
+      "Knowledge to study": "portfolio; signaling; networks; negotiation; professional ethics; contribution",
+      "Judgment to form": "Choose work using capability, values, constraints, learning, and service—not prestige alone",
+      "Practice": "Build portfolio/CV, conduct informational interviews, contribute publicly",
+      "Evidence": "External review + opportunity decision memo"
+    },
+    {
+      "Node": "L07-C01",
+      "Pillar": "L07",
+      "Competency": "Close reading & interpretation",
+      "Knowledge to study": "genre; context; inference; ambiguity; rhetoric; evidence",
+      "Judgment to form": "Distinguish what a text says from what the reader projects",
+      "Practice": "Annotate and defend an interpretation of a difficult text",
+      "Evidence": "Close-reading oral defense"
+    },
+    {
+      "Node": "L07-C02",
+      "Pillar": "L07",
+      "Competency": "Expository writing",
+      "Knowledge to study": "thesis; structure; paragraph logic; evidence; revision; style",
+      "Judgment to form": "Prefer clarity and warranted precision over impressive vagueness",
+      "Practice": "Write and substantially revise a researched essay",
+      "Evidence": "Draft history + final + defense"
+    },
+    {
+      "Node": "L07-C03",
+      "Pillar": "L07",
+      "Competency": "Argument & rhetoric",
+      "Knowledge to study": "claims; reasons; warrants; audience; ethos/pathos/logos; framing; fallacies",
+      "Judgment to form": "Persuade without hiding decisive evidence or exploiting vulnerability",
+      "Practice": "Deliver opposing arguments and strongest rebuttal",
+      "Evidence": "Speech/debate + self-critique"
+    },
+    {
+      "Node": "L07-C04",
+      "Pillar": "L07",
+      "Competency": "Narrative & imagination",
+      "Knowledge to study": "story; scene; character; point of view; metaphor; pacing",
+      "Judgment to form": "Use narrative to reveal experience without confusing a compelling story for causal proof",
+      "Practice": "Write/perform a narrative artifact",
+      "Evidence": "Workshop + revision"
+    },
+    {
+      "Node": "L07-C05",
+      "Pillar": "L07",
+      "Competency": "Listening, conversation & interviewing",
+      "Knowledge to study": "questions; turn-taking; silence; paraphrase; interviewing; conversational repair",
+      "Judgment to form": "Know when to inquire rather than assert",
+      "Practice": "Conduct a long-form interview and produce fair synthesis",
+      "Evidence": "Interview record + participant check"
+    },
+    {
+      "Node": "L07-C06",
+      "Pillar": "L07",
+      "Competency": "Multilingual / cross-cultural communication",
+      "Knowledge to study": "language learning; translation; register; code-switching; pragmatics; cultural conventions",
+      "Judgment to form": "Treat translation as interpretation and avoid assuming one's norms are universal",
+      "Practice": "Reach functional competence in another language where feasible; compare translations",
+      "Evidence": "Conversation + translation commentary"
+    },
+    {
+      "Node": "L08-C01",
+      "Pillar": "L08",
+      "Competency": "Information search & source ecology",
+      "Knowledge to study": "search strategies; bibliographies; databases; primary/secondary sources; provenance",
+      "Judgment to form": "Use authority contextually; trace claims upstream",
+      "Practice": "Build a source map for a contested question",
+      "Evidence": "Search log + source genealogy"
+    },
+    {
+      "Node": "L08-C02",
+      "Pillar": "L08",
+      "Competency": "Learning system design",
+      "Knowledge to study": "baseline; retrieval; spacing; interleaving; feedback; retention",
+      "Judgment to form": "Choose study method based on target learning, not subjective fluency",
+      "Practice": "Design a 6-week study program",
+      "Evidence": "Delayed no-AI retest"
+    },
+    {
+      "Node": "L08-C03",
+      "Pillar": "L08",
+      "Competency": "Quantitative and causal reasoning",
+      "Knowledge to study": "statistics; uncertainty; confounding; experiments; causal diagrams; base rates",
+      "Judgment to form": "Match causal claim to design strength and uncertainty",
+      "Practice": "Audit a public quantitative claim",
+      "Evidence": "Reanalysis + causal critique"
+    },
+    {
+      "Node": "L08-C04",
+      "Pillar": "L08",
+      "Competency": "Research design & inquiry",
+      "Knowledge to study": "question formulation; operationalization; method choice; ethics; replication",
+      "Judgment to form": "Ask discriminating questions and know what evidence could change the conclusion",
+      "Practice": "Design and execute a small research project",
+      "Evidence": "Preregistered/declared plan + report"
+    },
+    {
+      "Node": "L08-C05",
+      "Pillar": "L08",
+      "Competency": "Synthesis & knowledge architecture",
+      "Knowledge to study": "concept maps; literature synthesis; contradictions; models; compression",
+      "Judgment to form": "Compress without erasing disagreement or uncertainty",
+      "Practice": "Create a teachable synthesis across 10+ sources",
+      "Evidence": "Synthesis map + adversarial review"
+    },
+    {
+      "Node": "L08-C06",
+      "Pillar": "L08",
+      "Competency": "Teaching & mentorship",
+      "Knowledge to study": "diagnosis; explanation; worked examples; practice; feedback; motivation",
+      "Judgment to form": "Teach the learner rather than perform expertise at them",
+      "Practice": "Teach a novice and measure learning",
+      "Evidence": "Pre/post evidence + lesson revision"
+    },
+    {
+      "Node": "L09-C01",
+      "Pillar": "L09",
+      "Competency": "Computational thinking & algorithms",
+      "Knowledge to study": "abstraction; decomposition; algorithm; complexity; data structures; automation",
+      "Judgment to form": "Know when a computational formulation helps and where verification costs dominate",
+      "Practice": "Implement and compare simple algorithms",
+      "Evidence": "Code + complexity/assumption defense"
+    },
+    {
+      "Node": "L09-C02",
+      "Pillar": "L09",
+      "Competency": "Software, data & network literacy",
+      "Knowledge to study": "software architecture; databases; APIs; networks; distributed failure; observability",
+      "Judgment to form": "Recognize that 'the app works' is not the same as secure/reliable infrastructure",
+      "Practice": "Build a small networked system and break it",
+      "Evidence": "System diagram + incident exercise"
+    },
+    {
+      "Node": "L09-C03",
+      "Pillar": "L09",
+      "Competency": "Cybersecurity, privacy & identity",
+      "Knowledge to study": "threat models; authentication; phishing; backups; encryption concepts; permissions; privacy",
+      "Judgment to form": "Match protection to threat, preserve recovery, minimize unnecessary data exposure",
+      "Practice": "Harden personal digital setup",
+      "Evidence": "Threat model + recovery drill"
+    },
+    {
+      "Node": "L09-C04",
+      "Pillar": "L09",
+      "Competency": "AI mental models & capability limits",
+      "Knowledge to study": "training/inference; representations; context; tools; agents; evals; uncertainty",
+      "Judgment to form": "Reason from evidence about a system rather than anthropomorphic intuition",
+      "Practice": "Compare models on a controlled task suite",
+      "Evidence": "Eval report + limitation statement"
+    },
+    {
+      "Node": "L09-C05",
+      "Pillar": "L09",
+      "Competency": "AI delegation, provenance & verification",
+      "Knowledge to study": "task contracts; permissions; provenance; evals; monitoring; rollback",
+      "Judgment to form": "Delegate execution without delegating accountability blindly",
+      "Practice": "Run an agentic project with hidden tests",
+      "Evidence": "Audit log + human defense"
+    },
+    {
+      "Node": "L09-C06",
+      "Pillar": "L09",
+      "Competency": "Digital governance, rights & concentration",
+      "Knowledge to study": "platform power; standards; surveillance; speech; competition; infrastructure; AI governance",
+      "Judgment to form": "Recognize technical choices as institutional choices when they structure others' agency",
+      "Practice": "Analyze a platform/model governance case",
+      "Evidence": "Governance map + reform options"
+    },
+    {
+      "Node": "L10-C01",
+      "Pillar": "L10",
+      "Competency": "Civics, law & rights",
+      "Knowledge to study": "state; constitution; rights; courts; regulation; local government; legal process",
+      "Judgment to form": "Know which rule system applies, what rights/obligations exist, and where recourse lies",
+      "Practice": "Trace a real issue through institutions",
+      "Evidence": "Authority/recourse map"
+    },
+    {
+      "Node": "L10-C02",
+      "Pillar": "L10",
+      "Competency": "Public finance & collective provision",
+      "Knowledge to study": "taxation; budgets; public goods; externalities; welfare; infrastructure; debt",
+      "Judgment to form": "Connect benefits and costs across groups and time",
+      "Practice": "Analyze a public budget/policy",
+      "Evidence": "Incidence + tradeoff memo"
+    },
+    {
+      "Node": "L10-C03",
+      "Pillar": "L10",
+      "Competency": "Political competition & media",
+      "Knowledge to study": "elections; parties; coalitions; public opinion; media systems; propaganda; agenda setting",
+      "Judgment to form": "Separate popularity, legality, legitimacy, and truth",
+      "Practice": "Analyze a live/past campaign or information event",
+      "Evidence": "Source/media map + causal account"
+    },
+    {
+      "Node": "L10-C04",
+      "Pillar": "L10",
+      "Competency": "Organizations, power & institutional behavior",
+      "Knowledge to study": "bureaucracy; professions; delegation; metrics; capture; corruption; legitimacy",
+      "Judgment to form": "Analyze how rules on paper differ from incentives and actual practice",
+      "Practice": "Map a school/company/public agency",
+      "Evidence": "Power/incentive map + redesign"
+    },
+    {
+      "Node": "L10-C05",
+      "Pillar": "L10",
+      "Competency": "Deliberation, negotiation & pluralism",
+      "Knowledge to study": "disagreement; compromise; rights; procedure; minority protections; public reasoning",
+      "Judgment to form": "Reach decisions without pretending value conflict disappears",
+      "Practice": "Run a structured public deliberation",
+      "Evidence": "Decision record + dissent statement"
+    },
+    {
+      "Node": "L10-C06",
+      "Pillar": "L10",
+      "Competency": "Civic participation & service",
+      "Knowledge to study": "petition; meeting; testimony; volunteering; association; organizing; watchdog functions",
+      "Judgment to form": "Choose proportionate, lawful, evidence-aware forms of participation",
+      "Practice": "Complete a local civic/service project",
+      "Evidence": "Public artifact + impact/postmortem"
+    },
+    {
+      "Node": "L11-C01",
+      "Pillar": "L11",
+      "Competency": "World-historical orientation",
+      "Knowledge to study": "major eras; states/empires; religions; trade; industrialization; colonialism; decolonization; globalization",
+      "Judgment to form": "Use periodization as a tool, not destiny; avoid presentism",
+      "Practice": "Build a comparative world timeline",
+      "Evidence": "Timeline + causal themes"
+    },
+    {
+      "Node": "L11-C02",
+      "Pillar": "L11",
+      "Competency": "Religions, philosophies & worldviews",
+      "Knowledge to study": "major religious/philosophical traditions; ritual; metaphysics; ethics; community",
+      "Judgment to form": "Describe traditions in terms adherents could recognize while retaining critical inquiry",
+      "Practice": "Compare primary texts/practices from several traditions",
+      "Evidence": "Comparative seminar + reflection"
+    },
+    {
+      "Node": "L11-C03",
+      "Pillar": "L11",
+      "Competency": "Literature & human experience",
+      "Knowledge to study": "epic; drama; poetry; novel; essay; oral traditions; global literatures",
+      "Judgment to form": "Read for form, historical voice, moral imagination, and ambiguity rather than plot summary",
+      "Practice": "Sustained close reading across eras/regions",
+      "Evidence": "Reading portfolio + seminar"
+    },
+    {
+      "Node": "L11-C04",
+      "Pillar": "L11",
+      "Competency": "Visual art, architecture, music & performance",
+      "Knowledge to study": "form; medium; style; patronage; ritual; space; sound; performance",
+      "Judgment to form": "See how formal choices and context jointly shape meaning",
+      "Practice": "Analyze works in person when possible",
+      "Evidence": "Field notes + comparative criticism"
+    },
+    {
+      "Node": "L11-C05",
+      "Pillar": "L11",
+      "Competency": "Taste, canon, criticism & curation",
+      "Knowledge to study": "criteria; lineage; originality; convention; exclusion; popular/high art; AI abundance",
+      "Judgment to form": "Form preferences reflectively and revise criteria after comparison",
+      "Practice": "Curate a small exhibition/anthology/program",
+      "Evidence": "Curatorial statement + blind ranking"
+    },
+    {
+      "Node": "L11-C06",
+      "Pillar": "L11",
+      "Competency": "Meaning, ritual, memory & cultural creation",
+      "Knowledge to study": "collective memory; ritual; festivals; monuments; language; identity; heritage",
+      "Judgment to form": "Preserve inheritance without freezing culture; create without treating tradition as costume",
+      "Practice": "Create/participate in a meaningful cultural artifact or oral-history project",
+      "Evidence": "Artifact + context/provenance defense"
+    },
+    {
+      "Node": "L12-C01",
+      "Pillar": "L12",
+      "Competency": "Earth systems & ecology",
+      "Knowledge to study": "climate; water; soils; biogeochemical cycles; ecosystems; biodiversity; feedbacks",
+      "Judgment to form": "Distinguish local observation, model projection, uncertainty, and value choices",
+      "Practice": "Field/system map of a local ecosystem/resource",
+      "Evidence": "Map + measurements + source review"
+    },
+    {
+      "Node": "L12-C02",
+      "Pillar": "L12",
+      "Competency": "Energy, materials & industrial metabolism",
+      "Knowledge to study": "energy conversion; grids; fuels; mining; materials; waste; lifecycle",
+      "Judgment to form": "Compare systems using physical constraints, costs, externalities, and scale",
+      "Practice": "Trace an everyday product/energy service from resource to waste",
+      "Evidence": "Lifecycle/energy flow model"
+    },
+    {
+      "Node": "L12-C03",
+      "Pillar": "L12",
+      "Competency": "Food, agriculture & water systems",
+      "Knowledge to study": "agronomy; soil; irrigation; fisheries; supply chains; nutrition; land use",
+      "Judgment to form": "Reason across yield, resilience, ecology, labor, culture, and access",
+      "Practice": "Trace a food/water system",
+      "Evidence": "System map + intervention critique"
+    },
+    {
+      "Node": "L12-C04",
+      "Pillar": "L12",
+      "Competency": "Place, cities & built environment",
+      "Knowledge to study": "land use; housing; transport; infrastructure; public space; zoning; urban form",
+      "Judgment to form": "Understand how physical form encodes incentives, access, health, and social life",
+      "Practice": "Conduct a neighborhood/place audit",
+      "Evidence": "Map + observation + redesign"
+    },
+    {
+      "Node": "L12-C05",
+      "Pillar": "L12",
+      "Competency": "Hazards, resilience & continuity",
+      "Knowledge to study": "risk; disaster; redundancy; preparedness; supply chains; insurance; emergency governance",
+      "Judgment to form": "Prioritize catastrophic tails and graceful degradation without paranoia",
+      "Practice": "Build household/team continuity plan and run a drill",
+      "Evidence": "Scenario performance + after-action report"
+    },
+    {
+      "Node": "L12-C06",
+      "Pillar": "L12",
+      "Competency": "Futures & intergenerational stewardship",
+      "Knowledge to study": "forecasting; scenarios; technological change; option value; irreversibility; existential/global catastrophic risk",
+      "Judgment to form": "Separate prediction from scenario planning; preserve plural futures and rights under uncertainty",
+      "Practice": "Write a 25-year decision under multiple futures",
+      "Evidence": "Scenario tree + reversible strategy + defense"
+    }
+  ]
+}

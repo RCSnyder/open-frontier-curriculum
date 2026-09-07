@@ -1,9 +1,17 @@
 ---
-title: "Information + signals"
+title: Information + signals
 wave: 1
 order: 9
 leverage: 95
+search:
+  exclude: true
 ---
+
+<!-- atlas-route -->
+> **Current study page: [Information + signals](../../learn/ts-f09.md)**
+>
+> The earlier reference below is retained for continuity.
+<!-- /atlas-route -->
 
 # Information + signals
 

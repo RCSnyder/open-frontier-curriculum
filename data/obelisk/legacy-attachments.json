@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "base": "8b98ed1",
+  "policy": "Preserved technical exposition remains hand-authored. Imported summaries are routing views, not replacement curricula.",
+  "tracks": {
+    "AI-AS": {"name": "AI and autonomous science", "path": "ai-autonomous-science.md", "summary": "ai-as-ai-and-autonomous-science.md"},
+    "ROB": {"name": "Robotics and autonomous manufacturing", "path": "robotics-autonomous-manufacturing.md", "summary": "rob-robotics-and-autonomous-manufacturing.md"},
+    "ENE": {"name": "Energy, nuclear and fusion", "path": "energy-nuclear-fusion.md", "summary": "ene-energy-nuclear-and-fusion.md"},
+    "MAT": {"name": "Materials, nano and molecular engineering", "path": "materials-nano.md", "summary": "mat-materials-nano-and-molecular-engineering.md"},
+    "BIO": {"name": "Synthetic biology, regeneration and longevity", "path": "synthetic-biology-longevity.md", "summary": "bio-synthetic-biology-regeneration-and-longevity.md"},
+    "NEU": {"name": "Neurotechnology and human-machine interfaces", "path": "neurotechnology-hmi.md", "summary": "neu-neurotechnology-and-human-machine-interfaces.md"},
+    "SPA": {"name": "Space industry and off-world systems", "path": "space-industry.md", "summary": "spa-space-industry-and-off-world-systems.md"}
+  },
+  "excluded_import_artifacts": ["open-frontier-curriculum-obelisk-v0.6.0", "open-frontier-judgment-discovery-files"]
+}

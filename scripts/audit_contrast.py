@@ -8,9 +8,9 @@ reading colors at AAA where practical.
 
 from __future__ import annotations
 
-from pathlib import Path
 import re
 import sys
+from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 CSS = ROOT / "docs" / "stylesheets" / "extra.css"
@@ -40,7 +40,7 @@ def contrast(fg: str, bg: str) -> float:
 
 def slate_var(name: str) -> str:
     match = re.search(
-        r'\[data-md-color-scheme="slate"\]\s*\{(?P<body>.*?)\n\}', text, re.S
+        r'\[data-md-color-scheme="slate"\]\s*\{(?P<body>.*?)\n\}', text, re.DOTALL
     )
     if not match:
         raise RuntimeError("slate palette block missing")

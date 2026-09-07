@@ -7,10 +7,11 @@ readability signals. It does not claim ASD-STE100 or AP Stylebook compliance.
 
 from __future__ import annotations
 
-from pathlib import Path
 import argparse
+import json
 import re
 import sys
+from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / "docs"
@@ -41,25 +42,25 @@ HARD_PATTERNS: list[tuple[str, re.Pattern[str]]] = [
     ("em dash", re.compile("—")),
     # ("smart double quote", re.compile("[""]")),
     ("decorative unicode arrow", re.compile("→")),
-    ("filler: it's worth noting", re.compile(r"\bit(?:'|’)s worth noting\b", re.I)),
-    ("filler: it bears mentioning", re.compile(r"\bit bears mentioning\b", re.I)),
-    ("filler transition", re.compile(r"\b(?:importantly|interestingly|notably),", re.I)),
-    ("fake suspense", re.compile(r"\bhere(?:'|’)s (?:the thing|the catch|the kicker)\b", re.I)),
-    ("teacher voice", re.compile(r"\blet(?:'|’)s (?:break this down|unpack|explore|dive)\b", re.I)),
-    ("signposted conclusion", re.compile(r"\b(?:in conclusion|to sum up|in summary)\b", re.I)),
-    ("patronizing analogy lead", re.compile(r"\bthink of it as\b", re.I)),
-    ("futurist sales lead", re.compile(r"\bimagine a world where\b", re.I)),
-    ("AI stock word: delve", re.compile(r"\bdelv(?:e|es|ed|ing)\b", re.I)),
-    ("pompous copula: serves as", re.compile(r"\bserves as\b", re.I)),
-    ("promotional word: seamless", re.compile(r"\bseamless(?:ly)?\b", re.I)),
-    ("promotional word: unprecedented", re.compile(r"\bunprecedented\b", re.I)),
+    ("filler: it's worth noting", re.compile(r"\bit(?:'|’)s worth noting\b", re.IGNORECASE)),
+    ("filler: it bears mentioning", re.compile(r"\bit bears mentioning\b", re.IGNORECASE)),
+    ("filler transition", re.compile(r"\b(?:importantly|interestingly|notably),", re.IGNORECASE)),
+    ("fake suspense", re.compile(r"\bhere(?:'|’)s (?:the thing|the catch|the kicker)\b", re.IGNORECASE)),
+    ("teacher voice", re.compile(r"\blet(?:'|’)s (?:break this down|unpack|explore|dive)\b", re.IGNORECASE)),
+    ("signposted conclusion", re.compile(r"\b(?:in conclusion|to sum up|in summary)\b", re.IGNORECASE)),
+    ("patronizing analogy lead", re.compile(r"\bthink of it as\b", re.IGNORECASE)),
+    ("futurist sales lead", re.compile(r"\bimagine a world where\b", re.IGNORECASE)),
+    ("AI stock word: delve", re.compile(r"\bdelv(?:e|es|ed|ing)\b", re.IGNORECASE)),
+    ("pompous copula: serves as", re.compile(r"\bserves as\b", re.IGNORECASE)),
+    ("promotional word: seamless", re.compile(r"\bseamless(?:ly)?\b", re.IGNORECASE)),
+    ("promotional word: unprecedented", re.compile(r"\bunprecedented\b", re.IGNORECASE)),
 ]
 
 SOFT_PATTERNS: list[tuple[str, re.Pattern[str]]] = [
-    ("negative parallelism", re.compile(r"\b(?:it is|it's|this is|the [^.!?]{1,30} is) not\b[^.!?]{0,80}\b(?:but|it is|it's)\b", re.I)),
-    ("marketing verb: leverage", re.compile(r"\b(?:leverage|leverages|leveraged|leveraging)\b", re.I)),
-    ("magic adverb", re.compile(r"\b(?:quietly|deeply|fundamentally|remarkably|arguably)\b", re.I)),
-    ("ornate stock noun", re.compile(r"\b(?:tapestry|landscape|synergy)\b", re.I)),
+    ("negative parallelism", re.compile(r"\b(?:it is|it's|this is|the [^.!?]{1,30} is) not\b[^.!?]{0,80}\b(?:but|it is|it's)\b", re.IGNORECASE)),
+    ("marketing verb: leverage", re.compile(r"\b(?:leverage|leverages|leveraged|leveraging)\b", re.IGNORECASE)),
+    ("magic adverb", re.compile(r"\b(?:quietly|deeply|fundamentally|remarkably|arguably)\b", re.IGNORECASE)),
+    ("ornate stock noun", re.compile(r"\b(?:tapestry|landscape|synergy)\b", re.IGNORECASE)),
 ]
 
 ALLOWED_TITLE_CASE = {
@@ -81,6 +82,8 @@ def markdown_files() -> list[Path]:
         "node_modules",
         "site",
     }
+    ownership = json.loads((ROOT / "data/obelisk/legacy-attachments.json").read_text(encoding="utf-8"))
+    excluded_parts.update(ownership["excluded_import_artifacts"])
     return sorted(
         path
         for path in ROOT.rglob("*.md")
@@ -99,9 +102,9 @@ def is_narrative(path: Path) -> bool:
 
 def strip_non_prose(text: str) -> str:
     # YAML front matter.
-    text = re.sub(r"\A---\n.*?\n---\n", "", text, flags=re.S)
+    text = re.sub(r"\A---\n.*?\n---\n", "", text, flags=re.DOTALL)
     # Fenced code blocks.
-    text = re.sub(r"```.*?```", "", text, flags=re.S)
+    text = re.sub(r"```.*?```", "", text, flags=re.DOTALL)
     # HTML blocks/tags.
     text = re.sub(r"<[^>]+>", " ", text)
     # Markdown tables: skip whole rows.

@@ -1,9 +1,17 @@
 ---
-title: "Manufacturing + operations"
+title: Manufacturing + operations
 wave: 2
 order: 10
 leverage: 95
+search:
+  exclude: true
 ---
+
+<!-- atlas-route -->
+> **Current study page: [Manufacturing + operations](../../learn/ts-f21.md)**
+>
+> The earlier reference below is retained for continuity.
+<!-- /atlas-route -->
 
 # Manufacturing + operations
 

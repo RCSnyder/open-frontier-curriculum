@@ -1,0 +1,129 @@
+{
+  "version": "0.5.0",
+  "recommended_formal_name": "Open Frontier Curriculum",
+  "recommended_descriptor": "an open civilizational reference architecture for lifelong human formation in an age of abundant machine intelligence",
+  "recommended_short_definition": "a living inheritance-and-competence system: what humans should know, practice, become and remain responsible for",
+  "tagline": "Inherit deeply. Understand first principles. Judge independently. Create with taste. Act competently. Relate humanely. Steward wisely. Learn forever.",
+  "terms": [
+    {
+      "term": "curriculum",
+      "captures": "sequence of learning experiences",
+      "misses": "the permanent reference graph, canon, validation system and lifetime formation goal"
+    },
+    {
+      "term": "canon",
+      "captures": "deliberate inheritance of works, ideas and exemplars",
+      "misses": "practice, science updating, competence and openness unless explicitly made revisable"
+    },
+    {
+      "term": "corpus",
+      "captures": "the body of source material",
+      "misses": "sequencing, mastery and formation"
+    },
+    {
+      "term": "codex",
+      "captures": "organized authoritative reference",
+      "misses": "living, empirical and participatory character"
+    },
+    {
+      "term": "compendium",
+      "captures": "organized breadth",
+      "misses": "depth, practice and developmental architecture"
+    },
+    {
+      "term": "encyclopedia",
+      "captures": "comprehensive knowledge ambition",
+      "misses": "the aim of turning knowledge into a capable person"
+    },
+    {
+      "term": "atlas",
+      "captures": "navigation across a large intellectual territory",
+      "misses": "formation and standards of mastery"
+    },
+    {
+      "term": "knowledge graph",
+      "captures": "machine-addressable structure and relationships",
+      "misses": "telos, culture, pedagogy and lived practice"
+    },
+    {
+      "term": "reference architecture",
+      "captures": "stable components, interfaces, invariants and extensibility",
+      "misses": "the humanistic inheritance unless paired with other language"
+    },
+    {
+      "term": "constitution",
+      "captures": "governing principles, admission rules, rights and limits",
+      "misses": "the curricular substance itself"
+    },
+    {
+      "term": "paideia",
+      "captures": "whole-person and civic formation through culture, reason and practice",
+      "misses": "modern scientific/technical and machine-readable connotations; culturally specific history should be acknowledged"
+    },
+    {
+      "term": "Bildung",
+      "captures": "self-cultivation through knowledge, culture and reflective development",
+      "misses": "public/institutional, technical and open-source architecture dimensions; culturally specific history should be acknowledged"
+    },
+    {
+      "term": "liberal education",
+      "captures": "formation for judgment, freedom and broad understanding rather than narrow vocation",
+      "misses": "the technical, practical, AI-governance and lifelong operational breadth intended here"
+    },
+    {
+      "term": "general education",
+      "captures": "shared foundation across specializations",
+      "misses": "the scale, depth and life-competence ambition"
+    },
+    {
+      "term": "competence framework",
+      "captures": "observable human capabilities",
+      "misses": "civilizational inheritance and deep source study"
+    },
+    {
+      "term": "human capability architecture",
+      "captures": "integrated dimensions of what a person can do",
+      "misses": "canon, culture and historical inheritance unless expanded"
+    },
+    {
+      "term": "formation system",
+      "captures": "the transformation of knowledge into habits, judgment, skill and character",
+      "misses": "the source corpus and structural graph unless paired with reference architecture"
+    },
+    {
+      "term": "living canon",
+      "captures": "selective inheritance that can be revised under evidence and criticism",
+      "misses": "practical competence if used alone"
+    },
+    {
+      "term": "knowledge commons",
+      "captures": "open, collectively stewarded intellectual resource",
+      "misses": "individual formation and rigorous admission standards unless specified"
+    },
+    {
+      "term": "civilizational inheritance",
+      "captures": "transmission of accumulated human discoveries, arguments, arts, institutions and failures",
+      "misses": "future-facing creation and AI-era responsibility unless specified"
+    },
+    {
+      "term": "metacurriculum",
+      "captures": "rules for constructing, validating and evolving a curriculum",
+      "misses": "the actual curriculum and corpus"
+    },
+    {
+      "term": "human formation constitution",
+      "captures": "first principles governing what education should form and protect",
+      "misses": "the content graph itself"
+    },
+    {
+      "term": "civilizational paideia",
+      "captures": "whole-person formation through an intentionally broad human inheritance",
+      "misses": "may sound historical or culturally narrow without explicit global/open framing"
+    },
+    {
+      "term": "Obelisk",
+      "captures": "a memorable metaphor for a durable, visible, orienting structure built to outlast fashions",
+      "misses": "could imply static monolith; the project must explicitly remain living, versioned and adversarially revisable"
+    }
+  ]
+}

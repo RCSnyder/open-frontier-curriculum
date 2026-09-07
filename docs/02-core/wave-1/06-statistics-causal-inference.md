@@ -1,9 +1,17 @@
 ---
-title: "Statistics + causal inference"
+title: Statistics + causal inference
 wave: 1
 order: 6
 leverage: 97
+search:
+  exclude: true
 ---
+
+<!-- atlas-route -->
+> **Current study page: [Statistics + causal inference](../../learn/ts-f06.md)**
+>
+> The earlier reference below is retained for continuity.
+<!-- /atlas-route -->
 
 # Statistics + causal inference
 

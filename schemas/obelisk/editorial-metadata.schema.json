@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$defs": {
+    "text": {"type": "string", "minLength": 1, "pattern": "\\S"},
+    "ids": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"$ref": "#/$defs/text"}},
+    "review": {
+      "type": "object",
+      "required": ["target_id", "path", "sha256", "reviewed_by", "decision"],
+      "properties": {
+        "target_id": {"$ref": "#/$defs/text"},
+        "path": {"$ref": "#/$defs/text"},
+        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "reviewed_by": {"$ref": "#/$defs/text"},
+        "decision": {"enum": ["pass", "fail"]}
+      }
+    },
+    "interfaces": {
+      "type": "object", "required": ["interfaces"],
+      "properties": {"interfaces": {"type": "array", "items": {
+        "type": "object", "required": ["id", "from_ids", "to_ids", "rationale"],
+        "properties": {"id": {"$ref": "#/$defs/text"}, "from_ids": {"$ref": "#/$defs/ids"},
+          "to_ids": {"$ref": "#/$defs/ids"}, "rationale": {"$ref": "#/$defs/text"}}
+      }}}
+    },
+    "life-routes": {
+      "type": "object", "required": ["routes"],
+      "properties": {"routes": {"type": "object", "minProperties": 72, "maxProperties": 72,
+        "propertyNames": {"pattern": "^L(0[1-9]|1[0-2])-C0[1-6]$"},
+        "additionalProperties": {"$ref": "#/$defs/ids"}}}
+    },
+    "life-scope": {
+      "type": "object", "required": ["pillars"],
+      "properties": {"pillars": {"type": "object", "minProperties": 12, "maxProperties": 12,
+        "propertyNames": {"pattern": "^L(0[1-9]|1[0-2])$"},
+        "additionalProperties": {"type": "object",
+          "required": ["readiness", "scope", "referral", "evidence_boundary"],
+          "additionalProperties": {"$ref": "#/$defs/text"}}}}
+    },
+    "source-quality": {
+      "type": "object", "required": ["sources"],
+      "properties": {"sources": {"type": "object", "additionalProperties": {
+        "type": "object", "required": ["tier", "rationale", "verification", "volatility", "license_status", "limitations"],
+        "properties": {"tier": {"enum": ["A", "B", "C", "D", "E"]},
+          "verification": {"enum": ["verification-needed", "bibliography-and-source-type-verified", "claim-reviewed"]},
+          "checked": {"type": "string", "format": "date"},
+          "rationale": {"$ref": "#/$defs/text"},
+          "volatility": {"$ref": "#/$defs/text"},
+          "license_status": {"$ref": "#/$defs/text"},
+          "limitations": {"$ref": "#/$defs/text"},
+          "evidence_url": {"type": "string", "format": "uri", "pattern": "^https?://[^/\\s]+(?:/[^\\s]*)?$"}},
+        "allOf": [{"if": {"properties": {"verification": {"enum": ["bibliography-and-source-type-verified", "claim-reviewed"]}}},
+          "then": {"required": ["checked", "evidence_url"]}}]
+      }}}
+    },
+    "pathways": {
+      "type": "object", "required": ["policy", "stages"],
+      "properties": {"stages": {"type": "array", "minItems": 1, "items": {
+        "type": "object", "required": ["id", "title", "readiness", "routes", "practice", "assessment", "ai_modes"],
+        "properties": {"id": {"$ref": "#/$defs/text"}, "routes": {"$ref": "#/$defs/ids"},
+          "ai_modes": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"enum": ["A0", "A1", "A2", "A3", "A4", "A5"]}},
+          "readiness": {"$ref": "#/$defs/text"}, "practice": {"$ref": "#/$defs/text"}, "assessment": {"$ref": "#/$defs/text"}}
+      }}}
+    },
+    "content-evidence": {
+      "type": "object", "required": ["targets"],
+      "properties": {"targets": {"type": "object", "additionalProperties": {
+        "type": "object", "additionalProperties": false,
+        "properties": {
+          "teaching_path": {"$ref": "#/$defs/text"}, "teaching_review": {"$ref": "#/$defs/text"},
+          "assessment_path": {"$ref": "#/$defs/text"}, "assessment_review": {"$ref": "#/$defs/text"},
+          "internal_review": {"$ref": "#/$defs/review"}, "external_review": {"$ref": "#/$defs/review"},
+          "frozen_architecture": {"$ref": "#/$defs/review"}, "reference_review": {"$ref": "#/$defs/review"},
+          "source_review": {"$ref": "#/$defs/review"}
+        }
+      }}}
+    }
+  }
+}

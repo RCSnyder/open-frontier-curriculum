@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "policy": "Editorial study connections grounded in the existing technology bottlenecks and subject descriptions. Background is useful preparation, not a validated prerequisite or a complete technology curriculum.",
+  "connections": [
+    {"technology_id": 33, "subject_id": "TS-F10", "relationship": "background", "rationale": "Model feedback and state estimation when a service robot must act under sensing and contact uncertainty."},
+    {"technology_id": 33, "subject_id": "TS-F20", "relationship": "background", "rationale": "Understand human physiology when reasoning about assistance, physical interaction and the limits of a robotic intervention."},
+    {"technology_id": 33, "subject_id": "TS-F22", "relationship": "background", "rationale": "Analyze hazards, failure modes and recovery before trusting a robot in a care setting."},
+    {"technology_id": 1, "subject_id": "TS-F06", "relationship": "background", "rationale": "Distinguish causal evidence from correlations when evaluating an automated scientific claim."},
+    {"technology_id": 1, "subject_id": "TS-F11", "relationship": "background", "rationale": "Design measurements and experiments whose uncertainty and failure modes are explicit."},
+    {"technology_id": 1, "subject_id": "TS-F08", "relationship": "background", "rationale": "Understand optimization objectives and constraints when choosing or automating experiments."},
+    {"technology_id": 42, "subject_id": "TS-F12", "relationship": "background", "rationale": "Develop the mechanics and electromagnetism needed to enter specialist study of confinement."},
+    {"technology_id": 42, "subject_id": "TS-F13", "relationship": "background", "rationale": "Reason about heat, energy conversion and thermodynamic limits in a proposed fusion system."},
+    {"technology_id": 42, "subject_id": "TS-F15", "relationship": "background", "rationale": "Investigate material constraints behind heat handling and component lifetime."},
+    {"technology_id": 11, "subject_id": "TS-F18", "relationship": "background", "rationale": "Understand cell mechanisms before studying interventions in cell state and tissue integration."},
+    {"technology_id": 11, "subject_id": "TS-F19", "relationship": "background", "rationale": "Use genetics and systems biology to investigate cell-state control and unintended growth."},
+    {"technology_id": 11, "subject_id": "TS-F06", "relationship": "background", "rationale": "Evaluate evidence of treatment effects without confusing observed change with causal efficacy."}
+  ]
+}

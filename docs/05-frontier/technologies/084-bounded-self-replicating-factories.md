@@ -1,9 +1,9 @@
 ---
-title: "Bounded self-replicating factories"
+title: Bounded self-replicating factories
 rank: 84
-feasibility: "C"
-primary_track: "ROB"
-secondary_track: "AI-AS / SPA"
+feasibility: C
+primary_track: ROB
+secondary_track: AI-AS / SPA
 ---
 
 # 84 | Bounded self-replicating factories
@@ -12,7 +12,7 @@ secondary_track: "AI-AS / SPA"
 
 <span class="ofc-badge ofc-c">C | known-physics large engineering</span>
 
-**Primary track:** [Robotics & autonomous manufacturing](../../03-specializations/robotics-autonomous-manufacturing.md)  
+**Primary track:** [Robotics and autonomous manufacturing](../../03-specializations/robotics-autonomous-manufacturing.md)  
 **Secondary:** AI-AS / SPA
 
 </div>
@@ -25,8 +25,18 @@ Closure, error, containment
 
 - **Foundations I:** W1 proof/control/reliability
 - **Foundations II:** W2 manufacturing/materials/security
-- **Specialization:** Robotics & autonomous manufacturing
+- **Specialization:** [Robotics and autonomous manufacturing](../../03-specializations/robotics-autonomous-manufacturing.md)
 
 ## First proof of work
 
 BOM closure + replication fidelity + immutable constraints
+
+<!-- connected-study -->
+## Connected study
+
+Editorial study connections grounded in the existing technology bottlenecks and subject descriptions. Background is useful preparation, not a validated prerequisite or a complete technology curriculum.
+
+Specific subject connections have not been mapped yet.
+
+
+[Explore technologies](../README.md)

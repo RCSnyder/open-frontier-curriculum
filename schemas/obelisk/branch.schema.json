@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://open-frontier.example/schemas/obelisk/branch.schema.json",
+  "title": "Obelisk branch",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "id",
+    "title",
+    "status",
+    "maturity",
+    "granularity",
+    "scope",
+    "deletion_failure"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^(TS|PH|HW|EX|ML|DR)$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "minLength": 1
+    },
+    "maturity": {
+      "type": "string",
+      "minLength": 1
+    },
+    "granularity": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "deletion_failure": {
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

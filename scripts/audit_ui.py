@@ -8,12 +8,13 @@ It does not replace browser review.
 
 from __future__ import annotations
 
-from argparse import ArgumentParser
-from html.parser import HTMLParser
-from pathlib import Path
+import json
 import re
 import sys
 import tomllib
+from argparse import ArgumentParser
+from html.parser import HTMLParser
+from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / "docs"
@@ -33,7 +34,7 @@ def warn(msg: str) -> None:
 def card_blocks(text: str):
     pattern = re.compile(
         r'<div\s+class="[^"]*\bgrid\b[^"]*\bcards\b[^"]*"\s+markdown>\s*(.*?)\s*</div>',
-        re.S,
+        re.DOTALL,
     )
     yield from pattern.finditer(text)
 
@@ -49,6 +50,10 @@ for path in sorted(DOCS.rglob("*.md")):
         if re.search(r"(?m)^\s{2,}[^\n`]*\s\|\s[^\n]*$", body):
             warn(f"{rel}: pipe-delimited card copy; use semantic metadata spans")
 
+attachments = json.loads(
+    (ROOT / "data" / "obelisk" / "legacy-attachments.json").read_text(encoding="utf-8")
+)["tracks"]
+track_paths = {track["path"] for track in attachments.values()}
 for path in sorted((DOCS / "03-specializations").glob("*.md")):
     text = path.read_text(encoding="utf-8")
     rel = path.relative_to(ROOT)
@@ -57,7 +62,7 @@ for path in sorted((DOCS / "03-specializations").glob("*.md")):
             fail("Specialization index must expose metadata for all seven tracks")
         if text.count("24 weeks") != 7:
             fail("Specialization index must show 24 weeks on all seven tracks")
-    else:
+    elif path.name in track_paths:
         if 'class="grid cards ofc-track-summary"' not in text:
             fail(f"{rel}: missing specialization summary grid")
         if "## Sequence" in text:
@@ -86,7 +91,7 @@ try:
     cfg = tomllib.loads((ROOT / "zensical.toml").read_text(encoding="utf-8"))
     if cfg.get("project", {}).get("theme", {}).get("font") is not False:
         fail("Zensical theme must use system fonts (font = false)")
-except Exception as exc:
+except (OSError, tomllib.TOMLDecodeError) as exc:
     fail(f"Could not parse zensical.toml during UI audit: {exc}")
 
 

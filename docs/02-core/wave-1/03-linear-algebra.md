@@ -1,9 +1,17 @@
 ---
-title: "Linear algebra"
+title: Linear algebra
 wave: 1
 order: 3
 leverage: 99
+search:
+  exclude: true
 ---
+
+<!-- atlas-route -->
+> **Current study page: [Linear algebra](../../learn/ts-f03.md)**
+>
+> The earlier reference below is retained for continuity.
+<!-- /atlas-route -->
 
 # Linear algebra
 

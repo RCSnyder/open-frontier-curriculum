@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "foundations": {
+    "capability": {"title": "Open Frontier", "role": "Capability", "branches": ["TS"], "question": "How does it work? What can I build and verify?", "purpose": "Explain mechanisms, construct models, measure uncertainty and build systems that survive contact with physical reality.", "entry": ["TS-F01", "TS-F07", "TS-F11"]},
+    "context": {"title": "Human Worlds", "role": "Context", "branches": ["HW"], "question": "How do people and institutions actually work?", "purpose": "Enter unfamiliar societies and historical situations, reconstruct actors' meanings, compare explanations and trace institutions, incentives and power.", "entry": ["HW01", "HW03", "HW05"]},
+    "judgment": {"title": "Philosophy", "role": "Judgment", "branches": ["PH"], "question": "What should I believe, value and do?", "purpose": "Reconstruct arguments, expose assumptions, examine rival accounts and defend judgments about knowledge, value, meaning and legitimacy.", "entry": ["PH-M01", "PH-M02", "PH-M03"]},
+    "representation": {"title": "Expressive Command", "role": "Representation", "branches": ["EX", "DR"], "question": "How can I interpret, articulate and give form to understanding?", "purpose": "Read and listen closely, express ideas with precision, and make language, images, space and material form answerable to meaning and use.", "entry": ["EX-M11", "EX-M04", "DR08"]}
+  },
+  "support_views": {
+    "learning": {"title": "Learning to learn", "role": "Supporting practice", "branches": ["ML"], "question": "How do I become more capable of independent learning?", "purpose": "Investigate attention, memory, practice, motivation and judgment. Use evidence of retention and transfer rather than familiarity or confidence alone.", "entry": ["ML01", "ML04", "ML07"]}
+  },
+  "branch_labels": {"EX": "Language and interpretation", "DR": "Visual, spatial and material practice"},
+  "journeys": {
+    "TS-F01": {"slug": "mathematical-reasoning", "title": "Mathematical reasoning and proof", "question": "When does an argument establish a claim, rather than merely make it plausible?", "first_attempt": "Negate 'Every tested component is safe.' Give an example where many successful tests fail to establish safety. Explain the missing inference.", "connections": ["PH-M01", "HW01", "EX-M04"]},
+    "HW05": {"slug": "collective-action", "title": "Collective action and the commons", "question": "Why can people who share an interest still fail to act together?", "first_attempt": "Describe a shared resource you know. Separate who can use it, who maintains it, who sets its rules and who can appeal a decision.", "connections": ["PH-M01", "EX-M04", "DR08"]},
+    "EX-M11": {"slug": "reading-literature", "title": "Reading literature as a whole work", "question": "How does a work's form change what can be understood, felt and said?", "first_attempt": "Read a short dramatic scene aloud twice with different emphasis. Identify an interpretation that changes and the words that support it.", "connections": ["PH-M03", "HW14", "DR03"]}
+  }
+}

@@ -1,9 +1,9 @@
 ---
-title: "Cultured/synthetic food"
+title: Cultured/synthetic food
 rank: 28
-feasibility: "A"
-primary_track: "BIO"
-secondary_track: "MAT"
+feasibility: A
+primary_track: BIO
+secondary_track: MAT
 ---
 
 # 28 | Cultured/synthetic food
@@ -12,7 +12,7 @@ secondary_track: "MAT"
 
 <span class="ofc-badge ofc-a">A | deployed / early deployment</span>
 
-**Primary track:** [Synthetic biology, regeneration & longevity](../../03-specializations/synthetic-biology-longevity.md)  
+**Primary track:** [Synthetic biology, regeneration and longevity](../../03-specializations/synthetic-biology-longevity.md)  
 **Secondary:** MAT
 
 </div>
@@ -25,8 +25,18 @@ Cost, media/feedstocks, contamination, texture
 
 - **Foundations I:** W1 optimization/metrology
 - **Foundations II:** W2 cell biology, thermo, manufacturing
-- **Specialization:** Synthetic biology, regeneration & longevity
+- **Specialization:** [Synthetic biology, regeneration and longevity](../../03-specializations/synthetic-biology-longevity.md)
 
 ## First proof of work
 
 Bioreactor mass/energy/QC scale model
+
+<!-- connected-study -->
+## Connected study
+
+Editorial study connections grounded in the existing technology bottlenecks and subject descriptions. Background is useful preparation, not a validated prerequisite or a complete technology curriculum.
+
+Specific subject connections have not been mapped yet.
+
+
+[Explore technologies](../README.md)

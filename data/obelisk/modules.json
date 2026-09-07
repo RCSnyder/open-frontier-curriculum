@@ -1,0 +1,3918 @@
+{
+  "version": "0.3.0",
+  "modules": [
+    {
+      "id": "TS-F01",
+      "branch_id": "TS",
+      "source_id": "TS-F01",
+      "title": "Mathematical reasoning + proof",
+      "status": "live",
+      "prerequisite_text": "None beyond algebra",
+      "prerequisite_ids": [],
+      "core_concepts": [
+        "Translate English claims into quantified statements; negate precisely; identify hidden assumptions and counterexamples.",
+        "Choose proof strategy from logical form; distinguish definition expansion from theorem invocation; write readable proofs.",
+        "Use counterexamples, induction, functions/inverses, and invariant-style reasoning."
+      ],
+      "exit_capability": "Own definitions, quantifiers, implication, counterexample, induction and proof structure.",
+      "deletion_reason": "Without quantifiers, counterexamples and proof, specifications cannot distinguish testing from necessity.",
+      "hours": null,
+      "gate": "Reconstruct -> transfer -> break -> bound -> check -> defend",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "B",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ],
+      "source_url": "https://github.com/RCSnyder/open-frontier-curriculum/blob/main/docs/02-core/README.md",
+      "exposition_path": "docs/02-core/wave-1/01-mathematical-reasoning-proof.md"
+    },
+    {
+      "id": "TS-F02",
+      "branch_id": "TS",
+      "source_id": "TS-F02",
+      "title": "Calculus + vector calculus",
+      "status": "live",
+      "prerequisite_text": "Algebra/trigonometry + TS-F01",
+      "prerequisite_ids": [
+        "TS-F01"
+      ],
+      "core_concepts": [
+        "Interpret limits as local behavior; reason about continuity and approximation rather than symbolic manipulation only.",
+        "Treat derivatives as local linear maps/rates; connect geometry, units, sensitivity and dynamics.",
+        "Linearize nonlinear systems, formulate local sensitivity, and use derivatives for optimization/root finding.",
+        "Treat integration as accumulation/conservation; connect rates to stocks and local to global quantities.",
+        "Represent geometry, motion, forces and trajectories in 3D; manipulate dot/cross products and vector kinematics.",
+        "Own gradient, directional derivative, Jacobian, multiple integrals, flux/circulation and divergence/curl intuition."
+      ],
+      "exit_capability": "Own limits, derivatives as local linearization, integrals as accumulation, gradients/Jacobians, line/surface integrals and field theorems.",
+      "deletion_reason": "Without local linearization and accumulation, continuous physical models and their approximations cannot be reconstructed.",
+      "hours": null,
+      "gate": "Reconstruct -> transfer -> break -> bound -> check -> defend",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "B",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ],
+      "source_url": "https://github.com/RCSnyder/open-frontier-curriculum/blob/main/docs/02-core/README.md",
+      "exposition_path": "docs/02-core/wave-1/02-calculus-vector-calculus.md"
+    },
+    {
+      "id": "TS-F03",
+      "branch_id": "TS",
+      "source_id": "TS-F03",
+      "title": "Linear algebra",
+      "status": "live",
+      "prerequisite_text": "TS-F01 and TS-F02 can overlap",
+      "prerequisite_ids": [
+        "TS-F01",
+        "TS-F02"
+      ],
+      "core_concepts": [
+        "Represent state/data as vectors; use norms, inner products, angles and linear maps.",
+        "Diagnose redundancy, basis choice, rank and matrix-as-map thinking.",
+        "Solve linear systems; reason about reachability over repeated matrix dynamics; interpret inverses and condition.",
+        "Derive least squares as projection; understand residual orthogonality and regression geometry.",
+        "Handle constraints, nonlinear fitting, SVD/eigenstructure, low-rank approximation and ill-conditioning."
+      ],
+      "exit_capability": "Own vector spaces, projections, least squares, matrix maps, rank/nullspace, conditioning, SVD and eigenstructure.",
+      "deletion_reason": "Without rank, projection and conditioning, inverse problems and multivariate models hide non-identifiability.",
+      "hours": null,
+      "gate": "Reconstruct -> transfer -> break -> bound -> check -> defend",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "B",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ],
+      "source_url": "https://github.com/RCSnyder/open-frontier-curriculum/blob/main/docs/02-core/README.md",
+      "exposition_path": "docs/02-core/wave-1/03-linear-algebra.md"
+    },
+    {
+      "id": "TS-F04",
+      "branch_id": "TS",
+      "source_id": "TS-F04",
+      "title": "ODEs + dynamical systems",
+      "status": "live",
+      "prerequisite_text": "TS-F02, TS-F03",
+      "prerequisite_ids": [
+        "TS-F02",
+        "TS-F03"
+      ],
+      "core_concepts": [
+        "Translate verbal rate laws into ODEs; solve and interpret first-order models and equilibrium behavior.",
+        "Analyze oscillators, characteristic roots, transient/steady response and resonance.",
+        "Represent coupled state dynamics; connect eigenstructure to modes and stability.",
+        "Analyze nonlinear equilibria, local stability, phase portraits and bifurcation-style qualitative changes.",
+        "Recognize timescale separation, nonlinear feedback, bifurcation and chaotic sensitivity."
+      ],
+      "exit_capability": "Translate changing systems into state equations; solve and analyze equilibria, stability, oscillation, nonlinear behavior and feedback.",
+      "deletion_reason": "Without state evolution, equilibria and stability, feedback and time-dependent physical systems become opaque.",
+      "hours": null,
+      "gate": "Reconstruct -> transfer -> break -> bound -> check -> defend",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "B",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ],
+      "source_url": "https://github.com/RCSnyder/open-frontier-curriculum/blob/main/docs/02-core/README.md",
+      "exposition_path": "docs/02-core/wave-1/04-odes-dynamical-systems.md"
+    },
+    {
+      "id": "TS-F05",
+      "branch_id": "TS",
+      "source_id": "TS-F05",
+      "title": "Probability",
+      "status": "live",
+      "prerequisite_text": "TS-F01, TS-F02, TS-F03",
+      "prerequisite_ids": [
+        "TS-F01",
+        "TS-F02",
+        "TS-F03"
+      ],
+      "core_concepts": [
+        "Define sample spaces/events; count without over/undercounting; move between symmetry stories and formal probability.",
+        "Update beliefs with evidence; use total probability/Bayes; distinguish independence from mutual exclusivity.",
+        "Model uncertainty with random variables; exploit linearity of expectation; reason with variance and indicators.",
+        "Work with densities, Normal/Exponential models, covariance/correlation, joint/marginal/conditional distributions.",
+        "Transform variables, condition on information, use bounds/LLN/CLT and know approximation regimes."
+      ],
+      "exit_capability": "Quantify uncertainty, conditioning, expectation, dependence, transformations, concentration and asymptotics.",
+      "deletion_reason": "Without conditional probability and distributions, uncertain evidence cannot support calibrated decisions.",
+      "hours": null,
+      "gate": "Reconstruct -> transfer -> break -> bound -> check -> defend",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "B",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ],
+      "source_url": "https://github.com/RCSnyder/open-frontier-curriculum/blob/main/docs/02-core/README.md",
+      "exposition_path": "docs/02-core/wave-1/05-probability.md"
+    },
+    {
+      "id": "TS-F06",
+      "branch_id": "TS",
+      "source_id": "TS-F06",
+      "title": "Statistics + causal inference",
+      "status": "live",
+      "prerequisite_text": "TS-F05; basic linear algebra",
+      "prerequisite_ids": [
+        "TS-F05"
+      ],
+      "core_concepts": [
+        "Define counterfactual causal effects and target trials; separate identification from association.",
+        "Build DAGs; identify backdoor paths, colliders, selection and measurement structures.",
+        "Connect estimands to model-based estimators; understand IPW, standardization, outcome models, propensity and IV assumptions.",
+        "Design observational analyses as explicit trial emulations; align eligibility, treatment, time zero and follow-up."
+      ],
+      "exit_capability": "Define estimands; separate prediction from intervention; identify confounding, selection and measurement bias; estimate and stress-test effects.",
+      "deletion_reason": "Without estimands, confounding and uncertainty, observational association is mistaken for intervention effects.",
+      "hours": null,
+      "gate": "Reconstruct -> transfer -> break -> bound -> check -> defend",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "B",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ],
+      "source_url": "https://github.com/RCSnyder/open-frontier-curriculum/blob/main/docs/02-core/README.md",
+      "exposition_path": "docs/02-core/wave-1/06-statistics-causal-inference.md"
+    },
+    {
+      "id": "TS-F07",
+      "branch_id": "TS",
+      "source_id": "TS-F07",
+      "title": "Scientific computing",
+      "status": "live",
+      "prerequisite_text": "TS-F02-TS-F05",
+      "prerequisite_ids": [
+        "TS-F02",
+        "TS-F05"
+      ],
+      "core_concepts": [
+        "Distinguish model error, conditioning and algorithmic error; solve linear/least-squares problems stably.",
+        "Implement Newton/secant, interpolation, finite differences and quadrature with convergence/error checks.",
+        "Integrate ODEs adaptively; connect eigen/SVD analysis to computational behavior and large systems.",
+        "Discretize continuum models and reason about stability, stiffness, convergence and boundary conditions."
+      ],
+      "exit_capability": "Know conditioning, numerical stability, approximation, iterative solution, ODE/PDE discretization and computational verification.",
+      "deletion_reason": "Without numerical error and reproducible computation, a plausible simulation cannot be independently checked.",
+      "hours": null,
+      "gate": "Reconstruct -> transfer -> break -> bound -> check -> defend",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "B",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ],
+      "source_url": "https://github.com/RCSnyder/open-frontier-curriculum/blob/main/docs/02-core/README.md",
+      "exposition_path": "docs/02-core/wave-1/07-scientific-computing.md"
+    },
+    {
+      "id": "TS-F08",
+      "branch_id": "TS",
+      "source_id": "TS-F08",
+      "title": "Optimization",
+      "status": "live",
+      "prerequisite_text": "TS-F02, TS-F03, TS-F05, TS-F07",
+      "prerequisite_ids": [
+        "TS-F02",
+        "TS-F03",
+        "TS-F05",
+        "TS-F07"
+      ],
+      "core_concepts": [
+        "Recognize convex structure; prove sets/functions convex; use epigraph and composition rules.",
+        "Formulate standard convex problems; understand Lagrangian, dual function, KKT and sensitivity.",
+        "Connect optimization to fitting, regularization, estimation and design tradeoffs.",
+        "Understand descent/Newton methods, line search, equality constraints and barrier/interior-point ideas."
+      ],
+      "exit_capability": "Formulate objectives and constraints; understand convexity, duality, KKT conditions and numerical optimization; audit objectives.",
+      "deletion_reason": "Without constraints, duality and optimality conditions, designs confuse feasible improvement with a defensible optimum.",
+      "hours": null,
+      "gate": "Reconstruct -> transfer -> break -> bound -> check -> defend",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "B",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ],
+      "source_url": "https://github.com/RCSnyder/open-frontier-curriculum/blob/main/docs/02-core/README.md",
+      "exposition_path": "docs/02-core/wave-1/08-optimization.md"
+    },
+    {
+      "id": "TS-F09",
+      "branch_id": "TS",
+      "source_id": "TS-F09",
+      "title": "Information + signals",
+      "status": "live",
+      "prerequisite_text": "TS-F03, TS-F05, TS-F07",
+      "prerequisite_ids": [
+        "TS-F03",
+        "TS-F05",
+        "TS-F07"
+      ],
+      "core_concepts": [
+        "Quantify information and uncertainty; connect Bayesian inference to coding/statistical viewpoints.",
+        "Understand compression limits, mutual information, channel capacity and coding as reliability engineering.",
+        "Move fluently between time and frequency representations; understand convolution, sampling, aliasing and filters.",
+        "Design filters under noise/bandwidth constraints; relate observability/information to sensor design."
+      ],
+      "exit_capability": "Own entropy, mutual information, channel capacity, transforms, sampling, filtering, spectral reasoning and estimation limits.",
+      "deletion_reason": "Without sampling, spectra and information limits, measurements and communication hide irreversible information loss.",
+      "hours": null,
+      "gate": "Reconstruct -> transfer -> break -> bound -> check -> defend",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "B",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ],
+      "source_url": "https://github.com/RCSnyder/open-frontier-curriculum/blob/main/docs/02-core/README.md",
+      "exposition_path": "docs/02-core/wave-1/09-information-signals.md"
+    },
+    {
+      "id": "TS-F10",
+      "branch_id": "TS",
+      "source_id": "TS-F10",
+      "title": "Control + estimation",
+      "status": "live",
+      "prerequisite_text": "TS-F03-TS-F05, TS-F07-TS-F09",
+      "prerequisite_ids": [
+        "TS-F03",
+        "TS-F05",
+        "TS-F07",
+        "TS-F09"
+      ],
+      "core_concepts": [
+        "Understand feedback/feedforward architectures, disturbance rejection, tracking and fundamental tradeoffs.",
+        "Build state-space models; analyze equilibria, linearization, modes and response.",
+        "Reason about controllability, observability and state feedback; understand unreachable/unseen modes.",
+        "Use frequency-domain reasoning for bandwidth, margins, disturbance/noise rejection and robustness.",
+        "Estimate hidden state from noisy measurements; integrate model, sensor and controller into an end-to-end loop."
+      ],
+      "exit_capability": "Design closed loops; analyze stability and robustness; infer hidden state; reason about controllability, observability and tradeoffs.",
+      "deletion_reason": "Without observability, estimation and stability, closed-loop systems can fail despite individually accurate components.",
+      "hours": null,
+      "gate": "Reconstruct -> transfer -> break -> bound -> check -> defend",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "B",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ],
+      "source_url": "https://github.com/RCSnyder/open-frontier-curriculum/blob/main/docs/02-core/README.md",
+      "exposition_path": "docs/02-core/wave-1/10-control-estimation.md"
+    },
+    {
+      "id": "TS-F11",
+      "branch_id": "TS",
+      "source_id": "TS-F11",
+      "title": "Metrology + experiments",
+      "status": "live",
+      "prerequisite_text": "TS-F05; runs in parallel from the start",
+      "prerequisite_ids": [
+        "TS-F05"
+      ],
+      "core_concepts": [
+        "Separate measurand, instrument, calibration, bias, repeatability, reproducibility and uncertainty budget.",
+        "Design experiments that identify causal factors efficiently; use blocking, randomization, factorial thinking and response surfaces.",
+        "Distinguish common/special causes, process capability, drift, reliability and validation from a one-off demo."
+      ],
+      "exit_capability": "Calibrate, quantify uncertainty, design informative experiments, distinguish process variation from measurement variation and reproduce results.",
+      "deletion_reason": "Without calibration, error budgets and experimental design, model agreement can be an instrument artifact.",
+      "hours": null,
+      "gate": "Reconstruct -> transfer -> break -> bound -> check -> defend",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "B",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ],
+      "source_url": "https://github.com/RCSnyder/open-frontier-curriculum/blob/main/docs/02-core/README.md",
+      "exposition_path": "docs/02-core/wave-1/11-metrology-experiments.md"
+    },
+    {
+      "id": "TS-F12",
+      "branch_id": "TS",
+      "source_id": "TS-F12",
+      "title": "Mechanics + electromagnetism",
+      "status": "live",
+      "prerequisite_text": "TS-F02, TS-F03, TS-F04",
+      "prerequisite_ids": [
+        "TS-F02",
+        "TS-F03",
+        "TS-F04"
+      ],
+      "core_concepts": [
+        "Build free-body models; choose inertial frames; connect constraints/friction/drag to acceleration.",
+        "Switch between force-time and energy/momentum descriptions; identify conserved quantities and dissipation.",
+        "Model rigid-body rotation, torque, inertia, angular momentum and basic orbital/gravitational motion.",
+        "Move between charge, field, potential and stored electric energy; exploit symmetry with Gauss's law.",
+        "Model current networks and magnetic forces/fields; understand induction and inductive energy storage.",
+        "Reason about impedance, resonance, power and field propagation; connect circuits to waves."
+      ],
+      "exit_capability": "Convert forces, fields and conservation laws into predictive models; move between particle, rigid-body, orbital and field descriptions.",
+      "deletion_reason": "Without conservation and electromagnetic fields, machines and circuits lose their physical constraint model.",
+      "hours": null,
+      "gate": "Reconstruct -> transfer -> break -> bound -> check -> defend",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "B",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ],
+      "source_url": "https://github.com/RCSnyder/open-frontier-curriculum/blob/main/docs/02-core/README.md",
+      "exposition_path": "docs/02-core/wave-2/01-mechanics-electromagnetism.md"
+    },
+    {
+      "id": "TS-F13",
+      "branch_id": "TS",
+      "source_id": "TS-F13",
+      "title": "Thermodynamics + statistical mechanics",
+      "status": "live",
+      "prerequisite_text": "TS-F05, TS-F02, TS-F04",
+      "prerequisite_ids": [
+        "TS-F05",
+        "TS-F02",
+        "TS-F04"
+      ],
+      "core_concepts": [
+        "Distinguish temperature, internal energy and heat; connect microscopic motion to pressure and transport scales.",
+        "Write control-volume energy balances; distinguish work modes and state vs path variables.",
+        "Understand entropy as state-count/information-compatible quantity and second-law constraint.",
+        "Use partition functions to obtain equilibrium averages and connect micro/macro descriptions.",
+        "Reason about free energies, phase stability, diffusion/viscosity/thermal conduction and heat rejection."
+      ],
+      "exit_capability": "Track energy, entropy and free energy; derive equilibrium tendencies; connect microscopic states to macroscopic limits and transport.",
+      "deletion_reason": "Without entropy, free energy and statistical ensembles, energy conversion and material behavior are misbounded.",
+      "hours": null,
+      "gate": "Reconstruct -> transfer -> break -> bound -> check -> defend",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "B",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ],
+      "source_url": "https://github.com/RCSnyder/open-frontier-curriculum/blob/main/docs/02-core/README.md",
+      "exposition_path": "docs/02-core/wave-2/02-thermodynamics-statistical-mechanics.md"
+    },
+    {
+      "id": "TS-F14",
+      "branch_id": "TS",
+      "source_id": "TS-F14",
+      "title": "Quantum + condensed matter",
+      "status": "live",
+      "prerequisite_text": "TS-F03, TS-F04, TS-F05, TS-F01",
+      "prerequisite_ids": [
+        "TS-F03",
+        "TS-F04",
+        "TS-F05",
+        "TS-F01"
+      ],
+      "core_concepts": [
+        "Use wavefunction/amplitude/probability ideas and understand why classical trajectories fail microscopically.",
+        "Solve simple bound/tunneling systems; use operators/eigenstates/uncertainty and superposition.",
+        "Connect quantized structure to atomic spectra, orbitals and selection-rule intuition.",
+        "Understand crystal lattices, free electrons, bands, Fermi surfaces, semiconductors and phonons.",
+        "Connect collective excitations and order to thermal/electronic/magnetic properties; identify what remains unexplained for frontier materials."
+      ],
+      "exit_capability": "Reason with wavefunctions/operators and connect quantum states to bands, semiconductors, phonons, magnetism and superconductivity.",
+      "deletion_reason": "Without quantum states and material electronic structure, device-scale explanations become unsupported analogies.",
+      "hours": null,
+      "gate": "Reconstruct -> transfer -> break -> bound -> check -> defend",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "B",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ],
+      "source_url": "https://github.com/RCSnyder/open-frontier-curriculum/blob/main/docs/02-core/README.md",
+      "exposition_path": "docs/02-core/wave-2/03-quantum-condensed-matter.md"
+    },
+    {
+      "id": "TS-F15",
+      "branch_id": "TS",
+      "source_id": "TS-F15",
+      "title": "Chemistry + materials",
+      "status": "live",
+      "prerequisite_text": "TS-F01-TS-F03; thermodynamics and optimization concepts",
+      "prerequisite_ids": [
+        "TS-F01",
+        "TS-F03"
+      ],
+      "core_concepts": [
+        "Predict bonding and molecular/solid structure from electronic structure and intermolecular forces.",
+        "Use crystal systems, Miller indices, XRD intuition, defects and band concepts to connect structure to properties.",
+        "Connect rate laws, activation barriers, equilibrium constants and free energy.",
+        "Model redox potentials, cells, transport and degradation; understand electrochemical energy storage.",
+        "Use phase diagrams and material indices; connect processing/defects/microstructure to performance and manufacturability."
+      ],
+      "exit_capability": "Predict bonding, reaction direction/rate, electrochemistry, diffusion, phase behavior and processing-structure-property links.",
+      "deletion_reason": "Without bonding, kinetics and processing-structure-property relations, materials choices cannot be defended.",
+      "hours": null,
+      "gate": "Reconstruct -> transfer -> break -> bound -> check -> defend",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "B",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ],
+      "source_url": "https://github.com/RCSnyder/open-frontier-curriculum/blob/main/docs/02-core/README.md",
+      "exposition_path": "docs/02-core/wave-2/04-chemistry-materials.md"
+    },
+    {
+      "id": "TS-F16",
+      "branch_id": "TS",
+      "source_id": "TS-F16",
+      "title": "Electronics + embedded systems",
+      "status": "live",
+      "prerequisite_text": "TS-F01; signals and control",
+      "prerequisite_ids": [
+        "TS-F01"
+      ],
+      "core_concepts": [
+        "Analyze passive networks and interfaces; reason about loading, time constants, energy and measurement.",
+        "Use semiconductor devices as switches/amplifiers and design basic analog signal conditioning.",
+        "Design frequency-selective networks and basic power conversion while accounting for losses and switching.",
+        "Bridge physical signals to deterministic computation and back; understand timing and concurrency at device scale.",
+        "Integrate sensing, analog front-end, computation, communications, actuation and power into one architecture."
+      ],
+      "exit_capability": "Design and instrument circuits from passive networks through semiconductor interfaces, sensing, power conversion and real-time embedded control.",
+      "deletion_reason": "Without circuits, timing and embedded constraints, sensing and actuation cannot be made reliable in hardware.",
+      "hours": null,
+      "gate": "Reconstruct -> transfer -> break -> bound -> check -> defend",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "B",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ],
+      "source_url": "https://github.com/RCSnyder/open-frontier-curriculum/blob/main/docs/02-core/README.md",
+      "exposition_path": "docs/02-core/wave-2/05-electronics-embedded-systems.md"
+    },
+    {
+      "id": "TS-F17",
+      "branch_id": "TS",
+      "source_id": "TS-F17",
+      "title": "Mechanical design + fluids + structures",
+      "status": "live",
+      "prerequisite_text": "TS-F01, TS-F04; control and optimization",
+      "prerequisite_ids": [
+        "TS-F01",
+        "TS-F04"
+      ],
+      "core_concepts": [
+        "Translate loads into stress/strain/deflection; distinguish material stiffness, geometry and safety factor.",
+        "Understand thin-walled structures, buckling intuition, load paths and mass-efficient shell/stiffener concepts.",
+        "Build control-volume fluid models; relate pressure, velocity, elevation, losses and regime.",
+        "Reason about cyclic loads, damage accumulation, joints, composites and inspectability/repair.",
+        "Integrate structures, fluids, thermal loads, mechanisms, tolerances and controls into a real assembly."
+      ],
+      "exit_capability": "Turn loads and flows into safe geometry; reason about stress, fatigue, shells, fluids, pumps, pressure systems and mass-efficient structures.",
+      "deletion_reason": "Without stress, flow, geometry and stability, mechanical designs conceal failure under real loads.",
+      "hours": null,
+      "gate": "Reconstruct -> transfer -> break -> bound -> check -> defend",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "B",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ],
+      "source_url": "https://github.com/RCSnyder/open-frontier-curriculum/blob/main/docs/02-core/README.md",
+      "exposition_path": "docs/02-core/wave-2/06-mechanical-design-fluids-structures.md"
+    },
+    {
+      "id": "TS-F18",
+      "branch_id": "TS",
+      "source_id": "TS-F18",
+      "title": "Molecular + cell biology",
+      "status": "live",
+      "prerequisite_text": "TS-F02, TS-F04; dynamics and probability",
+      "prerequisite_ids": [
+        "TS-F02",
+        "TS-F04"
+      ],
+      "core_concepts": [
+        "Understand compartments, membranes, transport, electrochemical gradients and organelle functions.",
+        "Track biological energy, redox carriers, ATP and metabolic pathways as controlled reaction networks.",
+        "Understand receptors, signaling cascades, feedback, proliferation checkpoints and cell-state transitions.",
+        "Understand information storage, replication fidelity, transcription, translation and mutation sources.",
+        "Understand gene regulation, PCR/sequencing/editing concepts, biotechnology workflows and measurement limitations."
+      ],
+      "exit_capability": "Model cells as chemical, energetic, informational and mechanical systems; understand membranes, metabolism, signaling, division and gene expression.",
+      "deletion_reason": "Without cellular mechanisms and regulation, biological interventions lack a causal substrate.",
+      "hours": null,
+      "gate": "Reconstruct -> transfer -> break -> bound -> check -> defend",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "B",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ],
+      "source_url": "https://github.com/RCSnyder/open-frontier-curriculum/blob/main/docs/02-core/README.md",
+      "exposition_path": "docs/02-core/wave-2/07-molecular-cell-biology.md"
+    },
+    {
+      "id": "TS-F19",
+      "branch_id": "TS",
+      "source_id": "TS-F19",
+      "title": "Genetics + evolution + systems biology",
+      "status": "live",
+      "prerequisite_text": "TS-F07; dynamics, probability and causal inference",
+      "prerequisite_ids": [
+        "TS-F07"
+      ],
+      "core_concepts": [
+        "Reason about segregation, recombination, linkage, genotype-phenotype uncertainty and allele-frequency dynamics.",
+        "Model gene circuits with Hill/Michaelis-like functions, feedback and network motifs.",
+        "Model stochastic gene expression and evolutionary adaptation under finite populations.",
+        "Analyze eco-evolutionary feedback, games, predator-prey/interactions, resilience and critical transitions."
+      ],
+      "exit_capability": "Reason about inheritance, variation, population change, gene circuits, network motifs, stochastic expression and evolutionary robustness.",
+      "deletion_reason": "Without inheritance, selection and system interaction, biological predictions ignore adaptation and population variation.",
+      "hours": null,
+      "gate": "Reconstruct -> transfer -> break -> bound -> check -> defend",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "B",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ],
+      "source_url": "https://github.com/RCSnyder/open-frontier-curriculum/blob/main/docs/02-core/README.md",
+      "exposition_path": "docs/02-core/wave-2/08-genetics-evolution-systems-biology.md"
+    },
+    {
+      "id": "TS-F20",
+      "branch_id": "TS",
+      "source_id": "TS-F20",
+      "title": "Neuroscience + physiology",
+      "status": "live",
+      "prerequisite_text": "TS-F05, TS-F07; signals, control and probability",
+      "prerequisite_ids": [
+        "TS-F05",
+        "TS-F07"
+      ],
+      "core_concepts": [
+        "Model membrane potentials, spikes, integrate-and-fire behavior and neural coding fundamentals.",
+        "Decode hidden variables from neural activity and understand population representations/adaptation.",
+        "Understand multi-loop physiological homeostasis: endocrine signaling, circulation, gas exchange and autonomic regulation.",
+        "Understand filtration, osmoregulation, electrolyte and acid-base homeostasis as controlled transport systems."
+      ],
+      "exit_capability": "Connect electrophysiology and neural coding to whole-body homeostasis and cardiovascular, respiratory, endocrine and renal control.",
+      "deletion_reason": "Without neural and physiological mechanisms, human-interface and health claims lose their biological bounds.",
+      "hours": null,
+      "gate": "Reconstruct -> transfer -> break -> bound -> check -> defend",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "B",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ],
+      "source_url": "https://github.com/RCSnyder/open-frontier-curriculum/blob/main/docs/02-core/README.md",
+      "exposition_path": "docs/02-core/wave-2/09-neuroscience-physiology.md"
+    },
+    {
+      "id": "TS-F21",
+      "branch_id": "TS",
+      "source_id": "TS-F21",
+      "title": "Manufacturing + operations",
+      "status": "live",
+      "prerequisite_text": "TS-F04-TS-F06; optimization and metrology",
+      "prerequisite_ids": [
+        "TS-F04",
+        "TS-F06"
+      ],
+      "core_concepts": [
+        "Choose manufacturing processes from geometry/material/rate/quality/cost constraints.",
+        "Translate metrology into yield/capability/process control and diagnose variation sources.",
+        "Reason about capacity, bottlenecks, WIP, cycle time, utilization, flow and production economics.",
+        "Integrate process physics, quality, maintenance, supply chain, learning curve and capital deployment."
+      ],
+      "exit_capability": "Translate prototypes into processes with rate, yield, variation, quality, cost, maintenance, supply chain and learning curves.",
+      "deletion_reason": "Without yield, variation, throughput and quality control, a laboratory success is mistaken for scalable production.",
+      "hours": null,
+      "gate": "Reconstruct -> transfer -> break -> bound -> check -> defend",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "B",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ],
+      "source_url": "https://github.com/RCSnyder/open-frontier-curriculum/blob/main/docs/02-core/README.md",
+      "exposition_path": "docs/02-core/wave-2/10-manufacturing-operations.md"
+    },
+    {
+      "id": "TS-F22",
+      "branch_id": "TS",
+      "source_id": "TS-F22",
+      "title": "Safety + reliability + security",
+      "status": "live",
+      "prerequisite_text": "All prior technical modules",
+      "prerequisite_ids": [],
+      "core_concepts": [
+        "Model accidents as unsafe control and interaction failures, not only broken components.",
+        "Quantify reliability while knowing when independence/component models are inadequate.",
+        "Threat-model systems across technical, physical, human and economic attack surfaces.",
+        "Build an evidence-backed safety/reliability/security case with requirements, hazards, threats, tests and operational monitoring."
+      ],
+      "exit_capability": "Design systems that remain safe and dependable under component failure, software defects, organizational drift, misuse and adversaries.",
+      "deletion_reason": "Without hazard analysis, reliability and security, component performance can conceal unacceptable system risk.",
+      "hours": null,
+      "gate": "Reconstruct -> transfer -> break -> bound -> check -> defend",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "B",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ],
+      "source_url": "https://github.com/RCSnyder/open-frontier-curriculum/blob/main/docs/02-core/README.md",
+      "exposition_path": "docs/02-core/wave-2/11-safety-reliability-security.md"
+    },
+    {
+      "id": "EX-M01",
+      "branch_id": "EX",
+      "source_id": "M01",
+      "title": "Grammar & Sentence Architecture",
+      "status": "candidate-strong",
+      "prerequisite_text": "None",
+      "prerequisite_ids": [],
+      "core_concepts": [
+        "clause",
+        "phrase",
+        "subject/predicate",
+        "coordination/subordination",
+        "modification",
+        "agreement",
+        "tense/aspect",
+        "punctuation",
+        "parallelism",
+        "marked word order"
+      ],
+      "exit_capability": "Build, parse, combine, split, and deliberately vary English sentences while preserving exact logical relations.",
+      "deletion_reason": "If missing, every higher expressive task becomes unreliable: ambiguity, rhythm, emphasis, and argument can fail at sentence level.",
+      "hours": 12,
+      "gate": "Parse + reconstruct + sentence transformation + defense",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "B",
+        "C",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "EX-M02",
+      "branch_id": "EX",
+      "source_id": "M02",
+      "title": "Diction, Semantics, Idiom & Lexical Precision",
+      "status": "candidate-strong",
+      "prerequisite_text": "M01",
+      "prerequisite_ids": [
+        "EX-M01"
+      ],
+      "core_concepts": [
+        "denotation",
+        "connotation",
+        "polysemy",
+        "register",
+        "collocation",
+        "idiom",
+        "metaphorical extension",
+        "synonym contrast",
+        "etymology as clue not proof"
+      ],
+      "exit_capability": "Choose words for exact meaning, implication, register, rhythm, and social effect; diagnose near-synonym differences.",
+      "deletion_reason": "If missing, the writer can form grammatical sentences but cannot reliably say exactly the thing intended.",
+      "hours": 10,
+      "gate": "Definition contrasts + lexical substitution + boundary cases",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "B",
+        "C",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "EX-M03",
+      "branch_id": "EX",
+      "source_id": "M03",
+      "title": "Cohesion, Paragraphs & Information Flow",
+      "status": "candidate-strong",
+      "prerequisite_text": "M01-M02",
+      "prerequisite_ids": [
+        "EX-M01",
+        "EX-M02"
+      ],
+      "core_concepts": [
+        "topic/focus",
+        "old-to-new information",
+        "given/new",
+        "reference",
+        "transition",
+        "paragraph unity",
+        "progression",
+        "emphasis",
+        "periodic/cumulative movement"
+      ],
+      "exit_capability": "Control what the reader knows, expects, and notices from sentence to sentence and paragraph to paragraph.",
+      "deletion_reason": "If missing, locally good sentences fail to become intelligible sustained thought.",
+      "hours": 10,
+      "gate": "Reorder/revise passage + unseen exposition problem",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "B",
+        "C",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "EX-M04",
+      "branch_id": "EX",
+      "source_id": "M04",
+      "title": "Rhetoric, Argument, Audience & Occasion",
+      "status": "candidate-strong",
+      "prerequisite_text": "M01-M03",
+      "prerequisite_ids": [
+        "EX-M01",
+        "EX-M02",
+        "EX-M03"
+      ],
+      "core_concepts": [
+        "claim",
+        "reason",
+        "evidence",
+        "warrant",
+        "counterargument",
+        "concession",
+        "audience",
+        "purpose",
+        "exigence",
+        "ethos/pathos/logos",
+        "framing",
+        "arrangement"
+      ],
+      "exit_capability": "Make a precise case for a skeptical audience, adapt it to occasion, and distinguish persuasion from proof.",
+      "deletion_reason": "If missing, expression cannot reliably change minds, defend propositions, or survive disagreement.",
+      "hours": 12,
+      "gate": "Argument map + counterargument + audience transformation + oral defense",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "B",
+        "C",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "EX-M05",
+      "branch_id": "EX",
+      "source_id": "M05",
+      "title": "Image, Figurative Language & Analogy",
+      "status": "candidate-strong",
+      "prerequisite_text": "M01-M04",
+      "prerequisite_ids": [
+        "EX-M01",
+        "EX-M02",
+        "EX-M03",
+        "EX-M04"
+      ],
+      "core_concepts": [
+        "image",
+        "concrete detail",
+        "metaphor",
+        "simile",
+        "metonymy",
+        "synecdoche",
+        "personification",
+        "symbol",
+        "analogy",
+        "conceit",
+        "literal/figurative interaction"
+      ],
+      "exit_capability": "Render perception, emotion, abstraction, and relation through concrete language and controlled figurative structures.",
+      "deletion_reason": "If missing, English remains propositionally usable but loses compression, vividness, discovery, and many forms of emotional precision.",
+      "hours": 10,
+      "gate": "Concrete rendering + figure generation + failed-analogy diagnosis",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "B",
+        "C",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "EX-M06",
+      "branch_id": "EX",
+      "source_id": "M06",
+      "title": "Voice, Tone, Register & Persona",
+      "status": "candidate-strong",
+      "prerequisite_text": "M01-M05",
+      "prerequisite_ids": [
+        "EX-M01",
+        "EX-M02",
+        "EX-M03",
+        "EX-M04",
+        "EX-M05"
+      ],
+      "core_concepts": [
+        "speaker",
+        "implied author",
+        "persona",
+        "tone",
+        "stance",
+        "distance",
+        "formality",
+        "dialect",
+        "sociolect",
+        "code-switching",
+        "irony",
+        "reliability"
+      ],
+      "exit_capability": "Produce recognizably different voices and registers without changing underlying facts; infer stance from linguistic evidence.",
+      "deletion_reason": "If missing, the writer cannot control social meaning, attitude, intimacy, authority, irony, or identity through language.",
+      "hours": 12,
+      "gate": "Same-content multi-register composition + tone defense",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "B",
+        "C",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "EX-M07",
+      "branch_id": "EX",
+      "source_id": "M07",
+      "title": "Narrative: Point of View, Time, Scene & Summary",
+      "status": "candidate-strong",
+      "prerequisite_text": "M01-M06",
+      "prerequisite_ids": [
+        "EX-M01",
+        "EX-M02",
+        "EX-M03",
+        "EX-M04",
+        "EX-M05",
+        "EX-M06"
+      ],
+      "core_concepts": [
+        "event",
+        "story/discourse",
+        "narrator",
+        "focalization",
+        "first/third person",
+        "free indirect discourse",
+        "scene",
+        "summary",
+        "duration",
+        "order",
+        "omission",
+        "revelation"
+      ],
+      "exit_capability": "Narrate the same events under different viewpoints, time structures, and information constraints while controlling reader inference.",
+      "deletion_reason": "If missing, experience cannot be shaped into intelligible stories or causal sequences.",
+      "hours": 12,
+      "gate": "Retell event under changed POV/time + narrative diagnosis",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "B",
+        "C",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "EX-M08",
+      "branch_id": "EX",
+      "source_id": "M08",
+      "title": "Dialogue, Drama & Subtext",
+      "status": "candidate-strong",
+      "prerequisite_text": "M01-M07",
+      "prerequisite_ids": [
+        "EX-M01",
+        "EX-M02",
+        "EX-M03",
+        "EX-M04",
+        "EX-M05",
+        "EX-M06",
+        "EX-M07"
+      ],
+      "core_concepts": [
+        "speech act",
+        "turn-taking",
+        "subtext",
+        "dramatic objective",
+        "conflict",
+        "interruption",
+        "silence",
+        "monologue",
+        "soliloquy",
+        "scene beat",
+        "stage information"
+      ],
+      "exit_capability": "Write speech that simultaneously performs action, reveals character, withholds information, and advances conflict.",
+      "deletion_reason": "If missing, represented conversation becomes exposition with quotation marks rather than social action.",
+      "hours": 10,
+      "gate": "Subtext scene + speech-act analysis + performance defense",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "B",
+        "C",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "EX-M09",
+      "branch_id": "EX",
+      "source_id": "M09",
+      "title": "Poetry: Rhythm, Meter, Line & Sound",
+      "status": "candidate-strong",
+      "prerequisite_text": "M01-M06",
+      "prerequisite_ids": [
+        "EX-M01",
+        "EX-M02",
+        "EX-M03",
+        "EX-M04",
+        "EX-M05",
+        "EX-M06"
+      ],
+      "core_concepts": [
+        "stress",
+        "rhythm",
+        "foot",
+        "meter",
+        "iamb",
+        "cadence",
+        "rhyme",
+        "alliteration",
+        "assonance",
+        "consonance",
+        "line",
+        "enjambment",
+        "caesura",
+        "stanza",
+        "free verse"
+      ],
+      "exit_capability": "Hear, scan, and deliberately organize sound and line so form contributes to meaning rather than decorating it.",
+      "deletion_reason": "If missing, a major expressive dimension of English—timing, recurrence, sonic expectation, and lineation—remains uncontrolled.",
+      "hours": 14,
+      "gate": "Scansion + line-break transformation + compose under form constraint",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "B",
+        "C",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "EX-M10",
+      "branch_id": "EX",
+      "source_id": "M10",
+      "title": "Essay, Exposition, Definition & Criticism",
+      "status": "candidate-strong",
+      "prerequisite_text": "M01-M09",
+      "prerequisite_ids": [
+        "EX-M01",
+        "EX-M02",
+        "EX-M03",
+        "EX-M04",
+        "EX-M05",
+        "EX-M06",
+        "EX-M07",
+        "EX-M08",
+        "EX-M09"
+      ],
+      "core_concepts": [
+        "question",
+        "thesis",
+        "definition",
+        "distinction",
+        "example",
+        "classification",
+        "causal explanation",
+        "comparison",
+        "close analysis",
+        "synthesis",
+        "qualification"
+      ],
+      "exit_capability": "Explain difficult ideas clearly, define contested terms, compare models, and write interpretive criticism supported by textual evidence.",
+      "deletion_reason": "If missing, the learner can create effects but cannot reliably expose reasoning and interpretation to inspection.",
+      "hours": 12,
+      "gate": "Analytical essay + definition test + evidence defense",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "B",
+        "C",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "EX-M11",
+      "branch_id": "EX",
+      "source_id": "M11",
+      "title": "Close Reading, Form, Genre & Literary Tradition",
+      "status": "candidate-strong",
+      "prerequisite_text": "M01-M10",
+      "prerequisite_ids": [
+        "EX-M01",
+        "EX-M02",
+        "EX-M03",
+        "EX-M04",
+        "EX-M05",
+        "EX-M06",
+        "EX-M07",
+        "EX-M08",
+        "EX-M09",
+        "EX-M10"
+      ],
+      "core_concepts": [
+        "form/content",
+        "genre",
+        "convention",
+        "motif",
+        "ambiguity",
+        "irony",
+        "allusion",
+        "intertextuality",
+        "historical language change",
+        "context",
+        "multiple interpretation"
+      ],
+      "exit_capability": "Read unfamiliar literary language closely, identify formal choices, situate them historically, and defend interpretations without pretending ambiguity is arbitrary.",
+      "deletion_reason": "If missing, literature becomes either plot-summary or taste; the learner cannot reverse-engineer expressive possibility from masterworks.",
+      "hours": 14,
+      "gate": "Unseen close reading + competing interpretation + historical boundary",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "B",
+        "C",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "EX-M12",
+      "branch_id": "EX",
+      "source_id": "M12",
+      "title": "Imitation, Transformation & Register Translation",
+      "status": "candidate-strong",
+      "prerequisite_text": "M01-M11",
+      "prerequisite_ids": [
+        "EX-M01",
+        "EX-M02",
+        "EX-M03",
+        "EX-M04",
+        "EX-M05",
+        "EX-M06",
+        "EX-M07",
+        "EX-M08",
+        "EX-M09",
+        "EX-M10",
+        "EX-M11"
+      ],
+      "core_concepts": [
+        "imitation",
+        "pastiche",
+        "paraphrase",
+        "compression",
+        "expansion",
+        "recasting",
+        "genre shift",
+        "register shift",
+        "constraint",
+        "invariant meaning",
+        "stylistic feature"
+      ],
+      "exit_capability": "Preserve a chosen semantic core while radically altering voice, form, length, audience, or genre; imitate mechanisms without copying wording.",
+      "deletion_reason": "If missing, stylistic knowledge remains recognizable but not generative.",
+      "hours": 12,
+      "gate": "Five-way transformation + style-feature defense",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "B",
+        "C",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "EX-M13",
+      "branch_id": "EX",
+      "source_id": "M13",
+      "title": "Oral English, Cadence, Speech & Performance",
+      "status": "candidate-strong",
+      "prerequisite_text": "M01-M12",
+      "prerequisite_ids": [
+        "EX-M01",
+        "EX-M02",
+        "EX-M03",
+        "EX-M04",
+        "EX-M05",
+        "EX-M06",
+        "EX-M07",
+        "EX-M08",
+        "EX-M09",
+        "EX-M10",
+        "EX-M11",
+        "EX-M12"
+      ],
+      "core_concepts": [
+        "breath group",
+        "stress",
+        "pause",
+        "cadence",
+        "emphasis",
+        "pace",
+        "pitch contour",
+        "rhetorical period",
+        "spoken register",
+        "memorization",
+        "delivery",
+        "audience feedback"
+      ],
+      "exit_capability": "Turn written English into intelligible, persuasive, memorable speech and compose with the ear as well as the eye.",
+      "deletion_reason": "If missing, expressive control is confined to silent prose and misses spoken timing, emphasis, and embodied rhetoric.",
+      "hours": 10,
+      "gate": "Read-aloud revision + extemporaneous speech + oral defense",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "B",
+        "C",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "EX-M14",
+      "branch_id": "EX",
+      "source_id": "M14",
+      "title": "Integrated Expressive Command & Editorial Judgment",
+      "status": "candidate-strong",
+      "prerequisite_text": "M01-M13",
+      "prerequisite_ids": [
+        "EX-M01",
+        "EX-M02",
+        "EX-M03",
+        "EX-M04",
+        "EX-M05",
+        "EX-M06",
+        "EX-M07",
+        "EX-M08",
+        "EX-M09",
+        "EX-M10",
+        "EX-M11",
+        "EX-M12",
+        "EX-M13"
+      ],
+      "core_concepts": [
+        "intention",
+        "audience",
+        "medium",
+        "form",
+        "structure",
+        "syntax",
+        "diction",
+        "image",
+        "voice",
+        "evidence",
+        "rhythm",
+        "revision",
+        "deletion",
+        "amplification",
+        "ethical representation"
+      ],
+      "exit_capability": "Express the same difficult content as explanation, argument, narrative, dialogue, lyric, speech, and concise summary; edit each toward exact intended effect.",
+      "deletion_reason": "This is the target itself: integration proves the components are available on demand rather than stored as separate coursework.",
+      "hours": 18,
+      "gate": "Capstone portfolio + unseen transformation exam + final defense",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "B",
+        "C",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "HW01",
+      "branch_id": "HW",
+      "source_id": "HW01",
+      "title": "Social Evidence, Interpretation & Comparative Method",
+      "status": "candidate-v2",
+      "prerequisite_text": "None",
+      "prerequisite_ids": [],
+      "core_concepts": [
+        "claim ledger",
+        "source criticism",
+        "construct validity",
+        "case comparison",
+        "process tracing",
+        "qualitative/quantitative triangulation"
+      ],
+      "exit_capability": "Separate observation, inference, model, interpretation, and normative claim; build competing causal stories and identify discriminating evidence.",
+      "deletion_reason": "Without this, every later social claim can become anecdote, ideological assertion, or false precision.",
+      "hours": "12",
+      "gate": "Unseen mixed-source case + rival explanation + defense",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "A",
+        "B",
+        "F",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "HW02",
+      "branch_id": "HW",
+      "source_id": "HW02",
+      "title": "Interaction, Identity, Norms & Influence",
+      "status": "candidate-v2",
+      "prerequisite_text": "HW01",
+      "prerequisite_ids": [
+        "HW01"
+      ],
+      "core_concepts": [
+        "roles",
+        "framing",
+        "norms",
+        "status",
+        "identity",
+        "socialization",
+        "persuasion",
+        "conformity",
+        "face",
+        "repair"
+      ],
+      "exit_capability": "Diagnose interpersonal and small-group behavior without reducing it to personality, manipulation, or stated motives.",
+      "deletion_reason": "Social systems are enacted through interaction; deleting this removes norm, identity, framing, and micro-foundations.",
+      "hours": "10",
+      "gate": "Interaction diagnosis + influence boundary + observation design",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "A",
+        "B",
+        "F",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "HW03",
+      "branch_id": "HW",
+      "source_id": "HW03",
+      "title": "Strategic Interaction, Bargaining & Cooperation",
+      "status": "candidate-v2",
+      "prerequisite_text": "HW01-HW02",
+      "prerequisite_ids": [
+        "HW01",
+        "HW02"
+      ],
+      "core_concepts": [
+        "games",
+        "incentives",
+        "information",
+        "signaling",
+        "commitment",
+        "bargaining",
+        "repeated interaction",
+        "trust",
+        "reciprocity"
+      ],
+      "exit_capability": "Formalize strategic situations, predict changed incentives/information, and state where the model fails.",
+      "deletion_reason": "Without it, preferences and outcomes are conflated and conflict/cooperation remain descriptive.",
+      "hours": "14",
+      "gate": "Formalization + perturbation + adversarial defense",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "A",
+        "B",
+        "F",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "HW04",
+      "branch_id": "HW",
+      "source_id": "HW04",
+      "title": "Networks, Diffusion, Brokerage & Segregation",
+      "status": "candidate-v2",
+      "prerequisite_text": "HW01-HW03",
+      "prerequisite_ids": [
+        "HW01",
+        "HW02",
+        "HW03"
+      ],
+      "core_concepts": [
+        "ties",
+        "centrality",
+        "brokerage",
+        "homophily",
+        "clustering",
+        "diffusion",
+        "contagion",
+        "threshold",
+        "segregation"
+      ],
+      "exit_capability": "Map relational structure and explain how position changes information, opportunity, diffusion, and collective outcomes.",
+      "deletion_reason": "Without it, outcomes are over-attributed to individual traits or formal institutions.",
+      "hours": "10",
+      "gate": "Network map + diffusion prediction + causal critique",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "A",
+        "B",
+        "F",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "HW05",
+      "branch_id": "HW",
+      "source_id": "HW05",
+      "title": "Collective Action, Public Goods, Commons & Public Choice",
+      "status": "candidate-v2",
+      "prerequisite_text": "HW03-HW04",
+      "prerequisite_ids": [
+        "HW03",
+        "HW04"
+      ],
+      "core_concepts": [
+        "public goods",
+        "common-pool resources",
+        "free riding",
+        "clubs",
+        "selective incentives",
+        "monitoring",
+        "sanctions",
+        "collective choice"
+      ],
+      "exit_capability": "Diagnose coordination failures and compare governance arrangements with explicit assumptions and gaming risks.",
+      "deletion_reason": "Shared interest does not imply coordinated action; this mechanism recurs from teams to climate governance.",
+      "hours": "12",
+      "gate": "Commons/public-good design + failure mode + defense",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "A",
+        "B",
+        "F",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "HW06",
+      "branch_id": "HW",
+      "source_id": "HW06",
+      "title": "Organizations, Bureaucracy, Professions & Delegation",
+      "status": "candidate-v2",
+      "prerequisite_text": "HW02-HW05",
+      "prerequisite_ids": [
+        "HW02",
+        "HW03",
+        "HW04",
+        "HW05"
+      ],
+      "core_concepts": [
+        "division of labor",
+        "hierarchy",
+        "delegation",
+        "principal-agent",
+        "discretion",
+        "expertise",
+        "professions",
+        "routines",
+        "metrics"
+      ],
+      "exit_capability": "Trace decision and information chains inside organizations and redesign oversight without destroying useful discretion.",
+      "deletion_reason": "Organizations are not unitary actors; deleting this hides agency loss, expertise, routines, and metric gaming.",
+      "hours": "12",
+      "gate": "Delegation map + metric audit + redesign",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "A",
+        "B",
+        "F",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "HW07",
+      "branch_id": "HW",
+      "source_id": "HW07",
+      "title": "Power, Authority, Legitimacy & Resistance",
+      "status": "candidate-v2",
+      "prerequisite_text": "HW01-HW06",
+      "prerequisite_ids": [
+        "HW01",
+        "HW02",
+        "HW03",
+        "HW04",
+        "HW05",
+        "HW06"
+      ],
+      "core_concepts": [
+        "coercion",
+        "dependence",
+        "agenda control",
+        "preference shaping",
+        "authority",
+        "legitimacy",
+        "domination",
+        "exit",
+        "voice",
+        "resistance"
+      ],
+      "exit_capability": "Distinguish forms of power and explain why rules are obeyed, contested, evaded, or transformed.",
+      "deletion_reason": "Without this, analysis either calls everything power or misses power whenever no direct command is visible.",
+      "hours": "12",
+      "gate": "Competing power models + boundary case + defense",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "A",
+        "B",
+        "F",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "HW08",
+      "branch_id": "HW",
+      "source_id": "HW08",
+      "title": "Markets, Prices, Firms & Property",
+      "status": "candidate-v2",
+      "prerequisite_text": "HW01,HW03,HW05",
+      "prerequisite_ids": [
+        "HW01",
+        "HW03",
+        "HW05"
+      ],
+      "core_concepts": [
+        "supply/demand",
+        "price signals",
+        "elasticity",
+        "competition",
+        "market power",
+        "externalities",
+        "transaction costs",
+        "firms",
+        "contracts",
+        "property"
+      ],
+      "exit_capability": "Explain when decentralized exchange coordinates well, where it fails, and why firms/rules/property structures arise.",
+      "deletion_reason": "Economic coordination is a major civilization mechanism not reducible to generic game theory or politics.",
+      "hours": "14",
+      "gate": "Market diagnosis + incidence + institutional alternative",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "A",
+        "B",
+        "F",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "HW09",
+      "branch_id": "HW",
+      "source_id": "HW09",
+      "title": "Money, Credit, Finance & Macroeconomic Coordination",
+      "status": "candidate-v2",
+      "prerequisite_text": "HW08 + technical probability/statistics",
+      "prerequisite_ids": [
+        "HW08"
+      ],
+      "core_concepts": [
+        "money",
+        "credit",
+        "banking",
+        "interest",
+        "leverage",
+        "liquidity",
+        "risk",
+        "insurance",
+        "inflation",
+        "unemployment",
+        "monetary/fiscal institutions"
+      ],
+      "exit_capability": "Trace balance-sheet and incentive channels from households/firms to financial and macro outcomes; analyze crisis mechanisms.",
+      "deletion_reason": "Without it, modern institutions, investment, crises, and macro policy remain opaque despite market knowledge.",
+      "hours": "16",
+      "gate": "Balance-sheet trace + crisis mechanism + policy tradeoff",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "A",
+        "B",
+        "F",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "HW10",
+      "branch_id": "HW",
+      "source_id": "HW10",
+      "title": "States, Law, Constitutions & Public Administration",
+      "status": "candidate-v2",
+      "prerequisite_text": "HW06-HW08",
+      "prerequisite_ids": [
+        "HW06",
+        "HW07",
+        "HW08"
+      ],
+      "core_concepts": [
+        "state capacity",
+        "coercion",
+        "rule of law",
+        "legal pluralism",
+        "rights",
+        "constitutions",
+        "federalism",
+        "regulation",
+        "administration",
+        "courts"
+      ],
+      "exit_capability": "Trace who may make, interpret, implement, challenge, and enforce rules across multiple institutional forms.",
+      "deletion_reason": "A U.S.-only constitutional map is not a theory of states or law; this node globalizes the institutional substrate.",
+      "hours": "14",
+      "gate": "Rule/authority trace across two political systems",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "A",
+        "B",
+        "F",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "HW11",
+      "branch_id": "HW",
+      "source_id": "HW11",
+      "title": "Regimes, Representation, Parties, Media & Political Competition",
+      "status": "candidate-v2",
+      "prerequisite_text": "HW04,HW07,HW10",
+      "prerequisite_ids": [
+        "HW04",
+        "HW07",
+        "HW10"
+      ],
+      "core_concepts": [
+        "democracy/autocracy",
+        "representation",
+        "voting",
+        "parties",
+        "coalitions",
+        "interest groups",
+        "media",
+        "public opinion",
+        "agenda setting"
+      ],
+      "exit_capability": "Explain how preferences are organized and converted into power under different regime and electoral structures.",
+      "deletion_reason": "Politics cannot be inferred from constitutional text alone; intermediation and regime incentives are load-bearing.",
+      "hours": "14",
+      "gate": "Preference-to-power trace + cross-regime comparison",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "A",
+        "B",
+        "F",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "HW12",
+      "branch_id": "HW",
+      "source_id": "HW12",
+      "title": "Stratification, Inequality & Social Reproduction",
+      "status": "candidate-v2",
+      "prerequisite_text": "HW02,HW04,HW07-HW11",
+      "prerequisite_ids": [
+        "HW07",
+        "HW08",
+        "HW09",
+        "HW10",
+        "HW11",
+        "HW02",
+        "HW04"
+      ],
+      "core_concepts": [
+        "wealth",
+        "income",
+        "class",
+        "status",
+        "race",
+        "caste",
+        "ethnicity",
+        "gender",
+        "disability",
+        "mobility",
+        "reproduction",
+        "spatial inequality"
+      ],
+      "exit_capability": "Separate distribution, causal mechanisms, and normative judgments; explain persistence and change in advantage.",
+      "deletion_reason": "Averages conceal incidence; durable hierarchy is a recurrent social mechanism with distinct pathways.",
+      "hours": "12",
+      "gate": "Distribution ledger + reproduction mechanism + counterexample",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "A",
+        "B",
+        "F",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "HW13",
+      "branch_id": "HW",
+      "source_id": "HW13",
+      "title": "Family, Kinship, Demography, Migration & Cities",
+      "status": "candidate-v2",
+      "prerequisite_text": "HW01,HW04,HW08,HW10,HW12",
+      "prerequisite_ids": [
+        "HW01",
+        "HW04",
+        "HW08",
+        "HW10",
+        "HW12"
+      ],
+      "core_concepts": [
+        "household",
+        "kinship",
+        "fertility",
+        "mortality",
+        "age structure",
+        "migration",
+        "diaspora",
+        "urbanization",
+        "housing",
+        "neighborhood effects"
+      ],
+      "exit_capability": "Reason from demographic and household structure to labor, welfare, politics, urban systems, and intergenerational change.",
+      "deletion_reason": "Population and family structures drive institutions over decades and are not derivable from politics or markets alone.",
+      "hours": "12",
+      "gate": "Demographic transition / migration / city case",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "A",
+        "B",
+        "F",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "HW14",
+      "branch_id": "HW",
+      "source_id": "HW14",
+      "title": "Culture, Religion, Ideology, Nationalism & Collective Meaning",
+      "status": "candidate-v2",
+      "prerequisite_text": "HW01-HW02,HW04,HW07,HW12",
+      "prerequisite_ids": [
+        "HW01",
+        "HW02",
+        "HW04",
+        "HW07",
+        "HW12"
+      ],
+      "core_concepts": [
+        "norms",
+        "symbols",
+        "ritual",
+        "religion",
+        "ideology",
+        "language",
+        "ethnicity",
+        "nationalism",
+        "collective memory",
+        "boundary making"
+      ],
+      "exit_capability": "Explain how shared meanings organize identity, legitimacy, coordination, conflict, and institutional persistence.",
+      "deletion_reason": "Material incentives do not exhaust human action; deleting meaning systems creates systematic explanatory blind spots.",
+      "hours": "12",
+      "gate": "Meaning-system reconstruction + rival material account",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "A",
+        "B",
+        "F",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "HW15",
+      "branch_id": "HW",
+      "source_id": "HW15",
+      "title": "Development, Growth, Industrialization & State Capacity",
+      "status": "candidate-v2",
+      "prerequisite_text": "HW08-HW14",
+      "prerequisite_ids": [
+        "HW08",
+        "HW09",
+        "HW10",
+        "HW11",
+        "HW12",
+        "HW13",
+        "HW14"
+      ],
+      "core_concepts": [
+        "productivity",
+        "structural transformation",
+        "industrialization",
+        "institutions",
+        "human capital",
+        "infrastructure",
+        "welfare",
+        "poverty",
+        "state capacity"
+      ],
+      "exit_capability": "Compare mechanisms of long-run development and explain why similar policies diverge across institutional contexts.",
+      "deletion_reason": "Frontier technology lives inside development trajectories; growth and state capacity are not just firm-level economics.",
+      "hours": "16",
+      "gate": "Comparative development case + mechanism discrimination",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "A",
+        "B",
+        "F",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "HW16",
+      "branch_id": "HW",
+      "source_id": "HW16",
+      "title": "Trade, Global Production, International Institutions & World Economy",
+      "status": "candidate-v2",
+      "prerequisite_text": "HW08-HW10,HW15",
+      "prerequisite_ids": [
+        "HW08",
+        "HW09",
+        "HW10",
+        "HW15"
+      ],
+      "core_concepts": [
+        "comparative advantage",
+        "trade",
+        "capital flows",
+        "exchange",
+        "global value chains",
+        "sanctions",
+        "international institutions",
+        "dependency"
+      ],
+      "exit_capability": "Trace gains, losses, bargaining power, and institutional constraints across borders and production networks.",
+      "deletion_reason": "Modern civilization is transnational; national-only models fail on supply chains, trade, finance, and governance.",
+      "hours": "14",
+      "gate": "Supply-chain / trade shock + distribution + policy options",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "A",
+        "B",
+        "F",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "HW17",
+      "branch_id": "HW",
+      "source_id": "HW17",
+      "title": "Conflict, War, Empire, Diplomacy & International Order",
+      "status": "candidate-v2",
+      "prerequisite_text": "HW03,HW07,HW10,HW14,HW16",
+      "prerequisite_ids": [
+        "HW03",
+        "HW07",
+        "HW10",
+        "HW14",
+        "HW16"
+      ],
+      "core_concepts": [
+        "security dilemma",
+        "deterrence",
+        "alliances",
+        "war",
+        "civil conflict",
+        "empire",
+        "colonialism",
+        "diplomacy",
+        "sovereignty",
+        "international order"
+      ],
+      "exit_capability": "Model conflict and bargaining under coercion, uncertainty, identity, and institutional constraints.",
+      "deletion_reason": "Large-scale coercion and geopolitical order cannot be safely treated as a special case of domestic politics.",
+      "hours": "14",
+      "gate": "Crisis bargaining + escalation ladder + historical comparison",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "A",
+        "B",
+        "F",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "HW18",
+      "branch_id": "HW",
+      "source_id": "HW18",
+      "title": "Historical Change, Path Dependence, Social Movements & Institutional Evolution",
+      "status": "candidate-v2",
+      "prerequisite_text": "HW01 + HW06-HW17",
+      "prerequisite_ids": [
+        "HW06",
+        "HW07",
+        "HW08",
+        "HW09",
+        "HW10",
+        "HW11",
+        "HW12",
+        "HW13",
+        "HW14",
+        "HW15",
+        "HW16",
+        "HW17",
+        "HW01"
+      ],
+      "core_concepts": [
+        "path dependence",
+        "critical juncture",
+        "feedback",
+        "diffusion",
+        "revolution",
+        "social movements",
+        "reform",
+        "collapse",
+        "state formation",
+        "institutional evolution"
+      ],
+      "exit_capability": "Explain persistence and change through temporally ordered mechanisms rather than static snapshots or inevitability stories.",
+      "deletion_reason": "Without time, causal sequences, lock-in, contingency, and institutional evolution disappear.",
+      "hours": "14",
+      "gate": "Process trace + counterfactual + rival periodization",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "A",
+        "B",
+        "F",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "HW19",
+      "branch_id": "HW",
+      "source_id": "HW19",
+      "title": "Integrated Human Worlds Diagnosis & Institutional Design",
+      "status": "candidate-v2",
+      "prerequisite_text": "HW01-HW18",
+      "prerequisite_ids": [
+        "HW01",
+        "HW02",
+        "HW03",
+        "HW04",
+        "HW05",
+        "HW06",
+        "HW07",
+        "HW08",
+        "HW09",
+        "HW10",
+        "HW11",
+        "HW12",
+        "HW13",
+        "HW14",
+        "HW15",
+        "HW16",
+        "HW17",
+        "HW18"
+      ],
+      "core_concepts": [
+        "multi-scale model",
+        "competing explanations",
+        "distribution",
+        "legitimacy",
+        "implementation",
+        "second-order effects",
+        "reversibility",
+        "learning institutions"
+      ],
+      "exit_capability": "Produce and defend a global, historically situated diagnosis of a real institution/problem and design a reversible intervention with explicit failure tests.",
+      "deletion_reason": "This is the target: integration proves the modules are deployable rather than stored as isolated social-science vocabulary.",
+      "hours": "20",
+      "gate": "Capstone dossier + unseen perturbation + oral defense",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "A",
+        "B",
+        "F",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "ML01",
+      "branch_id": "ML",
+      "source_id": "ML01",
+      "title": "Learning as a Measurable System",
+      "status": "candidate",
+      "prerequisite_text": "None",
+      "prerequisite_ids": [],
+      "core_concepts": [
+        "skill decomposition",
+        "baseline",
+        "criterion",
+        "retention",
+        "transfer",
+        "measurement"
+      ],
+      "exit_capability": "Define a learnable capability, baseline it, choose evidence, and distinguish performance today from retained transferable learning.",
+      "deletion_reason": "Without measurement, 'I studied it' substitutes for learning.",
+      "hours": "10",
+      "gate": "Design + baseline + delayed retest",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "A",
+        "B",
+        "F",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "ML02",
+      "branch_id": "ML",
+      "source_id": "ML02",
+      "title": "Attention, Working Memory & Cognitive Load",
+      "status": "candidate",
+      "prerequisite_text": "ML01",
+      "prerequisite_ids": [
+        "ML01"
+      ],
+      "core_concepts": [
+        "selective attention",
+        "working memory",
+        "cognitive load",
+        "interruption",
+        "multitasking",
+        "task switching"
+      ],
+      "exit_capability": "Design environments and representations that respect limited attention and working memory.",
+      "deletion_reason": "AI abundance increases interruption and passive consumption risk.",
+      "hours": "10",
+      "gate": "Attention audit + redesign + unseen task",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "A",
+        "B",
+        "F",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "ML03",
+      "branch_id": "ML",
+      "source_id": "ML03",
+      "title": "Long-Term Memory, Schemas & Retrieval",
+      "status": "candidate",
+      "prerequisite_text": "ML01-ML02",
+      "prerequisite_ids": [
+        "ML01",
+        "ML02"
+      ],
+      "core_concepts": [
+        "encoding",
+        "consolidation",
+        "cues",
+        "schemas",
+        "chunking",
+        "forgetting",
+        "interference"
+      ],
+      "exit_capability": "Build durable, organized knowledge that can be retrieved without the original context or tool.",
+      "deletion_reason": "Independent judgment needs stored structure, not search alone.",
+      "hours": "12",
+      "gate": "Knowledge map + delayed closed-book reconstruction",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "A",
+        "B",
+        "F",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "ML04",
+      "branch_id": "ML",
+      "source_id": "ML04",
+      "title": "Practice: Retrieval, Spacing, Interleaving & Feedback",
+      "status": "candidate",
+      "prerequisite_text": "ML01-ML03",
+      "prerequisite_ids": [
+        "ML01",
+        "ML02",
+        "ML03"
+      ],
+      "core_concepts": [
+        "retrieval practice",
+        "spacing",
+        "interleaving",
+        "variation",
+        "feedback",
+        "error correction"
+      ],
+      "exit_capability": "Construct a practice schedule that produces durable performance and detects illusions of fluency.",
+      "deletion_reason": "This is one of the strongest evidence-backed learning levers and is easy to lose when AI supplies answers.",
+      "hours": "12",
+      "gate": "4-week practice protocol + retention test",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "A",
+        "B",
+        "F",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "ML05",
+      "branch_id": "ML",
+      "source_id": "ML05",
+      "title": "Mental Models, Representation & Transfer",
+      "status": "candidate",
+      "prerequisite_text": "ML02-ML04",
+      "prerequisite_ids": [
+        "ML02",
+        "ML03",
+        "ML04"
+      ],
+      "core_concepts": [
+        "mental model",
+        "abstraction",
+        "representation",
+        "self-explanation",
+        "near/far transfer",
+        "boundary cases"
+      ],
+      "exit_capability": "Choose representations that reveal mechanism and transfer a model to an unfamiliar domain.",
+      "deletion_reason": "Memorized answers do not create adaptive expertise.",
+      "hours": "12",
+      "gate": "Three representations + cross-domain transfer",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "A",
+        "B",
+        "F",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "ML06",
+      "branch_id": "ML",
+      "source_id": "ML06",
+      "title": "Expertise, Deliberate Practice & Tacit Knowledge",
+      "status": "candidate",
+      "prerequisite_text": "ML03-ML05",
+      "prerequisite_ids": [
+        "ML03",
+        "ML04",
+        "ML05"
+      ],
+      "core_concepts": [
+        "deliberate practice",
+        "automaticity",
+        "procedural/tacit knowledge",
+        "error taxonomy",
+        "adaptive expertise"
+      ],
+      "exit_capability": "Decompose expert performance, practice bottlenecks, and know when rules must become fluid rather than rigid.",
+      "deletion_reason": "AI can hide the skill-development path by producing expert-looking outputs.",
+      "hours": "12",
+      "gate": "Expertise decomposition + targeted practice + performance gain",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "A",
+        "B",
+        "F",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "ML07",
+      "branch_id": "ML",
+      "source_id": "ML07",
+      "title": "Metacognition, Calibration & Error Monitoring",
+      "status": "candidate",
+      "prerequisite_text": "ML01-ML06",
+      "prerequisite_ids": [
+        "ML01",
+        "ML02",
+        "ML03",
+        "ML04",
+        "ML05",
+        "ML06"
+      ],
+      "core_concepts": [
+        "confidence",
+        "calibration",
+        "monitoring",
+        "strategy choice",
+        "error detection",
+        "stopping rules"
+      ],
+      "exit_capability": "Track what you know, do not know, and which strategy should change after evidence.",
+      "deletion_reason": "High confidence in AI can suppress critical thinking; calibration must be trained explicitly.",
+      "hours": "12",
+      "gate": "Confidence ledger + Brier/calibration review + oral defense",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "A",
+        "B",
+        "F",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "ML08",
+      "branch_id": "ML",
+      "source_id": "ML08",
+      "title": "Motivation, Goals, Habits & Self-Regulation",
+      "status": "candidate",
+      "prerequisite_text": "ML01-ML07",
+      "prerequisite_ids": [
+        "ML01",
+        "ML02",
+        "ML03",
+        "ML04",
+        "ML05",
+        "ML06",
+        "ML07"
+      ],
+      "core_concepts": [
+        "goal hierarchy",
+        "value/expectancy",
+        "habit cues",
+        "environment design",
+        "commitment",
+        "procrastination",
+        "self-regulation"
+      ],
+      "exit_capability": "Build routines that sustain difficult learning and revise goals without self-deception.",
+      "deletion_reason": "Agency requires more than knowing the optimal study strategy.",
+      "hours": "10",
+      "gate": "Behavior redesign + 3-week adherence evidence",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "A",
+        "B",
+        "F",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "ML09",
+      "branch_id": "ML",
+      "source_id": "ML09",
+      "title": "Emotion, Stress, Sleep & Performance",
+      "status": "candidate",
+      "prerequisite_text": "ML01-ML08",
+      "prerequisite_ids": [
+        "ML01",
+        "ML02",
+        "ML03",
+        "ML04",
+        "ML05",
+        "ML06",
+        "ML07",
+        "ML08"
+      ],
+      "core_concepts": [
+        "emotion",
+        "appraisal",
+        "stress/arousal",
+        "sleep",
+        "recovery",
+        "fatigue",
+        "performance"
+      ],
+      "exit_capability": "Recognize how state changes cognition and design work/learning around physiological constraints.",
+      "deletion_reason": "A tool can optimize a schedule while the learner still cannot regulate the human system executing it.",
+      "hours": "10",
+      "gate": "State/performance diary + experiment + boundary statement",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "A",
+        "B",
+        "F",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "ML10",
+      "branch_id": "ML",
+      "source_id": "ML10",
+      "title": "Perception, Motor Learning & Embodied Skill",
+      "status": "candidate",
+      "prerequisite_text": "ML02-ML06",
+      "prerequisite_ids": [
+        "ML02",
+        "ML03",
+        "ML04",
+        "ML05",
+        "ML06"
+      ],
+      "core_concepts": [
+        "perception-action loop",
+        "sensorimotor calibration",
+        "variability",
+        "feedback",
+        "automaticity",
+        "manual skill"
+      ],
+      "exit_capability": "Acquire and refine a physical skill through observation, practice, feedback, and adaptation.",
+      "deletion_reason": "Embodied competence is not learned from verbal explanation alone.",
+      "hours": "12",
+      "gate": "New physical skill + video/measurement evidence + transfer",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "A",
+        "B",
+        "F",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "ML11",
+      "branch_id": "ML",
+      "source_id": "ML11",
+      "title": "Creativity, Analogy, Exploration & Problem Finding",
+      "status": "candidate",
+      "prerequisite_text": "ML03-ML07",
+      "prerequisite_ids": [
+        "ML03",
+        "ML04",
+        "ML05",
+        "ML06",
+        "ML07"
+      ],
+      "core_concepts": [
+        "divergent/convergent search",
+        "analogy",
+        "recombination",
+        "curiosity",
+        "incubation",
+        "problem finding"
+      ],
+      "exit_capability": "Generate diverse possibilities, identify promising anomalies, and choose questions worth pursuing.",
+      "deletion_reason": "When generation becomes cheap, problem selection and discriminating novelty become more important.",
+      "hours": "12",
+      "gate": "100→10→1 idea funnel + novelty/mechanism defense",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "A",
+        "B",
+        "F",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "ML12",
+      "branch_id": "ML",
+      "source_id": "ML12",
+      "title": "Social Learning, Teaching, Mentorship & Collective Cognition",
+      "status": "candidate",
+      "prerequisite_text": "ML01-ML11",
+      "prerequisite_ids": [
+        "ML01",
+        "ML02",
+        "ML03",
+        "ML04",
+        "ML05",
+        "ML06",
+        "ML07",
+        "ML08",
+        "ML09",
+        "ML10",
+        "ML11"
+      ],
+      "core_concepts": [
+        "imitation",
+        "explanation",
+        "teaching",
+        "coaching",
+        "feedback",
+        "peer review",
+        "distributed cognition"
+      ],
+      "exit_capability": "Learn by teaching, use others' expertise, give useful feedback, and build teams that think better than isolated members.",
+      "deletion_reason": "Human learning remains social even with excellent tutors.",
+      "hours": "12",
+      "gate": "Teach an unseen learner + peer calibration + revision",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "A",
+        "B",
+        "F",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "ML13",
+      "branch_id": "ML",
+      "source_id": "ML13",
+      "title": "Development, Identity & Lifespan Learning",
+      "status": "candidate",
+      "prerequisite_text": "ML01-ML12",
+      "prerequisite_ids": [
+        "ML01",
+        "ML02",
+        "ML03",
+        "ML04",
+        "ML05",
+        "ML06",
+        "ML07",
+        "ML08",
+        "ML09",
+        "ML10",
+        "ML11",
+        "ML12"
+      ],
+      "core_concepts": [
+        "development",
+        "plasticity",
+        "identity",
+        "mindset/beliefs",
+        "culture/context",
+        "lifespan change"
+      ],
+      "exit_capability": "Adapt learning environments and expectations to developmental stage, identity, culture, and changing capacity.",
+      "deletion_reason": "A next-generation curriculum needs a theory of the learner across time.",
+      "hours": "10",
+      "gate": "Age/stage redesign + bias/assumption audit",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "A",
+        "B",
+        "F",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "ML14",
+      "branch_id": "ML",
+      "source_id": "ML14",
+      "title": "Judgment Under Bounded Cognition",
+      "status": "candidate",
+      "prerequisite_text": "ML03-ML07",
+      "prerequisite_ids": [
+        "ML03",
+        "ML04",
+        "ML05",
+        "ML06",
+        "ML07"
+      ],
+      "core_concepts": [
+        "heuristics",
+        "framing",
+        "base rates",
+        "overconfidence",
+        "motivated reasoning",
+        "debiasing",
+        "choice architecture"
+      ],
+      "exit_capability": "Predict recurring human judgment failures and design checks that outperform willpower alone.",
+      "deletion_reason": "Formal probability and philosophy do not automatically change human behavior.",
+      "hours": "12",
+      "gate": "Bias trap set + precommitment/checklist experiment",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "A",
+        "B",
+        "F",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "ML15",
+      "branch_id": "ML",
+      "source_id": "ML15",
+      "title": "Human–AI Cognition, Trust & Delegation",
+      "status": "candidate",
+      "prerequisite_text": "ML01-ML14",
+      "prerequisite_ids": [
+        "ML01",
+        "ML02",
+        "ML03",
+        "ML04",
+        "ML05",
+        "ML06",
+        "ML07",
+        "ML08",
+        "ML09",
+        "ML10",
+        "ML11",
+        "ML12",
+        "ML13",
+        "ML14"
+      ],
+      "core_concepts": [
+        "cognitive offloading",
+        "automation bias",
+        "reliance calibration",
+        "AI tutoring",
+        "delegation",
+        "provenance",
+        "verification"
+      ],
+      "exit_capability": "Use AI to extend thought while preserving learning, ownership, and calibrated trust.",
+      "deletion_reason": "This is the central cognitive skill of an AGI-transition curriculum.",
+      "hours": "16",
+      "gate": "Same task A0/A2/A3 + error-seeded audit + unaided retest",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "A",
+        "B",
+        "F",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "ML16",
+      "branch_id": "ML",
+      "source_id": "ML16",
+      "title": "Integrated Self-Directed Mastery System",
+      "status": "candidate",
+      "prerequisite_text": "ML01-ML15",
+      "prerequisite_ids": [
+        "ML01",
+        "ML02",
+        "ML03",
+        "ML04",
+        "ML05",
+        "ML06",
+        "ML07",
+        "ML08",
+        "ML09",
+        "ML10",
+        "ML11",
+        "ML12",
+        "ML13",
+        "ML14",
+        "ML15"
+      ],
+      "core_concepts": [
+        "personal curriculum",
+        "knowledge system",
+        "goal review",
+        "practice portfolio",
+        "feedback loops",
+        "AI policy",
+        "renewal"
+      ],
+      "exit_capability": "Run a 12-week self-directed program that demonstrably changes retained capability and survives tool/model changes.",
+      "deletion_reason": "The branch matters only if the learner can govern their own future learning.",
+      "hours": "20",
+      "gate": "12-week mastery dossier + delayed exam + public defense",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "A",
+        "B",
+        "F",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "DR01",
+      "branch_id": "DR",
+      "source_id": "DR01",
+      "title": "Perception, Attention & Affordance",
+      "status": "candidate-compression-test",
+      "prerequisite_text": "None",
+      "prerequisite_ids": [],
+      "core_concepts": [
+        "perception",
+        "salience",
+        "gestalt",
+        "affordance",
+        "signifier",
+        "error visibility"
+      ],
+      "exit_capability": "See what a representation or object makes easy, hard, noticeable, or invisible.",
+      "deletion_reason": "Design begins in perception, not decoration.",
+      "hours": "10",
+      "gate": "Affordance/error audit + redesign",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "B",
+        "C",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "DR02",
+      "branch_id": "DR",
+      "source_id": "DR02",
+      "title": "Form, Composition, Hierarchy & Constraint",
+      "status": "candidate-compression-test",
+      "prerequisite_text": "DR01",
+      "prerequisite_ids": [
+        "DR01"
+      ],
+      "core_concepts": [
+        "proportion",
+        "balance",
+        "rhythm",
+        "contrast",
+        "hierarchy",
+        "grid",
+        "negative space",
+        "constraint"
+      ],
+      "exit_capability": "Organize elements so attention and structure support purpose.",
+      "deletion_reason": "Without formal control, visual output becomes accidental or template-driven.",
+      "hours": "12",
+      "gate": "Three compositions under different constraints",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "B",
+        "C",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "DR03",
+      "branch_id": "DR",
+      "source_id": "DR03",
+      "title": "Drawing, Diagramming & Visual Reasoning",
+      "status": "candidate-compression-test",
+      "prerequisite_text": "DR01-DR02",
+      "prerequisite_ids": [
+        "DR01",
+        "DR02"
+      ],
+      "core_concepts": [
+        "sketch",
+        "projection",
+        "diagram",
+        "topology",
+        "flow",
+        "exploded view",
+        "causal map"
+      ],
+      "exit_capability": "Externalize structure visually and use diagrams to discover errors in thought.",
+      "deletion_reason": "Language/equations do not cover all spatial or relational reasoning.",
+      "hours": "12",
+      "gate": "Blank-page diagram + transform + defense",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "B",
+        "C",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "DR04",
+      "branch_id": "DR",
+      "source_id": "DR04",
+      "title": "Data Visualization & Information Design",
+      "status": "candidate-compression-test",
+      "prerequisite_text": "DR01-DR03",
+      "prerequisite_ids": [
+        "DR01",
+        "DR02",
+        "DR03"
+      ],
+      "core_concepts": [
+        "encoding",
+        "scale",
+        "comparison",
+        "uncertainty",
+        "annotation",
+        "small multiples",
+        "perceptual honesty"
+      ],
+      "exit_capability": "Choose visual encodings that reveal rather than distort quantity, uncertainty, and comparison.",
+      "deletion_reason": "AI can make beautiful charts that are epistemically bad.",
+      "hours": "12",
+      "gate": "Misleading-vs-honest redesign + unseen dataset",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "B",
+        "C",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "DR05",
+      "branch_id": "DR",
+      "source_id": "DR05",
+      "title": "Typography, Layout & Document Systems",
+      "status": "candidate-compression-test",
+      "prerequisite_text": "DR01-DR04",
+      "prerequisite_ids": [
+        "DR01",
+        "DR02",
+        "DR03",
+        "DR04"
+      ],
+      "core_concepts": [
+        "type",
+        "measure",
+        "spacing",
+        "hierarchy",
+        "page",
+        "grid",
+        "navigation",
+        "accessibility"
+      ],
+      "exit_capability": "Create readable documents whose structure survives length, device, and audience.",
+      "deletion_reason": "Presentation changes comprehension and trust.",
+      "hours": "10",
+      "gate": "Long-document redesign + accessibility check",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "B",
+        "C",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "DR06",
+      "branch_id": "DR",
+      "source_id": "DR06",
+      "title": "Space, Maps, Architecture & Wayfinding",
+      "status": "candidate-compression-test",
+      "prerequisite_text": "DR01-DR04",
+      "prerequisite_ids": [
+        "DR01",
+        "DR02",
+        "DR03",
+        "DR04"
+      ],
+      "core_concepts": [
+        "scale",
+        "plan/section",
+        "map",
+        "orientation",
+        "circulation",
+        "adjacency",
+        "wayfinding",
+        "spatial sequence"
+      ],
+      "exit_capability": "Reason about space and guide human movement through physical or geographic environments.",
+      "deletion_reason": "Spatial design cannot be reduced to prose.",
+      "hours": "12",
+      "gate": "Map/space diagnosis + route/wayfinding redesign",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "B",
+        "C",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "DR07",
+      "branch_id": "DR",
+      "source_id": "DR07",
+      "title": "Objects, Materials, Craft & Industrial Design",
+      "status": "candidate-compression-test",
+      "prerequisite_text": "DR01-DR03 + TS materials/mechanics",
+      "prerequisite_ids": [
+        "DR01",
+        "DR02",
+        "DR03"
+      ],
+      "core_concepts": [
+        "form/function",
+        "ergonomics",
+        "tolerance",
+        "material",
+        "assembly",
+        "repair",
+        "lifecycle"
+      ],
+      "exit_capability": "Design an object that fits bodies, materials, manufacturing, maintenance, and use.",
+      "deletion_reason": "Taste without making becomes superficial; engineering without user/form judgment becomes brittle.",
+      "hours": "14",
+      "gate": "Prototype + user trial + teardown critique",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "B",
+        "C",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "DR08",
+      "branch_id": "DR",
+      "source_id": "DR08",
+      "title": "Interaction, Interface & Service Design",
+      "status": "candidate-compression-test",
+      "prerequisite_text": "DR01-DR05 + ML",
+      "prerequisite_ids": [
+        "DR01",
+        "DR02",
+        "DR03",
+        "DR04",
+        "DR05"
+      ],
+      "core_concepts": [
+        "task flow",
+        "state",
+        "feedback",
+        "error recovery",
+        "latency",
+        "consent",
+        "service blueprint"
+      ],
+      "exit_capability": "Design interactions that preserve agency, visibility, control, and graceful recovery.",
+      "deletion_reason": "AGI interfaces may mediate consequential decisions; HCI becomes civic infrastructure.",
+      "hours": "14",
+      "gate": "Interactive prototype + usability/error test",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "B",
+        "C",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "DR09",
+      "branch_id": "DR",
+      "source_id": "DR09",
+      "title": "Time, Motion, Sound & Multimodal Composition",
+      "status": "candidate-compression-test",
+      "prerequisite_text": "DR01-DR03",
+      "prerequisite_ids": [
+        "DR01",
+        "DR02",
+        "DR03"
+      ],
+      "core_concepts": [
+        "sequence",
+        "pacing",
+        "transition",
+        "motion",
+        "sound",
+        "synchrony",
+        "temporal attention"
+      ],
+      "exit_capability": "Shape experience over time across visual, auditory, and interactive media.",
+      "deletion_reason": "Static visual literacy misses a large fraction of modern communication.",
+      "hours": "10",
+      "gate": "Same content in static vs temporal form",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "B",
+        "C",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "DR10",
+      "branch_id": "DR",
+      "source_id": "DR10",
+      "title": "Aesthetics, Style, History & Global Traditions",
+      "status": "candidate-compression-test",
+      "prerequisite_text": "DR01-DR09",
+      "prerequisite_ids": [
+        "DR01",
+        "DR02",
+        "DR03",
+        "DR04",
+        "DR05",
+        "DR06",
+        "DR07",
+        "DR08",
+        "DR09"
+      ],
+      "core_concepts": [
+        "aesthetic judgment",
+        "style",
+        "convention",
+        "canon",
+        "tradition",
+        "appropriation",
+        "context",
+        "plurality"
+      ],
+      "exit_capability": "Recognize formal lineages and evaluate work without treating one culture's conventions as universal.",
+      "deletion_reason": "Taste without historical/world exposure collapses into local fashion.",
+      "hours": "14",
+      "gate": "Comparative critique across three traditions",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "B",
+        "C",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "DR11",
+      "branch_id": "DR",
+      "source_id": "DR11",
+      "title": "Prototyping, User Research, Critique & Iteration",
+      "status": "candidate-compression-test",
+      "prerequisite_text": "DR01-DR10",
+      "prerequisite_ids": [
+        "DR01",
+        "DR02",
+        "DR03",
+        "DR04",
+        "DR05",
+        "DR06",
+        "DR07",
+        "DR08",
+        "DR09",
+        "DR10"
+      ],
+      "core_concepts": [
+        "prototype",
+        "observation",
+        "interview",
+        "usability",
+        "critique",
+        "iteration",
+        "tradeoff",
+        "evidence"
+      ],
+      "exit_capability": "Turn uncertain assumptions into prototypes and observations; revise without overfitting to one user.",
+      "deletion_reason": "Design claims need evidence, not designer confidence.",
+      "hours": "14",
+      "gate": "Prototype-test-revise loop + negative findings",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "B",
+        "C",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "DR12",
+      "branch_id": "DR",
+      "source_id": "DR12",
+      "title": "Curation, Taste & AI-Generated Abundance",
+      "status": "candidate-compression-test",
+      "prerequisite_text": "DR01-DR11",
+      "prerequisite_ids": [
+        "DR01",
+        "DR02",
+        "DR03",
+        "DR04",
+        "DR05",
+        "DR06",
+        "DR07",
+        "DR08",
+        "DR09",
+        "DR10",
+        "DR11"
+      ],
+      "core_concepts": [
+        "ranking",
+        "curation",
+        "novelty",
+        "coherence",
+        "slop detection",
+        "provenance",
+        "style convergence"
+      ],
+      "exit_capability": "Select and improve from hundreds of plausible AI outputs while preserving purpose, originality, and human preference.",
+      "deletion_reason": "Generation abundance makes selection and specification load-bearing.",
+      "hours": "14",
+      "gate": "100-output curation + blind ranking + revision spec",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "B",
+        "C",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "DR13",
+      "branch_id": "DR",
+      "source_id": "DR13",
+      "title": "Integrated Design & Representation",
+      "status": "candidate-compression-test",
+      "prerequisite_text": "DR01-DR12",
+      "prerequisite_ids": [
+        "DR01",
+        "DR02",
+        "DR03",
+        "DR04",
+        "DR05",
+        "DR06",
+        "DR07",
+        "DR08",
+        "DR09",
+        "DR10",
+        "DR11",
+        "DR12"
+      ],
+      "core_concepts": [
+        "multimodal system",
+        "artifact ecosystem",
+        "audience",
+        "accessibility",
+        "ethics",
+        "implementation"
+      ],
+      "exit_capability": "Build and defend a coherent information/interface/physical representation system across media.",
+      "deletion_reason": "Integration proves this is a branch rather than isolated design trivia.",
+      "hours": "20",
+      "gate": "Capstone + user/critic/technical panel",
+      "formation_modes": [
+        "R",
+        "S",
+        "P",
+        "M",
+        "D",
+        "B",
+        "C",
+        "V",
+        "L"
+      ],
+      "ai_modes": [
+        "A0",
+        "A1",
+        "A2",
+        "A4",
+        "A5"
+      ]
+    }
+  ]
+}

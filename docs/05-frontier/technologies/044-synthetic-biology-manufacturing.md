@@ -1,9 +1,9 @@
 ---
-title: "Synthetic-biology manufacturing"
+title: Synthetic-biology manufacturing
 rank: 44
-feasibility: "B"
-primary_track: "BIO"
-secondary_track: "ROB"
+feasibility: B
+primary_track: BIO
+secondary_track: ROB
 ---
 
 # 44 | Synthetic-biology manufacturing
@@ -12,7 +12,7 @@ secondary_track: "ROB"
 
 <span class="ofc-badge ofc-b">B | active frontier</span>
 
-**Primary track:** [Synthetic biology, regeneration & longevity](../../03-specializations/synthetic-biology-longevity.md)  
+**Primary track:** [Synthetic biology, regeneration and longevity](../../03-specializations/synthetic-biology-longevity.md)  
 **Secondary:** ROB
 
 </div>
@@ -25,8 +25,18 @@ Yield, evolution, contamination, scale
 
 - **Foundations I:** W1 causal/optimization
 - **Foundations II:** W2 biology/manufacturing/safety
-- **Specialization:** Synthetic biology, regeneration & longevity
+- **Specialization:** [Synthetic biology, regeneration and longevity](../../03-specializations/synthetic-biology-longevity.md)
 
 ## First proof of work
 
 Bioprocess dynamics/QC/manufacturing model
+
+<!-- connected-study -->
+## Connected study
+
+Editorial study connections grounded in the existing technology bottlenecks and subject descriptions. Background is useful preparation, not a validated prerequisite or a complete technology curriculum.
+
+Specific subject connections have not been mapped yet.
+
+
+[Explore technologies](../README.md)

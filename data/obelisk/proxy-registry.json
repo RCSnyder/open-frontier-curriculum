@@ -1,0 +1,139 @@
+{
+  "version": "0.5.0",
+  "principle": "No single proxy validates broad human formation. Use convergent evidence from demanding external human judgment, professional standards, internalization, unseen transfer, adaptive-agency stress tests, real-world performance, expert/user judgment, and longitudinal observation.",
+  "proxies": [
+    {
+      "id": "PX-ALLSOULS",
+      "name": "All Souls College Examination Fellowship",
+      "class": "selective-human-intellectual-acceptance",
+      "independence": "external",
+      "current_use": [
+        "PH specialist prompts",
+        "General-paper prompts"
+      ],
+      "planned_expansion": [
+        "Economics",
+        "English Literature",
+        "History",
+        "Law",
+        "Politics specialist papers"
+      ],
+      "constructs": [
+        "depth and sophistication",
+        "argument and analysis",
+        "independence of thought",
+        "original-source knowledge",
+        "breadth",
+        "clarity/elegance",
+        "responsiveness to argument",
+        "awareness of unresolved difficulties",
+        "future intellectual potential"
+      ],
+      "strength": "Expert human selection among exceptionally strong candidates using open-ended papers and viva; answers are generated rather than selected from a fixed key.",
+      "limitations": "Humanities/social-sciences only; tests intellectual performance under examination conditions, not health, relationships, embodied skill, engineering execution, long-run life outcomes, or flourishing.",
+      "official_url": "https://www.asc.ox.ac.uk/join-the-college/examination-fellowships",
+      "further_particulars_url": "https://www.asc.ox.ac.uk/sites/default/files/2026-06/2026%20EF%20Further%20Particulars_4.pdf"
+    },
+    {
+      "id": "PX-ABET",
+      "name": "ABET engineering outcomes",
+      "class": "professional-outcome-standard",
+      "independence": "external",
+      "current_use": [
+        "TS benchmark crosswalk"
+      ],
+      "constructs": [
+        "complex problem solving",
+        "engineering design",
+        "communication",
+        "ethical/professional judgment",
+        "teamwork",
+        "experimentation",
+        "acquiring new knowledge"
+      ],
+      "strength": "Mature external professional standard with explicit observable outcomes and continuous-improvement expectations.",
+      "limitations": "Not a selective examination and does not validate the entire Obelisk.",
+      "official_url": "https://www.abet.org/accreditation/accreditation-criteria/criteria-for-accrediting-engineering-programs-2026-2027/"
+    },
+    {
+      "id": "PX-HPL",
+      "name": "National Academies learning/transfer evidence",
+      "class": "construct-theory-reference",
+      "independence": "external",
+      "current_use": [
+        "ML architecture",
+        "transfer doctrine"
+      ],
+      "constructs": [
+        "knowledge organization",
+        "expertise",
+        "transfer",
+        "metacognition",
+        "learning processes"
+      ],
+      "strength": "Research synthesis for what durable learning and transfer should mean.",
+      "limitations": "A theory/evidence base, not a selection criterion or outcome test.",
+      "official_url": "https://www.nationalacademies.org/read/24783/chapter/7"
+    },
+    {
+      "id": "PX-OGE",
+      "name": "Obelisk General Examination",
+      "class": "internal-integrative-acceptance",
+      "independence": "internal-but-frozen",
+      "current_use": [],
+      "constructs": [
+        "breadth",
+        "depth",
+        "transfer",
+        "judgment",
+        "taste",
+        "practical agency",
+        "AI stewardship",
+        "learning speed",
+        "viva responsiveness"
+      ],
+      "strength": "Directly samples the intended graduate construct across intellectual and practical modes; can use independent external examiners and hidden task banks.",
+      "limitations": "Cannot by itself validate its own curriculum; must be calibrated against external evidence and real-world consequences."
+    },
+    {
+      "id": "PX-SURPRISE",
+      "name": "Adaptive Agency Stress Battery",
+      "class": "adversarial-unseen-scenario-subtest",
+      "independence": "frozen-hidden-bank",
+      "current_use": [],
+      "constructs": [
+        "problem framing",
+        "stakes/triage",
+        "calibration",
+        "knowledge mobilization",
+        "expertise seeking",
+        "reversibility",
+        "coordination",
+        "AI stewardship",
+        "responsibility",
+        "recovery and update"
+      ],
+      "strength": "Useful stress-test of adaptive orientation and action when taught templates are unavailable.",
+      "limitations": "A subordinate proxy only. Scenario performance cannot stand in for broad formation, relationships, meaning, taste, long-run character, actual grief/illness, or real institutional stakes."
+    },
+    {
+      "id": "PX-LONG",
+      "name": "Longitudinal completer cohort",
+      "class": "naturalistic-longitudinal",
+      "independence": "future-empirical",
+      "current_use": [],
+      "constructs": [
+        "adaptive learning",
+        "career/craft competence",
+        "decision quality",
+        "health/financial/civic agency",
+        "relationships/community",
+        "resilience",
+        "continued learning",
+        "life satisfaction/meaning by plural self-defined measures"
+      ],
+      "strength": "Only evidence class that observes whether the curriculum actually travels with people through real lives.",
+      "limitations": "Slow, confounded by selection effects, ethically sensitive, impossible to reduce to one scalar life-success score; requires comparison groups or matched designs where feasible."
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "version": "0.3.0",
+  "dimensions": [
+    {
+      "Code": "K",
+      "Dimension": "Knowledge",
+      "What it records": "Retained facts, definitions, exemplars, vocabulary, chronology, canonical results.",
+      "Observable standard": "Can recall and recognize without aid where foundational.",
+      "Scale": "0 none; 1 exposure; 2 functional; 3 strong; 4 durable/teachable"
+    },
+    {
+      "Code": "M",
+      "Dimension": "Models",
+      "What it records": "Internal explanatory/formal structures and assumptions.",
+      "Observable standard": "Can reconstruct and explain mechanisms.",
+      "Scale": "0–4"
+    },
+    {
+      "Code": "T",
+      "Dimension": "Transfer",
+      "What it records": "Ability to apply in unfamiliar domains/representations.",
+      "Observable standard": "Solves unseen variations without template matching.",
+      "Scale": "0–4"
+    },
+    {
+      "Code": "P",
+      "Dimension": "Practice",
+      "What it records": "Procedural/embodied fluency and execution quality.",
+      "Observable standard": "Can perform reliably under realistic constraints.",
+      "Scale": "0–4"
+    },
+    {
+      "Code": "J",
+      "Dimension": "Judgment",
+      "What it records": "Selection among tradeoffs under uncertainty and conflicting values.",
+      "Observable standard": "Can defend criteria, update, and preserve uncertainty.",
+      "Scale": "0–4"
+    },
+    {
+      "Code": "C",
+      "Dimension": "Communication",
+      "What it records": "Writing, speech, visual representation, listening, teaching.",
+      "Observable standard": "Adapts to audience and medium without corrupting content.",
+      "Scale": "0–4"
+    },
+    {
+      "Code": "A",
+      "Dimension": "AI Stewardship",
+      "What it records": "Tool choice, delegation, evals, provenance, monitoring, fallback.",
+      "Observable standard": "Can improve outcomes with AI while retaining ownership and safety.",
+      "Scale": "0–4"
+    },
+    {
+      "Code": "R",
+      "Dimension": "Reality contact",
+      "What it records": "Evidence from measurement, users, field, operations, primary sources, or physical artifacts.",
+      "Observable standard": "Can identify where model meets territory and where it fails.",
+      "Scale": "0–4"
+    },
+    {
+      "Code": "E",
+      "Dimension": "Ethics / responsibility",
+      "What it records": "Stakeholder, rights, safety, legitimacy, professional duty, recourse.",
+      "Observable standard": "Can identify responsibility and act proportionately.",
+      "Scale": "0–4"
+    },
+    {
+      "Code": "L",
+      "Dimension": "Learning autonomy",
+      "What it records": "Can diagnose gaps, design practice, seek feedback, retain and renew competence.",
+      "Observable standard": "Can teach self into a new domain.",
+      "Scale": "0–4"
+    },
+    {
+      "Code": "S",
+      "Dimension": "Stewardship",
+      "What it records": "Long-horizon, institutional, environmental, intergenerational responsibility.",
+      "Observable standard": "Preserves option value and learning capacity.",
+      "Scale": "0–4"
+    }
+  ],
+  "levels": [
+    {
+      "Level": "0",
+      "Name": "Unformed",
+      "Interpretation": "Cannot yet perform or explain reliably; output may be copied or tool-dependent."
+    },
+    {
+      "Level": "1",
+      "Name": "Exposed",
+      "Interpretation": "Recognizes vocabulary/examples and can follow a guided demonstration."
+    },
+    {
+      "Level": "2",
+      "Name": "Functional",
+      "Interpretation": "Performs standard cases with limited support and can explain the main model."
+    },
+    {
+      "Level": "3",
+      "Name": "Independent",
+      "Interpretation": "Handles unseen transfer, errors, tradeoffs, and defense with appropriate tools."
+    },
+    {
+      "Level": "4",
+      "Name": "Generative / Steward",
+      "Interpretation": "Can teach, design new approaches, identify limits, improve systems, and remain reliable under perturbation."
+    }
+  ]
+}

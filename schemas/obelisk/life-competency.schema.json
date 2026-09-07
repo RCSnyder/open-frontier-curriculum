@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://open-frontier.example/schemas/obelisk/life-competency.schema.json",
+  "title": "Life competency",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "Node",
+    "Pillar",
+    "Competency",
+    "Knowledge to study",
+    "Judgment to form",
+    "Practice",
+    "Evidence"
+  ],
+  "properties": {
+    "Node": {
+      "type": "string",
+      "pattern": "^L\\d{2}-C\\d{2}$"
+    },
+    "Pillar": {
+      "type": "string",
+      "pattern": "^L\\d{2}$"
+    },
+    "Competency": {
+      "type": "string",
+      "minLength": 1
+    },
+    "Knowledge to study": {
+      "type": "string",
+      "minLength": 1
+    },
+    "Judgment to form": {
+      "type": "string",
+      "minLength": 1
+    },
+    "Practice": {
+      "type": "string",
+      "minLength": 1
+    },
+    "Evidence": {
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

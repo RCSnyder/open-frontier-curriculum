@@ -1,9 +1,9 @@
 ---
-title: "High-quality organ/brain cryopreservation"
+title: High-quality organ/brain cryopreservation
 rank: 80
-feasibility: "B"
-primary_track: "BIO"
-secondary_track: "NEU / MAT"
+feasibility: B
+primary_track: BIO
+secondary_track: NEU / MAT
 ---
 
 # 80 | High-quality organ/brain cryopreservation
@@ -12,7 +12,7 @@ secondary_track: "NEU / MAT"
 
 <span class="ofc-badge ofc-b">B | active frontier</span>
 
-**Primary track:** [Synthetic biology, regeneration & longevity](../../03-specializations/synthetic-biology-longevity.md)  
+**Primary track:** [Synthetic biology, regeneration and longevity](../../03-specializations/synthetic-biology-longevity.md)  
 **Secondary:** NEU / MAT
 
 </div>
@@ -25,8 +25,18 @@ Ice/vitrification damage, scale, validation
 
 - **Foundations I:** W1 metrology/causal
 - **Foundations II:** W2 thermo/materials/biology
-- **Specialization:** Synthetic biology, regeneration & longevity
+- **Specialization:** [Synthetic biology, regeneration and longevity](../../03-specializations/synthetic-biology-longevity.md)
 
 ## First proof of work
 
 Heat/transport/damage/measurement conceptual model
+
+<!-- connected-study -->
+## Connected study
+
+Editorial study connections grounded in the existing technology bottlenecks and subject descriptions. Background is useful preparation, not a validated prerequisite or a complete technology curriculum.
+
+Specific subject connections have not been mapped yet.
+
+
+[Explore technologies](../README.md)

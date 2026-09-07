@@ -1,9 +1,17 @@
 ---
-title: "Probability"
+title: Probability
 wave: 1
 order: 5
 leverage: 98
+search:
+  exclude: true
 ---
+
+<!-- atlas-route -->
+> **Current study page: [Probability](../../learn/ts-f05.md)**
+>
+> The earlier reference below is retained for continuity.
+<!-- /atlas-route -->
 
 # Probability
 

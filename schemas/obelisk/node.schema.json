@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://open-frontier.example/schemas/obelisk/node.schema.json",
+  "title": "Obelisk node",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "id",
+    "branch_id",
+    "title",
+    "node_kind",
+    "status",
+    "deletion_reason",
+    "mastery_test",
+    "formation_modes",
+    "ai_modes"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 2
+    },
+    "branch_id": {
+      "type": "string",
+      "pattern": "^(PH|HW|EX|ML|DR)$"
+    },
+    "module_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "node_kind": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "minLength": 1
+    },
+    "deletion_reason": {
+      "type": "string",
+      "minLength": 1
+    },
+    "mastery_test": {
+      "type": "string",
+      "minLength": 1
+    },
+    "formation_modes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "ai_modes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    }
+  }
+}

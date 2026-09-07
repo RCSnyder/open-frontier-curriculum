@@ -1,9 +1,9 @@
 ---
-title: "Sensory augmentation"
+title: Sensory augmentation
 rank: 56
-feasibility: "B"
-primary_track: "NEU"
-secondary_track: "AI-AS"
+feasibility: B
+primary_track: NEU
+secondary_track: AI-AS
 ---
 
 # 56 | Sensory augmentation
@@ -12,7 +12,7 @@ secondary_track: "AI-AS"
 
 <span class="ofc-badge ofc-b">B | active frontier</span>
 
-**Primary track:** [Neurotechnology & human-machine interfaces](../../03-specializations/neurotechnology-hmi.md)  
+**Primary track:** [Neurotechnology and human-machine interfaces](../../03-specializations/neurotechnology-hmi.md)  
 **Secondary:** AI-AS
 
 </div>
@@ -25,8 +25,18 @@ Learnability, bandwidth, adaptation
 
 - **Foundations I:** W1 information/signals
 - **Foundations II:** W2 neuroscience/electronics
-- **Specialization:** Neurotechnology & human-machine interfaces
+- **Specialization:** [Neurotechnology and human-machine interfaces](../../03-specializations/neurotechnology-hmi.md)
 
 ## First proof of work
 
 Synthetic sensory remapping closed-loop study
+
+<!-- connected-study -->
+## Connected study
+
+Editorial study connections grounded in the existing technology bottlenecks and subject descriptions. Background is useful preparation, not a validated prerequisite or a complete technology curriculum.
+
+Specific subject connections have not been mapped yet.
+
+
+[Explore technologies](../README.md)
