@@ -1,0 +1,65 @@
+{
+  "version": "0.3.0",
+  "branches": [
+    {
+      "id": "TS",
+      "title": "Technical Systems",
+      "status": "live-foundation",
+      "maturity": "high",
+      "granularity": "module",
+      "scope": "Mathematics, inference, computation, physics, chemistry, biology, engineering, manufacturing, measurement, operations, safety, reliability and security.",
+      "deletion_failure": "The learner cannot independently model, measure, build, operate or audit physical and technical systems.",
+      "source_url": "https://github.com/RCSnyder/open-frontier-curriculum/blob/main/docs/02-core/README.md"
+    },
+    {
+      "id": "PH",
+      "title": "Philosophy & Judgment",
+      "status": "candidate-retained",
+      "maturity": "high",
+      "granularity": "problem-family-node",
+      "scope": "Methods, logic, knowledge, reality, mind, action, language, value, politics, law, science, technology, world traditions and transformative frameworks.",
+      "deletion_failure": "The learner can execute but cannot reliably distinguish conceptual, empirical, logical and normative disputes or justify beliefs and values.",
+      "source_file": "global_philosophical_theoretical_minimum_all_souls_backtest(2).xlsx"
+    },
+    {
+      "id": "HW",
+      "title": "Human Worlds",
+      "status": "candidate-v2",
+      "maturity": "medium-high",
+      "granularity": "module-and-mechanism-node",
+      "scope": "Evidence, interaction, strategy, networks, collective action, organizations, power, markets, finance, states, law, politics, inequality, demography, culture, development, world economy, conflict and historical change.",
+      "deletion_failure": "The learner treats people and institutions as noise around technical systems and cannot reason about incentives, power, coordination or institutional change.",
+      "source_file": "social_systems_theoretical_minimum_v2.xlsx"
+    },
+    {
+      "id": "EX",
+      "title": "Expression & Interpretation",
+      "status": "candidate-strong",
+      "maturity": "medium-high",
+      "granularity": "module-and-outcome-node",
+      "scope": "Grammar, diction, rhetoric, argument, narrative, literature, interpretation, speech, style and revision.",
+      "deletion_failure": "Thought cannot be reliably externalized, transformed for audience and medium, interpreted from difficult works or defended in language.",
+      "source_file": "english_literature_expressive_theoretical_minimum(3).xlsx"
+    },
+    {
+      "id": "ML",
+      "title": "Mind, Learning & Agency",
+      "status": "candidate",
+      "maturity": "medium",
+      "granularity": "module-and-capability-node",
+      "scope": "Attention, memory, practice, mental models, expertise, metacognition, motivation, emotion, embodied skill, creativity, social learning, development, judgment and human-AI cognition.",
+      "deletion_failure": "The architecture lacks an operational theory of how humans acquire, retain, transfer, regulate and renew competence.",
+      "source_file": "open_frontier_obelisk_curriculum_v3.xlsx"
+    },
+    {
+      "id": "DR",
+      "title": "Design & Representation",
+      "status": "candidate-compression-test",
+      "maturity": "medium-low",
+      "granularity": "module-and-design-node",
+      "scope": "Perception, form, diagrams, visualization, typography, spatial design, objects, interfaces, multimodal composition, aesthetics, prototyping, critique and curation.",
+      "deletion_failure": "Visual-spatial, interface and aesthetic-functional failures recur even when technical and verbal competence remain intact.",
+      "source_file": "open_frontier_obelisk_curriculum_v3.xlsx"
+    }
+  ]
+}

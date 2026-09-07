@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://open-frontier.example/schemas/obelisk/backtest.schema.json",
+  "title": "Backtest bundle",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "version",
+    "sets"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "sets": {
+      "type": "object",
+      "minProperties": 1
+    }
+  }
+}

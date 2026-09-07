@@ -1,9 +1,18 @@
-# Safety-sensitive contributions
+# Security
 
-The curriculum covers technologies with real dual-use potential.
+Do not report secrets or exploitable infrastructure defects in public issues. Curriculum claims about dangerous systems should be framed at an appropriate safety level.
 
-Please do not open a public issue containing operational details that meaningfully enable harmful biological manipulation, weapons, malicious software, evasion, or other dangerous capabilities.
+Use the repository's private vulnerability-reporting channel when available.
+If it is unavailable, request a private contact from a maintainer without publishing
+exploit details. Do not attach credentials, learner records or private examination
+material. Rotate exposed credentials through their provider rather than relying
+on deletion from a Git history.
 
-For ordinary curriculum-safety concerns, open an issue describing the **location and category of concern without reproducing dangerous operational details**.
+Report the affected component, reproduction conditions, likely impact and a safe
+minimal example. Test only systems you own or are authorized to assess. No response
+time or support guarantee is implied for this volunteer project.
 
-Maintainers should prefer conceptual dependency analysis, simulation, safety/governance work, and benign reproducible exercises when a domain has meaningful misuse risk.
+Documentation and datasets can also cause harm through misleading professional
+claims, unsafe activities, privacy leaks or fabricated authority. Report those
+with precise IDs and sources. Health, legal, financial, electrical and fieldwork
+activities require the scope/referral rules in the life-pillar contracts.

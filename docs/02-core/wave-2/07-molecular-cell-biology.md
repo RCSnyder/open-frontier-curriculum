@@ -1,9 +1,17 @@
 ---
-title: "Molecular + cell biology"
+title: Molecular + cell biology
 wave: 2
 order: 7
 leverage: 97
+search:
+  exclude: true
 ---
+
+<!-- atlas-route -->
+> **Current study page: [Molecular + cell biology](../../learn/ts-f18.md)**
+>
+> The earlier reference below is retained for continuity.
+<!-- /atlas-route -->
 
 # Molecular + cell biology
 

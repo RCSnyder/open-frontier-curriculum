@@ -1,63 +1,61 @@
 # Contributing
 
-Pull requests and merge requests are welcome.
-
-## Small changes
-
-Submit typos, broken links, source updates, and clear wording fixes directly.
+Open Frontier is maintained as a **living, adversarially tested reference architecture**. Contributions should improve truth, coverage, teachability, accessibility, or validation - not merely make the graph larger.
 
 ## Curriculum changes
 
-Use an RFC for additions, deletions, prerequisite changes, frontier-route changes, or major changes to the curriculum structure.
+For a new branch, module or node, state the deletion failure, prerequisite closure,
+exit capability, mastery test and source roles. Include life-pillar routes,
+formation modes, AI policy and relevant global/temporal evidence.
+Explain why the material cannot be taught adequately within an existing unit.
 
-A substantive proposal must state:
+Use an RFC under `rfcs/curriculum/` for structural additions/deletions. Stable IDs are never silently reused.
 
-- capability gained;
-- prerequisite and downstream effects;
-- deletion test;
-- opportunity cost;
-- evidence;
-- proof of mastery;
-- strongest argument against the change;
-- safety or governance effects.
+## Quality gates
 
-`This is important` is not enough.
-
-## Sources
-
-Prefer primary, official, author-hosted, publisher-hosted, university, standards-body, or open-license sources. Do not submit pirate copies.
-
-Label normative arguments, memoirs, practitioner methods, and empirical research by source type.
-
-## Writing
-
-Read [STYLE.md](STYLE.md). Use plain technical English. Keep established technical terms exact. Remove filler, promotional language, fake suspense, and repeated conclusions.
-
-## Safety
-
-The repository can explain risky technologies at the level needed for prerequisites, safety, governance, and research boundaries. Do not add instructions that materially enable weapons, malicious software, or unsafe biological manipulation.
-
-## Checks
+Use the frozen environment: `uv sync --frozen`. Run commands with `uv run --frozen`.
 
 ```bash
-uv sync --frozen
-uv run --frozen python scripts/lint_prose.py
 uv run --frozen python scripts/validate_repo.py
+uv run --frozen python -m unittest discover -s tests
+uv run --frozen ruff check scripts tests
+uv run --frozen python scripts/lint_prose.py --strict
+uv run --frozen python scripts/audit_ui.py
+uv run --frozen python scripts/audit_contrast.py
 uv run --frozen zensical build --clean
+uv run --frozen python scripts/audit_ui.py --site site
 ```
 
-## Tool updates
-
-Normal setup uses the committed lockfile:
+After canonical changes, regenerate audit views, then catalog/manifests:
 
 ```bash
-uv sync --frozen
+uv run --frozen python scripts/sync_release_version.py
+uv run --frozen python scripts/audit_obelisk.py
+uv run --frozen python scripts/generate_obelisk_catalog.py
+uv run --frozen python scripts/audit_obelisk.py --check
+uv run --frozen python scripts/generate_obelisk_catalog.py --check
 ```
 
-Update the toolchain in a focused pull request. Regenerate `uv.lock`, inspect the diff, and return CI to frozen commands.
+The reconciliation script's `--apply` option is an import migration, not a normal
+generation command. Preserve substantive legacy teaching pages and stable URLs.
+Canonical JSON owns structure; attached prose owns exposition. Do not edit generated
+views directly or modify preserved snapshot folders to make current gates pass.
 
-## Commit messages
+## Evidence and review
 
-Use Conventional Commits. Prefer `feat(curriculum): ...` for substantive additions and `fix(...): ...` for corrections. `docs:` is for documentation-only maintenance that should not create a release by itself. Pull request titles are checked because the repository expects squash merges.
+Keep source identity, scholarly evaluation, teaching readiness and measured learning
+separate. A URL resolving does not establish a claim, and a source count does not
+establish global coverage. Record edition, translation, source role and rights.
+No permission to copy external works follows from a bibliographic entry.
 
-See `docs/08-community/releases.md`.
+New teaching must contain a specific task, failure case, assessment and human/AI
+boundary. Independent performance and augmented performance receive separate records.
+Review claims above assessment-ready need target-bound, file-backed evidence and
+hashes. Maintainers must still assess reviewer competence, independence and method.
+
+Use respectful, reproducible issue reports with exact IDs and commands. Do not
+publish learner identities, sensitive field records, private examiner material or
+credentials. High-risk practice needs qualified supervision and consent.
+
+Pull requests should explain the change, tests, source checks, remaining uncertainty,
+and any proposed RFC. Architecture changes require explicit maintainer approval.

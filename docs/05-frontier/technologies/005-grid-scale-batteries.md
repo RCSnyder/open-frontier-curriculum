@@ -1,9 +1,9 @@
 ---
-title: "Grid-scale batteries"
+title: Grid-scale batteries
 rank: 5
-feasibility: "A"
-primary_track: "MAT"
-secondary_track: "ENE"
+feasibility: A
+primary_track: MAT
+secondary_track: ENE
 ---
 
 # 5 | Grid-scale batteries
@@ -12,7 +12,7 @@ secondary_track: "ENE"
 
 <span class="ofc-badge ofc-a">A | deployed / early deployment</span>
 
-**Primary track:** [Materials, nano & molecular engineering](../../03-specializations/materials-nano.md)  
+**Primary track:** [Materials, nano and molecular engineering](../../03-specializations/materials-nano.md)  
 **Secondary:** ENE
 
 </div>
@@ -25,8 +25,18 @@ Cost, degradation, safety, supply
 
 - **Foundations I:** W1 dynamics, optimization, control
 - **Foundations II:** W2 electrochemistry, thermal, materials, manufacturing, safety
-- **Specialization:** Materials, nano & molecular engineering
+- **Specialization:** [Materials, nano and molecular engineering](../../03-specializations/materials-nano.md)
 
 ## First proof of work
 
 Cell-to-pack degradation/thermal/manufacturing model
+
+<!-- connected-study -->
+## Connected study
+
+Editorial study connections grounded in the existing technology bottlenecks and subject descriptions. Background is useful preparation, not a validated prerequisite or a complete technology curriculum.
+
+Specific subject connections have not been mapped yet.
+
+
+[Explore technologies](../README.md)

@@ -1,9 +1,9 @@
 ---
-title: "Rotating artificial-gravity habitats"
+title: Rotating artificial-gravity habitats
 rank: 72
-feasibility: "C"
-primary_track: "SPA"
-secondary_track: "MAT"
+feasibility: C
+primary_track: SPA
+secondary_track: MAT
 ---
 
 # 72 | Rotating artificial-gravity habitats
@@ -12,7 +12,7 @@ secondary_track: "MAT"
 
 <span class="ofc-badge ofc-c">C | known-physics large engineering</span>
 
-**Primary track:** [Space industry & off-world systems](../../03-specializations/space-industry.md)  
+**Primary track:** [Space industry and off-world systems](../../03-specializations/space-industry.md)  
 **Secondary:** MAT
 
 </div>
@@ -25,8 +25,18 @@ Scale, structures, human factors
 
 - **Foundations I:** W1 dynamics/control
 - **Foundations II:** W2 structures/physiology/manufacturing
-- **Specialization:** Space industry & off-world systems
+- **Specialization:** [Space industry and off-world systems](../../03-specializations/space-industry.md)
 
 ## First proof of work
 
 Spin-gravity/structure/control trade study
+
+<!-- connected-study -->
+## Connected study
+
+Editorial study connections grounded in the existing technology bottlenecks and subject descriptions. Background is useful preparation, not a validated prerequisite or a complete technology curriculum.
+
+Specific subject connections have not been mapped yet.
+
+
+[Explore technologies](../README.md)

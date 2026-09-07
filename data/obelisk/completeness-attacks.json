@@ -1,0 +1,125 @@
+{
+  "version": "0.3.0",
+  "attacks": [
+    {
+      "ID": "AT01",
+      "Attack": "Departmental bias",
+      "Question": "Would the architecture look different if no university departments existed?",
+      "Required response": "Merge/delete any branch whose case rests mainly on institutional tradition."
+    },
+    {
+      "ID": "AT02",
+      "Attack": "Life omission",
+      "Question": "Can a graduate ace the curriculum while being predictably helpless in a critical pillar of life?",
+      "Required response": "Add a life competency or practicum, not automatically a theory branch."
+    },
+    {
+      "ID": "AT03",
+      "Attack": "Knowledge dilution",
+      "Question": "Has 'future skills' language displaced deep disciplinary knowledge?",
+      "Required response": "Restore rigorous spines and internalization gates."
+    },
+    {
+      "ID": "AT04",
+      "Attack": "Reading dilution",
+      "Question": "Can learners pass through mostly summaries, videos, or AI explanations without whole difficult works?",
+      "Required response": "Require whole-work/source encounters at selected nodes."
+    },
+    {
+      "ID": "AT05",
+      "Attack": "Practice dilution",
+      "Question": "Can learners explain a skill they cannot perform?",
+      "Required response": "Add live/field/operational evidence."
+    },
+    {
+      "ID": "AT06",
+      "Attack": "AI laundering",
+      "Question": "Can an agent create an artifact that the learner cannot reconstruct, evaluate, or defend?",
+      "Required response": "Dual-condition assessment; provenance and viva."
+    },
+    {
+      "ID": "AT07",
+      "Attack": "Canon provincialism",
+      "Question": "Do one region/era/tradition's categories define universality by default?",
+      "Required response": "Add counter-cases and global/temporal audits."
+    },
+    {
+      "ID": "AT08",
+      "Attack": "Canon relativism",
+      "Question": "Has breadth become a refusal to make any comparative judgment about importance or quality?",
+      "Required response": "Use explicit selection criteria, comparison, and revisable canon governance."
+    },
+    {
+      "ID": "AT09",
+      "Attack": "Presentism",
+      "Question": "Does the curriculum implicitly treat current institutions and technologies as inevitable endpoints?",
+      "Required response": "Historical sequences and obsolete-but-instructive models."
+    },
+    {
+      "ID": "AT10",
+      "Attack": "Tool-chasing",
+      "Question": "Would half the curriculum expire if current AI/software products disappeared?",
+      "Required response": "Teach durable concepts; put volatile tools in updateable labs."
+    },
+    {
+      "ID": "AT11",
+      "Attack": "No fallback",
+      "Question": "Does competence vanish during outage, model refusal, or degraded infrastructure?",
+      "Required response": "Maintain independent floors and practical fallback."
+    },
+    {
+      "ID": "AT12",
+      "Attack": "Oververification fantasy",
+      "Question": "Does the ASI scenario assume an individual can personally verify every superhuman analysis?",
+      "Required response": "Teach institutional assurance, competing evaluators, permissions, empirical tests, recourse."
+    },
+    {
+      "ID": "AT13",
+      "Attack": "Aesthetic blindness",
+      "Question": "Can graduates distinguish correct from good, fitting, elegant, humane, coherent, or original?",
+      "Required response": "Taste studios and exemplar comparison."
+    },
+    {
+      "ID": "AT14",
+      "Attack": "Moral abstraction",
+      "Question": "Can graduates discuss ethics but fail to identify stakeholders, responsibilities, recourse, and consequences in a real system?",
+      "Required response": "Attach ethics to artifacts and decisions."
+    },
+    {
+      "ID": "AT15",
+      "Attack": "Social abstraction",
+      "Question": "Can graduates name incentives/power without interviewing, observing, or tracing a real institution?",
+      "Required response": "Field/institution evidence."
+    },
+    {
+      "ID": "AT16",
+      "Attack": "Health/finance pseudo-expertise",
+      "Question": "Does life competence encourage students to exceed safe scope or substitute curriculum for professionals?",
+      "Required response": "Teach navigation, evidence, boundaries, referral, and consumer judgment—not amateur diagnosis/advice."
+    },
+    {
+      "ID": "AT17",
+      "Attack": "Specialization deficit",
+      "Question": "Does breadth prevent anyone from experiencing genuine depth and craft?",
+      "Required response": "Require at least one externally reviewed specialization."
+    },
+    {
+      "ID": "AT18",
+      "Attack": "Assessment gaming",
+      "Question": "Can students learn the rubric rather than the underlying capability?",
+      "Required response": "Hidden/unseen holdouts and perturbations."
+    },
+    {
+      "ID": "AT19",
+      "Attack": "Teacher bottleneck",
+      "Question": "Does quality require a rare polymath instructor?",
+      "Required response": "Teacher guides, AI-supported facilitation, external reviewers, source-rich modules, calibration packets."
+    },
+    {
+      "ID": "AT20",
+      "Attack": "Maintenance failure",
+      "Question": "Does the curriculum grow forever without deletion and versioning?",
+      "Required response": "Evidence-backed RFCs, saturation metrics, archive superseded material."
+    }
+  ]
+}

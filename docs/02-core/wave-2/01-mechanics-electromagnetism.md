@@ -1,9 +1,17 @@
 ---
-title: "Mechanics + electromagnetism"
+title: Mechanics + electromagnetism
 wave: 2
 order: 1
 leverage: 100
+search:
+  exclude: true
 ---
+
+<!-- atlas-route -->
+> **Current study page: [Mechanics + electromagnetism](../../learn/ts-f12.md)**
+>
+> The earlier reference below is retained for continuity.
+<!-- /atlas-route -->
 
 # Mechanics + electromagnetism
 

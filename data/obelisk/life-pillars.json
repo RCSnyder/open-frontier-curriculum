@@ -1,0 +1,101 @@
+{
+  "version": "0.3.0",
+  "life_pillars": [
+    {
+      "ID": "L01",
+      "Life pillar": "Self, Character & Agency",
+      "Scope": "Direct one's attention, commitments, habits, decisions, identity, and use of time.",
+      "Deletion failure": "A person who cannot govern themselves cannot reliably deploy any other competence.",
+      "Primary trunks": "ML/PH",
+      "Evidence": "Decision journal; 12-week self-governance project"
+    },
+    {
+      "ID": "L02",
+      "Life pillar": "Body, Health & Vitality",
+      "Scope": "Understand and care for the human body across prevention, movement, nutrition, sleep, mental health, sexuality, illness, and care navigation.",
+      "Deletion failure": "Health is a prerequisite for agency and a high-stakes domain of misinformation.",
+      "Primary trunks": "TS/ML/HW",
+      "Evidence": "Health literacy audit + sustained practice + emergency scenario"
+    },
+    {
+      "ID": "L03",
+      "Life pillar": "Relationships, Family & Care",
+      "Scope": "Build trustworthy relationships; communicate needs; establish consent/boundaries; repair conflict; nurture family/community; care for dependents.",
+      "Deletion failure": "A technically brilliant but relationally incapable person is not broadly competent in life.",
+      "Primary trunks": "HW/EX/ML/PH",
+      "Evidence": "Observed dialogue + care/service evidence"
+    },
+    {
+      "ID": "L04",
+      "Life pillar": "Home, Food & Practical Independence",
+      "Scope": "Operate a household: food, cleaning, maintenance, tools, transport, logistics, safety, emergency readiness, and basic repair.",
+      "Deletion failure": "Daily life contains physical systems and failure modes; dependence can become fragility.",
+      "Primary trunks": "TS/ML/DR",
+      "Evidence": "Live practical demonstrations"
+    },
+    {
+      "ID": "L05",
+      "Life pillar": "Money, Property & Financial Agency",
+      "Scope": "Manage cash flow, savings, debt, credit, insurance, investing, taxes, contracts, fraud, and long-horizon financial choices.",
+      "Deletion failure": "Financial decisions compound for decades and are saturated with incentives and information asymmetry.",
+      "Primary trunks": "HW/TS/ML",
+      "Evidence": "Personal finance model + product comparison + scam audit"
+    },
+    {
+      "ID": "L06",
+      "Life pillar": "Work, Craft, Enterprise & Service",
+      "Scope": "Develop valuable skill, manage projects, collaborate, operate systems, understand organizations/enterprise, and serve real users or communities.",
+      "Deletion failure": "Work is where knowledge meets responsibility, production, incentives, and other people.",
+      "Primary trunks": "TS/HW/EX/ML/DR",
+      "Evidence": "Long real-world project + external stakeholder"
+    },
+    {
+      "ID": "L07",
+      "Life pillar": "Communication, Language & Public Expression",
+      "Scope": "Read, write, speak, listen, persuade, narrate, explain, debate, and communicate across cultures and media.",
+      "Deletion failure": "Most human coordination occurs through representation and language.",
+      "Primary trunks": "EX/PH/HW/DR",
+      "Evidence": "Writing/speech portfolio + live defense"
+    },
+    {
+      "ID": "L08",
+      "Life pillar": "Knowledge, Learning & Research",
+      "Scope": "Search, evaluate sources, build knowledge, study effectively, reason statistically/causally, synthesize fields, and teach.",
+      "Deletion failure": "The learner must be capable of renewing the curriculum inside themselves.",
+      "Primary trunks": "ML/PH/TS/EX",
+      "Evidence": "Independent research + unfamiliar-domain challenge"
+    },
+    {
+      "ID": "L09",
+      "Life pillar": "Technology, Computing & AI",
+      "Scope": "Understand computational systems, digital infrastructure, privacy/security, AI capabilities/limits, delegation, evaluation, and governance.",
+      "Deletion failure": "AI-rich civilization makes technical dependence a civic and personal issue.",
+      "Primary trunks": "TS/PH/HW/ML",
+      "Evidence": "Build + threat model + agent eval + fallback"
+    },
+    {
+      "ID": "L10",
+      "Life pillar": "Civic, Legal & Institutional Agency",
+      "Scope": "Understand states, law, rights, public finance, media, organizations, collective action, power, and participation.",
+      "Deletion failure": "People live under institutions whether or not they understand them.",
+      "Primary trunks": "HW/PH/EX",
+      "Evidence": "Institution trace + civic action + public decision"
+    },
+    {
+      "ID": "L11",
+      "Life pillar": "Culture, History, Beauty & Meaning",
+      "Scope": "Encounter world history, literature, arts, music, architecture, religions/worldviews, rituals, philosophy, and the search for meaning.",
+      "Deletion failure": "Human inheritance is more than utility; culture shapes identity, values, memory, and imagination.",
+      "Primary trunks": "EX/DR/HW/PH",
+      "Evidence": "Comparative seminar + criticism + original work"
+    },
+    {
+      "ID": "L12",
+      "Life pillar": "Nature, Place, Risk & Future Stewardship",
+      "Scope": "Understand Earth systems, ecology, energy, food/water/material flows, cities/place, hazards, resilience, long-term futures, and intergenerational responsibility.",
+      "Deletion failure": "Technological civilization remains embedded in planetary and temporal constraints.",
+      "Primary trunks": "TS/HW/PH/DR",
+      "Evidence": "Field systems map + resilience / future decision dossier"
+    }
+  ]
+}

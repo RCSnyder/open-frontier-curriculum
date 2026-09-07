@@ -1,0 +1,159 @@
+{
+  "version": "0.5.0",
+  "status": "scenario-planning assumptions, not AGI timeline predictions",
+  "theses": [
+    {
+      "id": "WT01",
+      "title": "Cognitive abundance",
+      "confidence": "high-current-trend",
+      "thesis": "The marginal cost of many forms of drafting, coding, explanation, search, translation, analysis and expert assistance is falling sharply.",
+      "evidence_refs": [
+        "SRC-META-AIINDEX-2026",
+        "SRC-META-ILO-2025"
+      ],
+      "implication": "Education cannot justify itself primarily by training students to produce routine cognitive outputs."
+    },
+    {
+      "id": "WT02",
+      "title": "Agentification",
+      "confidence": "high-current-trend",
+      "thesis": "AI is moving from answer generation toward systems that plan, use tools, maintain context and take actions with less human intervention.",
+      "evidence_refs": [
+        "SRC-META-IASR-2026",
+        "SRC-META-METR-2026"
+      ],
+      "implication": "Specification, permissions, monitoring, evaluator integrity, incident response and institutional accountability become general literacies."
+    },
+    {
+      "id": "WT03",
+      "title": "Evaluation becomes a bottleneck",
+      "confidence": "high-current-trend",
+      "thesis": "Capability benchmarks saturate quickly, real-world performance remains jagged, and increasingly autonomous systems create an evaluation gap.",
+      "evidence_refs": [
+        "SRC-META-AIINDEX-2026",
+        "SRC-META-IASR-2026"
+      ],
+      "implication": "Train verification, benchmark design, adversarial testing, calibration and the ability to know what cannot be reliably checked."
+    },
+    {
+      "id": "WT04",
+      "title": "Scientific acceleration with empirical bottlenecks",
+      "confidence": "high-current-trend",
+      "thesis": "AI increasingly contributes to scientific reasoning, biological modeling, literature synthesis and experimental design, but important claims still require real-world validation.",
+      "evidence_refs": [
+        "SRC-META-AIINDEX-SCI-2026",
+        "SRC-META-AIINDEX-MED-2026"
+      ],
+      "implication": "Teach science as model-plus-experiment, not model output; preserve laboratory and measurement competence."
+    },
+    {
+      "id": "WT05",
+      "title": "Work recomposition and shortened skill half-lives",
+      "confidence": "high-current-trend",
+      "thesis": "A large share of occupations is exposed to transformation, though exposure does not imply simple job elimination and effects remain heterogeneous.",
+      "evidence_refs": [
+        "SRC-META-ILO-2025",
+        "SRC-META-AIINDEX-ECON-2026"
+      ],
+      "implication": "Prioritize transferable foundations, learning autonomy, craft depth, enterprise and identity beyond a single occupational role."
+    },
+    {
+      "id": "WT06",
+      "title": "Epistemic hyperabundance",
+      "confidence": "high-current-trend",
+      "thesis": "Synthetic text, images, video and personalized persuasion drastically expand the volume of plausible information competing for finite attention.",
+      "evidence_refs": [
+        "SRC-META-AIINDEX-2026",
+        "SRC-META-IASR-2026"
+      ],
+      "implication": "Source ecology, primary evidence, attention, curation, provenance, rhetoric and epistemic institutions become more important."
+    },
+    {
+      "id": "WT07",
+      "title": "Personal AI mediation",
+      "confidence": "medium-high-current-trend",
+      "thesis": "AI increasingly mediates learning, work, health information, decision support and emotionally meaningful interactions.",
+      "evidence_refs": [
+        "SRC-META-OECD-DIGED-2026",
+        "SRC-META-AIINDEX-PUBLIC-2026",
+        "SRC-META-IASR-2026"
+      ],
+      "implication": "Teach reliance calibration and deliberately protect human relationships, mentorship, privacy, developmental autonomy and non-mediated experience."
+    },
+    {
+      "id": "WT08",
+      "title": "Power, compute and sovereignty",
+      "confidence": "high-current-trend",
+      "thesis": "Frontier capability depends on concentrated compute, chips, data centers, energy, capital and organizational capacity, making AI infrastructure a geopolitical and institutional question.",
+      "evidence_refs": [
+        "SRC-META-AIINDEX-RD-2026",
+        "SRC-META-AIINDEX-POLICY-2026",
+        "SRC-META-IEA-2026"
+      ],
+      "implication": "Human Worlds and Technical Systems must connect AI to energy, supply chains, state capacity, competition, standards and rights."
+    },
+    {
+      "id": "WT09",
+      "title": "Physical reality remains a bottleneck",
+      "confidence": "high-current-trend",
+      "thesis": "Digital and simulated competence is advancing faster than robust physical-world autonomy in uncontrolled environments.",
+      "evidence_refs": [
+        "SRC-META-AIINDEX-TECH-2026"
+      ],
+      "implication": "Do not let a digital curriculum erase making, maintenance, logistics, fieldwork, embodiment or tacit physical knowledge."
+    },
+    {
+      "id": "WT10",
+      "title": "Institutional adaptation lags capability",
+      "confidence": "high-current-trend",
+      "thesis": "Education, evaluation, regulation and responsible-AI practice are adapting more slowly than capability and adoption.",
+      "evidence_refs": [
+        "SRC-META-AIINDEX-2026",
+        "SRC-META-OECD-DIGED-2026",
+        "SRC-META-IASR-2026"
+      ],
+      "implication": "Teach graduates to design and reform institutions, not merely operate within current ones."
+    },
+    {
+      "id": "WT11",
+      "title": "Meaning cannot be outsourced by productivity growth",
+      "confidence": "normative-structural",
+      "thesis": "If machines become superior at economically valuable cognition, employment can no longer carry the full burden of identity, worth, education and purpose.",
+      "evidence_refs": [
+        "SRC-META-OECD-FLOURISH-2025"
+      ],
+      "implication": "Education must explicitly include meaning, culture, relationships, civic membership, care, craft and self-authored commitments."
+    },
+    {
+      "id": "WT12",
+      "title": "Planetary and material constraints remain real",
+      "confidence": "high-current-trend",
+      "thesis": "AI itself consumes energy and depends on physical supply chains; abundant cognition does not abolish energy, material, ecological or infrastructure constraints.",
+      "evidence_refs": [
+        "SRC-META-IEA-2026",
+        "SRC-META-IEA-2025"
+      ],
+      "implication": "Earth systems, energy, materials, ecology, infrastructure and long-horizon stewardship remain foundational."
+    },
+    {
+      "id": "WT13",
+      "title": "Plural values survive intelligence amplification",
+      "confidence": "normative-structural",
+      "thesis": "More capable reasoning does not imply one uncontested answer to how people should live, distribute power, structure families, govern communities or use technology.",
+      "evidence_refs": [
+        "SRC-META-OECD-FLOURISH-2025"
+      ],
+      "implication": "Teach philosophical disagreement, political legitimacy, cultural plurality, public reason and constitutional constraints."
+    },
+    {
+      "id": "WT14",
+      "title": "Human formation becomes more—not less—important",
+      "confidence": "design-thesis",
+      "thesis": "As machines supply more cognition on demand, the risk grows that humans can obtain high-quality outputs without acquiring the knowledge, judgment or character that would make those outputs theirs in any meaningful sense.",
+      "evidence_refs": [
+        "SRC-META-OECD-DIGED-2026"
+      ],
+      "implication": "Separate output quality from learning; require unaided floors, delayed transfer, making, dialogue, responsibility and ownership."
+    }
+  ]
+}

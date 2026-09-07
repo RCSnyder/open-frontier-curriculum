@@ -2,18 +2,23 @@
 
 <!-- version list -->
 
-## v0.1.0 (2026-08-30)
+## Legacy repository history
+
+The following labels are retained from base commit `8b98ed1`. Some predate the
+semantic-release baseline and overlap Obelisk labels. They are historical entries,
+not inputs to the current version in `release.toml`.
+
+### v0.1.0 (2026-08-30)
 
 - Initial Release
 
-## 0.6.2 - 2026-08-30
+### 0.6.2 - 2026-08-30
 
 - Fix GitHub Actions uv setup by using the current setup-uv v10.0.1 action.
 - Configure the canonical GitHub Pages and repository URLs.
 - Simplify one-time publishing instructions.
 
-
-## 0.6.1 - Readable dark mode and one-merge publishing
+### 0.6.1 - Readable dark mode and one-merge publishing
 
 - Fixed the Start-here footer links so Zensical renders them as page links.
 - Replaced dim inherited dark-theme text with explicit high-contrast tokens.
@@ -23,7 +28,7 @@
 - Kept GitHub Pages publication in the same successful main-branch pipeline.
 - Added a PR-title safeguard for single-commit squash merges.
 
-## 0.6.0 - High-contrast dark mode and automated delivery
+### 0.6.0 - High-contrast dark mode and automated delivery
 
 - Replaced inherited slate text opacity with explicit high-contrast dark-mode tokens.
 - Raised contrast for headings, card titles, body text, metadata, links, navigation, search results, tables, code, and admonitions.
@@ -37,7 +42,7 @@
 - Pinned third-party GitHub Actions to reviewed immutable commit SHAs.
 - Raised dark header and search contrast; automated checks now cover those surfaces.
 
-## 0.5.0 - UI and information-foraging audit
+### 0.5.0 - UI and information-foraging audit
 
 - Rebuilt all index card markup around Zensical's supported card-list pattern.
 - Removed heading elements from cards and converted pipe-delimited subtitles to semantic metadata.
@@ -47,7 +52,7 @@
 - Added source and built-site UI audits to CI.
 - Switched the docs theme to system fonts to remove a render-blocking external font dependency.
 
-## 0.4.0 - Plain technical English
+### 0.4.0 - Plain technical English
 
 - Added a house style based on plain-language and technical-writing practice.
 - Added an ASD-STE100-inspired terminology rule without claiming STE compliance.
@@ -56,7 +61,7 @@
 - Rewrote the home, premise, start, AI-use, and contribution pages for higher information density.
 - Added a prose linter to CI.
 
-## 0.3.0: Information-foraging redesign
+### 0.3.0: Information-foraging redesign
 
 - Renamed the project to **Open Frontier Curriculum**.
 - Reduced the public thesis to a five-point premise.
@@ -66,7 +71,7 @@
 - Removed most manifesto/deletion-test rhetoric from learner-facing pages.
 - Preserved prerequisite ordering, mastery gates, research tracks, and contribution standards.
 
-## 0.2.1: Frozen uv toolchain
+### 0.2.1: Frozen uv toolchain
 
 - Added committed `uv.lock`.
 - Replaced bootstrap `exclude-newer` date cutoff with lockfile reproducibility.
@@ -74,7 +79,7 @@
 - Fixed the Zensical warning caused by a docs page linking outside `docs/`.
 - Validation now rejects published-doc links that escape the Zensical docs root.
 
-## 0.2.0: Zensical + uv site layer
+### 0.2.0: Zensical + uv site layer
 
 - Added a pinned uv-managed Zensical documentation environment.
 - Added a two-path Zensical homepage, dependency atlas, and track-based frontier explorer.
@@ -82,7 +87,7 @@
 - Added Zensical build validation and GitHub Pages deployment with separated permissions.
 - Strengthened validator checks for Zensical nav, toolchain pins, and Frontier CSV/front-matter drift.
 
-## 0.1.0: Repository conversion
+### 0.1.0: Repository conversion
 
 - Converted the 136-week Open Frontier Curriculum spreadsheet into a GitHub/GitBook-friendly Markdown repository.
 - Added one page per core module and specialization.

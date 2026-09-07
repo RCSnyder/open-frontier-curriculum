@@ -1,0 +1,6276 @@
+{
+  "version": "0.3.0",
+  "links": [
+    {
+      "source_id": "SRC-HW-CORE-ECON2",
+      "target_id": "HW05",
+      "weight": 1,
+      "role": "comparative-introductory-spine"
+    },
+    {
+      "source_id": "SRC-DR-NIELSEN",
+      "target_id": "DR01",
+      "weight": 1,
+      "role": "practice-spine"
+    },
+    {
+      "source_id": "SRC-DR-CHING",
+      "target_id": "DR02",
+      "weight": 1,
+      "role": "form-space-spine"
+    },
+    {
+      "source_id": "SRC-DR-LUPTON",
+      "target_id": "DR02",
+      "weight": 1,
+      "role": "typography-layout-spine"
+    },
+    {
+      "source_id": "SRC-DR-CHING",
+      "target_id": "DR03",
+      "weight": 1,
+      "role": "form-space-spine"
+    },
+    {
+      "source_id": "SRC-DR-TUFTE",
+      "target_id": "DR04",
+      "weight": 1,
+      "role": "data-display-spine"
+    },
+    {
+      "source_id": "SRC-DR-LUPTON",
+      "target_id": "DR05",
+      "weight": 1,
+      "role": "typography-layout-spine"
+    },
+    {
+      "source_id": "SRC-DR-CHING",
+      "target_id": "DR06",
+      "weight": 1,
+      "role": "form-space-spine"
+    },
+    {
+      "source_id": "SRC-DR-DOUBLE-DIAMOND",
+      "target_id": "DR07",
+      "weight": 1,
+      "role": "design-process"
+    },
+    {
+      "source_id": "SRC-TS-F15",
+      "target_id": "DR07",
+      "weight": 1,
+      "role": "materials-interface"
+    },
+    {
+      "source_id": "SRC-TS-F17",
+      "target_id": "DR07",
+      "weight": 1,
+      "role": "mechanical-design-interface"
+    },
+    {
+      "source_id": "SRC-DR-DOUBLE-DIAMOND",
+      "target_id": "DR08",
+      "weight": 1,
+      "role": "design-process"
+    },
+    {
+      "source_id": "SRC-DR-NIELSEN",
+      "target_id": "DR08",
+      "weight": 1,
+      "role": "practice-spine"
+    },
+    {
+      "source_id": "SRC-DR-TYPE-SCREEN",
+      "target_id": "DR09",
+      "weight": 1,
+      "role": "temporal-screen-form"
+    },
+    {
+      "source_id": "SRC-DR-SMARTHISTORY",
+      "target_id": "DR10",
+      "weight": 1,
+      "role": "global-history-spine"
+    },
+    {
+      "source_id": "SRC-DR-DOUBLE-DIAMOND",
+      "target_id": "DR11",
+      "weight": 1,
+      "role": "process-spine"
+    },
+    {
+      "source_id": "SRC-DR-NIELSEN",
+      "target_id": "DR11",
+      "weight": 1,
+      "role": "practice-spine"
+    },
+    {
+      "source_id": "SRC-DR-DOUBLE-DIAMOND",
+      "target_id": "DR12",
+      "weight": 1,
+      "role": "curation-iteration-context"
+    },
+    {
+      "source_id": "SRC-DR-SMARTHISTORY",
+      "target_id": "DR12",
+      "weight": 1,
+      "role": "global-exemplar-context"
+    },
+    {
+      "source_id": "SRC-DR-DOUBLE-DIAMOND",
+      "target_id": "DR13",
+      "weight": 1,
+      "role": "integration-process"
+    },
+    {
+      "source_id": "SRC-DR-SMARTHISTORY",
+      "target_id": "DR13",
+      "weight": 1,
+      "role": "global-exemplar-context"
+    },
+    {
+      "source_id": "SRC-EX-001",
+      "target_id": "EX-M01",
+      "weight": 1,
+      "role": "Core craft"
+    },
+    {
+      "source_id": "SRC-EX-002",
+      "target_id": "EX-M01",
+      "weight": 1,
+      "role": "Reference"
+    },
+    {
+      "source_id": "SRC-EX-003",
+      "target_id": "EX-M02",
+      "weight": 1,
+      "role": "Reference"
+    },
+    {
+      "source_id": "SRC-EX-004",
+      "target_id": "EX-M03",
+      "weight": 1,
+      "role": "Core craft"
+    },
+    {
+      "source_id": "SRC-EX-005",
+      "target_id": "EX-M04",
+      "weight": 1,
+      "role": "Core craft"
+    },
+    {
+      "source_id": "SRC-EX-006",
+      "target_id": "EX-M04",
+      "weight": 1,
+      "role": "Core craft"
+    },
+    {
+      "source_id": "SRC-EX-007",
+      "target_id": "EX-M04",
+      "weight": 1,
+      "role": "Model prose"
+    },
+    {
+      "source_id": "SRC-EX-008",
+      "target_id": "EX-M05",
+      "weight": 1,
+      "role": "Model poetry"
+    },
+    {
+      "source_id": "SRC-EX-009",
+      "target_id": "EX-M05",
+      "weight": 1,
+      "role": "Model prose"
+    },
+    {
+      "source_id": "SRC-EX-010",
+      "target_id": "EX-M06",
+      "weight": 1,
+      "role": "Model fiction"
+    },
+    {
+      "source_id": "SRC-EX-011",
+      "target_id": "EX-M06",
+      "weight": 1,
+      "role": "Model essay"
+    },
+    {
+      "source_id": "SRC-EX-012",
+      "target_id": "EX-M07",
+      "weight": 1,
+      "role": "Model fiction"
+    },
+    {
+      "source_id": "SRC-EX-013",
+      "target_id": "EX-M07",
+      "weight": 1,
+      "role": "Model fiction"
+    },
+    {
+      "source_id": "SRC-EX-014",
+      "target_id": "EX-M08",
+      "weight": 1,
+      "role": "Core literature"
+    },
+    {
+      "source_id": "SRC-EX-015",
+      "target_id": "EX-M08",
+      "weight": 1,
+      "role": "Supplement"
+    },
+    {
+      "source_id": "SRC-EX-016",
+      "target_id": "EX-M09",
+      "weight": 1,
+      "role": "Core reference"
+    },
+    {
+      "source_id": "SRC-EX-017",
+      "target_id": "EX-M09",
+      "weight": 1,
+      "role": "Core reference"
+    },
+    {
+      "source_id": "SRC-EX-018",
+      "target_id": "EX-M09",
+      "weight": 1,
+      "role": "Model poetry"
+    },
+    {
+      "source_id": "SRC-EX-019",
+      "target_id": "EX-M09",
+      "weight": 1,
+      "role": "Model poetry"
+    },
+    {
+      "source_id": "SRC-EX-020",
+      "target_id": "EX-M10",
+      "weight": 1,
+      "role": "Model essay"
+    },
+    {
+      "source_id": "SRC-EX-021",
+      "target_id": "EX-M10",
+      "weight": 1,
+      "role": "Core craft"
+    },
+    {
+      "source_id": "SRC-EX-022",
+      "target_id": "EX-M11",
+      "weight": 1,
+      "role": "Core drama"
+    },
+    {
+      "source_id": "SRC-EX-023",
+      "target_id": "EX-M11",
+      "weight": 1,
+      "role": "Core novel"
+    },
+    {
+      "source_id": "SRC-EX-024",
+      "target_id": "EX-M11",
+      "weight": 1,
+      "role": "Core American prose"
+    },
+    {
+      "source_id": "SRC-EX-025",
+      "target_id": "EX-M11",
+      "weight": 1,
+      "role": "Core poetry"
+    },
+    {
+      "source_id": "SRC-EX-026",
+      "target_id": "EX-M11",
+      "weight": 1,
+      "role": "Core modern prose"
+    },
+    {
+      "source_id": "SRC-EX-027",
+      "target_id": "EX-M12",
+      "weight": 1,
+      "role": "Exercise source"
+    },
+    {
+      "source_id": "SRC-EX-028",
+      "target_id": "EX-M13",
+      "weight": 1,
+      "role": "Core speech model"
+    },
+    {
+      "source_id": "SRC-EX-029",
+      "target_id": "EX-M13",
+      "weight": 1,
+      "role": "Model oratory"
+    },
+    {
+      "source_id": "SRC-EX-030",
+      "target_id": "EX-M14",
+      "weight": 1,
+      "role": "Capstone corpus"
+    },
+    {
+      "source_id": "SRC-HW-SOC-001",
+      "target_id": "HW01",
+      "weight": 1,
+      "role": "comparative-research-context"
+    },
+    {
+      "source_id": "SRC-TS-F06",
+      "target_id": "HW01",
+      "weight": 1,
+      "role": "methods-spine"
+    },
+    {
+      "source_id": "SRC-HW-LEG-001",
+      "target_id": "HW02",
+      "weight": 1,
+      "role": "Core",
+      "mapping_status": "legacy-to-v2"
+    },
+    {
+      "source_id": "SRC-HW-LEG-002",
+      "target_id": "HW02",
+      "weight": 1,
+      "role": "Practice supplement",
+      "mapping_status": "legacy-to-v2"
+    },
+    {
+      "source_id": "SRC-HW-LEG-003",
+      "target_id": "HW02",
+      "weight": 1,
+      "role": "Practice supplement",
+      "mapping_status": "legacy-to-v2"
+    },
+    {
+      "source_id": "SRC-HW-LEG-004",
+      "target_id": "HW02",
+      "weight": 1,
+      "role": "Core",
+      "mapping_status": "legacy-to-v2"
+    },
+    {
+      "source_id": "SRC-HW-LEG-005",
+      "target_id": "HW02",
+      "weight": 1,
+      "role": "Applied",
+      "mapping_status": "legacy-to-v2"
+    },
+    {
+      "source_id": "SRC-HW-LEG-006",
+      "target_id": "HW03",
+      "weight": 1,
+      "role": "Core",
+      "mapping_status": "legacy-to-v2"
+    },
+    {
+      "source_id": "SRC-HW-LEG-007",
+      "target_id": "HW03",
+      "weight": 1,
+      "role": "Core",
+      "mapping_status": "legacy-to-v2"
+    },
+    {
+      "source_id": "SRC-HW-LEG-008",
+      "target_id": "HW03",
+      "weight": 1,
+      "role": "Core",
+      "mapping_status": "legacy-to-v2"
+    },
+    {
+      "source_id": "SRC-HW-LEG-009",
+      "target_id": "HW04",
+      "weight": 1,
+      "role": "Core",
+      "mapping_status": "legacy-to-v2"
+    },
+    {
+      "source_id": "SRC-HW-LEG-010",
+      "target_id": "HW05",
+      "weight": 1,
+      "role": "Core",
+      "mapping_status": "legacy-to-v2"
+    },
+    {
+      "source_id": "SRC-HW-LEG-011",
+      "target_id": "HW05",
+      "weight": 1,
+      "role": "Core",
+      "mapping_status": "legacy-to-v2"
+    },
+    {
+      "source_id": "SRC-HW-LEG-012",
+      "target_id": "HW06",
+      "weight": 1,
+      "role": "Core",
+      "mapping_status": "legacy-to-v2"
+    },
+    {
+      "source_id": "SRC-HW-LEG-013",
+      "target_id": "HW06",
+      "weight": 1,
+      "role": "Core",
+      "mapping_status": "legacy-to-v2"
+    },
+    {
+      "source_id": "SRC-HW-LEG-014",
+      "target_id": "HW07",
+      "weight": 1,
+      "role": "Core",
+      "mapping_status": "legacy-to-v2"
+    },
+    {
+      "source_id": "SRC-HW-LEG-015",
+      "target_id": "HW07",
+      "weight": 1,
+      "role": "Reference",
+      "mapping_status": "legacy-to-v2"
+    },
+    {
+      "source_id": "SRC-HW-ECON-001",
+      "target_id": "HW08",
+      "weight": 1,
+      "role": "primary-spine"
+    },
+    {
+      "source_id": "SRC-HW-ECON-001",
+      "target_id": "HW09",
+      "weight": 1,
+      "role": "primary-spine"
+    },
+    {
+      "source_id": "SRC-HW-LEG-016",
+      "target_id": "HW10",
+      "weight": 1,
+      "role": "Core / primary",
+      "mapping_status": "legacy-to-v2"
+    },
+    {
+      "source_id": "SRC-HW-LEG-017",
+      "target_id": "HW10",
+      "weight": 1,
+      "role": "Core / primary",
+      "mapping_status": "legacy-to-v2"
+    },
+    {
+      "source_id": "SRC-HW-LEG-018",
+      "target_id": "HW10",
+      "weight": 1,
+      "role": "Reference",
+      "mapping_status": "legacy-to-v2"
+    },
+    {
+      "source_id": "SRC-HW-LEG-019",
+      "target_id": "HW11",
+      "weight": 1,
+      "role": "Core",
+      "mapping_status": "legacy-to-v2"
+    },
+    {
+      "source_id": "SRC-HW-LEG-020",
+      "target_id": "HW12",
+      "weight": 1,
+      "role": "Core",
+      "mapping_status": "legacy-to-v2"
+    },
+    {
+      "source_id": "SRC-HW-LEG-021",
+      "target_id": "HW12",
+      "weight": 1,
+      "role": "Re-use",
+      "mapping_status": "legacy-to-v2"
+    },
+    {
+      "source_id": "SRC-HW-SOC-001",
+      "target_id": "HW13",
+      "weight": 1,
+      "role": "primary-spine"
+    },
+    {
+      "source_id": "SRC-HW-SOC-001",
+      "target_id": "HW14",
+      "weight": 1,
+      "role": "primary-spine"
+    },
+    {
+      "source_id": "SRC-CA068",
+      "target_id": "HW15",
+      "weight": 1,
+      "role": "civilizational-counterpoint"
+    },
+    {
+      "source_id": "SRC-HW-ECON-001",
+      "target_id": "HW15",
+      "weight": 1,
+      "role": "primary-spine"
+    },
+    {
+      "source_id": "SRC-HW-ECON-001",
+      "target_id": "HW16",
+      "weight": 1,
+      "role": "primary-spine"
+    },
+    {
+      "source_id": "SRC-HW-LEG-006",
+      "target_id": "HW17",
+      "weight": 1,
+      "role": "strategic-conflict-spine"
+    },
+    {
+      "source_id": "SRC-HW-LEG-012",
+      "target_id": "HW17",
+      "weight": 1,
+      "role": "authority-empire-context"
+    },
+    {
+      "source_id": "SRC-HW-LEG-020",
+      "target_id": "HW18",
+      "weight": 1,
+      "role": "Core",
+      "mapping_status": "legacy-to-v2"
+    },
+    {
+      "source_id": "SRC-HW-LEG-021",
+      "target_id": "HW18",
+      "weight": 1,
+      "role": "Re-use",
+      "mapping_status": "legacy-to-v2"
+    },
+    {
+      "source_id": "SRC-HW-LEG-022",
+      "target_id": "HW19",
+      "weight": 1,
+      "role": "Design inspiration",
+      "mapping_status": "legacy-to-v2"
+    },
+    {
+      "source_id": "SRC-ML-HPL2",
+      "target_id": "ML01",
+      "weight": 1,
+      "role": "consensus-spine"
+    },
+    {
+      "source_id": "SRC-ML-HPL2",
+      "target_id": "ML02",
+      "weight": 1,
+      "role": "consensus-spine"
+    },
+    {
+      "source_id": "SRC-ML-HPL2",
+      "target_id": "ML03",
+      "weight": 1,
+      "role": "consensus-spine"
+    },
+    {
+      "source_id": "SRC-ML-HPL2",
+      "target_id": "ML04",
+      "weight": 1,
+      "role": "consensus-spine"
+    },
+    {
+      "source_id": "SRC-ML-HPL2",
+      "target_id": "ML05",
+      "weight": 1,
+      "role": "consensus-spine"
+    },
+    {
+      "source_id": "SRC-ML-EXPERTISE",
+      "target_id": "ML06",
+      "weight": 1,
+      "role": "research-synthesis"
+    },
+    {
+      "source_id": "SRC-ML-HPL2",
+      "target_id": "ML06",
+      "weight": 1,
+      "role": "consensus-context"
+    },
+    {
+      "source_id": "SRC-ML-HPL2",
+      "target_id": "ML07",
+      "weight": 1,
+      "role": "consensus-spine"
+    },
+    {
+      "source_id": "SRC-ML-SDT",
+      "target_id": "ML08",
+      "weight": 1,
+      "role": "theory-spine"
+    },
+    {
+      "source_id": "SRC-ML-SDT",
+      "target_id": "ML09",
+      "weight": 1,
+      "role": "motivation-wellness-context"
+    },
+    {
+      "source_id": "SRC-ML-SLEEP",
+      "target_id": "ML09",
+      "weight": 1,
+      "role": "domain-reference"
+    },
+    {
+      "source_id": "SRC-ML-MOTOR",
+      "target_id": "ML10",
+      "weight": 1,
+      "role": "domain-spine"
+    },
+    {
+      "source_id": "SRC-ML-CREATIVITY",
+      "target_id": "ML11",
+      "weight": 1,
+      "role": "research-synthesis"
+    },
+    {
+      "source_id": "SRC-ML-HPL2",
+      "target_id": "ML12",
+      "weight": 1,
+      "role": "consensus-spine"
+    },
+    {
+      "source_id": "SRC-ML-HPL2",
+      "target_id": "ML13",
+      "weight": 1,
+      "role": "consensus-spine"
+    },
+    {
+      "source_id": "SRC-ML-HPL2",
+      "target_id": "ML14",
+      "weight": 1,
+      "role": "consensus-spine"
+    },
+    {
+      "source_id": "SRC-ML-JUDGMENT",
+      "target_id": "ML14",
+      "weight": 1,
+      "role": "primary-classic"
+    },
+    {
+      "source_id": "SRC-ML-AI-CRIT-2025",
+      "target_id": "ML15",
+      "weight": 1,
+      "role": "current-empirical"
+    },
+    {
+      "source_id": "SRC-ML-AI-EDU-2026",
+      "target_id": "ML15",
+      "weight": 1,
+      "role": "current-synthesis"
+    },
+    {
+      "source_id": "SRC-ML-HPL2",
+      "target_id": "ML15",
+      "weight": 1,
+      "role": "learning-science-context"
+    },
+    {
+      "source_id": "SRC-ML-AI-EDU-2026",
+      "target_id": "ML16",
+      "weight": 1,
+      "role": "current-synthesis"
+    },
+    {
+      "source_id": "SRC-ML-HPL2",
+      "target_id": "ML16",
+      "weight": 1,
+      "role": "consensus-spine"
+    },
+    {
+      "source_id": "SRC-PH-F001",
+      "target_id": "PH-F01",
+      "weight": 2,
+      "role": "Textbook",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W019",
+      "target_id": "PH-F01",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W021",
+      "target_id": "PH-F01",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W022",
+      "target_id": "PH-F01",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-F001",
+      "target_id": "PH-F02",
+      "weight": 2,
+      "role": "Textbook",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S008",
+      "target_id": "PH-F02",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W021",
+      "target_id": "PH-F02",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W022",
+      "target_id": "PH-F02",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-F002",
+      "target_id": "PH-F03",
+      "weight": 2,
+      "role": "Textbook",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-F003",
+      "target_id": "PH-F04",
+      "weight": 2,
+      "role": "Textbook",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W011",
+      "target_id": "PH-F04",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W026",
+      "target_id": "PH-F04",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-F004",
+      "target_id": "PH-F05",
+      "weight": 2,
+      "role": "Textbook",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-AF001",
+      "target_id": "PH-H01",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-H02-BOYCE",
+      "target_id": "PH-H02",
+      "weight": 1,
+      "role": "core historical orientation",
+      "status": "candidate"
+    },
+    {
+      "source_id": "SRC-PH-G002",
+      "target_id": "PH-H03",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-R001",
+      "target_id": "PH-H03",
+      "weight": 1,
+      "role": "Reference",
+      "status": "Reference"
+    },
+    {
+      "source_id": "SRC-PH-W001",
+      "target_id": "PH-H03",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W002",
+      "target_id": "PH-H04",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-M001",
+      "target_id": "PH-H05",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W003",
+      "target_id": "PH-H05",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-M001",
+      "target_id": "PH-H06",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W004",
+      "target_id": "PH-H06",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W005",
+      "target_id": "PH-H06",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-BY001",
+      "target_id": "PH-H07",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W006",
+      "target_id": "PH-H08",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W007",
+      "target_id": "PH-H09",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W008",
+      "target_id": "PH-H09",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W009",
+      "target_id": "PH-H09",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W010",
+      "target_id": "PH-H09",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-W011",
+      "target_id": "PH-H09",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W012",
+      "target_id": "PH-H10",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W013",
+      "target_id": "PH-H10",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W014",
+      "target_id": "PH-H10",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-RU001",
+      "target_id": "PH-H11",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W015",
+      "target_id": "PH-H11",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W016",
+      "target_id": "PH-H11",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-G001",
+      "target_id": "PH-H12",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-G002",
+      "target_id": "PH-H12",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I001",
+      "target_id": "PH-H12",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I002",
+      "target_id": "PH-H12",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I003",
+      "target_id": "PH-H12",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I004",
+      "target_id": "PH-H12",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-R001",
+      "target_id": "PH-H12",
+      "weight": 1,
+      "role": "Reference",
+      "status": "Reference"
+    },
+    {
+      "source_id": "SRC-PH-I001",
+      "target_id": "PH-H13",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I002",
+      "target_id": "PH-H13",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I005",
+      "target_id": "PH-H13",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I014",
+      "target_id": "PH-H13",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-I001",
+      "target_id": "PH-H14",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I002",
+      "target_id": "PH-H14",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I004",
+      "target_id": "PH-H14",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I006",
+      "target_id": "PH-H14",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I001",
+      "target_id": "PH-H15",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I002",
+      "target_id": "PH-H15",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I014",
+      "target_id": "PH-H15",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-I015",
+      "target_id": "PH-H15",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I001",
+      "target_id": "PH-H16",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I002",
+      "target_id": "PH-H16",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I004",
+      "target_id": "PH-H16",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I014",
+      "target_id": "PH-H16",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-I001",
+      "target_id": "PH-H17",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I002",
+      "target_id": "PH-H17",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-G001",
+      "target_id": "PH-H18",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I001",
+      "target_id": "PH-H18",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I002",
+      "target_id": "PH-H18",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I007",
+      "target_id": "PH-H18",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-G001",
+      "target_id": "PH-H19",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I001",
+      "target_id": "PH-H19",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I002",
+      "target_id": "PH-H19",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I008",
+      "target_id": "PH-H19",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-G001",
+      "target_id": "PH-H20",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I001",
+      "target_id": "PH-H20",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I008",
+      "target_id": "PH-H20",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I009",
+      "target_id": "PH-H20",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I001",
+      "target_id": "PH-H21",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I008",
+      "target_id": "PH-H21",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I014",
+      "target_id": "PH-H21",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-I001",
+      "target_id": "PH-H22",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I008",
+      "target_id": "PH-H22",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I011",
+      "target_id": "PH-H22",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I008",
+      "target_id": "PH-H23",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I010",
+      "target_id": "PH-H23",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E001",
+      "target_id": "PH-H24",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I008",
+      "target_id": "PH-H24",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I001",
+      "target_id": "PH-H25",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I014",
+      "target_id": "PH-H25",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-I015",
+      "target_id": "PH-H25",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I016",
+      "target_id": "PH-H25",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Gap/Search"
+    },
+    {
+      "source_id": "SRC-PH-I001",
+      "target_id": "PH-H26",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I012",
+      "target_id": "PH-H26",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I017",
+      "target_id": "PH-H26",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Gap/Search"
+    },
+    {
+      "source_id": "SRC-PH-I013",
+      "target_id": "PH-H27",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E002",
+      "target_id": "PH-H28",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E003",
+      "target_id": "PH-H28",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-G001",
+      "target_id": "PH-H28",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-G002",
+      "target_id": "PH-H28",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-R001",
+      "target_id": "PH-H28",
+      "weight": 1,
+      "role": "Reference",
+      "status": "Reference"
+    },
+    {
+      "source_id": "SRC-PH-E002",
+      "target_id": "PH-H29",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E003",
+      "target_id": "PH-H29",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E005",
+      "target_id": "PH-H29",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E002",
+      "target_id": "PH-H30",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E003",
+      "target_id": "PH-H30",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E002",
+      "target_id": "PH-H31",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E004",
+      "target_id": "PH-H31",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E002",
+      "target_id": "PH-H32",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E004",
+      "target_id": "PH-H32",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E007",
+      "target_id": "PH-H33",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-G001",
+      "target_id": "PH-H33",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-G002",
+      "target_id": "PH-H33",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E006",
+      "target_id": "PH-H34",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-G001",
+      "target_id": "PH-H34",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-G002",
+      "target_id": "PH-H34",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E008",
+      "target_id": "PH-H35",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Gap/Search"
+    },
+    {
+      "source_id": "SRC-PH-G002",
+      "target_id": "PH-H35",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A001",
+      "target_id": "PH-H36",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A002",
+      "target_id": "PH-H36",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A003",
+      "target_id": "PH-H36",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A004",
+      "target_id": "PH-H36",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A006",
+      "target_id": "PH-H36",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-G001",
+      "target_id": "PH-H36",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-G002",
+      "target_id": "PH-H36",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-R001",
+      "target_id": "PH-H36",
+      "weight": 1,
+      "role": "Reference",
+      "status": "Reference"
+    },
+    {
+      "source_id": "SRC-PH-A001",
+      "target_id": "PH-H37",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A003",
+      "target_id": "PH-H37",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A005",
+      "target_id": "PH-H37",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-G001",
+      "target_id": "PH-H37",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A001",
+      "target_id": "PH-H38",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A006",
+      "target_id": "PH-H38",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-A008",
+      "target_id": "PH-H38",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A001",
+      "target_id": "PH-H39",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A007",
+      "target_id": "PH-H39",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A009",
+      "target_id": "PH-H39",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-G002",
+      "target_id": "PH-H40",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-J001",
+      "target_id": "PH-H40",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-J001",
+      "target_id": "PH-H41",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-J002",
+      "target_id": "PH-H41",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-J001",
+      "target_id": "PH-H42",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-J003",
+      "target_id": "PH-H42",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-J004",
+      "target_id": "PH-H42",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-J005",
+      "target_id": "PH-H42",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-AF001",
+      "target_id": "PH-H43",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-AF002",
+      "target_id": "PH-H43",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-AF003",
+      "target_id": "PH-H43",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-AF005",
+      "target_id": "PH-H43",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-G001",
+      "target_id": "PH-H43",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-G002",
+      "target_id": "PH-H43",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-R001",
+      "target_id": "PH-H43",
+      "weight": 1,
+      "role": "Reference",
+      "status": "Reference"
+    },
+    {
+      "source_id": "SRC-PH-AF001",
+      "target_id": "PH-H44",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-AF002",
+      "target_id": "PH-H44",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-AF007",
+      "target_id": "PH-H44",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-AF001",
+      "target_id": "PH-H45",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-AF002",
+      "target_id": "PH-H45",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-AF002",
+      "target_id": "PH-H46",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-AF003",
+      "target_id": "PH-H46",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-AF004",
+      "target_id": "PH-H46",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-AF005",
+      "target_id": "PH-H46",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-AF001",
+      "target_id": "PH-H47",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-AF005",
+      "target_id": "PH-H47",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-AF006",
+      "target_id": "PH-H47",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-G001",
+      "target_id": "PH-H47",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-G002",
+      "target_id": "PH-H47",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S016",
+      "target_id": "PH-H47",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-AF001",
+      "target_id": "PH-H48",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-AF005",
+      "target_id": "PH-H48",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W033",
+      "target_id": "PH-H48",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-G001",
+      "target_id": "PH-H49",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-IN001",
+      "target_id": "PH-H49",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-IN002",
+      "target_id": "PH-H50",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-LA003",
+      "target_id": "PH-H50",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-IN003",
+      "target_id": "PH-H51",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Gap/Search"
+    },
+    {
+      "source_id": "SRC-PH-G001",
+      "target_id": "PH-H52",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-G002",
+      "target_id": "PH-H52",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-LA001",
+      "target_id": "PH-H52",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-LA003",
+      "target_id": "PH-H52",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-R001",
+      "target_id": "PH-H52",
+      "weight": 1,
+      "role": "Reference",
+      "status": "Reference"
+    },
+    {
+      "source_id": "SRC-PH-LA001",
+      "target_id": "PH-H53",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-LA003",
+      "target_id": "PH-H53",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-LA001",
+      "target_id": "PH-H54",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-LA002",
+      "target_id": "PH-H54",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-LA003",
+      "target_id": "PH-H54",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S019",
+      "target_id": "PH-H54",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Gap/Search"
+    },
+    {
+      "source_id": "SRC-PH-IN005",
+      "target_id": "PH-H55",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-IN006",
+      "target_id": "PH-H55",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Gap/Search"
+    },
+    {
+      "source_id": "SRC-PH-G001",
+      "target_id": "PH-H56",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-IN004",
+      "target_id": "PH-H56",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W001",
+      "target_id": "PH-M01",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W002",
+      "target_id": "PH-M01",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W026",
+      "target_id": "PH-M01",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-R001",
+      "target_id": "PH-M02",
+      "weight": 1,
+      "role": "Reference",
+      "status": "Reference"
+    },
+    {
+      "source_id": "SRC-PH-W020",
+      "target_id": "PH-M02",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A008",
+      "target_id": "PH-M03",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-M002",
+      "target_id": "PH-M03",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-R001",
+      "target_id": "PH-M03",
+      "weight": 1,
+      "role": "Reference",
+      "status": "Reference"
+    },
+    {
+      "source_id": "SRC-PH-AF001",
+      "target_id": "PH-M04",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-BY001",
+      "target_id": "PH-M04",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-G001",
+      "target_id": "PH-M04",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-G002",
+      "target_id": "PH-M04",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-LA001",
+      "target_id": "PH-M04",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-M002",
+      "target_id": "PH-M04",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-R001",
+      "target_id": "PH-M04",
+      "weight": 1,
+      "role": "Reference",
+      "status": "Reference"
+    },
+    {
+      "source_id": "SRC-PH-W016",
+      "target_id": "PH-M04",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W029",
+      "target_id": "PH-M04",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W031",
+      "target_id": "PH-M04",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W034",
+      "target_id": "PH-M04",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W036",
+      "target_id": "PH-M04",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-AF004",
+      "target_id": "PH-M05",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E002",
+      "target_id": "PH-M05",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E008",
+      "target_id": "PH-M05",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Gap/Search"
+    },
+    {
+      "source_id": "SRC-PH-G001",
+      "target_id": "PH-M05",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-G002",
+      "target_id": "PH-M05",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I001",
+      "target_id": "PH-M05",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I014",
+      "target_id": "PH-M05",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-IN001",
+      "target_id": "PH-M05",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-IN006",
+      "target_id": "PH-M05",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Gap/Search"
+    },
+    {
+      "source_id": "SRC-PH-LA001",
+      "target_id": "PH-M05",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-M002",
+      "target_id": "PH-M05",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-R001",
+      "target_id": "PH-M05",
+      "weight": 1,
+      "role": "Reference",
+      "status": "Reference"
+    },
+    {
+      "source_id": "SRC-PH-A008",
+      "target_id": "PH-M06",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-AF004",
+      "target_id": "PH-M06",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-BY001",
+      "target_id": "PH-M06",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E002",
+      "target_id": "PH-M06",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E008",
+      "target_id": "PH-M06",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Gap/Search"
+    },
+    {
+      "source_id": "SRC-PH-G001",
+      "target_id": "PH-M06",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I001",
+      "target_id": "PH-M06",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-IN001",
+      "target_id": "PH-M06",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-J001",
+      "target_id": "PH-M06",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-AF001",
+      "target_id": "PH-M07",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-AF003",
+      "target_id": "PH-M07",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-G001",
+      "target_id": "PH-M07",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-IN004",
+      "target_id": "PH-M07",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-IN005",
+      "target_id": "PH-M07",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-IN006",
+      "target_id": "PH-M07",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Gap/Search"
+    },
+    {
+      "source_id": "SRC-PH-M001",
+      "target_id": "PH-M08",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W028",
+      "target_id": "PH-M08",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E005",
+      "target_id": "PH-M09",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-IN004",
+      "target_id": "PH-M09",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-M001",
+      "target_id": "PH-M09",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-M002",
+      "target_id": "PH-M09",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W001",
+      "target_id": "PH-M09",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A001",
+      "target_id": "PH-S01",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A002",
+      "target_id": "PH-S01",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A003",
+      "target_id": "PH-S01",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A004",
+      "target_id": "PH-S01",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A007",
+      "target_id": "PH-S01",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A009",
+      "target_id": "PH-S01",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-AF002",
+      "target_id": "PH-S01",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-BY001",
+      "target_id": "PH-S01",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E001",
+      "target_id": "PH-S01",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E002",
+      "target_id": "PH-S01",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E004",
+      "target_id": "PH-S01",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E006",
+      "target_id": "PH-S01",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E007",
+      "target_id": "PH-S01",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I002",
+      "target_id": "PH-S01",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I003",
+      "target_id": "PH-S01",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I007",
+      "target_id": "PH-S01",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I008",
+      "target_id": "PH-S01",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I009",
+      "target_id": "PH-S01",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I012",
+      "target_id": "PH-S01",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I013",
+      "target_id": "PH-S01",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-IN001",
+      "target_id": "PH-S01",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-IN002",
+      "target_id": "PH-S01",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-IN003",
+      "target_id": "PH-S01",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Gap/Search"
+    },
+    {
+      "source_id": "SRC-PH-IN004",
+      "target_id": "PH-S01",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-IN006",
+      "target_id": "PH-S01",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Gap/Search"
+    },
+    {
+      "source_id": "SRC-PH-J002",
+      "target_id": "PH-S01",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-R001",
+      "target_id": "PH-S01",
+      "weight": 1,
+      "role": "Reference",
+      "status": "Reference"
+    },
+    {
+      "source_id": "SRC-PH-S002",
+      "target_id": "PH-S01",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W001",
+      "target_id": "PH-S01",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W002",
+      "target_id": "PH-S01",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W004",
+      "target_id": "PH-S01",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W006",
+      "target_id": "PH-S01",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W008",
+      "target_id": "PH-S01",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W009",
+      "target_id": "PH-S01",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W018",
+      "target_id": "PH-S01",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A009",
+      "target_id": "PH-S02",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I009",
+      "target_id": "PH-S02",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S002",
+      "target_id": "PH-S02",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W002",
+      "target_id": "PH-S02",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W004",
+      "target_id": "PH-S02",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W008",
+      "target_id": "PH-S02",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W018",
+      "target_id": "PH-S02",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S002",
+      "target_id": "PH-S03",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W009",
+      "target_id": "PH-S03",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A001",
+      "target_id": "PH-S04",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A002",
+      "target_id": "PH-S04",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A003",
+      "target_id": "PH-S04",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A004",
+      "target_id": "PH-S04",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A005",
+      "target_id": "PH-S04",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A009",
+      "target_id": "PH-S04",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I005",
+      "target_id": "PH-S04",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I009",
+      "target_id": "PH-S04",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-J002",
+      "target_id": "PH-S04",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S002",
+      "target_id": "PH-S04",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W002",
+      "target_id": "PH-S04",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W006",
+      "target_id": "PH-S04",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W008",
+      "target_id": "PH-S04",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W009",
+      "target_id": "PH-S04",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W011",
+      "target_id": "PH-S04",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A004",
+      "target_id": "PH-S05",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A005",
+      "target_id": "PH-S05",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-F002",
+      "target_id": "PH-S05",
+      "weight": 2,
+      "role": "Textbook",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S002",
+      "target_id": "PH-S05",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W006",
+      "target_id": "PH-S05",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W009",
+      "target_id": "PH-S05",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W012",
+      "target_id": "PH-S05",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W025",
+      "target_id": "PH-S05",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E005",
+      "target_id": "PH-S06",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-IN002",
+      "target_id": "PH-S06",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-IN005",
+      "target_id": "PH-S06",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-S002",
+      "target_id": "PH-S06",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W012",
+      "target_id": "PH-S06",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W018",
+      "target_id": "PH-S06",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A007",
+      "target_id": "PH-S07",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I003",
+      "target_id": "PH-S07",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I009",
+      "target_id": "PH-S07",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S002",
+      "target_id": "PH-S07",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W004",
+      "target_id": "PH-S07",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W007",
+      "target_id": "PH-S07",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W008",
+      "target_id": "PH-S07",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W012",
+      "target_id": "PH-S07",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W014",
+      "target_id": "PH-S07",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A001",
+      "target_id": "PH-S08",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A002",
+      "target_id": "PH-S08",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A003",
+      "target_id": "PH-S08",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A006",
+      "target_id": "PH-S08",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-A007",
+      "target_id": "PH-S08",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A008",
+      "target_id": "PH-S08",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-AF002",
+      "target_id": "PH-S08",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-AF003",
+      "target_id": "PH-S08",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-AF004",
+      "target_id": "PH-S08",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-AF007",
+      "target_id": "PH-S08",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-BY001",
+      "target_id": "PH-S08",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E001",
+      "target_id": "PH-S08",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E002",
+      "target_id": "PH-S08",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E003",
+      "target_id": "PH-S08",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E004",
+      "target_id": "PH-S08",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E006",
+      "target_id": "PH-S08",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E007",
+      "target_id": "PH-S08",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-F003",
+      "target_id": "PH-S08",
+      "weight": 2,
+      "role": "Textbook",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I002",
+      "target_id": "PH-S08",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I005",
+      "target_id": "PH-S08",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I007",
+      "target_id": "PH-S08",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I008",
+      "target_id": "PH-S08",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I010",
+      "target_id": "PH-S08",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I011",
+      "target_id": "PH-S08",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I014",
+      "target_id": "PH-S08",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-I015",
+      "target_id": "PH-S08",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-IN001",
+      "target_id": "PH-S08",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-IN002",
+      "target_id": "PH-S08",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-IN004",
+      "target_id": "PH-S08",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-J001",
+      "target_id": "PH-S08",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-J002",
+      "target_id": "PH-S08",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-R001",
+      "target_id": "PH-S08",
+      "weight": 1,
+      "role": "Reference",
+      "status": "Reference"
+    },
+    {
+      "source_id": "SRC-PH-S001",
+      "target_id": "PH-S08",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S010",
+      "target_id": "PH-S08",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S015",
+      "target_id": "PH-S08",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W001",
+      "target_id": "PH-S08",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W002",
+      "target_id": "PH-S08",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W003",
+      "target_id": "PH-S08",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W005",
+      "target_id": "PH-S08",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W006",
+      "target_id": "PH-S08",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W007",
+      "target_id": "PH-S08",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W009",
+      "target_id": "PH-S08",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W010",
+      "target_id": "PH-S08",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-W011",
+      "target_id": "PH-S08",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W012",
+      "target_id": "PH-S08",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W014",
+      "target_id": "PH-S08",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W017",
+      "target_id": "PH-S08",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W023",
+      "target_id": "PH-S08",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-W024",
+      "target_id": "PH-S08",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W026",
+      "target_id": "PH-S08",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W027",
+      "target_id": "PH-S08",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I005",
+      "target_id": "PH-S09",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I011",
+      "target_id": "PH-S09",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S001",
+      "target_id": "PH-S09",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W003",
+      "target_id": "PH-S09",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W007",
+      "target_id": "PH-S09",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W010",
+      "target_id": "PH-S09",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-W011",
+      "target_id": "PH-S09",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W012",
+      "target_id": "PH-S09",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W017",
+      "target_id": "PH-S09",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E005",
+      "target_id": "PH-S10",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-F003",
+      "target_id": "PH-S10",
+      "weight": 2,
+      "role": "Textbook",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I005",
+      "target_id": "PH-S10",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I011",
+      "target_id": "PH-S10",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I015",
+      "target_id": "PH-S10",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S001",
+      "target_id": "PH-S10",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W010",
+      "target_id": "PH-S10",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-W011",
+      "target_id": "PH-S10",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W012",
+      "target_id": "PH-S10",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W024",
+      "target_id": "PH-S10",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W026",
+      "target_id": "PH-S10",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S001",
+      "target_id": "PH-S11",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S009",
+      "target_id": "PH-S11",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S010",
+      "target_id": "PH-S11",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W036",
+      "target_id": "PH-S11",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A002",
+      "target_id": "PH-S12",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A004",
+      "target_id": "PH-S12",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A009",
+      "target_id": "PH-S12",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E001",
+      "target_id": "PH-S12",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I006",
+      "target_id": "PH-S12",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I008",
+      "target_id": "PH-S12",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I010",
+      "target_id": "PH-S12",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I012",
+      "target_id": "PH-S12",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I016",
+      "target_id": "PH-S12",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Gap/Search"
+    },
+    {
+      "source_id": "SRC-PH-I017",
+      "target_id": "PH-S12",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Gap/Search"
+    },
+    {
+      "source_id": "SRC-PH-R001",
+      "target_id": "PH-S12",
+      "weight": 1,
+      "role": "Reference",
+      "status": "Reference"
+    },
+    {
+      "source_id": "SRC-PH-S003",
+      "target_id": "PH-S12",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S010",
+      "target_id": "PH-S12",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S020",
+      "target_id": "PH-S12",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-W002",
+      "target_id": "PH-S12",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W004",
+      "target_id": "PH-S12",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W005",
+      "target_id": "PH-S12",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W006",
+      "target_id": "PH-S12",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W007",
+      "target_id": "PH-S12",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W008",
+      "target_id": "PH-S12",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W012",
+      "target_id": "PH-S12",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W014",
+      "target_id": "PH-S12",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W017",
+      "target_id": "PH-S12",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W018",
+      "target_id": "PH-S12",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W030",
+      "target_id": "PH-S12",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W033",
+      "target_id": "PH-S12",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A004",
+      "target_id": "PH-S13",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-AF002",
+      "target_id": "PH-S13",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-AF004",
+      "target_id": "PH-S13",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-AF006",
+      "target_id": "PH-S13",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E001",
+      "target_id": "PH-S13",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E002",
+      "target_id": "PH-S13",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E003",
+      "target_id": "PH-S13",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E004",
+      "target_id": "PH-S13",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E006",
+      "target_id": "PH-S13",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E007",
+      "target_id": "PH-S13",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I003",
+      "target_id": "PH-S13",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I006",
+      "target_id": "PH-S13",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I008",
+      "target_id": "PH-S13",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I010",
+      "target_id": "PH-S13",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I013",
+      "target_id": "PH-S13",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-IN001",
+      "target_id": "PH-S13",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-IN002",
+      "target_id": "PH-S13",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-IN003",
+      "target_id": "PH-S13",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Gap/Search"
+    },
+    {
+      "source_id": "SRC-PH-IN004",
+      "target_id": "PH-S13",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-IN006",
+      "target_id": "PH-S13",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Gap/Search"
+    },
+    {
+      "source_id": "SRC-PH-J003",
+      "target_id": "PH-S13",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-J004",
+      "target_id": "PH-S13",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S003",
+      "target_id": "PH-S13",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S015",
+      "target_id": "PH-S13",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S017",
+      "target_id": "PH-S13",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S018",
+      "target_id": "PH-S13",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S020",
+      "target_id": "PH-S13",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-W004",
+      "target_id": "PH-S13",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W005",
+      "target_id": "PH-S13",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W007",
+      "target_id": "PH-S13",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W010",
+      "target_id": "PH-S13",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-W012",
+      "target_id": "PH-S13",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W014",
+      "target_id": "PH-S13",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W017",
+      "target_id": "PH-S13",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W018",
+      "target_id": "PH-S13",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W020",
+      "target_id": "PH-S13",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W025",
+      "target_id": "PH-S13",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W030",
+      "target_id": "PH-S13",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W032",
+      "target_id": "PH-S13",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W033",
+      "target_id": "PH-S13",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E005",
+      "target_id": "PH-S14",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-F004",
+      "target_id": "PH-S14",
+      "weight": 2,
+      "role": "Textbook",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I004",
+      "target_id": "PH-S14",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S003",
+      "target_id": "PH-S14",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S011",
+      "target_id": "PH-S14",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W002",
+      "target_id": "PH-S14",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W008",
+      "target_id": "PH-S14",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W013",
+      "target_id": "PH-S14",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W015",
+      "target_id": "PH-S14",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E004",
+      "target_id": "PH-S15",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E005",
+      "target_id": "PH-S15",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E006",
+      "target_id": "PH-S15",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I004",
+      "target_id": "PH-S15",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I006",
+      "target_id": "PH-S15",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I010",
+      "target_id": "PH-S15",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I012",
+      "target_id": "PH-S15",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I017",
+      "target_id": "PH-S15",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Gap/Search"
+    },
+    {
+      "source_id": "SRC-PH-M001",
+      "target_id": "PH-S15",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A001",
+      "target_id": "PH-S16",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A008",
+      "target_id": "PH-S16",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E003",
+      "target_id": "PH-S16",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E004",
+      "target_id": "PH-S16",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I005",
+      "target_id": "PH-S16",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I009",
+      "target_id": "PH-S16",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I011",
+      "target_id": "PH-S16",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I014",
+      "target_id": "PH-S16",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-I015",
+      "target_id": "PH-S16",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I016",
+      "target_id": "PH-S16",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Gap/Search"
+    },
+    {
+      "source_id": "SRC-PH-J001",
+      "target_id": "PH-S16",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S004",
+      "target_id": "PH-S16",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S020",
+      "target_id": "PH-S16",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-W007",
+      "target_id": "PH-S16",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W009",
+      "target_id": "PH-S16",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W010",
+      "target_id": "PH-S16",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-W019",
+      "target_id": "PH-S16",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W020",
+      "target_id": "PH-S16",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W021",
+      "target_id": "PH-S16",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W022",
+      "target_id": "PH-S16",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-W023",
+      "target_id": "PH-S16",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-W024",
+      "target_id": "PH-S16",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W025",
+      "target_id": "PH-S16",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W026",
+      "target_id": "PH-S16",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-F001",
+      "target_id": "PH-S17",
+      "weight": 2,
+      "role": "Textbook",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-F002",
+      "target_id": "PH-S17",
+      "weight": 2,
+      "role": "Textbook",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I015",
+      "target_id": "PH-S17",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I016",
+      "target_id": "PH-S17",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Gap/Search"
+    },
+    {
+      "source_id": "SRC-PH-S004",
+      "target_id": "PH-S17",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W019",
+      "target_id": "PH-S17",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W020",
+      "target_id": "PH-S17",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W021",
+      "target_id": "PH-S17",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W022",
+      "target_id": "PH-S17",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-W023",
+      "target_id": "PH-S17",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-W024",
+      "target_id": "PH-S17",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W025",
+      "target_id": "PH-S17",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A002",
+      "target_id": "PH-S18",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-AF002",
+      "target_id": "PH-S18",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-AF005",
+      "target_id": "PH-S18",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-AF007",
+      "target_id": "PH-S18",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E004",
+      "target_id": "PH-S18",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E006",
+      "target_id": "PH-S18",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I002",
+      "target_id": "PH-S18",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I007",
+      "target_id": "PH-S18",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I008",
+      "target_id": "PH-S18",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I013",
+      "target_id": "PH-S18",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-IN002",
+      "target_id": "PH-S18",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-J002",
+      "target_id": "PH-S18",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-J004",
+      "target_id": "PH-S18",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-LA003",
+      "target_id": "PH-S18",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-R001",
+      "target_id": "PH-S18",
+      "weight": 1,
+      "role": "Reference",
+      "status": "Reference"
+    },
+    {
+      "source_id": "SRC-PH-S005",
+      "target_id": "PH-S18",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S015",
+      "target_id": "PH-S18",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W001",
+      "target_id": "PH-S18",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W003",
+      "target_id": "PH-S18",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W006",
+      "target_id": "PH-S18",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W008",
+      "target_id": "PH-S18",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W011",
+      "target_id": "PH-S18",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W013",
+      "target_id": "PH-S18",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W015",
+      "target_id": "PH-S18",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W016",
+      "target_id": "PH-S18",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W027",
+      "target_id": "PH-S18",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E002",
+      "target_id": "PH-S19",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E003",
+      "target_id": "PH-S19",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E007",
+      "target_id": "PH-S19",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I004",
+      "target_id": "PH-S19",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I007",
+      "target_id": "PH-S19",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S005",
+      "target_id": "PH-S19",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W002",
+      "target_id": "PH-S19",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W003",
+      "target_id": "PH-S19",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W006",
+      "target_id": "PH-S19",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W013",
+      "target_id": "PH-S19",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W016",
+      "target_id": "PH-S19",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W028",
+      "target_id": "PH-S19",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-AF002",
+      "target_id": "PH-S20",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-AF004",
+      "target_id": "PH-S20",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E003",
+      "target_id": "PH-S20",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I013",
+      "target_id": "PH-S20",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-IN001",
+      "target_id": "PH-S20",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-IN003",
+      "target_id": "PH-S20",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Gap/Search"
+    },
+    {
+      "source_id": "SRC-PH-IN004",
+      "target_id": "PH-S20",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-IN006",
+      "target_id": "PH-S20",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Gap/Search"
+    },
+    {
+      "source_id": "SRC-PH-J003",
+      "target_id": "PH-S20",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-J004",
+      "target_id": "PH-S20",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-LA002",
+      "target_id": "PH-S20",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S005",
+      "target_id": "PH-S20",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S014",
+      "target_id": "PH-S20",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-S015",
+      "target_id": "PH-S20",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S017",
+      "target_id": "PH-S20",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S018",
+      "target_id": "PH-S20",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I010",
+      "target_id": "PH-S21",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S005",
+      "target_id": "PH-S21",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W003",
+      "target_id": "PH-S21",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W005",
+      "target_id": "PH-S21",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W011",
+      "target_id": "PH-S21",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W013",
+      "target_id": "PH-S21",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W016",
+      "target_id": "PH-S21",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W030",
+      "target_id": "PH-S21",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W032",
+      "target_id": "PH-S21",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E006",
+      "target_id": "PH-S22",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I003",
+      "target_id": "PH-S22",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I004",
+      "target_id": "PH-S22",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I006",
+      "target_id": "PH-S22",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I007",
+      "target_id": "PH-S22",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I008",
+      "target_id": "PH-S22",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I009",
+      "target_id": "PH-S22",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I010",
+      "target_id": "PH-S22",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I012",
+      "target_id": "PH-S22",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I013",
+      "target_id": "PH-S22",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I017",
+      "target_id": "PH-S22",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Gap/Search"
+    },
+    {
+      "source_id": "SRC-PH-IN002",
+      "target_id": "PH-S22",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-J003",
+      "target_id": "PH-S22",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-J004",
+      "target_id": "PH-S22",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-M001",
+      "target_id": "PH-S22",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-RU001",
+      "target_id": "PH-S22",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W003",
+      "target_id": "PH-S22",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W004",
+      "target_id": "PH-S22",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W005",
+      "target_id": "PH-S22",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W008",
+      "target_id": "PH-S22",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W014",
+      "target_id": "PH-S22",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W015",
+      "target_id": "PH-S22",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W016",
+      "target_id": "PH-S22",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W018",
+      "target_id": "PH-S22",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W027",
+      "target_id": "PH-S22",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W032",
+      "target_id": "PH-S22",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A002",
+      "target_id": "PH-S23",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-AF002",
+      "target_id": "PH-S23",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-AF005",
+      "target_id": "PH-S23",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-AF006",
+      "target_id": "PH-S23",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E003",
+      "target_id": "PH-S23",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-F004",
+      "target_id": "PH-S23",
+      "weight": 2,
+      "role": "Textbook",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-IN001",
+      "target_id": "PH-S23",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-LA001",
+      "target_id": "PH-S23",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-LA002",
+      "target_id": "PH-S23",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-LA003",
+      "target_id": "PH-S23",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-R001",
+      "target_id": "PH-S23",
+      "weight": 1,
+      "role": "Reference",
+      "status": "Reference"
+    },
+    {
+      "source_id": "SRC-PH-RU001",
+      "target_id": "PH-S23",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S006",
+      "target_id": "PH-S23",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-S009",
+      "target_id": "PH-S23",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S011",
+      "target_id": "PH-S23",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S013",
+      "target_id": "PH-S23",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Gap/Search"
+    },
+    {
+      "source_id": "SRC-PH-S015",
+      "target_id": "PH-S23",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S016",
+      "target_id": "PH-S23",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S017",
+      "target_id": "PH-S23",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S018",
+      "target_id": "PH-S23",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S019",
+      "target_id": "PH-S23",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Gap/Search"
+    },
+    {
+      "source_id": "SRC-PH-W001",
+      "target_id": "PH-S23",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W002",
+      "target_id": "PH-S23",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W008",
+      "target_id": "PH-S23",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W013",
+      "target_id": "PH-S23",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W014",
+      "target_id": "PH-S23",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W028",
+      "target_id": "PH-S23",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W029",
+      "target_id": "PH-S23",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W031",
+      "target_id": "PH-S23",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W034",
+      "target_id": "PH-S23",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W035",
+      "target_id": "PH-S23",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E003",
+      "target_id": "PH-S24",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-F004",
+      "target_id": "PH-S24",
+      "weight": 2,
+      "role": "Textbook",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S006",
+      "target_id": "PH-S24",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-S013",
+      "target_id": "PH-S24",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Gap/Search"
+    },
+    {
+      "source_id": "SRC-PH-S016",
+      "target_id": "PH-S24",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W001",
+      "target_id": "PH-S24",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W002",
+      "target_id": "PH-S24",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W013",
+      "target_id": "PH-S24",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W029",
+      "target_id": "PH-S24",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W035",
+      "target_id": "PH-S24",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A006",
+      "target_id": "PH-S25",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-A008",
+      "target_id": "PH-S25",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-IN001",
+      "target_id": "PH-S25",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-J001",
+      "target_id": "PH-S25",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-J002",
+      "target_id": "PH-S25",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S006",
+      "target_id": "PH-S25",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-S013",
+      "target_id": "PH-S25",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Gap/Search"
+    },
+    {
+      "source_id": "SRC-PH-W034",
+      "target_id": "PH-S25",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W035",
+      "target_id": "PH-S25",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-AF002",
+      "target_id": "PH-S26",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-AF003",
+      "target_id": "PH-S26",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-AF004",
+      "target_id": "PH-S26",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-AF005",
+      "target_id": "PH-S26",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-AF006",
+      "target_id": "PH-S26",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-LA001",
+      "target_id": "PH-S26",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-LA002",
+      "target_id": "PH-S26",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-LA003",
+      "target_id": "PH-S26",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S009",
+      "target_id": "PH-S26",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S011",
+      "target_id": "PH-S26",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S015",
+      "target_id": "PH-S26",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S016",
+      "target_id": "PH-S26",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S017",
+      "target_id": "PH-S26",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S018",
+      "target_id": "PH-S26",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S019",
+      "target_id": "PH-S26",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Gap/Search"
+    },
+    {
+      "source_id": "SRC-PH-W016",
+      "target_id": "PH-S26",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W029",
+      "target_id": "PH-S26",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W031",
+      "target_id": "PH-S26",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W032",
+      "target_id": "PH-S26",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W033",
+      "target_id": "PH-S26",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W034",
+      "target_id": "PH-S26",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E002",
+      "target_id": "PH-S27",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E006",
+      "target_id": "PH-S27",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I012",
+      "target_id": "PH-S27",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I017",
+      "target_id": "PH-S27",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Gap/Search"
+    },
+    {
+      "source_id": "SRC-PH-R001",
+      "target_id": "PH-S27",
+      "weight": 1,
+      "role": "Reference",
+      "status": "Reference"
+    },
+    {
+      "source_id": "SRC-PH-S012",
+      "target_id": "PH-S27",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-W001",
+      "target_id": "PH-S27",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W002",
+      "target_id": "PH-S27",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A001",
+      "target_id": "PH-S28",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A003",
+      "target_id": "PH-S28",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A004",
+      "target_id": "PH-S28",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A005",
+      "target_id": "PH-S28",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A006",
+      "target_id": "PH-S28",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-A007",
+      "target_id": "PH-S28",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A009",
+      "target_id": "PH-S28",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-AF007",
+      "target_id": "PH-S28",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E004",
+      "target_id": "PH-S28",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E006",
+      "target_id": "PH-S28",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-E007",
+      "target_id": "PH-S28",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I002",
+      "target_id": "PH-S28",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I003",
+      "target_id": "PH-S28",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I004",
+      "target_id": "PH-S28",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-I013",
+      "target_id": "PH-S28",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-J001",
+      "target_id": "PH-S28",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-J002",
+      "target_id": "PH-S28",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-J003",
+      "target_id": "PH-S28",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-J005",
+      "target_id": "PH-S28",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-R001",
+      "target_id": "PH-S28",
+      "weight": 1,
+      "role": "Reference",
+      "status": "Reference"
+    },
+    {
+      "source_id": "SRC-PH-RU001",
+      "target_id": "PH-S28",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W001",
+      "target_id": "PH-S28",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W004",
+      "target_id": "PH-S28",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W005",
+      "target_id": "PH-S28",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W006",
+      "target_id": "PH-S28",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W008",
+      "target_id": "PH-S28",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W015",
+      "target_id": "PH-S28",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-A002",
+      "target_id": "PH-S29",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-F003",
+      "target_id": "PH-S29",
+      "weight": 2,
+      "role": "Textbook",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-R001",
+      "target_id": "PH-S29",
+      "weight": 1,
+      "role": "Reference",
+      "status": "Reference"
+    },
+    {
+      "source_id": "SRC-PH-S007",
+      "target_id": "PH-S29",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S011",
+      "target_id": "PH-S29",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W002",
+      "target_id": "PH-S29",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W023",
+      "target_id": "PH-S29",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-W026",
+      "target_id": "PH-S29",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W028",
+      "target_id": "PH-S29",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W031",
+      "target_id": "PH-S29",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W036",
+      "target_id": "PH-S29",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-F001",
+      "target_id": "PH-S30",
+      "weight": 2,
+      "role": "Textbook",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S008",
+      "target_id": "PH-S30",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W021",
+      "target_id": "PH-S30",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W024",
+      "target_id": "PH-S30",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S007",
+      "target_id": "PH-S31",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S010",
+      "target_id": "PH-S31",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S014",
+      "target_id": "PH-S31",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-W002",
+      "target_id": "PH-S31",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-IN001",
+      "target_id": "PH-S32",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-IN003",
+      "target_id": "PH-S32",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Gap/Search"
+    },
+    {
+      "source_id": "SRC-PH-IN004",
+      "target_id": "PH-S32",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-IN005",
+      "target_id": "PH-S32",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-IN006",
+      "target_id": "PH-S32",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Gap/Search"
+    },
+    {
+      "source_id": "SRC-PH-S014",
+      "target_id": "PH-S32",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-S007",
+      "target_id": "PH-S33",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S009",
+      "target_id": "PH-S33",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W014",
+      "target_id": "PH-S33",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W028",
+      "target_id": "PH-S33",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W029",
+      "target_id": "PH-S33",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W034",
+      "target_id": "PH-S33",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W036",
+      "target_id": "PH-S33",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S010",
+      "target_id": "PH-S34",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S017",
+      "target_id": "PH-S34",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S011",
+      "target_id": "PH-S35",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W019",
+      "target_id": "PH-T01",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W020",
+      "target_id": "PH-T01",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W021",
+      "target_id": "PH-T01",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W022",
+      "target_id": "PH-T01",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-W023",
+      "target_id": "PH-T01",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-W024",
+      "target_id": "PH-T01",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W025",
+      "target_id": "PH-T01",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-J004",
+      "target_id": "PH-T02",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-M002",
+      "target_id": "PH-T02",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W017",
+      "target_id": "PH-T02",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W018",
+      "target_id": "PH-T02",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W015",
+      "target_id": "PH-T03",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W018",
+      "target_id": "PH-T03",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W032",
+      "target_id": "PH-T03",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W033",
+      "target_id": "PH-T03",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W026",
+      "target_id": "PH-T04",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W027",
+      "target_id": "PH-T04",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W028",
+      "target_id": "PH-T04",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-RU001",
+      "target_id": "PH-T05",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W029",
+      "target_id": "PH-T05",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W031",
+      "target_id": "PH-T06",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S020",
+      "target_id": "PH-T07",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-W016",
+      "target_id": "PH-T07",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W034",
+      "target_id": "PH-T07",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S015",
+      "target_id": "PH-T08",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-W032",
+      "target_id": "PH-T08",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-AF006",
+      "target_id": "PH-T09",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-LA002",
+      "target_id": "PH-T09",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S016",
+      "target_id": "PH-T09",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S019",
+      "target_id": "PH-T09",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Gap/Search"
+    },
+    {
+      "source_id": "SRC-PH-W033",
+      "target_id": "PH-T09",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S017",
+      "target_id": "PH-T10",
+      "weight": 2,
+      "role": "Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S018",
+      "target_id": "PH-T11",
+      "weight": 3,
+      "role": "Primary/Secondary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-PH-S020",
+      "target_id": "PH-T12",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Reserve"
+    },
+    {
+      "source_id": "SRC-PH-W030",
+      "target_id": "PH-T12",
+      "weight": 3,
+      "role": "Primary",
+      "status": "Core"
+    },
+    {
+      "source_id": "SRC-TS-F01",
+      "target_id": "TS-F01",
+      "weight": 1,
+      "role": "primary-spine"
+    },
+    {
+      "source_id": "SRC-TS-F02",
+      "target_id": "TS-F02",
+      "weight": 1,
+      "role": "primary-spine"
+    },
+    {
+      "source_id": "SRC-TS-F03",
+      "target_id": "TS-F03",
+      "weight": 1,
+      "role": "primary-spine"
+    },
+    {
+      "source_id": "SRC-TS-F04",
+      "target_id": "TS-F04",
+      "weight": 1,
+      "role": "primary-spine"
+    },
+    {
+      "source_id": "SRC-TS-F05",
+      "target_id": "TS-F05",
+      "weight": 1,
+      "role": "primary-spine"
+    },
+    {
+      "source_id": "SRC-TS-F06",
+      "target_id": "TS-F06",
+      "weight": 1,
+      "role": "primary-spine"
+    },
+    {
+      "source_id": "SRC-TS-F07",
+      "target_id": "TS-F07",
+      "weight": 1,
+      "role": "primary-spine"
+    },
+    {
+      "source_id": "SRC-TS-F08",
+      "target_id": "TS-F08",
+      "weight": 1,
+      "role": "primary-spine"
+    },
+    {
+      "source_id": "SRC-TS-F09",
+      "target_id": "TS-F09",
+      "weight": 1,
+      "role": "primary-spine"
+    },
+    {
+      "source_id": "SRC-TS-F10",
+      "target_id": "TS-F10",
+      "weight": 1,
+      "role": "primary-spine"
+    },
+    {
+      "source_id": "SRC-TS-F11",
+      "target_id": "TS-F11",
+      "weight": 1,
+      "role": "primary-spine"
+    },
+    {
+      "source_id": "SRC-TS-F12",
+      "target_id": "TS-F12",
+      "weight": 1,
+      "role": "primary-spine"
+    },
+    {
+      "source_id": "SRC-TS-F13",
+      "target_id": "TS-F13",
+      "weight": 1,
+      "role": "primary-spine"
+    },
+    {
+      "source_id": "SRC-TS-F14",
+      "target_id": "TS-F14",
+      "weight": 1,
+      "role": "primary-spine"
+    },
+    {
+      "source_id": "SRC-TS-F15",
+      "target_id": "TS-F15",
+      "weight": 1,
+      "role": "primary-spine"
+    },
+    {
+      "source_id": "SRC-TS-F16",
+      "target_id": "TS-F16",
+      "weight": 1,
+      "role": "primary-spine"
+    },
+    {
+      "source_id": "SRC-TS-F17",
+      "target_id": "TS-F17",
+      "weight": 1,
+      "role": "primary-spine"
+    },
+    {
+      "source_id": "SRC-TS-F18",
+      "target_id": "TS-F18",
+      "weight": 1,
+      "role": "primary-spine"
+    },
+    {
+      "source_id": "SRC-TS-F19",
+      "target_id": "TS-F19",
+      "weight": 1,
+      "role": "primary-spine"
+    },
+    {
+      "source_id": "SRC-TS-F20",
+      "target_id": "TS-F20",
+      "weight": 1,
+      "role": "primary-spine"
+    },
+    {
+      "source_id": "SRC-TS-F21",
+      "target_id": "TS-F21",
+      "weight": 1,
+      "role": "primary-spine"
+    },
+    {
+      "source_id": "SRC-TS-F22",
+      "target_id": "TS-F22",
+      "weight": 1,
+      "role": "primary-spine"
+    }
+  ]
+}

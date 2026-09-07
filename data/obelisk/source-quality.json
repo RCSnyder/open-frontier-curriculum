@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-06",
+  "scope": "Individual bibliographic and source-type checks. Retrieval does not validate all claims, translations, editions or pedagogical assignments.",
+  "sources": {
+    "SRC-HW-CORE-ECON2": {
+      "tier": "C",
+      "rationale": "Official textbook page identifies the CORE Econ team, institutional focus and comparative examples; introductory rather than specialist empirical evidence.",
+      "verification": "bibliography-and-source-type-verified",
+      "checked": "2026-09-06",
+      "evidence_url": "https://books.core-econ.org/the-economy/",
+      "edition": "2.0",
+      "volatility": "maintained-web-reference",
+      "license_status": "CC-BY-NC-ND-4.0; reference-only; not relicensed under repository CC-BY",
+      "limitations": "This check verifies source identity and declared scope/license, not every model, historical case or educational outcome. Compare primary and specialist evidence."
+    },
+    "SRC-ML-HPL2": {
+      "tier": "B",
+      "rationale": "National Academies consensus study report; its front matter identifies committee authorship and independent review.",
+      "verification": "bibliography-and-source-type-verified",
+      "checked": "2026-09-06",
+      "evidence_url": "https://www.nationalacademies.org/read/24783/chapter/1",
+      "publication_year": 2018,
+      "volatility": "stable",
+      "license_status": "copyrighted-reference-only",
+      "limitations": "A synthesis, not a trial of Obelisk. Applications require contextual adaptation; learning populations and settings matter."
+    },
+    "SRC-DR-NIELSEN": {
+      "tier": "A",
+      "rationale": "Author-maintained statement of Nielsen's own heuristic framework; primary for the framework, not a consensus empirical law.",
+      "verification": "bibliography-and-source-type-verified",
+      "checked": "2026-09-06",
+      "evidence_url": "https://www.nngroup.com/articles/ten-usability-heuristics/",
+      "publication_year": 1994,
+      "source_review_date": "2024-01-30",
+      "volatility": "maintained-web-reference",
+      "license_status": "copyrighted-reference-only",
+      "limitations": "Broad rules of thumb. Evaluation must include actual users, accessibility, context and consequences."
+    },
+    "SRC-HW-LEG-002": {
+      "tier": "D",
+      "rationale": "Imported practitioner persuasion title; cannot carry general causal claims about social interaction.",
+      "verification": "verification-needed",
+      "volatility": "stable",
+      "license_status": "external-rights-not-assessed",
+      "limitations": "Retained as legacy context, not a rigorous empirical spine. Bibliographic edition and evidence base need review."
+    },
+    "SRC-HW-LEG-003": {
+      "tier": "D",
+      "rationale": "Imported popular interpersonal-advice title; distinguish advice from replicated social evidence.",
+      "verification": "verification-needed",
+      "volatility": "stable",
+      "license_status": "external-rights-not-assessed",
+      "limitations": "Not a substitute for comparative sociology, consent or ethical judgment. Edition and claims remain unverified."
+    }
+  }
+}

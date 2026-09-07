@@ -1,0 +1,89 @@
+{
+  "version": "0.3.0",
+  "formation_modes": [
+    {
+      "Code": "R",
+      "Mode": "Read / Encounter",
+      "What happens": "Primary sources, rigorous textbooks, data, artifacts, works of art, historical documents, field observation.",
+      "Why": "Acquire contact with the thing itself before excessive summary.",
+      "Evidence": "Annotated reading/field ledger"
+    },
+    {
+      "Code": "S",
+      "Mode": "Study / Reconstruct",
+      "What happens": "Derive, diagram, explain, retrieve, solve, compare, build concept maps, reproduce examples without aid.",
+      "Why": "Create durable internal models.",
+      "Evidence": "Closed-book reconstruction"
+    },
+    {
+      "Code": "P",
+      "Mode": "Practice / Drill",
+      "What happens": "Repeated exercises with feedback, spacing, interleaving, increasing difficulty, error taxonomy.",
+      "Why": "Convert declarative knowledge into fluent capability.",
+      "Evidence": "Practice log + performance curve"
+    },
+    {
+      "Code": "M",
+      "Mode": "Make / Investigate",
+      "What happens": "Experiments, code, essays, designs, models, performances, repairs, interviews, research.",
+      "Why": "Learn constraints through production.",
+      "Evidence": "Inspectible artifact + process record"
+    },
+    {
+      "Code": "D",
+      "Mode": "Dialogue / Critique",
+      "What happens": "Seminar, Socratic questioning, peer review, debate, listening, design critique, negotiation.",
+      "Why": "Expose hidden assumptions and learn in intellectual community.",
+      "Evidence": "Discussion/critique record"
+    },
+    {
+      "Code": "A",
+      "Mode": "Apply / Serve",
+      "What happens": "Use knowledge for a real person, institution, community, field site, or operational system.",
+      "Why": "Discover consequences absent from classroom exercises.",
+      "Evidence": "Stakeholder/field evidence"
+    },
+    {
+      "Code": "B",
+      "Mode": "Break / Red-team",
+      "What happens": "Construct counterexamples, edge cases, adversarial prompts, failure injections, alternative interpretations.",
+      "Why": "Train robustness rather than polished normal cases.",
+      "Evidence": "Failure catalogue"
+    },
+    {
+      "Code": "C",
+      "Mode": "Compare / Curate",
+      "What happens": "Rank alternatives, study expert exemplars, defend criteria, revise taste.",
+      "Why": "Form discriminating judgment under abundance.",
+      "Evidence": "Blind ranking + curation statement"
+    },
+    {
+      "Code": "F",
+      "Mode": "Forecast / Decide",
+      "What happens": "Make probabilistic forecasts and consequential decisions before outcomes are known.",
+      "Why": "Turn uncertainty into calibrated judgment.",
+      "Evidence": "Scored forecast / decision journal"
+    },
+    {
+      "Code": "T",
+      "Mode": "Teach / Translate",
+      "What happens": "Teach a novice, translate across disciplines/languages/media, create worked examples.",
+      "Why": "Reveal whether knowledge is organized enough to explain.",
+      "Evidence": "Learner pre/post or audience evidence"
+    },
+    {
+      "Code": "V",
+      "Mode": "Viva / Defend",
+      "What happens": "Oral defense, perturbation, hostile but fair questioning, identify unresolved uncertainty.",
+      "Why": "Verify ownership of the work.",
+      "Evidence": "Examiner record"
+    },
+    {
+      "Code": "L",
+      "Mode": "Longitudinal Retest",
+      "What happens": "Return weeks/months later, often without AI or notes, and solve a changed problem.",
+      "Why": "Distinguish task performance from retained learning.",
+      "Evidence": "Delayed score / transfer artifact"
+    }
+  ]
+}

@@ -1,9 +1,9 @@
 ---
-title: "Brain-to-brain communication"
+title: Brain-to-brain communication
 rank: 59
-feasibility: "D"
-primary_track: "NEU"
-secondary_track: "AI-AS"
+feasibility: D
+primary_track: NEU
+secondary_track: AI-AS
 ---
 
 # 59 | Brain-to-brain communication
@@ -12,7 +12,7 @@ secondary_track: "AI-AS"
 
 <span class="ofc-badge ofc-d">D | validated general mechanism missing</span>
 
-**Primary track:** [Neurotechnology & human-machine interfaces](../../03-specializations/neurotechnology-hmi.md)  
+**Primary track:** [Neurotechnology and human-machine interfaces](../../03-specializations/neurotechnology-hmi.md)  
 **Secondary:** AI-AS
 
 </div>
@@ -25,8 +25,18 @@ Encoding/decoding meaning, bandwidth, ethics
 
 - **Foundations I:** W1 information/causal
 - **Foundations II:** W2 neuroscience
-- **Specialization:** Neurotechnology & human-machine interfaces
+- **Specialization:** [Neurotechnology and human-machine interfaces](../../03-specializations/neurotechnology-hmi.md)
 
 ## First proof of work
 
 Information-channel decomposition and feasibility bound
+
+<!-- connected-study -->
+## Connected study
+
+Editorial study connections grounded in the existing technology bottlenecks and subject descriptions. Background is useful preparation, not a validated prerequisite or a complete technology curriculum.
+
+Specific subject connections have not been mapped yet.
+
+
+[Explore technologies](../README.md)

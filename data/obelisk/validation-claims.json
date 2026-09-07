@@ -1,0 +1,104 @@
+{
+  "version": "0.5.0",
+  "target_construct": "broad, deeply grounded human formation: inherited knowledge, independent and AI-augmented judgment, practical and relational agency, taste, authorship, stewardship, and lifelong renewal across the critical dimensions of human life",
+  "interpretation_rule": "The Obelisk is never declared valid in the abstract. Evidence supports or weakens specific claims about knowledge, formation, transfer, judgment, agency, responsibility and real-world functioning. Novelty/surprise scenarios are one stress-test, not the telos of the curriculum.",
+  "claims": [
+    {
+      "id": "VC0",
+      "name": "Architecture coherence",
+      "claim": "The curriculum graph is internally coherent, source-addressable, prerequisite-resolved, and explicit about deletion reasons, mastery gates, life routes, and evidence status.",
+      "evidence_class": "structural",
+      "current_status": "supported",
+      "falsifiers": [
+        "unresolved references",
+        "prerequisite cycles",
+        "orphan pillars",
+        "unstable identifiers",
+        "untracked curriculum mutations"
+      ]
+    },
+    {
+      "id": "VC1",
+      "name": "Knowledge-domain coverage",
+      "claim": "The six trunks and twelve life pillars jointly cover the major recurring classes of knowledge and competence needed to orient in technological civilization and ordinary human life.",
+      "evidence_class": "content/construct",
+      "current_status": "candidate-supported",
+      "falsifiers": [
+        "recurrent important life cases with no natural route",
+        "new load-bearing knowledge family surviving deletion/compression tests",
+        "systematic geographic/temporal blind spots"
+      ]
+    },
+    {
+      "id": "VC2",
+      "name": "Independent mastery",
+      "claim": "A completer has enough internalized knowledge and practiced skill to reason, detect anomalies, communicate, and act without merely replaying AI-generated work.",
+      "evidence_class": "response-process/performance",
+      "current_status": "designed-not-yet-cohort-tested",
+      "falsifiers": [
+        "high artifact quality with poor no-AI reconstruction",
+        "failure on delayed retrieval",
+        "inability to defend provenance/assumptions",
+        "tool-dependent collapse"
+      ]
+    },
+    {
+      "id": "VC3",
+      "name": "Generative transfer",
+      "claim": "A completer can transfer underlying models to unfamiliar domains and can learn new domains faster and more accurately because of the curriculum.",
+      "evidence_class": "transfer/relations-to-other-variables",
+      "current_status": "designed-not-yet-cohort-tested",
+      "falsifiers": [
+        "performance limited to taught templates",
+        "no advantage on unfamiliar-domain learning",
+        "repeated failure to recognize conditions of applicability"
+      ]
+    },
+    {
+      "id": "VC4",
+      "name": "Judgment, adaptive agency and authorship",
+      "claim": "A completer can recognize what matters, distinguish facts from values and incentives, make proportionate decisions under uncertainty, mobilize knowledge and expertise, use AI without surrendering ownership, act competently, revise when evidence changes, and remain accountable for consequences.",
+      "evidence_class": "multi-method judgment/adaptive-agency performance",
+      "current_status": "proxy-program-defined",
+      "falsifiers": [
+        "systematic overconfidence or unprincipled deference",
+        "inability to identify the real decision or relevant stakeholders",
+        "persistent tool-dependent passivity",
+        "irreversible action under weak evidence",
+        "failure to update after decisive evidence",
+        "delegation without ownership of purpose, permissions or consequences"
+      ]
+    },
+    {
+      "id": "VC5",
+      "name": "Broad life competence",
+      "claim": "A completer can translate deep knowledge into functional action across self-governance, health, relationships, home, finance, work/craft, communication, research, technology, civic life, culture and stewardship, while retaining at least one domain of serious depth.",
+      "evidence_class": "multi-domain performance",
+      "current_status": "proxy-program-defined",
+      "falsifiers": [
+        "consistent life-pillar helplessness despite academic mastery",
+        "knowledge without safe/practical execution",
+        "persistent inability to coordinate with other people"
+      ]
+    },
+    {
+      "id": "VC6",
+      "name": "Flourishing / maximum potential",
+      "claim": "The curriculum helps serious learners conduct richer, more capable, more agentic lives and develop more of their potential.",
+      "evidence_class": "normative/longitudinal",
+      "current_status": "aspirational-not-provable-in-advance",
+      "falsifiers": [
+        "systematic harm, fragility, alienation, or narrowing attributable to the curriculum",
+        "longitudinal evidence of worse agency or well-being than plausible alternatives"
+      ],
+      "note": "Maximum potential is not a measurable ceiling and flourishing is plural. The repository must never convert this aspiration into a falsely precise validated claim."
+    }
+  ],
+  "validity_evidence_framework": {
+    "content": "Deletion audits, branch saturation, life-pillar representation, global/temporal counter-cases, civilizational anchors, source-stack audit.",
+    "response_process": "Oral defense, reconstruction, provenance logs, think-aloud/decision records where useful, live practical demonstrations, AI-mode contrasts.",
+    "internal_structure": "Inter-rater agreement, dimensional score behavior, gap patterns, dependency structure, and—once cohorts exist—empirical study of whether mastery dimensions behave as intended.",
+    "relations_to_other_variables": "All Souls and other external human/professional benchmarks, expert ratings, real project outcomes, faster unfamiliar-domain learning, forecasting calibration.",
+    "consequences": "Monitor curriculum burden, Goodharting, credential gaming, overconfidence, unsafe amateurism, inequitable access, AI dependence, and unintended narrowing of life."
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": true,
+  "$id": "https://open-frontier.example/schemas/obelisk/foundational-doctrine.schema.json",
+  "title": "Obelisk foundational doctrine",
+  "required": [
+    "version",
+    "formal_descriptor",
+    "telos",
+    "design_objective",
+    "axioms",
+    "eight_verbs"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "formal_descriptor": {
+      "type": "string",
+      "minLength": 20
+    },
+    "telos": {
+      "type": "string",
+      "minLength": 20
+    },
+    "design_objective": {
+      "type": "string",
+      "minLength": 20
+    },
+    "anti_objectives": {
+      "type": "array",
+      "minItems": 5,
+      "items": {
+        "type": "string",
+        "minLength": 10
+      }
+    },
+    "axioms": {
+      "type": "array",
+      "minItems": 18,
+      "maxItems": 18,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "rule",
+          "curriculum_consequence"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^FD[0-9]{2}$"
+          },
+          "title": {
+            "type": "string"
+          },
+          "rule": {
+            "type": "string"
+          },
+          "curriculum_consequence": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "eight_verbs": {
+      "type": "array",
+      "minItems": 8,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "required": [
+          "verb",
+          "meaning"
+        ],
+        "properties": {
+          "verb": {
+            "type": "string"
+          },
+          "meaning": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

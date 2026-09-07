@@ -1,0 +1,293 @@
+{
+  "version": "0.3.0",
+  "great_questions": [
+    {
+      "ID": "GQ01",
+      "Pillar": "L01",
+      "Question": "What is a good life, and which parts of that answer are empirical, cultural, personal, or philosophical?",
+      "Primary route": "PH/ML/HW"
+    },
+    {
+      "ID": "GQ02",
+      "Pillar": "L01",
+      "Question": "Which desires should be trusted, trained, resisted, or reinterpreted?",
+      "Primary route": "PH/ML"
+    },
+    {
+      "ID": "GQ03",
+      "Pillar": "L01",
+      "Question": "How should a person choose among incompatible worthwhile lives?",
+      "Primary route": "PH/HW/ML"
+    },
+    {
+      "ID": "GQ04",
+      "Pillar": "L01",
+      "Question": "What does it mean to change one's mind without losing integrity?",
+      "Primary route": "PH/ML/EX"
+    },
+    {
+      "ID": "GQ05",
+      "Pillar": "L02",
+      "Question": "What evidence should change a health decision, and how do we detect medical misinformation?",
+      "Primary route": "TS/PH/ML"
+    },
+    {
+      "ID": "GQ06",
+      "Pillar": "L02",
+      "Question": "How do sleep, movement, nutrition, stress, social connection, and environment interact over a lifetime?",
+      "Primary route": "TS/ML/HW"
+    },
+    {
+      "ID": "GQ07",
+      "Pillar": "L02",
+      "Question": "When should personal autonomy yield to public-health obligations, if ever?",
+      "Primary route": "PH/HW/TS"
+    },
+    {
+      "ID": "GQ08",
+      "Pillar": "L02",
+      "Question": "How should a person reason about low-probability but high-consequence health risks?",
+      "Primary route": "TS/PH/ML"
+    },
+    {
+      "ID": "GQ09",
+      "Pillar": "L03",
+      "Question": "What creates trust, and what justifies withdrawing it?",
+      "Primary route": "HW/PH/ML"
+    },
+    {
+      "ID": "GQ10",
+      "Pillar": "L03",
+      "Question": "What do people owe family, friends, strangers, and future generations?",
+      "Primary route": "PH/HW"
+    },
+    {
+      "ID": "GQ11",
+      "Pillar": "L03",
+      "Question": "How do love, attachment, power, obligation, consent, and freedom coexist?",
+      "Primary route": "PH/HW/EX"
+    },
+    {
+      "ID": "GQ12",
+      "Pillar": "L03",
+      "Question": "How can conflict improve a relationship or institution rather than merely damage it?",
+      "Primary route": "HW/EX/ML"
+    },
+    {
+      "ID": "GQ13",
+      "Pillar": "L04",
+      "Question": "Which everyday systems should a competent adult understand well enough to maintain or troubleshoot?",
+      "Primary route": "TS/DR"
+    },
+    {
+      "ID": "GQ14",
+      "Pillar": "L04",
+      "Question": "What is the right boundary between self-reliance and reliance on specialists?",
+      "Primary route": "PH/TS/HW"
+    },
+    {
+      "ID": "GQ15",
+      "Pillar": "L04",
+      "Question": "How much redundancy is rational in a household or community?",
+      "Primary route": "TS/HW"
+    },
+    {
+      "ID": "GQ16",
+      "Pillar": "L04",
+      "Question": "What practical skills preserve dignity and agency when infrastructure fails?",
+      "Primary route": "TS/ML"
+    },
+    {
+      "ID": "GQ17",
+      "Pillar": "L05",
+      "Question": "What is money, and how do money and credit reshape time, trust, and power?",
+      "Primary route": "HW/PH"
+    },
+    {
+      "ID": "GQ18",
+      "Pillar": "L05",
+      "Question": "When is debt productive, prudent, exploitative, or dangerous?",
+      "Primary route": "HW/TS"
+    },
+    {
+      "ID": "GQ19",
+      "Pillar": "L05",
+      "Question": "What makes an investment decision rational when the future is uncertain?",
+      "Primary route": "TS/HW/ML"
+    },
+    {
+      "ID": "GQ20",
+      "Pillar": "L05",
+      "Question": "What should a person optimize financially—and what should never be reduced to money?",
+      "Primary route": "PH/HW"
+    },
+    {
+      "ID": "GQ21",
+      "Pillar": "L06",
+      "Question": "What makes work worth doing beyond compensation?",
+      "Primary route": "PH/HW/ML"
+    },
+    {
+      "ID": "GQ22",
+      "Pillar": "L06",
+      "Question": "How does tacit knowledge become craft, and how can it be taught?",
+      "Primary route": "ML/TS/DR"
+    },
+    {
+      "ID": "GQ23",
+      "Pillar": "L06",
+      "Question": "When should a system standardize work and when should it preserve expert discretion?",
+      "Primary route": "HW/TS/ML"
+    },
+    {
+      "ID": "GQ24",
+      "Pillar": "L06",
+      "Question": "What obligations do creators and firms have to users, workers, communities, and the future?",
+      "Primary route": "PH/HW/TS"
+    },
+    {
+      "ID": "GQ25",
+      "Pillar": "L07",
+      "Question": "What does clarity require, and when can simplicity become distortion?",
+      "Primary route": "EX/PH"
+    },
+    {
+      "ID": "GQ26",
+      "Pillar": "L07",
+      "Question": "How do language and framing change what people can see, think, or choose?",
+      "Primary route": "EX/PH/HW"
+    },
+    {
+      "ID": "GQ27",
+      "Pillar": "L07",
+      "Question": "What makes persuasion legitimate rather than manipulative?",
+      "Primary route": "PH/EX/HW"
+    },
+    {
+      "ID": "GQ28",
+      "Pillar": "L07",
+      "Question": "What is lost in translation across languages, media, disciplines, and cultures?",
+      "Primary route": "EX/PH/DR/HW"
+    },
+    {
+      "ID": "GQ29",
+      "Pillar": "L08",
+      "Question": "What deserves to be memorized when information is instantly retrievable?",
+      "Primary route": "ML/PH"
+    },
+    {
+      "ID": "GQ30",
+      "Pillar": "L08",
+      "Question": "What makes a source trustworthy for this question, in this context?",
+      "Primary route": "PH/EX/ML"
+    },
+    {
+      "ID": "GQ31",
+      "Pillar": "L08",
+      "Question": "How do we distinguish a useful model from a merely predictive or persuasive one?",
+      "Primary route": "TS/PH"
+    },
+    {
+      "ID": "GQ32",
+      "Pillar": "L08",
+      "Question": "How can a learner enter an unfamiliar field without becoming hostage to its jargon or to AI summaries?",
+      "Primary route": "ML/PH/EX"
+    },
+    {
+      "ID": "GQ33",
+      "Pillar": "L09",
+      "Question": "Which computational abstractions illuminate reality and which conceal decisive constraints?",
+      "Primary route": "TS/PH"
+    },
+    {
+      "ID": "GQ34",
+      "Pillar": "L09",
+      "Question": "What should be delegated to AI, what should remain human, and who decides?",
+      "Primary route": "PH/HW/ML/TS"
+    },
+    {
+      "ID": "GQ35",
+      "Pillar": "L09",
+      "Question": "How should permissions, monitoring, recourse, and liability work for highly autonomous systems?",
+      "Primary route": "HW/PH/TS"
+    },
+    {
+      "ID": "GQ36",
+      "Pillar": "L09",
+      "Question": "How much technological dependence is compatible with meaningful human agency?",
+      "Primary route": "PH/HW/ML"
+    },
+    {
+      "ID": "GQ37",
+      "Pillar": "L10",
+      "Question": "What makes authority legitimate, and when is resistance justified?",
+      "Primary route": "PH/HW"
+    },
+    {
+      "ID": "GQ38",
+      "Pillar": "L10",
+      "Question": "Why do institutions behave differently from their formal rules?",
+      "Primary route": "HW/ML"
+    },
+    {
+      "ID": "GQ39",
+      "Pillar": "L10",
+      "Question": "How should societies make decisions when citizens disagree about both facts and values?",
+      "Primary route": "PH/HW/EX"
+    },
+    {
+      "ID": "GQ40",
+      "Pillar": "L10",
+      "Question": "What institutions keep learning when leaders, experts, or models are wrong?",
+      "Primary route": "HW/PH/TS"
+    },
+    {
+      "ID": "GQ41",
+      "Pillar": "L11",
+      "Question": "Which works and traditions deserve transmission, and who should decide?",
+      "Primary route": "EX/DR/PH/HW"
+    },
+    {
+      "ID": "GQ42",
+      "Pillar": "L11",
+      "Question": "Can taste be educated without becoming conformity?",
+      "Primary route": "DR/EX/PH/ML"
+    },
+    {
+      "ID": "GQ43",
+      "Pillar": "L11",
+      "Question": "How do religions, arts, stories, monuments, and rituals shape collective memory and identity?",
+      "Primary route": "HW/EX/DR/PH"
+    },
+    {
+      "ID": "GQ44",
+      "Pillar": "L11",
+      "Question": "What does cultural inheritance require from a creator who also wants to innovate?",
+      "Primary route": "DR/EX/PH"
+    },
+    {
+      "ID": "GQ45",
+      "Pillar": "L12",
+      "Question": "What are the hard physical and ecological constraints on human ambitions?",
+      "Primary route": "TS/HW"
+    },
+    {
+      "ID": "GQ46",
+      "Pillar": "L12",
+      "Question": "How should we value irreversible environmental loss under uncertainty?",
+      "Primary route": "PH/TS/HW"
+    },
+    {
+      "ID": "GQ47",
+      "Pillar": "L12",
+      "Question": "Which risks justify precaution, redundancy, or limits on individual freedom?",
+      "Primary route": "PH/HW/TS"
+    },
+    {
+      "ID": "GQ48",
+      "Pillar": "L12",
+      "Question": "What do present people owe future people when technology could radically transform civilization?",
+      "Primary route": "PH/HW/TS"
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "version": "0.3.0",
+  "practices": [
+    {
+      "ID": "PL01",
+      "Cadence": "Daily",
+      "Practice": "Read difficult prose or primary source",
+      "Typical dose": "30–60 min",
+      "Route": "EX/PH/HW/TS",
+      "What it forms": "Reading stamina, interpretation, memory",
+      "Evidence": "Reading ledger"
+    },
+    {
+      "ID": "PL02",
+      "Cadence": "Daily",
+      "Practice": "Retrieval / spaced review",
+      "Typical dose": "15–30 min",
+      "Route": "All",
+      "What it forms": "Durable internal knowledge",
+      "Evidence": "Recall score"
+    },
+    {
+      "ID": "PL03",
+      "Cadence": "Daily",
+      "Practice": "Writing / explanation",
+      "Typical dose": "20–45 min",
+      "Route": "EX + all",
+      "What it forms": "Thinking through language",
+      "Evidence": "Notebook / essay fragment"
+    },
+    {
+      "ID": "PL04",
+      "Cadence": "3–5x weekly",
+      "Practice": "Physical training / movement",
+      "Typical dose": "30–90 min",
+      "Route": "L02/ML",
+      "What it forms": "Health, discipline, embodiment",
+      "Evidence": "Training log"
+    },
+    {
+      "ID": "PL05",
+      "Cadence": "Weekly",
+      "Practice": "Problem set / derivation / code",
+      "Typical dose": "2–5 h",
+      "Route": "TS",
+      "What it forms": "Formal fluency and error correction",
+      "Evidence": "Solved set + corrections"
+    },
+    {
+      "ID": "PL06",
+      "Cadence": "Weekly",
+      "Practice": "Seminar / dialogue",
+      "Typical dose": "1–2 h",
+      "Route": "PH/HW/EX",
+      "What it forms": "Intellectual community and challenge",
+      "Evidence": "Discussion note"
+    },
+    {
+      "ID": "PL07",
+      "Cadence": "Weekly",
+      "Practice": "Taste studio / blind comparison",
+      "Typical dose": "1 h",
+      "Route": "DR/EX/TS/HW",
+      "What it forms": "Discrimination and curation",
+      "Evidence": "Ranking + criteria"
+    },
+    {
+      "ID": "PL08",
+      "Cadence": "Weekly",
+      "Practice": "Reality lab / field observation / measurement",
+      "Typical dose": "2–4 h",
+      "Route": "TS/DR/L12",
+      "What it forms": "Calibration to physical/social reality",
+      "Evidence": "Field notebook"
+    },
+    {
+      "ID": "PL09",
+      "Cadence": "Weekly",
+      "Practice": "Household / practical operation",
+      "Typical dose": "1–3 h",
+      "Route": "L04/L05",
+      "What it forms": "Practical independence",
+      "Evidence": "Checklist / live demo"
+    },
+    {
+      "ID": "PL10",
+      "Cadence": "Weekly",
+      "Practice": "Relationship / community practice",
+      "Typical dose": "Variable",
+      "Route": "L03/L10",
+      "What it forms": "Care, listening, trust, responsibility",
+      "Evidence": "Reflection / feedback"
+    },
+    {
+      "ID": "PL11",
+      "Cadence": "Weekly",
+      "Practice": "AI eval / delegation exercise",
+      "Typical dose": "1–3 h",
+      "Route": "O1/L09",
+      "What it forms": "Stewardship and adversarial judgment",
+      "Evidence": "Eval log"
+    },
+    {
+      "ID": "PL12",
+      "Cadence": "Biweekly",
+      "Practice": "Forecast / decision review",
+      "Typical dose": "30–60 min",
+      "Route": "ML/PH/HW/TS",
+      "What it forms": "Calibration",
+      "Evidence": "Brier/decision ledger"
+    },
+    {
+      "ID": "PL13",
+      "Cadence": "Monthly",
+      "Practice": "Long-form whole work",
+      "Typical dose": "Variable",
+      "Route": "L11/PH/EX/HW",
+      "What it forms": "Stamina and contextual understanding",
+      "Evidence": "Seminar/essay"
+    },
+    {
+      "ID": "PL14",
+      "Cadence": "Monthly",
+      "Practice": "Repair / build / craft project",
+      "Typical dose": "3–12 h",
+      "Route": "TS/DR/L04/L06",
+      "What it forms": "Tacit knowledge and making",
+      "Evidence": "Artifact"
+    },
+    {
+      "ID": "PL15",
+      "Cadence": "Monthly",
+      "Practice": "Public speaking / teaching",
+      "Typical dose": "1–3 h",
+      "Route": "EX/ML",
+      "What it forms": "Explanation and accountability",
+      "Evidence": "Recording + audience evidence"
+    },
+    {
+      "ID": "PL16",
+      "Cadence": "Quarterly",
+      "Practice": "Civic / institutional participation",
+      "Typical dose": "4–20 h",
+      "Route": "HW/PH/EX",
+      "What it forms": "Public agency",
+      "Evidence": "Public artifact"
+    },
+    {
+      "ID": "PL17",
+      "Cadence": "Quarterly",
+      "Practice": "Unseen integrated case",
+      "Typical dose": "3–8 h",
+      "Route": "All",
+      "What it forms": "Cross-branch transfer",
+      "Evidence": "Case dossier + viva"
+    },
+    {
+      "ID": "PL18",
+      "Cadence": "Quarterly",
+      "Practice": "No-AI fallback day / exam",
+      "Typical dose": "2–8 h",
+      "Route": "All",
+      "What it forms": "Independent floor",
+      "Evidence": "Closed-resource evidence"
+    },
+    {
+      "ID": "PL19",
+      "Cadence": "Annual",
+      "Practice": "12–24 week major project",
+      "Typical dose": "100–300 h",
+      "Route": "All",
+      "What it forms": "Agency, persistence, integration",
+      "Evidence": "External portfolio"
+    },
+    {
+      "ID": "PL20",
+      "Cadence": "Annual",
+      "Practice": "Personal curriculum redesign",
+      "Typical dose": "4–10 h",
+      "Route": "ML",
+      "What it forms": "Renewal and goal governance",
+      "Evidence": "Learning plan + evidence review"
+    }
+  ]
+}

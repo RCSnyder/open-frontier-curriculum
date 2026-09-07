@@ -1,6 +1,6 @@
 # Local development with uv + Zensical
 
-The documentation environment is intentionally tiny: **Python + uv + one pinned Zensical dependency**.
+The documentation toolchain uses Python, uv and Zensical, with validation and lint dependencies pinned in the lockfile.
 
 ## 1. Install uv
 
@@ -32,11 +32,12 @@ uv run --frozen python scripts/audit_contrast.py
 ## 4. Build the static site
 
 ```bash
-uv run --frozen zensical build --clean
-uv run --frozen python scripts/audit_ui.py --site site
+uv run --frozen python scripts/build_docs.py
+uv run --frozen python scripts/audit_ui.py --site .verification/site
 ```
 
-The output is written to `site/` and is ignored by Git.
+The isolated build writes to `.verification/site/`, which is ignored by Git.
+It checks for duplicate published routes and can run alongside the preview server without sharing its build cache.
 
 ## Why uv
 
@@ -46,9 +47,11 @@ The output is written to `site/` and is ignored by Git.
 
 Zensical is only the **renderer**. Curriculum content stays Markdown-first. GitHub/GitLab remain readable, and a future renderer migration does not require rewriting the curriculum.
 
-## Repository/site URL after you create the remote
+## Repository and site URLs
 
-Once the final GitHub repository name is known, add the real `site_url`, `repo_url`, and `edit_uri` to `zensical.toml`. That enables canonical URLs, instant navigation, and "edit/view source" actions without baking fake placeholder URLs into the starter patch.
+The GitHub Pages URL, repository URL and edit path are configured in `zensical.toml`.
+Update those values when publishing a fork, and verify the deployed site's paths after publication.
+Local builds do not prove that GitHub Pages deployment has succeeded.
 
 ## 5. Browser review
 

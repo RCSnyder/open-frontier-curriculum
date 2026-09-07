@@ -1,9 +1,17 @@
 ---
-title: "Genetics + evolution + systems biology"
+title: Genetics + evolution + systems biology
 wave: 2
 order: 8
 leverage: 96
+search:
+  exclude: true
 ---
+
+<!-- atlas-route -->
+> **Current study page: [Genetics + evolution + systems biology](../../learn/ts-f19.md)**
+>
+> The earlier reference below is retained for continuity.
+<!-- /atlas-route -->
 
 # Genetics + evolution + systems biology
 

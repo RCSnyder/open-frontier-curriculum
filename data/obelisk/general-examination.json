@@ -1,0 +1,144 @@
+{
+  "version": "0.4.0",
+  "name": "Obelisk General Examination",
+  "status": "candidate assessment architecture",
+  "inspiration": "All Souls-style open-ended human judgment, generalized beyond essay performance into technical, practical, relational, design, learning and AI-mediated competence.",
+  "principles": [
+    "No single correct-answer key for judgment tasks",
+    "Unseen prompts and source packets",
+    "Specialist depth plus general breadth",
+    "Independent expert examiners",
+    "Oral viva on the learner’s own work",
+    "Practical stations where action matters",
+    "Human-only and AI-augmented conditions",
+    "Scoring rewards awareness of unresolved difficulties rather than fake certainty"
+  ],
+  "components": [
+    {
+      "id": "OGE1",
+      "name": "General Judgment I",
+      "format": "3 essays from a broad unseen prompt set",
+      "time": "3 hours",
+      "tests": [
+        "problem framing",
+        "argument",
+        "breadth",
+        "originality",
+        "clarity",
+        "judgment"
+      ]
+    },
+    {
+      "id": "OGE2",
+      "name": "General Judgment II",
+      "format": "mixed source/object/data packet with synthesis questions",
+      "time": "3 hours",
+      "tests": [
+        "source evaluation",
+        "quantitative/causal reasoning",
+        "interpretation",
+        "cross-domain synthesis",
+        "uncertainty"
+      ]
+    },
+    {
+      "id": "OGE3",
+      "name": "Specialist Depth",
+      "format": "chosen trunk/craft specialist paper or build",
+      "time": "3-6 hours",
+      "tests": [
+        "depth",
+        "original-source command",
+        "technical fluency",
+        "boundary conditions",
+        "expert judgment"
+      ]
+    },
+    {
+      "id": "OGE4",
+      "name": "Systems & Institutions",
+      "format": "cross-branch case requiring technical + human-world + ethical design",
+      "time": "3 hours",
+      "tests": [
+        "incentives",
+        "power",
+        "law/legitimacy",
+        "safety",
+        "distribution",
+        "implementation"
+      ]
+    },
+    {
+      "id": "OGE5",
+      "name": "Practical Stations",
+      "format": "rotating live stations",
+      "time": "half to full day",
+      "tests": [
+        "health-information navigation",
+        "financial/contract reasoning",
+        "repair/safety triage",
+        "visual/data critique",
+        "conversation/negotiation",
+        "real-world measurement"
+      ]
+    },
+    {
+      "id": "OGE6",
+      "name": "Learning Sprint",
+      "format": "unfamiliar domain disclosed only at exam start; learn, solve, then teach",
+      "time": "4-8 hours + delayed retest",
+      "tests": [
+        "learning strategy",
+        "source ecology",
+        "model building",
+        "transfer",
+        "retention",
+        "teaching"
+      ]
+    },
+    {
+      "id": "OGE7",
+      "name": "AI Stewardship Trial",
+      "format": "delegate a consequential task to an agent with hidden failure injections",
+      "time": "3-6 hours",
+      "tests": [
+        "specification",
+        "permissions",
+        "evals",
+        "provenance",
+        "monitoring",
+        "rollback",
+        "human defense"
+      ]
+    },
+    {
+      "id": "OGE8",
+      "name": "Viva Voce",
+      "format": "multi-examiner oral defense across written/practical artifacts",
+      "time": "45-90 minutes",
+      "tests": [
+        "responsiveness to argument",
+        "independence",
+        "clarity",
+        "update behavior",
+        "unresolved difficulties",
+        "ownership"
+      ]
+    }
+  ],
+  "examiner_rubric": [
+    "engagement with the actual problem",
+    "depth and sophistication",
+    "coherence and analytical power",
+    "originality / independence",
+    "relevance and accuracy of evidence",
+    "knowledge of original sources where appropriate",
+    "clarity / elegance / representation quality",
+    "practical safety and execution",
+    "calibration and awareness of unresolved difficulties",
+    "responsiveness to criticism",
+    "taste / comparative judgment",
+    "potential for further learning"
+  ],
+  "selection_rule": "For the strongest signal, do not define success only as reaching a fixed score. Periodically invite independent experts to rank complete dossiers blindly and explain why they would or would not trust the candidate with difficult, ambiguous, consequential work."
+}

@@ -1,0 +1,159 @@
+{
+  "version": "0.3.0",
+  "outcomes": [
+    {
+      "ID": "GP01",
+      "Graduate capability": "Epistemic independence",
+      "Observable standard": "Can state what is known, inferred, assumed, uncertain, value-laden, and AI-supplied; can find and evaluate primary evidence.",
+      "Knowledge trunks": "PH/TS/ML",
+      "Evidence": "Unseen claim audit + oral defense"
+    },
+    {
+      "ID": "GP02",
+      "Graduate capability": "Quantitative command",
+      "Observable standard": "Can translate a real problem into quantities, scales, units, probabilities, models, and uncertainty.",
+      "Knowledge trunks": "TS",
+      "Evidence": "Model + estimation + sensitivity + bound"
+    },
+    {
+      "ID": "GP03",
+      "Graduate capability": "Scientific reasoning",
+      "Observable standard": "Can design discriminating observations/experiments and connect evidence to mechanism without overclaiming.",
+      "Knowledge trunks": "TS/PH",
+      "Evidence": "Experiment dossier + causal critique"
+    },
+    {
+      "ID": "GP04",
+      "Graduate capability": "Computational agency",
+      "Observable standard": "Can reason algorithmically, automate work, understand software/network failure, and audit computational outputs.",
+      "Knowledge trunks": "TS",
+      "Evidence": "Build + test + failure injection"
+    },
+    {
+      "ID": "GP05",
+      "Graduate capability": "Engineering judgment",
+      "Observable standard": "Can design within constraints, trade off performance/cost/safety/maintainability, and learn from failure.",
+      "Knowledge trunks": "TS/DR",
+      "Evidence": "Prototype + review + teardown"
+    },
+    {
+      "ID": "GP06",
+      "Graduate capability": "Philosophical judgment",
+      "Observable standard": "Can distinguish conceptual, empirical, logical, and normative disputes; reason about values, rights, meaning, mind, knowledge, and technology.",
+      "Knowledge trunks": "PH",
+      "Evidence": "Unseen essay/problem + adversarial viva"
+    },
+    {
+      "ID": "GP07",
+      "Graduate capability": "Human-world diagnosis",
+      "Observable standard": "Can model incentives, power, markets, law, organizations, culture, history, demography, conflict, and institutional change.",
+      "Knowledge trunks": "HW",
+      "Evidence": "Comparative case + intervention design"
+    },
+    {
+      "ID": "GP08",
+      "Graduate capability": "Historical consciousness",
+      "Observable standard": "Can place institutions, technologies, ideas, and identities in temporal sequences and recognize path dependence and contingency.",
+      "Knowledge trunks": "HW/EX/PH",
+      "Evidence": "Process trace + counterfactual"
+    },
+    {
+      "ID": "GP09",
+      "Graduate capability": "Expressive command",
+      "Observable standard": "Can read difficult texts, write clearly, speak persuasively, listen closely, revise, and adapt to audience/medium.",
+      "Knowledge trunks": "EX",
+      "Evidence": "Portfolio + live speech + revision"
+    },
+    {
+      "ID": "GP10",
+      "Graduate capability": "Visual/spatial command",
+      "Observable standard": "Can draw, diagram, map, visualize data, prototype interfaces/objects, and critique aesthetic-functional form.",
+      "Knowledge trunks": "DR/TS",
+      "Evidence": "Design studio + blind critique"
+    },
+    {
+      "ID": "GP11",
+      "Graduate capability": "Learning autonomy",
+      "Observable standard": "Can acquire a new domain, build durable memory, practice intelligently, calibrate confidence, and teach others.",
+      "Knowledge trunks": "ML",
+      "Evidence": "30-day unfamiliar-domain challenge"
+    },
+    {
+      "ID": "GP12",
+      "Graduate capability": "AI stewardship",
+      "Observable standard": "Can specify, delegate, permission, evaluate, red-team, monitor, roll back, and defend AI-assisted work.",
+      "Knowledge trunks": "TS/ML/PH/HW",
+      "Evidence": "A0–A5 dual-condition project"
+    },
+    {
+      "ID": "GP13",
+      "Graduate capability": "Practical independence",
+      "Observable standard": "Can manage basic health, money, household systems, safety, digital security, logistics, maintenance, and emergencies.",
+      "Knowledge trunks": "Life practica",
+      "Evidence": "Live demonstrations + scenarios"
+    },
+    {
+      "ID": "GP14",
+      "Graduate capability": "Relational competence",
+      "Observable standard": "Can listen, set boundaries, negotiate, repair conflict, care for others, collaborate, and sustain trust.",
+      "Knowledge trunks": "HW/EX/ML",
+      "Evidence": "Observed interaction + feedback + redo"
+    },
+    {
+      "ID": "GP15",
+      "Graduate capability": "Civic agency",
+      "Observable standard": "Understands institutions, rights, rules, public finance, media, collective action, power, and participation.",
+      "Knowledge trunks": "HW/PH/EX",
+      "Evidence": "Public decision / civic project"
+    },
+    {
+      "ID": "GP16",
+      "Graduate capability": "Economic agency",
+      "Observable standard": "Can reason about tradeoffs, prices, work, firms, contracts, credit, insurance, investment, taxes, and long-run resource choices.",
+      "Knowledge trunks": "HW/TS/ML",
+      "Evidence": "Personal/firm resource case + audit"
+    },
+    {
+      "ID": "GP17",
+      "Graduate capability": "Health agency",
+      "Observable standard": "Can access valid health information, make risk-aware decisions, practice health-enhancing routines, and know when professional care is needed.",
+      "Knowledge trunks": "TS/ML + practica",
+      "Evidence": "Health-information audit + behavior evidence"
+    },
+    {
+      "ID": "GP18",
+      "Graduate capability": "Cultural literacy & taste",
+      "Observable standard": "Can encounter art, literature, music, architecture, religion, and traditions with historical context and discriminate quality without mistaking preference for proof.",
+      "Knowledge trunks": "EX/DR/PH/HW",
+      "Evidence": "Comparative criticism + creation"
+    },
+    {
+      "ID": "GP19",
+      "Graduate capability": "Leadership & institution building",
+      "Observable standard": "Can create goals, roles, decision rights, feedback, dissent, accountability, and learning processes for a team or institution.",
+      "Knowledge trunks": "HW/EX/ML",
+      "Evidence": "Run a real team constitution through an incident"
+    },
+    {
+      "ID": "GP20",
+      "Graduate capability": "Stewardship & future judgment",
+      "Observable standard": "Can reason about low-probability/high-impact risks, environmental constraints, intergenerational effects, reversibility, and option value.",
+      "Knowledge trunks": "PH/HW/TS",
+      "Evidence": "Long-horizon decision dossier"
+    },
+    {
+      "ID": "GP21",
+      "Graduate capability": "Craft & creation",
+      "Observable standard": "Has at least one domain where knowledge has matured into practiced craft and can produce work others can inspect and use.",
+      "Knowledge trunks": "Any specialization",
+      "Evidence": "External portfolio review"
+    },
+    {
+      "ID": "GP22",
+      "Graduate capability": "Humility & update",
+      "Observable standard": "Can find their own errors, change their mind publicly, seek expertise, and preserve unresolved uncertainty rather than manufacturing certainty.",
+      "Knowledge trunks": "All",
+      "Evidence": "Calibration record + documented reversals"
+    }
+  ]
+}

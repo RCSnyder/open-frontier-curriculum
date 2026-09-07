@@ -1,9 +1,17 @@
 ---
-title: "Thermodynamics + statistical mechanics"
+title: Thermodynamics + statistical mechanics
 wave: 2
 order: 2
 leverage: 99
+search:
+  exclude: true
 ---
+
+<!-- atlas-route -->
+> **Current study page: [Thermodynamics + statistical mechanics](../../learn/ts-f13.md)**
+>
+> The earlier reference below is retained for continuity.
+<!-- /atlas-route -->
 
 # Thermodynamics + statistical mechanics
 

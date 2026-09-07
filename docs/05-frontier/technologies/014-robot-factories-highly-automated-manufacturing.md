@@ -1,9 +1,9 @@
 ---
-title: "Robot factories / highly automated manufacturing"
+title: Robot factories / highly automated manufacturing
 rank: 14
-feasibility: "B"
-primary_track: "ROB"
-secondary_track: "AI-AS"
+feasibility: B
+primary_track: ROB
+secondary_track: AI-AS
 ---
 
 # 14 | Robot factories / highly automated manufacturing
@@ -12,7 +12,7 @@ secondary_track: "AI-AS"
 
 <span class="ofc-badge ofc-b">B | active frontier</span>
 
-**Primary track:** [Robotics & autonomous manufacturing](../../03-specializations/robotics-autonomous-manufacturing.md)  
+**Primary track:** [Robotics and autonomous manufacturing](../../03-specializations/robotics-autonomous-manufacturing.md)  
 **Secondary:** AI-AS
 
 </div>
@@ -25,8 +25,18 @@ Flexibility, downtime, QA, economics
 
 - **Foundations I:** W1 control/optimization
 - **Foundations II:** W2 robotics, manufacturing, reliability
-- **Specialization:** Robotics & autonomous manufacturing
+- **Specialization:** [Robotics and autonomous manufacturing](../../03-specializations/robotics-autonomous-manufacturing.md)
 
 ## First proof of work
 
 Robotic cell with queueing, rework and maintenance
+
+<!-- connected-study -->
+## Connected study
+
+Editorial study connections grounded in the existing technology bottlenecks and subject descriptions. Background is useful preparation, not a validated prerequisite or a complete technology curriculum.
+
+Specific subject connections have not been mapped yet.
+
+
+[Explore technologies](../README.md)

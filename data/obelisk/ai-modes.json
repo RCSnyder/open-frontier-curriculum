@@ -1,0 +1,53 @@
+{
+  "version": "0.3.0",
+  "ai_modes": [
+    {
+      "Mode": "A0",
+      "Name": "Human-only acquisition",
+      "Rule": "No general-purpose AI during first reconstruction.",
+      "Purpose": "Protect initial encoding, mental models, fluency, and error detection.",
+      "Evidence": "Closed-book derivation/explanation/performance.",
+      "Pass condition": "Fail if learner cannot explain from memory at required granularity."
+    },
+    {
+      "Mode": "A1",
+      "Name": "AI as tutor / questioner",
+      "Rule": "AI may ask questions, generate practice, give bounded hints, or simulate an examiner.",
+      "Purpose": "Use AI to increase deliberate practice, not replace it.",
+      "Evidence": "Hint logs + post-session unaided retest.",
+      "Pass condition": "Pass only if gains persist without AI."
+    },
+    {
+      "Mode": "A2",
+      "Name": "AI as copilot",
+      "Rule": "AI may draft alternatives, code, search, simulate, translate, or critique.",
+      "Purpose": "Learn augmentation and comparative judgment.",
+      "Evidence": "Human spec + alternatives + selection rationale + verification.",
+      "Pass condition": "Polish alone receives no credit."
+    },
+    {
+      "Mode": "A3",
+      "Name": "AI as delegated agent",
+      "Rule": "AI may execute multi-step work with tools under permissions.",
+      "Purpose": "Learn orchestration, monitoring, and exception handling.",
+      "Evidence": "Task contract + permissions + hidden evals + rollback.",
+      "Pass condition": "Learner must predict likely failure classes before run."
+    },
+    {
+      "Mode": "A4",
+      "Name": "AI as adversary / red team",
+      "Rule": "AI deliberately attacks claims, designs, incentives, security, and reasoning.",
+      "Purpose": "Train robustness and epistemic humility.",
+      "Evidence": "Attack log + material revisions + unresolved risk register.",
+      "Pass condition": "Pass requires changing something important when attack succeeds."
+    },
+    {
+      "Mode": "A5",
+      "Name": "Human defense / fallback",
+      "Rule": "AI removed; learner defends decisions, key models, evidence, and uncertainty.",
+      "Purpose": "Ensure the person owns the result rather than merely operating a system.",
+      "Evidence": "Oral defense + one perturbation + one reconstruction.",
+      "Pass condition": "Pass only if learner can distinguish what they know from what the AI supplied."
+    }
+  ]
+}

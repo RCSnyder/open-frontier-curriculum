@@ -1,9 +1,17 @@
 ---
-title: "Control + estimation"
+title: Control + estimation
 wave: 1
 order: 10
 leverage: 95
+search:
+  exclude: true
 ---
+
+<!-- atlas-route -->
+> **Current study page: [Control + estimation](../../learn/ts-f10.md)**
+>
+> The earlier reference below is retained for continuity.
+<!-- /atlas-route -->
 
 # Control + estimation
 

@@ -1,0 +1,441 @@
+{
+  "base": "8b98ed1",
+  "modified_legacy_files": [
+    {
+      "path": ".editorconfig",
+      "base_sha256": "c64fd91740addc966adee4ce2957de36c50030be6c81a26a6962f78c2795fe5a",
+      "current_sha256": "05f9463d683e5957ca2f7cad77a5fec2986298b1ea3c6ca314174805fa1aff44",
+      "base_lines": 14,
+      "current_lines": 9
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "base_sha256": "35511828bf7bb736af94fc810551519059d5167d45254d0fc9f7298bc7f87ea6",
+      "current_sha256": "36aeec9329dcdd4f696b7a32dc8866e39e2f737fe5549347274d02e7bfa99825",
+      "base_lines": 43,
+      "current_lines": 14
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "base_sha256": "9df062d87bc9c6872517eec1ff75e848bd327a9b8f1f355baa1a6a6ce37bd6e9",
+      "current_sha256": "214d940291cfd9b997df6bc72802aac3ddcbb4895843195a94453f97215075ca",
+      "base_lines": 10,
+      "current_lines": 6
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "base_sha256": "27d0bbd18b1ba0e7244f80aeff35880d8615de089cd237598718e21fefabf8e2",
+      "current_sha256": "d0fabf052e855a1398b9d67e49aec548568b7049fb319919560375c5cfa78bcf",
+      "base_lines": 163,
+      "current_lines": 32
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "base_sha256": "a96787ba98bc6ad76c421968605e1465901a35bc45a3167a88a52663bfeb1ae1",
+      "current_sha256": "a05f446b6d63f9f3d5a5778a7666b0db3d81417f578caadb08494dab54eeaf6c",
+      "base_lines": 57,
+      "current_lines": 64
+    },
+    {
+      "path": ".gitignore",
+      "base_sha256": "32957cffc5d3854287f84ab282d05b84b8a5f4070a44b25115255acaa161b912",
+      "current_sha256": "bfd72e011e3f3072800b32dff31bf67310cee13143248b514556c6446b4782c7",
+      "base_lines": 7,
+      "current_lines": 7
+    },
+    {
+      "path": "CHANGELOG.md",
+      "base_sha256": "81543fa587a533420c58b8515fc637ac5cbd3a3576fdb6b3a0312325c0258bca",
+      "current_sha256": "1122e02c5e23990b970de277706b2928804ec83ff9ef323880532cd70a19b735",
+      "base_lines": 92,
+      "current_lines": 120
+    },
+    {
+      "path": "CITATION.cff",
+      "base_sha256": "8501e7159bfede6a4d54580d18b03ee31a8cb1b515244ce57b7399b168c5ef3c",
+      "current_sha256": "f1e6f2a98205b8c3c1105797ea66572e27505142cc4b30a209956bcd23d45d5a",
+      "base_lines": 7,
+      "current_lines": 7
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "base_sha256": "c5db54f3995855b9715c7de1c1b9cf106a31cdfe881deac71afc5ed55670216e",
+      "current_sha256": "d5fa65e49ef83574e64971fecf693d25c59412246276596dd1f03e6338029888",
+      "base_lines": 14,
+      "current_lines": 3
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "base_sha256": "cae4cfbf70590604f185097f6fb2601e8173310eecbb63b0c9f82331d2dc1aa8",
+      "current_sha256": "8c665adee554368a557d5d97a386e62ebba0218290a787b060730f1e3777961b",
+      "base_lines": 63,
+      "current_lines": 61
+    },
+    {
+      "path": "DESIGN.md",
+      "base_sha256": "eeed31e3ec8f323efc04cd2c3133b41241ec928a3487cec18ed1cf02201dba84",
+      "current_sha256": "4d900e940289c998efdc87926001262b8809bfddcf31fbe41f97f9965324a162",
+      "base_lines": 71,
+      "current_lines": 109
+    },
+    {
+      "path": "GOVERNANCE.md",
+      "base_sha256": "39829eb156cf11116b5f18b9aa42591425af05cf48359e51491352a36c103c8d",
+      "current_sha256": "284f71d8196d9eb74ca40882647c84580f0dd85ffdb5126cb0ef7d97adcf3a68",
+      "base_lines": 34,
+      "current_lines": 43
+    },
+    {
+      "path": "LICENSE.md",
+      "base_sha256": "637f2e40c68b3e480d166655691bb327284a277f176e781557e9b528c6e33566",
+      "current_sha256": "5e151e9b851f6d69070d95ff05c00f0673bbfa50a89cdf68e60e38a0d572c9a2",
+      "base_lines": 10,
+      "current_lines": 28
+    },
+    {
+      "path": "README.md",
+      "base_sha256": "d7ad2166459ff7ee50b59f280c525445847173e5b0ab740adf77c01d5499225b",
+      "current_sha256": "1a28c50bf920767d93dc8cd1f93a253238fe416493c5d2f7ce2a4b456a317544",
+      "base_lines": 47,
+      "current_lines": 78
+    },
+    {
+      "path": "ROADMAP.md",
+      "base_sha256": "12872e418f0a282ef47a22b71d5178518609ad5cfe6936614014193fbfdc373a",
+      "current_sha256": "5d433b6db2e546741b13e4abb1a10e31ce0a2345dce1716d68004c46f71eae72",
+      "base_lines": 14,
+      "current_lines": 9
+    },
+    {
+      "path": "SECURITY.md",
+      "base_sha256": "f20ba4a563ed61acf43b93422f40730f77df4e20bbd4093f82b4603da38e9eab",
+      "current_sha256": "d29962577f53452a527ad0b724991a4b753ea9762d452468903cb0af92972e56",
+      "base_lines": 9,
+      "current_lines": 18
+    },
+    {
+      "path": "STYLE.md",
+      "base_sha256": "7ce421de99a613a53626b7473c85da937e60b79064f173bfecb7ac6768b4ebae",
+      "current_sha256": "5ca3163932c462c37e4898e5ee7a82ebb18531ad2b7536920956e6068dc254cc",
+      "base_lines": 123,
+      "current_lines": 56
+    },
+    {
+      "path": "data/program.json",
+      "base_sha256": "36a059690fbc0c6015926a1e80e80ef6831e771a76ed7791c1554047e697550d",
+      "current_sha256": "4eba3d1a88e26b8094985fa6152a2ea789e94acfbbeff2174764809c52a54049",
+      "base_lines": 59,
+      "current_lines": 94
+    },
+    {
+      "path": "docs/00-start-here/README.md",
+      "base_sha256": "fa07fe6bc815c11d894f1d8903dd7e62d9f89b588bc4cefe00530d4bb5080b2a",
+      "current_sha256": "736378ee2ad0a937d2f234a9a7f1b57e14001c2cd1f7e51ced10c8ab99a369cd",
+      "base_lines": 33,
+      "current_lines": 13
+    },
+    {
+      "path": "docs/01-program/README.md",
+      "base_sha256": "db249ed02097fc2f35da056ed730e35bec36f92ec8a435c9d7bdf9d992afa0e0",
+      "current_sha256": "90d13ac33183565b0b4f463d870cff484ee112faf56bfc5183b97a14514e2dbe",
+      "base_lines": 25,
+      "current_lines": 9
+    },
+    {
+      "path": "docs/02-core/wave-1/01-mathematical-reasoning-proof.md",
+      "base_sha256": "6317be0d0eb4769d997dbdb18142dda711afccb7b832fb63a6d8b483f42baa47",
+      "current_sha256": "35b2fffb5d0184b85044b0dc66b38e02d6e617bcc8ad15f759c5859cb83705d1",
+      "base_lines": 117,
+      "current_lines": 125
+    },
+    {
+      "path": "docs/02-core/wave-1/02-calculus-vector-calculus.md",
+      "base_sha256": "fdca4712a3e52c5674b780543b3b46c021399920a4114645078e8de5cda2376b",
+      "current_sha256": "d5d27afc75431f6e5e71db9a3b4c70f6e0ce1304739f952b20b2a07d111c9a6e",
+      "base_lines": 171,
+      "current_lines": 179
+    },
+    {
+      "path": "docs/02-core/wave-1/03-linear-algebra.md",
+      "base_sha256": "ea21e27afef28c94e9b27b79013ce0a0331bfe9b544f5a7fabae2aca9f941ed8",
+      "current_sha256": "f2ff8971f709f890e5042d55addbfb4b0f47abff5fd509d0853c6c1255f8c72e",
+      "base_lines": 153,
+      "current_lines": 161
+    },
+    {
+      "path": "docs/02-core/wave-1/04-odes-dynamical-systems.md",
+      "base_sha256": "9cc529fdc70d3ad90a54f5331237f2d46efffce3fe8d83ec2dbc01a93f1cfd25",
+      "current_sha256": "9c6da0d4aa7535a2b3beea56373ea228c26ceeaf4d6650fb63a8eab4d88d5673",
+      "base_lines": 153,
+      "current_lines": 161
+    },
+    {
+      "path": "docs/02-core/wave-1/05-probability.md",
+      "base_sha256": "62f85a42f6d2b5dc0b00705739379b32968a9682db35bafc3feeec148e90eed9",
+      "current_sha256": "bf600c70e2605ea32df90da3bccb416c81a228ac5fba1852655905406543f1d3",
+      "base_lines": 153,
+      "current_lines": 161
+    },
+    {
+      "path": "docs/02-core/wave-1/06-statistics-causal-inference.md",
+      "base_sha256": "a02bef7dd5c7f1c3f2480b5f527862d79fcf5d5ae429d407df0d6f6241de86d3",
+      "current_sha256": "cf6a56311dc4823101de083fb2b5a6459aa472a5e409f1f7fa90d3824f96444a",
+      "base_lines": 135,
+      "current_lines": 143
+    },
+    {
+      "path": "docs/02-core/wave-1/07-scientific-computing.md",
+      "base_sha256": "5d71401f5eac54797732fea1976490bf342001f4991d29754a963529ad62e0ae",
+      "current_sha256": "915a86d4579dccecf3e74d84cff2ec27c4e2ad86cef54baa9a347bd0889e5451",
+      "base_lines": 135,
+      "current_lines": 143
+    },
+    {
+      "path": "docs/02-core/wave-1/08-optimization.md",
+      "base_sha256": "4dd5505c94814729da444334c5ff45f6e986a8294091fb22c38da9c73dd86bc3",
+      "current_sha256": "79ba6a6598a731571cbfc76957fbcc14f5d02f4dfe64ca5c440ef7174f47ec67",
+      "base_lines": 135,
+      "current_lines": 143
+    },
+    {
+      "path": "docs/02-core/wave-1/09-information-signals.md",
+      "base_sha256": "9cdd0836afcd5c941ca5fa21b8e6d46b1eaa8c2135f240029dfa00fea2369ecf",
+      "current_sha256": "c3db30aa214c4d25ddfbcd992076e10cc3ec63e2d2564e58bac8df7e6e7ae75c",
+      "base_lines": 135,
+      "current_lines": 143
+    },
+    {
+      "path": "docs/02-core/wave-1/10-control-estimation.md",
+      "base_sha256": "a3f96fa8dc591539d0dfcea428d647434f20e773b6ecb96c27b12cd623a5608d",
+      "current_sha256": "af343bda2ca5c9017dec3f5215d565ed5de75cf6e75070bdd4716ab831259f28",
+      "base_lines": 153,
+      "current_lines": 161
+    },
+    {
+      "path": "docs/02-core/wave-1/11-metrology-experiments.md",
+      "base_sha256": "8f726e77e356c10773173eff3c23a9e96f9d7d1925580bcf53553797485e011f",
+      "current_sha256": "68fcb11cb1aae5b820213f2c8338d056c6901ad4e8dda3e34e5cf4fbecab1788",
+      "base_lines": 117,
+      "current_lines": 125
+    },
+    {
+      "path": "docs/02-core/wave-2/01-mechanics-electromagnetism.md",
+      "base_sha256": "58d6869b6333edccd055ca6d41baab292f185ac483420fd0da84489c5cbf4004",
+      "current_sha256": "4c90271b2d3f4ab358796bc63869d4d664914750fe308ce5cd1813aa8be3700c",
+      "base_lines": 171,
+      "current_lines": 179
+    },
+    {
+      "path": "docs/02-core/wave-2/02-thermodynamics-statistical-mechanics.md",
+      "base_sha256": "abfd132a832a5153bb89b3482c18a8477d7e1c342b5297163b5a0c5f348c03e5",
+      "current_sha256": "4b4fa0cc40e525563fda9ae9e66f46518153514a76cb24516052fec261766415",
+      "base_lines": 153,
+      "current_lines": 161
+    },
+    {
+      "path": "docs/02-core/wave-2/03-quantum-condensed-matter.md",
+      "base_sha256": "b3d7cb986252e9aaceecdb0fe489b7d0f82514c93bad93139ade8e6117650d84",
+      "current_sha256": "f43453c621c305563c852718c25d64b6a9fef0c426d232f0068e4fc324df5356",
+      "base_lines": 153,
+      "current_lines": 161
+    },
+    {
+      "path": "docs/02-core/wave-2/04-chemistry-materials.md",
+      "base_sha256": "a0b8a542259499e722d74afca78fe9e9b4e460ab5e36aa5805ef54c606777c4e",
+      "current_sha256": "abe37d7d231fd2afbf8a1790709cbc7be57ecba4a29d198a85101938477faa84",
+      "base_lines": 153,
+      "current_lines": 161
+    },
+    {
+      "path": "docs/02-core/wave-2/05-electronics-embedded-systems.md",
+      "base_sha256": "83108b08e10ec15e92f49cc25eb1946e442d838519de8a0039476cc5ab8a4ab7",
+      "current_sha256": "c0443485849260df33f79d290e1ac4dae2681d103fddd213b51e5161bb7c9beb",
+      "base_lines": 153,
+      "current_lines": 161
+    },
+    {
+      "path": "docs/02-core/wave-2/06-mechanical-design-fluids-structures.md",
+      "base_sha256": "7c659ba3f06d6e5b04ba89786f219055ae82d2a0d6ebc92cb12b5f6a83109dd2",
+      "current_sha256": "f6a43eb3932757ef5c2f362e2362073cc95e56b97ec37e6e2e0d13e6465e1b3b",
+      "base_lines": 153,
+      "current_lines": 161
+    },
+    {
+      "path": "docs/02-core/wave-2/07-molecular-cell-biology.md",
+      "base_sha256": "0e10660280eea8852329b922f18ffffbafbb30c6aef2b258cba41e2a3aae989d",
+      "current_sha256": "5fe8ee4b9c52853653f9200de17abc60d01934fd8f0a1be93fb2acb50015ecc4",
+      "base_lines": 153,
+      "current_lines": 161
+    },
+    {
+      "path": "docs/02-core/wave-2/08-genetics-evolution-systems-biology.md",
+      "base_sha256": "cc0aea689f775ceddd235a62bbbe79b8218520b1846b0333b18de35adc095ca6",
+      "current_sha256": "45869709a41d368fa4f7f2fcc429e5c432409bdd4da64fe287ddd443b74c549b",
+      "base_lines": 135,
+      "current_lines": 143
+    },
+    {
+      "path": "docs/02-core/wave-2/09-neuroscience-physiology.md",
+      "base_sha256": "9715bfb93dd21d03fcb3a35b1d0f35e3125686543743052863f47bdef6f42693",
+      "current_sha256": "ce1d3a6aa36910df350d76320a36b3fcca1b4209a1821217c69df9b0719d71b5",
+      "base_lines": 135,
+      "current_lines": 143
+    },
+    {
+      "path": "docs/02-core/wave-2/10-manufacturing-operations.md",
+      "base_sha256": "638ec793a9bae2d677422d9be91a6aadd0422daf35d5997ca8b628acf135d268",
+      "current_sha256": "335ae49b6c720d177533bdf8734f69a93b874356b5ec50541e96e0110510bc5f",
+      "base_lines": 135,
+      "current_lines": 143
+    },
+    {
+      "path": "docs/02-core/wave-2/11-safety-reliability-security.md",
+      "base_sha256": "eb8030d0c754e6c9ab8370b8d19e7a67c799fa560dd0986f54952706b7d655c5",
+      "current_sha256": "c0d46c2f9fff3427202aaa976f70b63f9d65999da60738989d63233d551a7f4b",
+      "base_lines": 135,
+      "current_lines": 143
+    },
+    {
+      "path": "docs/03-specializations/README.md",
+      "base_sha256": "504f6804010d50ba495c00a93a05a8355ee3d6c1610d0ffeb7fc0ba22864ab86",
+      "current_sha256": "4e0fc39aa29420489d33cea4b1a77b09d299268b414df4715166f9d0807f0509",
+      "base_lines": 51,
+      "current_lines": 39
+    },
+    {
+      "path": "docs/07-resources/README.md",
+      "base_sha256": "21cb96f98c8a6e7c3bca60c240a751c6de948b8faf5a7279f245242ce26125e6",
+      "current_sha256": "35cbffc0b7906bdafedbd44d91ab311137a023bc7f3921d7414443340165823a",
+      "base_lines": 19,
+      "current_lines": 84
+    },
+    {
+      "path": "docs/08-community/local-development.md",
+      "base_sha256": "326f192aa7e87f034c8909e3b84dab2ab8d05c4dfe5ba4e9518e8fc4b012e889",
+      "current_sha256": "57a1a45e1c2620aa6064fff46943cccf39f7ac3e9f03fd04c0ffb63fc07d25f2",
+      "base_lines": 55,
+      "current_lines": 58
+    },
+    {
+      "path": "docs/index.md",
+      "base_sha256": "509c9672587f6be8af724d689048f892af45ff3793436548d2b947612d6219d3",
+      "current_sha256": "70d6829270c660646f0beef30f3f8e969efc4d9ea6b7c61f0a304a2cde90daf0",
+      "base_lines": 92,
+      "current_lines": 74
+    },
+    {
+      "path": "pyproject.toml",
+      "base_sha256": "92df42acd128f230ad0e563b21cf5d2fe6b0a05dfb2b7b635ff9f7870901db48",
+      "current_sha256": "1f8ec37b9612825c8daa1514f8ba094cb6a1cdac9c368d22928add186abddb65",
+      "base_lines": 50,
+      "current_lines": 49
+    },
+    {
+      "path": "release.toml",
+      "base_sha256": "68e1dac0bd73b8731f056297ab05245dc5bdea85cb34263e0977470ea933e20e",
+      "current_sha256": "eeed5fce52cf6ebb9910d0baacaee8fbd55ed3eaa597aa282cebe9532b05703e",
+      "base_lines": 1,
+      "current_lines": 1
+    },
+    {
+      "path": "scripts/audit_contrast.py",
+      "base_sha256": "87675443bac73c2e25c4c0c483f10f0b9686049bd8bf8ad869a497ac686b7253",
+      "current_sha256": "f407d3a90f847d80db11b3638929cf589a4faec69a7ca7545b02ba352fd5c5c2",
+      "base_lines": 103,
+      "current_lines": 103
+    },
+    {
+      "path": "scripts/audit_ui.py",
+      "base_sha256": "d12081fb411d1bf0123b146208b2a466da59972af6566d9dddb883e41c1c37b7",
+      "current_sha256": "d61d33aba0e0a02be2b0a70e43c8c85920f619165ef0e481811afb26b0492b8f",
+      "base_lines": 180,
+      "current_lines": 185
+    },
+    {
+      "path": "scripts/lint_prose.py",
+      "base_sha256": "0d06bbb8731aac47658846d58d685f2beecc447f91b78ba29af0679262611d0b",
+      "current_sha256": "7b75c176ffd75bbd0312ffd6cb33b92479264ea94d398e42630ed285396c7a22",
+      "base_lines": 220,
+      "current_lines": 223
+    },
+    {
+      "path": "scripts/sync_release_version.py",
+      "base_sha256": "c35193206527351c930438fd433467aedea5a2b996f898acf292bd7a8becfd68",
+      "current_sha256": "484a37ca98a7dc583a6a2ef07ea1be32da6816e4ee3a18338a8e36da81dfa4f9",
+      "base_lines": 25,
+      "current_lines": 27
+    },
+    {
+      "path": "scripts/validate_repo.py",
+      "base_sha256": "ce7515075276536c0ae9eb062f712eaebe2560d103d7264e14168b8e39145017",
+      "current_sha256": "b41691e88094d770b4bc66d2b03e03bfab96ef7767c953a6e4d43109268f122a",
+      "base_lines": 384,
+      "current_lines": 134
+    },
+    {
+      "path": "uv.lock",
+      "base_sha256": "979b312e161ce16a51f2afa490603e4363f0222194887bdeae5acca36255a849",
+      "current_sha256": "72ec3c12d82f9d076eb7a67ecf922c7e7a74f5fec4130d1a767a906672575f9e",
+      "base_lines": 160,
+      "current_lines": 532
+    },
+    {
+      "path": "zensical.toml",
+      "base_sha256": "a40d6447cd42ca32b38e57f3df81a12de9614932fb1c98920a06a727fa30831c",
+      "current_sha256": "d36d307b3bb0fb802a9c9dc62742fc49cdd0215c1adc79fac80c38247e63a720",
+      "base_lines": 164,
+      "current_lines": 76
+    }
+  ],
+  "protected_legacy_files": 176,
+  "altered_protected_files": [
+    "docs/02-core/wave-1/01-mathematical-reasoning-proof.md",
+    "docs/02-core/wave-1/02-calculus-vector-calculus.md",
+    "docs/02-core/wave-1/03-linear-algebra.md",
+    "docs/02-core/wave-1/04-odes-dynamical-systems.md",
+    "docs/02-core/wave-1/05-probability.md",
+    "docs/02-core/wave-1/06-statistics-causal-inference.md",
+    "docs/02-core/wave-1/07-scientific-computing.md",
+    "docs/02-core/wave-1/08-optimization.md",
+    "docs/02-core/wave-1/09-information-signals.md",
+    "docs/02-core/wave-1/10-control-estimation.md",
+    "docs/02-core/wave-1/11-metrology-experiments.md",
+    "docs/02-core/wave-2/01-mechanics-electromagnetism.md",
+    "docs/02-core/wave-2/02-thermodynamics-statistical-mechanics.md",
+    "docs/02-core/wave-2/03-quantum-condensed-matter.md",
+    "docs/02-core/wave-2/04-chemistry-materials.md",
+    "docs/02-core/wave-2/05-electronics-embedded-systems.md",
+    "docs/02-core/wave-2/06-mechanical-design-fluids-structures.md",
+    "docs/02-core/wave-2/07-molecular-cell-biology.md",
+    "docs/02-core/wave-2/08-genetics-evolution-systems-biology.md",
+    "docs/02-core/wave-2/09-neuroscience-physiology.md",
+    "docs/02-core/wave-2/10-manufacturing-operations.md",
+    "docs/02-core/wave-2/11-safety-reliability-security.md"
+  ],
+  "compatibility_only_files": [
+    "docs/02-core/wave-1/01-mathematical-reasoning-proof.md",
+    "docs/02-core/wave-1/02-calculus-vector-calculus.md",
+    "docs/02-core/wave-1/03-linear-algebra.md",
+    "docs/02-core/wave-1/04-odes-dynamical-systems.md",
+    "docs/02-core/wave-1/05-probability.md",
+    "docs/02-core/wave-1/06-statistics-causal-inference.md",
+    "docs/02-core/wave-1/07-scientific-computing.md",
+    "docs/02-core/wave-1/08-optimization.md",
+    "docs/02-core/wave-1/09-information-signals.md",
+    "docs/02-core/wave-1/10-control-estimation.md",
+    "docs/02-core/wave-1/11-metrology-experiments.md",
+    "docs/02-core/wave-2/01-mechanics-electromagnetism.md",
+    "docs/02-core/wave-2/02-thermodynamics-statistical-mechanics.md",
+    "docs/02-core/wave-2/03-quantum-condensed-matter.md",
+    "docs/02-core/wave-2/04-chemistry-materials.md",
+    "docs/02-core/wave-2/05-electronics-embedded-systems.md",
+    "docs/02-core/wave-2/06-mechanical-design-fluids-structures.md",
+    "docs/02-core/wave-2/07-molecular-cell-biology.md",
+    "docs/02-core/wave-2/08-genetics-evolution-systems-biology.md",
+    "docs/02-core/wave-2/09-neuroscience-physiology.md",
+    "docs/02-core/wave-2/10-manufacturing-operations.md",
+    "docs/02-core/wave-2/11-safety-reliability-security.md"
+  ],
+  "substantive_alterations": [],
+  "interpretation": "Compatibility-only changes preserve parsed frontmatter fields and the complete teaching body; other changes require explicit review"
+}

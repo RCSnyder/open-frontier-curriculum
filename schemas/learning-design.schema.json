@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "foundations", "support_views", "branch_labels", "journeys"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "foundations": {
+      "type": "object",
+      "required": ["capability", "context", "judgment", "representation"],
+      "additionalProperties": false,
+      "properties": {
+        "capability": {"$ref": "#/$defs/foundation"},
+        "context": {"$ref": "#/$defs/foundation"},
+        "judgment": {"$ref": "#/$defs/foundation"},
+        "representation": {"$ref": "#/$defs/foundation"}
+      }
+    },
+    "support_views": {
+      "type": "object",
+      "propertyNames": {"pattern": "^[a-z]+(?:-[a-z]+)*$"},
+      "additionalProperties": {"$ref": "#/$defs/foundation"}
+    },
+    "branch_labels": {"type": "object", "additionalProperties": {"$ref": "#/$defs/text"}},
+    "journeys": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["slug", "title", "question", "first_attempt", "connections"],
+        "properties": {
+          "slug": {"type": "string", "pattern": "^[a-z]+(?:-[a-z]+)*$"},
+          "title": {"$ref": "#/$defs/text"},
+          "question": {"$ref": "#/$defs/text"},
+          "first_attempt": {"$ref": "#/$defs/text"},
+          "connections": {"$ref": "#/$defs/identities"}
+        }
+      }
+    }
+  },
+  "$defs": {
+    "text": {"type": "string", "minLength": 1, "pattern": "\\S"},
+    "branches": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"enum": ["TS", "HW", "PH", "EX", "DR", "ML"]}},
+    "identities": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"$ref": "#/$defs/text"}},
+    "foundation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "role", "branches", "question", "purpose", "entry"],
+      "properties": {
+        "title": {"$ref": "#/$defs/text"},
+        "role": {"$ref": "#/$defs/text"},
+        "branches": {"$ref": "#/$defs/branches"},
+        "question": {"$ref": "#/$defs/text"},
+        "purpose": {"$ref": "#/$defs/text"},
+        "entry": {"$ref": "#/$defs/identities"}
+      }
+    }
+  }
+}

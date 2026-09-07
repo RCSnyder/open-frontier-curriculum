@@ -1,9 +1,9 @@
 ---
-title: "Advanced cyberdefense AI"
+title: Advanced cyberdefense AI
 rank: 34
-feasibility: "B"
-primary_track: "AI-AS"
-secondary_track: "ROB"
+feasibility: B
+primary_track: AI-AS
+secondary_track: ROB
 ---
 
 # 34 | Advanced cyberdefense AI
@@ -12,7 +12,7 @@ secondary_track: "ROB"
 
 <span class="ofc-badge ofc-b">B | active frontier</span>
 
-**Primary track:** [AI & autonomous science](../../03-specializations/ai-autonomous-science.md)  
+**Primary track:** [AI and autonomous science](../../03-specializations/ai-autonomous-science.md)  
 **Secondary:** ROB
 
 </div>
@@ -25,8 +25,18 @@ Adversarial adaptation, false positives, autonomy limits
 
 - **Foundations I:** W1 algorithms/probability
 - **Foundations II:** W2 security/reliability
-- **Specialization:** AI & autonomous science
+- **Specialization:** [AI and autonomous science](../../03-specializations/ai-autonomous-science.md)
 
 ## First proof of work
 
 Sandbox defender benchmark with immutable evaluator and attack simulation
+
+<!-- connected-study -->
+## Connected study
+
+Editorial study connections grounded in the existing technology bottlenecks and subject descriptions. Background is useful preparation, not a validated prerequisite or a complete technology curriculum.
+
+Specific subject connections have not been mapped yet.
+
+
+[Explore technologies](../README.md)

@@ -1,0 +1,14 @@
+{
+  "version": "2026-09-07-baseline",
+  "import_provenance": {
+    "baseline_source": "https://github.com/RCSnyder/open-frontier-curriculum/blob/main/docs/05-frontier/by-track.md",
+    "checked": "2026-09-07"
+  },
+  "classes": {
+    "A": "deployed / early deployment",
+    "B": "active frontier",
+    "C": "known-physics large engineering",
+    "D": "validated general mechanism missing",
+    "E": "no credible path under current physics"
+  }
+}

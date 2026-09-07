@@ -1,0 +1,101 @@
+{
+  "version": "0.3.0",
+  "requirements": [
+    {
+      "ID": "M01",
+      "Requirement": "Stable identity",
+      "Standard": "Globally unique branch/module/node IDs; aliases allowed but IDs persist.",
+      "Validation": "Schema validation"
+    },
+    {
+      "ID": "M02",
+      "Requirement": "Necessity",
+      "Standard": "Explicit deletion reason: what recurring capability fails if removed?",
+      "Validation": "Deletion audit"
+    },
+    {
+      "ID": "M03",
+      "Requirement": "Prerequisite closure",
+      "Standard": "Every prerequisite is explicit and resolves to a node/interface; no hidden cycles.",
+      "Validation": "Graph validation"
+    },
+    {
+      "ID": "M04",
+      "Requirement": "Exit capability",
+      "Standard": "One or more observable things a competent learner can do, not merely topics covered.",
+      "Validation": "Outcome rubric"
+    },
+    {
+      "ID": "M05",
+      "Requirement": "Concept spine",
+      "Standard": "Small set of load-bearing concepts and models; distinguish required from enrichment.",
+      "Validation": "Node graph"
+    },
+    {
+      "ID": "M06",
+      "Requirement": "Source stack",
+      "Standard": "At minimum: rigorous spine; primary/original source where meaningful; counterpoint/rival; case/data/artifact; reference.",
+      "Validation": "Bibliography audit"
+    },
+    {
+      "ID": "M07",
+      "Requirement": "Civilizational breadth",
+      "Standard": "Where relevant, test claims outside the culture/period that generated the dominant textbook account.",
+      "Validation": "Global/temporal audit"
+    },
+    {
+      "ID": "M08",
+      "Requirement": "Read-study-practice balance",
+      "Standard": "Specify which formation modes R/S/P/M/D/A/B/C/F/T/V/L are required.",
+      "Validation": "Formation map"
+    },
+    {
+      "ID": "M09",
+      "Requirement": "AI policy",
+      "Standard": "State what must be learned unaided, where AI may tutor/collaborate/delegate, and what provenance/evals are required.",
+      "Validation": "A0–A5 policy"
+    },
+    {
+      "ID": "M10",
+      "Requirement": "Mastery gate",
+      "Standard": "Unseen transfer + failure/boundary + check + defense; delayed retest for foundational nodes.",
+      "Validation": "Assessment packet"
+    },
+    {
+      "ID": "M11",
+      "Requirement": "Reality contact",
+      "Standard": "Where meaningful, link to measurement, field observation, operations, primary documents, users, physical artifacts, or real decisions.",
+      "Validation": "Reality artifact"
+    },
+    {
+      "ID": "M12",
+      "Requirement": "Taste/exemplar set",
+      "Standard": "Include strong, weak, and misleading examples; require comparison, not only production.",
+      "Validation": "Comparison set"
+    },
+    {
+      "ID": "M13",
+      "Requirement": "Safety / ethics / responsibility",
+      "Standard": "Identify hazards, vulnerable stakeholders, legal/professional constraints, and stop rules appropriate to domain.",
+      "Validation": "Risk note"
+    },
+    {
+      "ID": "M14",
+      "Requirement": "Accessibility",
+      "Standard": "Provide multiple ways to access ideas where possible while preserving the actual mastery target.",
+      "Validation": "Accessibility audit"
+    },
+    {
+      "ID": "M15",
+      "Requirement": "Backtest hooks",
+      "Standard": "Define external prompts/cases that can stress the node without leaking into normal teaching.",
+      "Validation": "Benchmark registry"
+    },
+    {
+      "ID": "M16",
+      "Requirement": "Evidence & revision",
+      "Standard": "Record sources, evidence maturity, known gaps, dissent, version, and reason for curriculum changes.",
+      "Validation": "Provenance/RFC"
+    }
+  ]
+}

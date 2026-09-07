@@ -1,0 +1,90 @@
+{
+  "version": "0.5.0",
+  "thesis": "As machine cognition becomes more abundant, the Obelisk should increasingly organize education around durable human scarcities and responsibilities without abandoning deep knowledge.",
+  "scarcities": [
+    {
+      "id": "SC01",
+      "name": "Attention",
+      "why": "Human time and conscious attention remain finite while generated information explodes.",
+      "formation": "deep reading; priority; refusal; contemplation; long projects"
+    },
+    {
+      "id": "SC02",
+      "name": "Ground truth and trustworthy evidence",
+      "why": "Plausible synthesis becomes cheap; reality and provenance remain costly.",
+      "formation": "measurement; primary sources; replication; fieldwork; source genealogy"
+    },
+    {
+      "id": "SC03",
+      "name": "Judgment",
+      "why": "Option generation becomes cheap while selection under competing criteria remains consequential.",
+      "formation": "comparison; decision records; forecasting; ethics; systems thinking"
+    },
+    {
+      "id": "SC04",
+      "name": "Taste",
+      "why": "Abundance increases the value of discriminating quality, coherence, originality and appropriateness.",
+      "formation": "exemplars; blind ranking; criticism; making; revision; curation"
+    },
+    {
+      "id": "SC05",
+      "name": "Legitimate ends",
+      "why": "Optimization cannot decide which objectives deserve authority.",
+      "formation": "philosophy; politics; rights; public reason; stakeholder reasoning"
+    },
+    {
+      "id": "SC06",
+      "name": "Accountability",
+      "why": "Delegation can diffuse responsibility precisely when systems have greater consequence.",
+      "formation": "decision rights; provenance; viva; incident review; recourse"
+    },
+    {
+      "id": "SC07",
+      "name": "Trustworthy relationships",
+      "why": "Synthetic interaction can be abundant while mutual obligation, vulnerability and shared history remain human achievements.",
+      "formation": "listening; care; conflict repair; friendship; family; mentorship; community"
+    },
+    {
+      "id": "SC08",
+      "name": "Commitment and courage",
+      "why": "Knowing optimal advice does not make a person act, persist, sacrifice or stand responsible under pressure.",
+      "formation": "long projects; service; leadership; physical challenge; public commitments"
+    },
+    {
+      "id": "SC09",
+      "name": "Embodied competence",
+      "why": "Bodies, materials, places and tacit skill resist purely linguistic substitution.",
+      "formation": "movement; craft; repair; experiments; fieldwork; emergency readiness"
+    },
+    {
+      "id": "SC10",
+      "name": "Meaning and identity",
+      "why": "Automated productivity cannot answer what a life is for or which commitments make it worth living.",
+      "formation": "philosophy; religion/worldviews; literature; art; biography; reflective practice"
+    },
+    {
+      "id": "SC11",
+      "name": "Institutional wisdom",
+      "why": "Powerful systems act through organizations, laws, markets and infrastructures that can fail even when individual advice is excellent.",
+      "formation": "Human Worlds; governance labs; organizational design; law; economics; history"
+    },
+    {
+      "id": "SC12",
+      "name": "Physical resources and ecological capacity",
+      "why": "Compute and automation remain embedded in energy, materials, land, water, infrastructure and ecosystems.",
+      "formation": "Earth systems; energy; materials; industrial systems; ecology; resilience"
+    },
+    {
+      "id": "SC13",
+      "name": "Plural human perspective",
+      "why": "Optimization from one model or culture can erase legitimate difference and minority interests.",
+      "formation": "languages; global history; comparative philosophy; anthropology; arts; constitutional pluralism"
+    },
+    {
+      "id": "SC14",
+      "name": "Stewardship across time",
+      "why": "Increasing technological power expands the consequences of decisions for children, institutions and future generations.",
+      "formation": "long-horizon scenarios; irreversible-risk analysis; history; ethics; institution building"
+    }
+  ]
+}

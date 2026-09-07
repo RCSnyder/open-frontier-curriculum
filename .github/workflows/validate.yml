@@ -12,7 +12,7 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
       - name: Install uv
         uses: astral-sh/setup-uv@20cfd1bf945f4377ade1205e4dbc17946fc9a30d # v10.0.1
         with:
@@ -23,7 +23,7 @@ jobs:
       - name: Sync docs environment
         run: uv sync --frozen
       - name: Lint public prose
-        run: uv run --frozen python scripts/lint_prose.py
+        run: uv run --frozen python scripts/lint_prose.py --strict
       - name: Validate curriculum structure
         run: uv run --frozen python scripts/validate_repo.py
       - name: Audit UI source

@@ -1,9 +1,9 @@
 ---
-title: "Next-generation batteries"
+title: Next-generation batteries
 rank: 43
-feasibility: "B"
-primary_track: "MAT"
-secondary_track: "ENE"
+feasibility: B
+primary_track: MAT
+secondary_track: ENE
 ---
 
 # 43 | Next-generation batteries
@@ -12,7 +12,7 @@ secondary_track: "ENE"
 
 <span class="ofc-badge ofc-b">B | active frontier</span>
 
-**Primary track:** [Materials, nano & molecular engineering](../../03-specializations/materials-nano.md)  
+**Primary track:** [Materials, nano and molecular engineering](../../03-specializations/materials-nano.md)  
 **Secondary:** ENE
 
 </div>
@@ -25,8 +25,18 @@ Interfaces, cycle life, safety, scale
 
 - **Foundations I:** W1 optimization/metrology
 - **Foundations II:** W2 electrochemistry/materials
-- **Specialization:** Materials, nano & molecular engineering
+- **Specialization:** [Materials, nano and molecular engineering](../../03-specializations/materials-nano.md)
 
 ## First proof of work
 
-Materials->cell->pack->manufacturing chain
+Materials -> cell -> pack -> manufacturing chain
+
+<!-- connected-study -->
+## Connected study
+
+Editorial study connections grounded in the existing technology bottlenecks and subject descriptions. Background is useful preparation, not a validated prerequisite or a complete technology curriculum.
+
+Specific subject connections have not been mapped yet.
+
+
+[Explore technologies](../README.md)

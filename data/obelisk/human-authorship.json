@@ -1,0 +1,91 @@
+{
+  "version": "0.5.0",
+  "definition": "Human authorship means that people remain meaningfully involved in forming the ends, commitments, standards, permissions and responsibilities that shape their own lives and shared institutions, even when AI performs much of the intermediate cognition or execution.",
+  "note": "These domains are not claims that AI may never contribute. They are domains in which delegation should not dissolve human or legitimate institutional responsibility.",
+  "domains": [
+    {
+      "id": "HA01",
+      "domain": "Purposes and commitments",
+      "human_accountability": "Which goals, projects, relationships and forms of life to endorse.",
+      "ai_role": "Generate possibilities, consequences and critiques; never convert recommendation into legitimate commitment by capability alone.",
+      "formation": "philosophy; life design; decision journals; biography; long projects"
+    },
+    {
+      "id": "HA02",
+      "domain": "Rights, consent and coercion",
+      "human_accountability": "Which uses of power are permissible and how affected people can refuse, appeal and obtain recourse.",
+      "ai_role": "Analyze law, predict outcomes and surface stakeholders; legitimate authority remains human/institutional.",
+      "formation": "law; ethics; politics; consent; institutional design"
+    },
+    {
+      "id": "HA03",
+      "domain": "Epistemic standards",
+      "human_accountability": "What evidence is adequate for this decision and how uncertainty should affect action.",
+      "ai_role": "Search, synthesize, model and critique; humans/institutions set warranted thresholds and independent checks.",
+      "formation": "science; statistics; philosophy; source ecology; calibration"
+    },
+    {
+      "id": "HA04",
+      "domain": "Education and formation",
+      "human_accountability": "What a learner must actually internalize, practice and become rather than merely cause a machine to output.",
+      "ai_role": "Tutor, simulate, critique, personalize and extend practice within deliberate pedagogical permissions.",
+      "formation": "A0–A5 progression; delayed retest; teaching; viva"
+    },
+    {
+      "id": "HA05",
+      "domain": "Care and relationships",
+      "human_accountability": "Obligations of care, loyalty, trust, consent, presence and repair among persons.",
+      "ai_role": "Support communication, information and accessibility without curriculum design treating synthetic companionship as a full substitute for human relationship.",
+      "formation": "family/community care; listening; conflict repair; mentorship"
+    },
+    {
+      "id": "HA06",
+      "domain": "Taste and cultural authorship",
+      "human_accountability": "Which works, traditions, styles and creations deserve attention, transmission, revision or rejection.",
+      "ai_role": "Generate variants, retrieve context and critique; humans cultivate preference, standards and cultural memory through encounter and creation.",
+      "formation": "arts; literature; design; music; history; curation"
+    },
+    {
+      "id": "HA07",
+      "domain": "Institutional authority",
+      "human_accountability": "Who has decision rights, what systems may do, how dissent works and how power is checked.",
+      "ai_role": "Advise, simulate, monitor and execute bounded delegated authority.",
+      "formation": "Human Worlds; public law; organizational design; governance simulations"
+    },
+    {
+      "id": "HA08",
+      "domain": "High-stakes irreversible action",
+      "human_accountability": "When to deploy, escalate, punish, expose, manipulate, irreversibly alter environments or accept catastrophic risk.",
+      "ai_role": "Provide analysis and options under strict assurance; no capability-based presumption of autonomous authority.",
+      "formation": "risk; safety; ethics; institutions; scenario analysis"
+    },
+    {
+      "id": "HA09",
+      "domain": "Embodied self-care and practical life",
+      "human_accountability": "Maintain health, physical competence, household resilience and appropriate boundaries with professional expertise.",
+      "ai_role": "Inform, coach and help coordinate; it cannot perform all embodied practice on behalf of the learner.",
+      "formation": "health; movement; cooking; repair; first aid; logistics"
+    },
+    {
+      "id": "HA10",
+      "domain": "Intergenerational stewardship",
+      "human_accountability": "What to preserve, build and constrain for children and future people.",
+      "ai_role": "Model scenarios and tradeoffs; cannot confer moral legitimacy on one generation's choices.",
+      "formation": "history; ecology; institutions; philosophy; future scenarios"
+    },
+    {
+      "id": "HA11",
+      "domain": "Responsibility for delegated systems",
+      "human_accountability": "Know who owns consequences when AI acts through a person or institution.",
+      "ai_role": "Execute within explicit permissions, logs, evaluators and stop conditions.",
+      "formation": "agent contracts; incident review; governance; audits"
+    },
+    {
+      "id": "HA12",
+      "domain": "Common-world maintenance",
+      "human_accountability": "Maintain the social, epistemic and physical infrastructures on which everyone depends.",
+      "ai_role": "Optimize and operate where appropriate; humans remain responsible for resilience, access, externalities and governance.",
+      "formation": "infrastructure; public goods; engineering; institutions; ecology"
+    }
+  ]
+}

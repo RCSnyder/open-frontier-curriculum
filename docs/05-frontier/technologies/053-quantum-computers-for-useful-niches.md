@@ -1,9 +1,9 @@
 ---
-title: "Quantum computers for useful niches"
+title: Quantum computers for useful niches
 rank: 53
-feasibility: "B"
-primary_track: "AI-AS"
-secondary_track: "MAT"
+feasibility: B
+primary_track: AI-AS
+secondary_track: MAT
 ---
 
 # 53 | Quantum computers for useful niches
@@ -12,7 +12,7 @@ secondary_track: "MAT"
 
 <span class="ofc-badge ofc-b">B | active frontier</span>
 
-**Primary track:** [AI & autonomous science](../../03-specializations/ai-autonomous-science.md)  
+**Primary track:** [AI and autonomous science](../../03-specializations/ai-autonomous-science.md)  
 **Secondary:** MAT
 
 </div>
@@ -25,8 +25,18 @@ Error correction, algorithms, hardware scaling
 
 - **Foundations I:** W1 linear algebra/probability
 - **Foundations II:** W2 quantum/condensed matter
-- **Specialization:** AI & autonomous science
+- **Specialization:** [AI and autonomous science](../../03-specializations/ai-autonomous-science.md)
 
 ## First proof of work
 
 Small quantum algorithm/noise/resource analysis
+
+<!-- connected-study -->
+## Connected study
+
+Editorial study connections grounded in the existing technology bottlenecks and subject descriptions. Background is useful preparation, not a validated prerequisite or a complete technology curriculum.
+
+Specific subject connections have not been mapped yet.
+
+
+[Explore technologies](../README.md)

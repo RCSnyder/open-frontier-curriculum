@@ -1,0 +1,40 @@
+{
+  "version": "0.3.0",
+  "sources": [
+    {
+      "kind": "source-artifact",
+      "file": "global_philosophical_theoretical_minimum_all_souls_backtest(2).xlsx",
+      "sha256": "6139010875b48d6b30a0a509cc6892418018abdeebb1d5ee3c407b4307c74929"
+    },
+    {
+      "kind": "source-artifact",
+      "file": "english_literature_expressive_theoretical_minimum(3).xlsx",
+      "sha256": "f12591ede5d51432c07a63d7659dcf945a9d21acd526f9e5e526333bbda1c9e7"
+    },
+    {
+      "kind": "source-artifact",
+      "file": "social_systems_theoretical_minimum_v2.xlsx",
+      "sha256": "744e8efe16842288470071ecc22b298b85cd401388f83d757c9d66a9cf1d40f5"
+    },
+    {
+      "kind": "source-artifact",
+      "file": "open_frontier_obelisk_curriculum_v3.xlsx",
+      "sha256": "6a4545b8eb3340f07ef773451a04b82f4bffe9e57e1b54fc80ce3da47a5e22ab"
+    },
+    {
+      "kind": "live-repository",
+      "url": "https://github.com/RCSnyder/open-frontier-curriculum",
+      "checked_date": "2026-09-06"
+    },
+    {
+      "kind": "live-repository",
+      "url": "https://github.com/RCSnyder/open-frontier-curriculum/blob/main/docs/02-core/README.md",
+      "checked_date": "2026-09-06"
+    },
+    {
+      "kind": "live-repository",
+      "url": "https://github.com/RCSnyder/open-frontier-curriculum/blob/main/docs/07-resources/essential-26.md",
+      "checked_date": "2026-09-06"
+    }
+  ]
+}

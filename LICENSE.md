@@ -1,10 +1,28 @@
 # License
 
-Unless otherwise noted:
+Curriculum prose, schemas, and structured curriculum data authored for Open Frontier are licensed **CC BY 4.0** unless a file states otherwise.
 
-- Original curriculum/documentation content in this repository is licensed under **Creative Commons Attribution 4.0 International (CC BY 4.0)**: https://creativecommons.org/licenses/by/4.0/
-- Original code and scripts in `scripts/` are licensed under the **MIT License**: https://opensource.org/license/mit/
+Software and scripts are licensed **MIT**.
 
-External books, papers, websites, datasets, archived source files, quotations, and linked resources retain their original copyrights and licenses.
+The [CC BY 4.0 legal code](https://creativecommons.org/licenses/by/4.0/legalcode)
+governs the original curriculum material. Attribution must identify the project,
+retain notices, link the license and indicate changes. No endorsement is implied.
 
-This repository generally links to external texts rather than redistributing them.
+For project software, permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including without
+limitation the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+External books, papers, standards, websites, examinations, datasets, and other sources remain under their original licenses/copyright. Source links are bibliographic references, not relicensing.

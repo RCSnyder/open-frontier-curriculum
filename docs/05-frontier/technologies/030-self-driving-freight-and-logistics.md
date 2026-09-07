@@ -1,9 +1,9 @@
 ---
-title: "Self-driving freight and logistics"
+title: Self-driving freight and logistics
 rank: 30
-feasibility: "A"
-primary_track: "ROB"
-secondary_track: "AI-AS"
+feasibility: A
+primary_track: ROB
+secondary_track: AI-AS
 ---
 
 # 30 | Self-driving freight and logistics
@@ -12,7 +12,7 @@ secondary_track: "AI-AS"
 
 <span class="ofc-badge ofc-a">A | deployed / early deployment</span>
 
-**Primary track:** [Robotics & autonomous manufacturing](../../03-specializations/robotics-autonomous-manufacturing.md)  
+**Primary track:** [Robotics and autonomous manufacturing](../../03-specializations/robotics-autonomous-manufacturing.md)  
 **Secondary:** AI-AS
 
 </div>
@@ -25,8 +25,18 @@ Edge cases, infrastructure, liability
 
 - **Foundations I:** W1 probability/control/optimization
 - **Foundations II:** W2 safety/manufacturing
-- **Specialization:** Robotics & autonomous manufacturing
+- **Specialization:** [Robotics and autonomous manufacturing](../../03-specializations/robotics-autonomous-manufacturing.md)
 
 ## First proof of work
 
 Fleet dispatch + autonomous vehicle failure simulation
+
+<!-- connected-study -->
+## Connected study
+
+Editorial study connections grounded in the existing technology bottlenecks and subject descriptions. Background is useful preparation, not a validated prerequisite or a complete technology curriculum.
+
+Specific subject connections have not been mapped yet.
+
+
+[Explore technologies](../README.md)

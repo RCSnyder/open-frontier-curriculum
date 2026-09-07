@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "review_scope": "Documentary teaching/assessment inspection, not learner or expert validation",
+  "targets": {
+    "ML01": {
+      "teaching_path": "docs/05-formation/learning-evidence-lab.md",
+      "teaching_review": "Specific baseline, delayed-test and rival-explanation sequence; efficacy untested",
+      "assessment_path": "docs/05-formation/learning-evidence-lab.md",
+      "assessment_review": "Transfer, failure diagnosis and human defense specified; calibration pending"
+    },
+    "HW05": {
+      "teaching_path": "docs/05-formation/comparative-institutions-lab.md",
+      "teaching_review": "Bounded commons model, comparative source packets and consented institutional observation",
+      "assessment_path": "docs/05-formation/comparative-institutions-lab.md",
+      "assessment_review": "Unseen confounding and legitimacy cases; independent administration pending"
+    },
+    "EX-M11": {
+      "teaching_path": "docs/05-formation/whole-work-studio.md",
+      "teaching_review": "Complete-play encounter, formal analysis, rival readings and transformation",
+      "assessment_path": "docs/05-formation/whole-work-studio.md",
+      "assessment_review": "Unseen interpretation and delayed whole-work defense; independent administration pending"
+    },
+    "DR08": {
+      "teaching_path": "docs/05-formation/design-judgment-studio.md",
+      "teaching_review": "Task/state modeling, blind comparison, prototype observation and revision",
+      "assessment_path": "docs/05-formation/design-judgment-studio.md",
+      "assessment_review": "Changed brief, recovery and compression probe; expert calibration pending"
+    },
+    "TS-F01": {
+      "teaching_path": "docs/02-core/wave-1/01-mathematical-reasoning-proof.md",
+      "teaching_review": "Preserved weekly readings, reconstruction, execution and defense tasks inspected",
+      "assessment_path": "docs/02-core/wave-1/01-mathematical-reasoning-proof.md",
+      "assessment_review": "Exit and transfer problems present; independent grading calibration pending"
+    },
+    "TS-F02": {
+      "teaching_path": "docs/02-core/wave-1/02-calculus-vector-calculus.md",
+      "teaching_review": "Preserved weekly readings, reconstruction, execution and defense tasks inspected",
+      "assessment_path": "docs/02-core/wave-1/02-calculus-vector-calculus.md",
+      "assessment_review": "Exit and transfer problems present; independent grading calibration pending"
+    },
+    "TS-F03": {
+      "teaching_path": "docs/02-core/wave-1/03-linear-algebra.md",
+      "teaching_review": "Preserved weekly readings, reconstruction, execution and defense tasks inspected",
+      "assessment_path": "docs/02-core/wave-1/03-linear-algebra.md",
+      "assessment_review": "Exit and transfer problems present; independent grading calibration pending"
+    },
+    "TS-F04": {
+      "teaching_path": "docs/02-core/wave-1/04-odes-dynamical-systems.md",
+      "teaching_review": "Preserved weekly readings, reconstruction, execution and defense tasks inspected",
+      "assessment_path": "docs/02-core/wave-1/04-odes-dynamical-systems.md",
+      "assessment_review": "Exit and transfer problems present; independent grading calibration pending"
+    },
+    "TS-F05": {
+      "teaching_path": "docs/02-core/wave-1/05-probability.md",
+      "teaching_review": "Preserved weekly readings, reconstruction, execution and defense tasks inspected",
+      "assessment_path": "docs/02-core/wave-1/05-probability.md",
+      "assessment_review": "Exit and transfer problems present; independent grading calibration pending"
+    },
+    "TS-F06": {
+      "teaching_path": "docs/02-core/wave-1/06-statistics-causal-inference.md",
+      "teaching_review": "Preserved weekly readings, reconstruction, execution and defense tasks inspected",
+      "assessment_path": "docs/02-core/wave-1/06-statistics-causal-inference.md",
+      "assessment_review": "Exit and transfer problems present; independent grading calibration pending"
+    },
+    "TS-F07": {
+      "teaching_path": "docs/02-core/wave-1/07-scientific-computing.md",
+      "teaching_review": "Preserved weekly readings, reconstruction, execution and defense tasks inspected",
+      "assessment_path": "docs/02-core/wave-1/07-scientific-computing.md",
+      "assessment_review": "Exit and transfer problems present; independent grading calibration pending"
+    },
+    "TS-F08": {
+      "teaching_path": "docs/02-core/wave-1/08-optimization.md",
+      "teaching_review": "Preserved weekly readings, reconstruction, execution and defense tasks inspected",
+      "assessment_path": "docs/02-core/wave-1/08-optimization.md",
+      "assessment_review": "Exit and transfer problems present; independent grading calibration pending"
+    },
+    "TS-F09": {
+      "teaching_path": "docs/02-core/wave-1/09-information-signals.md",
+      "teaching_review": "Preserved weekly readings, reconstruction, execution and defense tasks inspected",
+      "assessment_path": "docs/02-core/wave-1/09-information-signals.md",
+      "assessment_review": "Exit and transfer problems present; independent grading calibration pending"
+    },
+    "TS-F10": {
+      "teaching_path": "docs/02-core/wave-1/10-control-estimation.md",
+      "teaching_review": "Preserved weekly readings, reconstruction, execution and defense tasks inspected",
+      "assessment_path": "docs/02-core/wave-1/10-control-estimation.md",
+      "assessment_review": "Exit and transfer problems present; independent grading calibration pending"
+    },
+    "TS-F11": {
+      "teaching_path": "docs/02-core/wave-1/11-metrology-experiments.md",
+      "teaching_review": "Preserved weekly readings, reconstruction, execution and defense tasks inspected",
+      "assessment_path": "docs/02-core/wave-1/11-metrology-experiments.md",
+      "assessment_review": "Exit and transfer problems present; independent grading calibration pending"
+    },
+    "TS-F12": {
+      "teaching_path": "docs/02-core/wave-2/01-mechanics-electromagnetism.md",
+      "teaching_review": "Preserved weekly readings, reconstruction, execution and defense tasks inspected",
+      "assessment_path": "docs/02-core/wave-2/01-mechanics-electromagnetism.md",
+      "assessment_review": "Exit and transfer problems present; independent grading calibration pending"
+    },
+    "TS-F13": {
+      "teaching_path": "docs/02-core/wave-2/02-thermodynamics-statistical-mechanics.md",
+      "teaching_review": "Preserved weekly readings, reconstruction, execution and defense tasks inspected",
+      "assessment_path": "docs/02-core/wave-2/02-thermodynamics-statistical-mechanics.md",
+      "assessment_review": "Exit and transfer problems present; independent grading calibration pending"
+    },
+    "TS-F14": {
+      "teaching_path": "docs/02-core/wave-2/03-quantum-condensed-matter.md",
+      "teaching_review": "Preserved weekly readings, reconstruction, execution and defense tasks inspected",
+      "assessment_path": "docs/02-core/wave-2/03-quantum-condensed-matter.md",
+      "assessment_review": "Exit and transfer problems present; independent grading calibration pending"
+    },
+    "TS-F15": {
+      "teaching_path": "docs/02-core/wave-2/04-chemistry-materials.md",
+      "teaching_review": "Preserved weekly readings, reconstruction, execution and defense tasks inspected",
+      "assessment_path": "docs/02-core/wave-2/04-chemistry-materials.md",
+      "assessment_review": "Exit and transfer problems present; independent grading calibration pending"
+    },
+    "TS-F16": {
+      "teaching_path": "docs/02-core/wave-2/05-electronics-embedded-systems.md",
+      "teaching_review": "Preserved weekly readings, reconstruction, execution and defense tasks inspected",
+      "assessment_path": "docs/02-core/wave-2/05-electronics-embedded-systems.md",
+      "assessment_review": "Exit and transfer problems present; independent grading calibration pending"
+    },
+    "TS-F17": {
+      "teaching_path": "docs/02-core/wave-2/06-mechanical-design-fluids-structures.md",
+      "teaching_review": "Preserved weekly readings, reconstruction, execution and defense tasks inspected",
+      "assessment_path": "docs/02-core/wave-2/06-mechanical-design-fluids-structures.md",
+      "assessment_review": "Exit and transfer problems present; independent grading calibration pending"
+    },
+    "TS-F18": {
+      "teaching_path": "docs/02-core/wave-2/07-molecular-cell-biology.md",
+      "teaching_review": "Preserved weekly readings, reconstruction, execution and defense tasks inspected",
+      "assessment_path": "docs/02-core/wave-2/07-molecular-cell-biology.md",
+      "assessment_review": "Exit and transfer problems present; independent grading calibration pending"
+    },
+    "TS-F19": {
+      "teaching_path": "docs/02-core/wave-2/08-genetics-evolution-systems-biology.md",
+      "teaching_review": "Preserved weekly readings, reconstruction, execution and defense tasks inspected",
+      "assessment_path": "docs/02-core/wave-2/08-genetics-evolution-systems-biology.md",
+      "assessment_review": "Exit and transfer problems present; independent grading calibration pending"
+    },
+    "TS-F20": {
+      "teaching_path": "docs/02-core/wave-2/09-neuroscience-physiology.md",
+      "teaching_review": "Preserved weekly readings, reconstruction, execution and defense tasks inspected",
+      "assessment_path": "docs/02-core/wave-2/09-neuroscience-physiology.md",
+      "assessment_review": "Exit and transfer problems present; independent grading calibration pending"
+    },
+    "TS-F21": {
+      "teaching_path": "docs/02-core/wave-2/10-manufacturing-operations.md",
+      "teaching_review": "Preserved weekly readings, reconstruction, execution and defense tasks inspected",
+      "assessment_path": "docs/02-core/wave-2/10-manufacturing-operations.md",
+      "assessment_review": "Exit and transfer problems present; independent grading calibration pending"
+    },
+    "TS-F22": {
+      "teaching_path": "docs/02-core/wave-2/11-safety-reliability-security.md",
+      "teaching_review": "Preserved weekly readings, reconstruction, execution and defense tasks inspected",
+      "assessment_path": "docs/02-core/wave-2/11-safety-reliability-security.md",
+      "assessment_review": "Exit and transfer problems present; independent grading calibration pending"
+    }
+  }
+}

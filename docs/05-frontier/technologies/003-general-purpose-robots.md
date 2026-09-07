@@ -1,9 +1,9 @@
 ---
-title: "General-purpose robots"
+title: General-purpose robots
 rank: 3
-feasibility: "B"
-primary_track: "ROB"
-secondary_track: "AI-AS"
+feasibility: B
+primary_track: ROB
+secondary_track: AI-AS
 ---
 
 # 3 | General-purpose robots
@@ -12,7 +12,7 @@ secondary_track: "AI-AS"
 
 <span class="ofc-badge ofc-b">B | active frontier</span>
 
-**Primary track:** [Robotics & autonomous manufacturing](../../03-specializations/robotics-autonomous-manufacturing.md)  
+**Primary track:** [Robotics and autonomous manufacturing](../../03-specializations/robotics-autonomous-manufacturing.md)  
 **Secondary:** AI-AS
 
 </div>
@@ -25,8 +25,18 @@ Dexterity, robustness, cost, energy, maintenance
 
 - **Foundations I:** W1 dynamics, control, estimation, optimization
 - **Foundations II:** W2 mechanics, electronics, structures, manufacturing, safety
-- **Specialization:** Robotics & autonomous manufacturing
+- **Specialization:** [Robotics and autonomous manufacturing](../../03-specializations/robotics-autonomous-manufacturing.md)
 
 ## First proof of work
 
 Manipulation system with uncertainty, contact, failure injection and uptime model
+
+<!-- connected-study -->
+## Connected study
+
+Editorial study connections grounded in the existing technology bottlenecks and subject descriptions. Background is useful preparation, not a validated prerequisite or a complete technology curriculum.
+
+Specific subject connections have not been mapped yet.
+
+
+[Explore technologies](../README.md)

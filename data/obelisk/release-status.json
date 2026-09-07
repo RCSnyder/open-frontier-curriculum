@@ -1,0 +1,67 @@
+{
+  "version": "0.6.0-rc.1",
+  "imported_claims": {
+    "version": "0.5.0",
+    "architecture_readiness": "pass",
+    "release_readiness": "pass-for-reference-candidate",
+    "provenance": "Imported snapshot assertions, not independently established by this reconciliation"
+  },
+  "state": "reference-candidate",
+  "architecture_readiness": "provisional-six-trunks; compression-and-prerequisite-review-pending",
+  "structural_validation": "see-current-command-results; not-a-persisted-pass",
+  "source_entry_coverage": "structural-routes-present; scholarly-review-incomplete",
+  "branch_source_coverage": {
+    "TS": {
+      "targets": 22,
+      "sourced": 22,
+      "directly_sourced": 22
+    },
+    "PH": {
+      "targets": 117,
+      "sourced": 117,
+      "directly_sourced": 117
+    },
+    "HW": {
+      "targets": 94,
+      "sourced": 94,
+      "directly_sourced": 19
+    },
+    "EX": {
+      "targets": 70,
+      "sourced": 70,
+      "directly_sourced": 14
+    },
+    "ML": {
+      "targets": 80,
+      "sourced": 80,
+      "directly_sourced": 16
+    },
+    "DR": {
+      "targets": 65,
+      "sourced": 65,
+      "directly_sourced": 13
+    }
+  },
+  "criterion_proxy_status": {
+    "PH": "417-imported-external-proxy-rows-preserved; independent-freeze-provenance-unverified",
+    "HW": "partial-external-General-papers; specialist-suite-planned",
+    "EX": "partial-external-General-papers; English-specialist-suite-planned",
+    "TS": "professional/outcome-proxy-present; independent acceptance battery future",
+    "ML": "research-construct-strong; prospective-transfer evidence future",
+    "DR": "expert/user/blind-brief proxy designed; empirical runs future"
+  },
+  "longitudinal_human_outcome_evidence": "not-yet-available",
+  "release_readiness": "candidate-under-final-verification; not-reference-grade",
+  "strong_empirical_claim_readiness": "not-established",
+  "strong_claim_blockers": [
+    "no longitudinal completer cohort",
+    "no prospective multi-domain broad-competence/adaptive-agency data",
+    "All Souls specialist proxy expansion not yet run for Economics/English/History/Law/Politics",
+    "no empirical inter-rater/calibration study of Obelisk General Examination",
+    "no comparative evidence yet connecting Obelisk mastery to later real-world functioning across life pillars"
+  ],
+  "claim_rule": "The repository may be released as a reference candidate. It must not claim that completion guarantees flourishing, maximum potential, economic success, moral virtue, or immunity to tragedy. Surprise/adversarial scenarios are one stress-test within a broader convergent evidence program.",
+  "saturation_rule": "Continue architecture saturation through heterogeneous external and unseen proxies; freeze structural families when repeated new evidence produces mastery/fact gaps rather than new load-bearing families.",
+  "constitutional_layer": "present-v0.5-foundational-doctrine",
+  "world_transition_model": "scenario-planning-not-timeline-forecast"
+}

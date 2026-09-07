@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": true,
+  "$id": "https://open-frontier.example/schemas/obelisk/project-lexicon.schema.json",
+  "title": "Obelisk project lexicon",
+  "required": [
+    "version",
+    "recommended_formal_name",
+    "recommended_descriptor",
+    "recommended_short_definition",
+    "tagline",
+    "terms"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "recommended_formal_name": {
+      "type": "string"
+    },
+    "recommended_descriptor": {
+      "type": "string"
+    },
+    "recommended_short_definition": {
+      "type": "string"
+    },
+    "tagline": {
+      "type": "string"
+    },
+    "terms": {
+      "type": "array",
+      "minItems": 20,
+      "items": {
+        "type": "object",
+        "required": [
+          "term",
+          "captures",
+          "misses"
+        ],
+        "properties": {
+          "term": {
+            "type": "string"
+          },
+          "captures": {
+            "type": "string"
+          },
+          "misses": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "version": "0.3.0",
+  "capstones": [
+    {
+      "ID": "CP01",
+      "Capstone": "Personal mastery",
+      "Challenge": "Run a 12-week learning program in an unfamiliar field.",
+      "Primary route": "ML + chosen branch",
+      "Required evidence": "Delayed unseen test; teaching evidence; AI-use comparison"
+    },
+    {
+      "ID": "CP02",
+      "Capstone": "Reality investigation",
+      "Challenge": "Measure and explain a real local physical/biological/social system.",
+      "Primary route": "TS/HW/DR",
+      "Required evidence": "Field notebook; model; uncertainty; external check"
+    },
+    {
+      "ID": "CP03",
+      "Capstone": "Interpretive dossier",
+      "Challenge": "Read a major work and its historical/rival contexts; defend an original interpretation.",
+      "Primary route": "EX/PH/HW/DR",
+      "Required evidence": "Long essay + seminar + revision"
+    },
+    {
+      "ID": "CP04",
+      "Capstone": "Build / repair",
+      "Challenge": "Design, build, test, repair, or materially improve a physical or software system.",
+      "Primary route": "TS/DR",
+      "Required evidence": "Requirements; prototype; failure injection; maintenance plan"
+    },
+    {
+      "ID": "CP05",
+      "Capstone": "Institution audit",
+      "Challenge": "Diagnose an organization/institution across rules, incentives, power, information, metrics, and history.",
+      "Primary route": "HW/PH/EX",
+      "Required evidence": "Evidence map; stakeholder challenge; reversible redesign"
+    },
+    {
+      "ID": "CP06",
+      "Capstone": "Health / life system",
+      "Challenge": "Design and execute an evidence-informed personal health or life-operations improvement without medical overreach.",
+      "Primary route": "L01/L02/L04/ML",
+      "Required evidence": "Baseline; safe plan; behavior evidence; limits/referral criteria"
+    },
+    {
+      "ID": "CP07",
+      "Capstone": "Financial agency",
+      "Challenge": "Create a long-horizon household financial policy and stress-test it against realistic shocks.",
+      "Primary route": "L05/HW/TS",
+      "Required evidence": "Cash flow; risk; contracts; scenarios; scam/fee audit"
+    },
+    {
+      "ID": "CP08",
+      "Capstone": "Public communication",
+      "Challenge": "Explain one difficult technical/human problem to three audiences in three media.",
+      "Primary route": "EX/DR + content branch",
+      "Required evidence": "Expert, public, youth versions + accuracy review"
+    },
+    {
+      "ID": "CP09",
+      "Capstone": "AI stewardship",
+      "Challenge": "Delegate a consequential multi-step project to agents under explicit permissions and adversarial evals.",
+      "Primary route": "TS/ML/PH/HW",
+      "Required evidence": "Contract; provenance; hidden tests; incident response; no-AI defense"
+    },
+    {
+      "ID": "CP10",
+      "Capstone": "Civic / collective action",
+      "Challenge": "Improve a small real institution or community process with consent and accountability.",
+      "Primary route": "HW/PH/EX",
+      "Required evidence": "Before/after evidence; dissent; governance record"
+    },
+    {
+      "ID": "CP11",
+      "Capstone": "Taste & creation",
+      "Challenge": "Curate a corpus, articulate criteria, then create/revise an original work or design within a tradition.",
+      "Primary route": "DR/EX/PH",
+      "Required evidence": "Blind ranking; curatorial statement; artifact; critique response"
+    },
+    {
+      "ID": "CP12",
+      "Capstone": "Frontier problem",
+      "Challenge": "Integrate at least four trunks on an unresolved scientific/technological/civilizational problem.",
+      "Primary route": "All",
+      "Required evidence": "Research dossier; prototype/model; ethics/governance; public defense"
+    }
+  ]
+}

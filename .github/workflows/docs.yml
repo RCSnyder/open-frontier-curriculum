@@ -1,4 +1,4 @@
-name: deploy-docs
+name: release-and-deploy
 
 on:
   workflow_dispatch:
@@ -7,15 +7,19 @@ on:
 
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: write
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          fetch-depth: 0
+          ref: main
       - name: Install uv
         uses: astral-sh/setup-uv@20cfd1bf945f4377ade1205e4dbc17946fc9a30d # v10.0.1
         with:
@@ -26,21 +30,36 @@ jobs:
       - name: Sync docs environment
         run: uv sync --frozen
       - name: Lint public prose
-        run: uv run --frozen python scripts/lint_prose.py
+        run: uv run --frozen python scripts/lint_prose.py --strict
+      - name: Verify code and generated sources
+        run: |
+          uv run --frozen ruff check scripts tests
+          uv run --frozen python -m unittest discover -s tests
+          uv run --frozen python scripts/audit_obelisk.py --check
+          uv run --frozen python scripts/generate_obelisk_catalog.py --check
+          uv run --frozen python scripts/audit_contrast.py
       - name: Validate curriculum
         run: uv run --frozen python scripts/validate_repo.py
       - name: Audit UI source
         run: uv run --frozen python scripts/audit_ui.py
+      - name: Configure release identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Release from Conventional Commits
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: uv run --frozen semantic-release version
       - name: Build Zensical site
-        run: uv run --frozen zensical build --clean
+        run: uv run --frozen python scripts/build_docs.py
       - name: Audit built site
-        run: uv run --frozen python scripts/audit_ui.py --site site
+        run: uv run --frozen python scripts/audit_ui.py --site .verification/site
       - name: Configure Pages
-        uses: actions/configure-pages@v6
+        uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v5
+        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9
         with:
-          path: site
+          path: .verification/site
 
   deploy:
     needs: build
@@ -54,4 +73,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v5
+        uses: actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128

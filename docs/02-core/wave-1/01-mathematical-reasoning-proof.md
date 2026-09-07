@@ -1,9 +1,17 @@
 ---
-title: "Mathematical reasoning + proof"
+title: Mathematical reasoning + proof
 wave: 1
 order: 1
 leverage: 100
+search:
+  exclude: true
 ---
+
+<!-- atlas-route -->
+> **Current study page: [Mathematical reasoning and proof](../../learn/mathematical-reasoning.md)**
+>
+> The earlier reference below is retained for continuity.
+<!-- /atlas-route -->
 
 # Mathematical reasoning + proof
 

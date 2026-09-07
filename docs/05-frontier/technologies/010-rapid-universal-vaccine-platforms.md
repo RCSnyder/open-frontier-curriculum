@@ -1,9 +1,9 @@
 ---
-title: "Rapid/universal vaccine platforms"
+title: Rapid/universal vaccine platforms
 rank: 10
-feasibility: "B"
-primary_track: "BIO"
-secondary_track: "AI-AS"
+feasibility: B
+primary_track: BIO
+secondary_track: AI-AS
 ---
 
 # 10 | Rapid/universal vaccine platforms
@@ -12,7 +12,7 @@ secondary_track: "AI-AS"
 
 <span class="ofc-badge ofc-b">B | active frontier</span>
 
-**Primary track:** [Synthetic biology, regeneration & longevity](../../03-specializations/synthetic-biology-longevity.md)  
+**Primary track:** [Synthetic biology, regeneration and longevity](../../03-specializations/synthetic-biology-longevity.md)  
 **Secondary:** AI-AS
 
 </div>
@@ -25,8 +25,18 @@ Breadth, durability, manufacturing, trials
 
 - **Foundations I:** W1 causal, statistics, metrology
 - **Foundations II:** W2 immunology later specialization, molecular biology, manufacturing, safety
-- **Specialization:** Synthetic biology, regeneration & longevity
+- **Specialization:** [Synthetic biology, regeneration and longevity](../../03-specializations/synthetic-biology-longevity.md)
 
 ## First proof of work
 
 Causal/antigen-selection/manufacturing decision model without wet-lab protocol
+
+<!-- connected-study -->
+## Connected study
+
+Editorial study connections grounded in the existing technology bottlenecks and subject descriptions. Background is useful preparation, not a validated prerequisite or a complete technology curriculum.
+
+Specific subject connections have not been mapped yet.
+
+
+[Explore technologies](../README.md)

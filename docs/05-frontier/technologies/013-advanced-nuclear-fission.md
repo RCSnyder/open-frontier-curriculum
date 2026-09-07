@@ -1,9 +1,9 @@
 ---
-title: "Advanced nuclear fission"
+title: Advanced nuclear fission
 rank: 13
-feasibility: "A"
-primary_track: "ENE"
-secondary_track: "MAT"
+feasibility: A
+primary_track: ENE
+secondary_track: MAT
 ---
 
 # 13 | Advanced nuclear fission
@@ -12,7 +12,7 @@ secondary_track: "MAT"
 
 <span class="ofc-badge ofc-a">A | deployed / early deployment</span>
 
-**Primary track:** [Energy, nuclear & fusion](../../03-specializations/energy-nuclear-fusion.md)  
+**Primary track:** [Energy, nuclear and fusion](../../03-specializations/energy-nuclear-fusion.md)  
 **Secondary:** MAT
 
 </div>
@@ -25,8 +25,18 @@ Construction, fuel, regulation, passive safety
 
 - **Foundations I:** W1 dynamics/control/probability
 - **Foundations II:** W2 thermo, materials, safety/manufacturing
-- **Specialization:** Energy, nuclear & fusion
+- **Specialization:** [Energy, nuclear and fusion](../../03-specializations/energy-nuclear-fusion.md)
 
 ## First proof of work
 
 Point-kinetics + thermal-hydraulic + plant economics conceptual model
+
+<!-- connected-study -->
+## Connected study
+
+Editorial study connections grounded in the existing technology bottlenecks and subject descriptions. Background is useful preparation, not a validated prerequisite or a complete technology curriculum.
+
+Specific subject connections have not been mapped yet.
+
+
+[Explore technologies](../README.md)

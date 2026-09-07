@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Open Frontier Curriculum schema index",
+  "version": "0.3.0",
+  "schemas": {
+    "branch.schema.json": "schemas/obelisk/branch.schema.json",
+    "module.schema.json": "schemas/obelisk/module.schema.json",
+    "node.schema.json": "schemas/obelisk/node.schema.json",
+    "life-competency.schema.json": "schemas/obelisk/life-competency.schema.json",
+    "source.schema.json": "schemas/obelisk/source.schema.json",
+    "backtest.schema.json": "schemas/obelisk/backtest.schema.json"
+  }
+}

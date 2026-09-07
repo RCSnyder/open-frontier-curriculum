@@ -1,9 +1,17 @@
 ---
-title: "Metrology + experiments"
+title: Metrology + experiments
 wave: 1
 order: 11
 leverage: 94
+search:
+  exclude: true
 ---
+
+<!-- atlas-route -->
+> **Current study page: [Metrology + experiments](../../learn/ts-f11.md)**
+>
+> The earlier reference below is retained for continuity.
+<!-- /atlas-route -->
 
 # Metrology + experiments
 

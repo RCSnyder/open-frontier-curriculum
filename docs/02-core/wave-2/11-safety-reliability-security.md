@@ -1,9 +1,17 @@
 ---
-title: "Safety + reliability + security"
+title: Safety + reliability + security
 wave: 2
 order: 11
 leverage: 100
+search:
+  exclude: true
 ---
+
+<!-- atlas-route -->
+> **Current study page: [Safety + reliability + security](../../learn/ts-f22.md)**
+>
+> The earlier reference below is retained for continuity.
+<!-- /atlas-route -->
 
 # Safety + reliability + security
 

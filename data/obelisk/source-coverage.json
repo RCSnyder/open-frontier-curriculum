@@ -1,0 +1,2693 @@
+{
+  "version": "0.3.0",
+  "coverage": [
+    {
+      "target_id": "TS-F01",
+      "branch_id": "TS",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "TS-F02",
+      "branch_id": "TS",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "TS-F03",
+      "branch_id": "TS",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "TS-F04",
+      "branch_id": "TS",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "TS-F05",
+      "branch_id": "TS",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "TS-F06",
+      "branch_id": "TS",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "TS-F07",
+      "branch_id": "TS",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "TS-F08",
+      "branch_id": "TS",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "TS-F09",
+      "branch_id": "TS",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "TS-F10",
+      "branch_id": "TS",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "TS-F11",
+      "branch_id": "TS",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "TS-F12",
+      "branch_id": "TS",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "TS-F13",
+      "branch_id": "TS",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "TS-F14",
+      "branch_id": "TS",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "TS-F15",
+      "branch_id": "TS",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "TS-F16",
+      "branch_id": "TS",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "TS-F17",
+      "branch_id": "TS",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "TS-F18",
+      "branch_id": "TS",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "TS-F19",
+      "branch_id": "TS",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "TS-F20",
+      "branch_id": "TS",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "TS-F21",
+      "branch_id": "TS",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "TS-F22",
+      "branch_id": "TS",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "EX-M01",
+      "branch_id": "EX",
+      "kind": "module",
+      "source_count": 2
+    },
+    {
+      "target_id": "EX-M02",
+      "branch_id": "EX",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "EX-M03",
+      "branch_id": "EX",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "EX-M04",
+      "branch_id": "EX",
+      "kind": "module",
+      "source_count": 3
+    },
+    {
+      "target_id": "EX-M05",
+      "branch_id": "EX",
+      "kind": "module",
+      "source_count": 2
+    },
+    {
+      "target_id": "EX-M06",
+      "branch_id": "EX",
+      "kind": "module",
+      "source_count": 2
+    },
+    {
+      "target_id": "EX-M07",
+      "branch_id": "EX",
+      "kind": "module",
+      "source_count": 2
+    },
+    {
+      "target_id": "EX-M08",
+      "branch_id": "EX",
+      "kind": "module",
+      "source_count": 2
+    },
+    {
+      "target_id": "EX-M09",
+      "branch_id": "EX",
+      "kind": "module",
+      "source_count": 4
+    },
+    {
+      "target_id": "EX-M10",
+      "branch_id": "EX",
+      "kind": "module",
+      "source_count": 2
+    },
+    {
+      "target_id": "EX-M11",
+      "branch_id": "EX",
+      "kind": "module",
+      "source_count": 5
+    },
+    {
+      "target_id": "EX-M12",
+      "branch_id": "EX",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "EX-M13",
+      "branch_id": "EX",
+      "kind": "module",
+      "source_count": 2
+    },
+    {
+      "target_id": "EX-M14",
+      "branch_id": "EX",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "HW01",
+      "branch_id": "HW",
+      "kind": "module",
+      "source_count": 2
+    },
+    {
+      "target_id": "HW02",
+      "branch_id": "HW",
+      "kind": "module",
+      "source_count": 5
+    },
+    {
+      "target_id": "HW03",
+      "branch_id": "HW",
+      "kind": "module",
+      "source_count": 3
+    },
+    {
+      "target_id": "HW04",
+      "branch_id": "HW",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "HW05",
+      "branch_id": "HW",
+      "kind": "module",
+      "source_count": 2
+    },
+    {
+      "target_id": "HW06",
+      "branch_id": "HW",
+      "kind": "module",
+      "source_count": 2
+    },
+    {
+      "target_id": "HW07",
+      "branch_id": "HW",
+      "kind": "module",
+      "source_count": 2
+    },
+    {
+      "target_id": "HW08",
+      "branch_id": "HW",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "HW09",
+      "branch_id": "HW",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "HW10",
+      "branch_id": "HW",
+      "kind": "module",
+      "source_count": 3
+    },
+    {
+      "target_id": "HW11",
+      "branch_id": "HW",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "HW12",
+      "branch_id": "HW",
+      "kind": "module",
+      "source_count": 2
+    },
+    {
+      "target_id": "HW13",
+      "branch_id": "HW",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "HW14",
+      "branch_id": "HW",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "HW15",
+      "branch_id": "HW",
+      "kind": "module",
+      "source_count": 2
+    },
+    {
+      "target_id": "HW16",
+      "branch_id": "HW",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "HW17",
+      "branch_id": "HW",
+      "kind": "module",
+      "source_count": 2
+    },
+    {
+      "target_id": "HW18",
+      "branch_id": "HW",
+      "kind": "module",
+      "source_count": 2
+    },
+    {
+      "target_id": "HW19",
+      "branch_id": "HW",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML01",
+      "branch_id": "ML",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML02",
+      "branch_id": "ML",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML03",
+      "branch_id": "ML",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML04",
+      "branch_id": "ML",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML05",
+      "branch_id": "ML",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML06",
+      "branch_id": "ML",
+      "kind": "module",
+      "source_count": 2
+    },
+    {
+      "target_id": "ML07",
+      "branch_id": "ML",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML08",
+      "branch_id": "ML",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML09",
+      "branch_id": "ML",
+      "kind": "module",
+      "source_count": 2
+    },
+    {
+      "target_id": "ML10",
+      "branch_id": "ML",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML11",
+      "branch_id": "ML",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML12",
+      "branch_id": "ML",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML13",
+      "branch_id": "ML",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML14",
+      "branch_id": "ML",
+      "kind": "module",
+      "source_count": 2
+    },
+    {
+      "target_id": "ML15",
+      "branch_id": "ML",
+      "kind": "module",
+      "source_count": 3
+    },
+    {
+      "target_id": "ML16",
+      "branch_id": "ML",
+      "kind": "module",
+      "source_count": 2
+    },
+    {
+      "target_id": "DR01",
+      "branch_id": "DR",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "DR02",
+      "branch_id": "DR",
+      "kind": "module",
+      "source_count": 2
+    },
+    {
+      "target_id": "DR03",
+      "branch_id": "DR",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "DR04",
+      "branch_id": "DR",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "DR05",
+      "branch_id": "DR",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "DR06",
+      "branch_id": "DR",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "DR07",
+      "branch_id": "DR",
+      "kind": "module",
+      "source_count": 3
+    },
+    {
+      "target_id": "DR08",
+      "branch_id": "DR",
+      "kind": "module",
+      "source_count": 2
+    },
+    {
+      "target_id": "DR09",
+      "branch_id": "DR",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "DR10",
+      "branch_id": "DR",
+      "kind": "module",
+      "source_count": 1
+    },
+    {
+      "target_id": "DR11",
+      "branch_id": "DR",
+      "kind": "module",
+      "source_count": 2
+    },
+    {
+      "target_id": "DR12",
+      "branch_id": "DR",
+      "kind": "module",
+      "source_count": 2
+    },
+    {
+      "target_id": "DR13",
+      "branch_id": "DR",
+      "kind": "module",
+      "source_count": 2
+    },
+    {
+      "target_id": "PH-M01",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 3
+    },
+    {
+      "target_id": "PH-M02",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 2
+    },
+    {
+      "target_id": "PH-M03",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 3
+    },
+    {
+      "target_id": "PH-M04",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 12
+    },
+    {
+      "target_id": "PH-M05",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 12
+    },
+    {
+      "target_id": "PH-M06",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 9
+    },
+    {
+      "target_id": "PH-M07",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 6
+    },
+    {
+      "target_id": "PH-M08",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 2
+    },
+    {
+      "target_id": "PH-M09",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 5
+    },
+    {
+      "target_id": "PH-F01",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 4
+    },
+    {
+      "target_id": "PH-F02",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 4
+    },
+    {
+      "target_id": "PH-F03",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 1
+    },
+    {
+      "target_id": "PH-F04",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 3
+    },
+    {
+      "target_id": "PH-F05",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 1
+    },
+    {
+      "target_id": "PH-S01",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 35
+    },
+    {
+      "target_id": "PH-S02",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 7
+    },
+    {
+      "target_id": "PH-S03",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 2
+    },
+    {
+      "target_id": "PH-S04",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 15
+    },
+    {
+      "target_id": "PH-S05",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 8
+    },
+    {
+      "target_id": "PH-S06",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 6
+    },
+    {
+      "target_id": "PH-S07",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 9
+    },
+    {
+      "target_id": "PH-S08",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 51
+    },
+    {
+      "target_id": "PH-S09",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 9
+    },
+    {
+      "target_id": "PH-S10",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 11
+    },
+    {
+      "target_id": "PH-S11",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 4
+    },
+    {
+      "target_id": "PH-S12",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 26
+    },
+    {
+      "target_id": "PH-S13",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 40
+    },
+    {
+      "target_id": "PH-S14",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 9
+    },
+    {
+      "target_id": "PH-S15",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 9
+    },
+    {
+      "target_id": "PH-S16",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 24
+    },
+    {
+      "target_id": "PH-S17",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 12
+    },
+    {
+      "target_id": "PH-S18",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 26
+    },
+    {
+      "target_id": "PH-S19",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 12
+    },
+    {
+      "target_id": "PH-S20",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 16
+    },
+    {
+      "target_id": "PH-S21",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 9
+    },
+    {
+      "target_id": "PH-S22",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 26
+    },
+    {
+      "target_id": "PH-S23",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 31
+    },
+    {
+      "target_id": "PH-S24",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 10
+    },
+    {
+      "target_id": "PH-S25",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 9
+    },
+    {
+      "target_id": "PH-S26",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 21
+    },
+    {
+      "target_id": "PH-S27",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 8
+    },
+    {
+      "target_id": "PH-S28",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 27
+    },
+    {
+      "target_id": "PH-S29",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 11
+    },
+    {
+      "target_id": "PH-S30",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 4
+    },
+    {
+      "target_id": "PH-S31",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 4
+    },
+    {
+      "target_id": "PH-S32",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 6
+    },
+    {
+      "target_id": "PH-S33",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 7
+    },
+    {
+      "target_id": "PH-S34",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 2
+    },
+    {
+      "target_id": "PH-S35",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 1
+    },
+    {
+      "target_id": "PH-H01",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 1
+    },
+    {
+      "target_id": "PH-H02",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 1
+    },
+    {
+      "target_id": "PH-H03",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 3
+    },
+    {
+      "target_id": "PH-H04",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 1
+    },
+    {
+      "target_id": "PH-H05",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 2
+    },
+    {
+      "target_id": "PH-H06",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 3
+    },
+    {
+      "target_id": "PH-H07",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 1
+    },
+    {
+      "target_id": "PH-H08",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 1
+    },
+    {
+      "target_id": "PH-H09",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 5
+    },
+    {
+      "target_id": "PH-H10",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 3
+    },
+    {
+      "target_id": "PH-H11",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 3
+    },
+    {
+      "target_id": "PH-H12",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 7
+    },
+    {
+      "target_id": "PH-H13",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 4
+    },
+    {
+      "target_id": "PH-H14",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 4
+    },
+    {
+      "target_id": "PH-H15",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 4
+    },
+    {
+      "target_id": "PH-H16",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 4
+    },
+    {
+      "target_id": "PH-H17",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 2
+    },
+    {
+      "target_id": "PH-H18",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 4
+    },
+    {
+      "target_id": "PH-H19",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 4
+    },
+    {
+      "target_id": "PH-H20",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 4
+    },
+    {
+      "target_id": "PH-H21",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 3
+    },
+    {
+      "target_id": "PH-H22",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 3
+    },
+    {
+      "target_id": "PH-H23",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 2
+    },
+    {
+      "target_id": "PH-H24",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 2
+    },
+    {
+      "target_id": "PH-H25",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 4
+    },
+    {
+      "target_id": "PH-H26",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 3
+    },
+    {
+      "target_id": "PH-H27",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 1
+    },
+    {
+      "target_id": "PH-H28",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 5
+    },
+    {
+      "target_id": "PH-H29",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 3
+    },
+    {
+      "target_id": "PH-H30",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 2
+    },
+    {
+      "target_id": "PH-H31",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 2
+    },
+    {
+      "target_id": "PH-H32",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 2
+    },
+    {
+      "target_id": "PH-H33",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 3
+    },
+    {
+      "target_id": "PH-H34",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 3
+    },
+    {
+      "target_id": "PH-H35",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 2
+    },
+    {
+      "target_id": "PH-H36",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 8
+    },
+    {
+      "target_id": "PH-H37",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 4
+    },
+    {
+      "target_id": "PH-H38",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 3
+    },
+    {
+      "target_id": "PH-H39",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 3
+    },
+    {
+      "target_id": "PH-H40",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 2
+    },
+    {
+      "target_id": "PH-H41",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 2
+    },
+    {
+      "target_id": "PH-H42",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 4
+    },
+    {
+      "target_id": "PH-H43",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 7
+    },
+    {
+      "target_id": "PH-H44",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 3
+    },
+    {
+      "target_id": "PH-H45",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 2
+    },
+    {
+      "target_id": "PH-H46",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 4
+    },
+    {
+      "target_id": "PH-H47",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 6
+    },
+    {
+      "target_id": "PH-H48",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 3
+    },
+    {
+      "target_id": "PH-H49",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 2
+    },
+    {
+      "target_id": "PH-H50",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 2
+    },
+    {
+      "target_id": "PH-H51",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 1
+    },
+    {
+      "target_id": "PH-H52",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 5
+    },
+    {
+      "target_id": "PH-H53",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 2
+    },
+    {
+      "target_id": "PH-H54",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 4
+    },
+    {
+      "target_id": "PH-H55",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 2
+    },
+    {
+      "target_id": "PH-H56",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 2
+    },
+    {
+      "target_id": "PH-T01",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 7
+    },
+    {
+      "target_id": "PH-T02",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 4
+    },
+    {
+      "target_id": "PH-T03",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 4
+    },
+    {
+      "target_id": "PH-T04",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 3
+    },
+    {
+      "target_id": "PH-T05",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 2
+    },
+    {
+      "target_id": "PH-T06",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 1
+    },
+    {
+      "target_id": "PH-T07",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 3
+    },
+    {
+      "target_id": "PH-T08",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 2
+    },
+    {
+      "target_id": "PH-T09",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 5
+    },
+    {
+      "target_id": "PH-T10",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 1
+    },
+    {
+      "target_id": "PH-T11",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 1
+    },
+    {
+      "target_id": "PH-T12",
+      "branch_id": "PH",
+      "kind": "philosophical-problem-family",
+      "source_count": 2
+    },
+    {
+      "target_id": "HW01-N01",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 2
+    },
+    {
+      "target_id": "HW01-N02",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 2
+    },
+    {
+      "target_id": "HW01-N03",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 2
+    },
+    {
+      "target_id": "HW01-N04",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 2
+    },
+    {
+      "target_id": "HW02-N01",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 5
+    },
+    {
+      "target_id": "HW02-N02",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 5
+    },
+    {
+      "target_id": "HW02-N03",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 5
+    },
+    {
+      "target_id": "HW02-N04",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 5
+    },
+    {
+      "target_id": "HW03-N01",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 3
+    },
+    {
+      "target_id": "HW03-N02",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 3
+    },
+    {
+      "target_id": "HW03-N03",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 3
+    },
+    {
+      "target_id": "HW03-N04",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 3
+    },
+    {
+      "target_id": "HW04-N01",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 1
+    },
+    {
+      "target_id": "HW04-N02",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 1
+    },
+    {
+      "target_id": "HW04-N03",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 1
+    },
+    {
+      "target_id": "HW04-N04",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 1
+    },
+    {
+      "target_id": "HW05-N01",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 2
+    },
+    {
+      "target_id": "HW05-N02",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 2
+    },
+    {
+      "target_id": "HW05-N03",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 2
+    },
+    {
+      "target_id": "HW05-N04",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 2
+    },
+    {
+      "target_id": "HW06-N01",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 2
+    },
+    {
+      "target_id": "HW06-N02",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 2
+    },
+    {
+      "target_id": "HW06-N03",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 2
+    },
+    {
+      "target_id": "HW06-N04",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 2
+    },
+    {
+      "target_id": "HW07-N01",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 2
+    },
+    {
+      "target_id": "HW07-N02",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 2
+    },
+    {
+      "target_id": "HW07-N03",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 2
+    },
+    {
+      "target_id": "HW07-N04",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 2
+    },
+    {
+      "target_id": "HW08-N01",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 1
+    },
+    {
+      "target_id": "HW08-N02",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 1
+    },
+    {
+      "target_id": "HW08-N03",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 1
+    },
+    {
+      "target_id": "HW08-N04",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 1
+    },
+    {
+      "target_id": "HW09-N01",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 1
+    },
+    {
+      "target_id": "HW09-N02",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 1
+    },
+    {
+      "target_id": "HW09-N03",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 1
+    },
+    {
+      "target_id": "HW09-N04",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 1
+    },
+    {
+      "target_id": "HW10-N01",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 3
+    },
+    {
+      "target_id": "HW10-N02",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 3
+    },
+    {
+      "target_id": "HW10-N03",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 3
+    },
+    {
+      "target_id": "HW10-N04",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 3
+    },
+    {
+      "target_id": "HW11-N01",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 1
+    },
+    {
+      "target_id": "HW11-N02",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 1
+    },
+    {
+      "target_id": "HW11-N03",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 1
+    },
+    {
+      "target_id": "HW11-N04",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 1
+    },
+    {
+      "target_id": "HW12-N01",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 2
+    },
+    {
+      "target_id": "HW12-N02",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 2
+    },
+    {
+      "target_id": "HW12-N03",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 2
+    },
+    {
+      "target_id": "HW12-N04",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 2
+    },
+    {
+      "target_id": "HW13-N01",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 1
+    },
+    {
+      "target_id": "HW13-N02",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 1
+    },
+    {
+      "target_id": "HW13-N03",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 1
+    },
+    {
+      "target_id": "HW13-N04",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 1
+    },
+    {
+      "target_id": "HW14-N01",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 1
+    },
+    {
+      "target_id": "HW14-N02",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 1
+    },
+    {
+      "target_id": "HW14-N03",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 1
+    },
+    {
+      "target_id": "HW14-N04",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 1
+    },
+    {
+      "target_id": "HW15-N01",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 2
+    },
+    {
+      "target_id": "HW15-N02",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 2
+    },
+    {
+      "target_id": "HW15-N03",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 2
+    },
+    {
+      "target_id": "HW15-N04",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 2
+    },
+    {
+      "target_id": "HW16-N01",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 1
+    },
+    {
+      "target_id": "HW16-N02",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 1
+    },
+    {
+      "target_id": "HW16-N03",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 1
+    },
+    {
+      "target_id": "HW16-N04",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 1
+    },
+    {
+      "target_id": "HW17-N01",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 2
+    },
+    {
+      "target_id": "HW17-N02",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 2
+    },
+    {
+      "target_id": "HW17-N03",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 2
+    },
+    {
+      "target_id": "HW17-N04",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 2
+    },
+    {
+      "target_id": "HW18-N01",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 2
+    },
+    {
+      "target_id": "HW18-N02",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 2
+    },
+    {
+      "target_id": "HW18-N03",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 2
+    },
+    {
+      "target_id": "HW18-N04",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 2
+    },
+    {
+      "target_id": "HW19-N01",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 1
+    },
+    {
+      "target_id": "HW19-N02",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 1
+    },
+    {
+      "target_id": "HW19-N03",
+      "branch_id": "HW",
+      "kind": "social-mechanism",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML01-N01",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML01-N02",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML01-N03",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML01-N04",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML02-N01",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML02-N02",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML02-N03",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML02-N04",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML03-N01",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML03-N02",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML03-N03",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML03-N04",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML04-N01",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML04-N02",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML04-N03",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML04-N04",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML05-N01",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML05-N02",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML05-N03",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML05-N04",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML06-N01",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 2
+    },
+    {
+      "target_id": "ML06-N02",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 2
+    },
+    {
+      "target_id": "ML06-N03",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 2
+    },
+    {
+      "target_id": "ML06-N04",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 2
+    },
+    {
+      "target_id": "ML07-N01",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML07-N02",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML07-N03",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML07-N04",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML08-N01",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML08-N02",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML08-N03",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML08-N04",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML09-N01",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 2
+    },
+    {
+      "target_id": "ML09-N02",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 2
+    },
+    {
+      "target_id": "ML09-N03",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 2
+    },
+    {
+      "target_id": "ML09-N04",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 2
+    },
+    {
+      "target_id": "ML10-N01",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML10-N02",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML10-N03",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML10-N04",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML11-N01",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML11-N02",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML11-N03",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML11-N04",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML12-N01",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML12-N02",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML12-N03",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML12-N04",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML13-N01",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML13-N02",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML13-N03",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML13-N04",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "ML14-N01",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 2
+    },
+    {
+      "target_id": "ML14-N02",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 2
+    },
+    {
+      "target_id": "ML14-N03",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 2
+    },
+    {
+      "target_id": "ML14-N04",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 2
+    },
+    {
+      "target_id": "ML15-N01",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 3
+    },
+    {
+      "target_id": "ML15-N02",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 3
+    },
+    {
+      "target_id": "ML15-N03",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 3
+    },
+    {
+      "target_id": "ML15-N04",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 3
+    },
+    {
+      "target_id": "ML16-N01",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 2
+    },
+    {
+      "target_id": "ML16-N02",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 2
+    },
+    {
+      "target_id": "ML16-N03",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 2
+    },
+    {
+      "target_id": "ML16-N04",
+      "branch_id": "ML",
+      "kind": "learning-capability",
+      "source_count": 2
+    },
+    {
+      "target_id": "DR01-N01",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "DR01-N02",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "DR01-N03",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "DR01-N04",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "DR02-N01",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 2
+    },
+    {
+      "target_id": "DR02-N02",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 2
+    },
+    {
+      "target_id": "DR02-N03",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 2
+    },
+    {
+      "target_id": "DR02-N04",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 2
+    },
+    {
+      "target_id": "DR03-N01",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "DR03-N02",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "DR03-N03",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "DR03-N04",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "DR04-N01",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "DR04-N02",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "DR04-N03",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "DR04-N04",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "DR05-N01",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "DR05-N02",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "DR05-N03",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "DR05-N04",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "DR06-N01",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "DR06-N02",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "DR06-N03",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "DR06-N04",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "DR07-N01",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 3
+    },
+    {
+      "target_id": "DR07-N02",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 3
+    },
+    {
+      "target_id": "DR07-N03",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 3
+    },
+    {
+      "target_id": "DR07-N04",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 3
+    },
+    {
+      "target_id": "DR08-N01",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 2
+    },
+    {
+      "target_id": "DR08-N02",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 2
+    },
+    {
+      "target_id": "DR08-N03",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 2
+    },
+    {
+      "target_id": "DR08-N04",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 2
+    },
+    {
+      "target_id": "DR09-N01",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "DR09-N02",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "DR09-N03",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "DR09-N04",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "DR10-N01",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "DR10-N02",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "DR10-N03",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "DR10-N04",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 1
+    },
+    {
+      "target_id": "DR11-N01",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 2
+    },
+    {
+      "target_id": "DR11-N02",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 2
+    },
+    {
+      "target_id": "DR11-N03",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 2
+    },
+    {
+      "target_id": "DR11-N04",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 2
+    },
+    {
+      "target_id": "DR12-N01",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 2
+    },
+    {
+      "target_id": "DR12-N02",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 2
+    },
+    {
+      "target_id": "DR12-N03",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 2
+    },
+    {
+      "target_id": "DR12-N04",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 2
+    },
+    {
+      "target_id": "DR13-N01",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 2
+    },
+    {
+      "target_id": "DR13-N02",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 2
+    },
+    {
+      "target_id": "DR13-N03",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 2
+    },
+    {
+      "target_id": "DR13-N04",
+      "branch_id": "DR",
+      "kind": "design-capability",
+      "source_count": 2
+    },
+    {
+      "target_id": "EX-LO-001",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 2
+    },
+    {
+      "target_id": "EX-LO-002",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 2
+    },
+    {
+      "target_id": "EX-LO-003",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 2
+    },
+    {
+      "target_id": "EX-LO-004",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 2
+    },
+    {
+      "target_id": "EX-LO-005",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 1
+    },
+    {
+      "target_id": "EX-LO-006",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 1
+    },
+    {
+      "target_id": "EX-LO-007",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 1
+    },
+    {
+      "target_id": "EX-LO-008",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 1
+    },
+    {
+      "target_id": "EX-LO-009",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 1
+    },
+    {
+      "target_id": "EX-LO-010",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 1
+    },
+    {
+      "target_id": "EX-LO-011",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 1
+    },
+    {
+      "target_id": "EX-LO-012",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 1
+    },
+    {
+      "target_id": "EX-LO-013",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 3
+    },
+    {
+      "target_id": "EX-LO-014",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 3
+    },
+    {
+      "target_id": "EX-LO-015",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 3
+    },
+    {
+      "target_id": "EX-LO-016",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 3
+    },
+    {
+      "target_id": "EX-LO-017",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 2
+    },
+    {
+      "target_id": "EX-LO-018",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 2
+    },
+    {
+      "target_id": "EX-LO-019",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 2
+    },
+    {
+      "target_id": "EX-LO-020",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 2
+    },
+    {
+      "target_id": "EX-LO-021",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 2
+    },
+    {
+      "target_id": "EX-LO-022",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 2
+    },
+    {
+      "target_id": "EX-LO-023",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 2
+    },
+    {
+      "target_id": "EX-LO-024",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 2
+    },
+    {
+      "target_id": "EX-LO-025",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 2
+    },
+    {
+      "target_id": "EX-LO-026",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 2
+    },
+    {
+      "target_id": "EX-LO-027",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 2
+    },
+    {
+      "target_id": "EX-LO-028",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 2
+    },
+    {
+      "target_id": "EX-LO-029",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 2
+    },
+    {
+      "target_id": "EX-LO-030",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 2
+    },
+    {
+      "target_id": "EX-LO-031",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 2
+    },
+    {
+      "target_id": "EX-LO-032",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 2
+    },
+    {
+      "target_id": "EX-LO-033",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 4
+    },
+    {
+      "target_id": "EX-LO-034",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 4
+    },
+    {
+      "target_id": "EX-LO-035",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 4
+    },
+    {
+      "target_id": "EX-LO-036",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 4
+    },
+    {
+      "target_id": "EX-LO-037",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 2
+    },
+    {
+      "target_id": "EX-LO-038",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 2
+    },
+    {
+      "target_id": "EX-LO-039",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 2
+    },
+    {
+      "target_id": "EX-LO-040",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 2
+    },
+    {
+      "target_id": "EX-LO-041",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 5
+    },
+    {
+      "target_id": "EX-LO-042",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 5
+    },
+    {
+      "target_id": "EX-LO-043",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 5
+    },
+    {
+      "target_id": "EX-LO-044",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 5
+    },
+    {
+      "target_id": "EX-LO-045",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 1
+    },
+    {
+      "target_id": "EX-LO-046",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 1
+    },
+    {
+      "target_id": "EX-LO-047",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 1
+    },
+    {
+      "target_id": "EX-LO-048",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 1
+    },
+    {
+      "target_id": "EX-LO-049",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 2
+    },
+    {
+      "target_id": "EX-LO-050",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 2
+    },
+    {
+      "target_id": "EX-LO-051",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 2
+    },
+    {
+      "target_id": "EX-LO-052",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 2
+    },
+    {
+      "target_id": "EX-LO-053",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 1
+    },
+    {
+      "target_id": "EX-LO-054",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 1
+    },
+    {
+      "target_id": "EX-LO-055",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 1
+    },
+    {
+      "target_id": "EX-LO-056",
+      "branch_id": "EX",
+      "kind": "learning-outcome",
+      "source_count": 1
+    }
+  ]
+}

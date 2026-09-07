@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://open-frontier.example/schemas/obelisk/source.schema.json",
+  "title": "Source record",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "id",
+    "role",
+    "title",
+    "status"
+  ],
+  "properties": {
+    "record_kind": {
+      "enum": ["work", "reading-area"],
+      "description": "Omitted for existing identifiable works/resources. Reading areas require a publication or corpus selection."
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^SRC-"
+    },
+    "branch_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "role": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "minLength": 1
+    },
+    "url": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

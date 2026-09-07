@@ -1,9 +1,17 @@
 ---
-title: "Scientific computing"
+title: Scientific computing
 wave: 1
 order: 7
 leverage: 96
+search:
+  exclude: true
 ---
+
+<!-- atlas-route -->
+> **Current study page: [Scientific computing](../../learn/ts-f07.md)**
+>
+> The earlier reference below is retained for continuity.
+<!-- /atlas-route -->
 
 # Scientific computing
 

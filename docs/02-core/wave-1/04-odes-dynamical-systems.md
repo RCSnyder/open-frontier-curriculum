@@ -1,9 +1,17 @@
 ---
-title: "ODEs + dynamical systems"
+title: ODEs + dynamical systems
 wave: 1
 order: 4
 leverage: 98
+search:
+  exclude: true
 ---
+
+<!-- atlas-route -->
+> **Current study page: [ODEs + dynamical systems](../../learn/ts-f04.md)**
+>
+> The earlier reference below is retained for continuity.
+<!-- /atlas-route -->
 
 # ODEs + dynamical systems
 
