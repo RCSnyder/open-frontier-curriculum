@@ -1,6 +1,6 @@
 # Release readiness
 
-Candidate: **0.2.0**.
+Candidate: **0.2.1**.
 
 Local engineering gates: **PASS**.
 Scholarly reference-grade readiness: **BLOCKED**. Empirical efficacy: **NOT ESTABLISHED**.
@@ -24,9 +24,9 @@ Scholarly reference-grade readiness: **BLOCKED**. Empirical efficacy: **NOT ESTA
 | `uv run --frozen python scripts/build_docs.py` | PASS |
 | `uv run --frozen python scripts/audit_ui.py --site .verification/site` | PASS |
 
-Runtime: Python 3.12.3 on Windows.
+Runtime: Python 3.12.14 on Linux.
 
-Manifest SHA-256: `0e2d7e2b54cfcfea4c981cb0d5aed68d3bdf152ada0f1c53842cc1ec489bbdd7`.
+Manifest SHA-256: `9e788d504a0c3ce77a9990ce5a462363f4b60b1600560a160229833610647ddc`.
 
 Exact commands, exit codes and output: [verification report](reports/release-verification.json).
 The manifest is LF-normalized source integrity, not a signed release or proof of learning.

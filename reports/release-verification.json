@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "release_version": "0.2.0",
+  "release_version": "0.2.1",
   "engineering_status": "pass",
   "scholarly_status": "not-reference-grade",
   "empirical_claim_status": "not-established",
-  "python": "3.12.3",
-  "platform": "Windows",
-  "manifest_sha256": "0e2d7e2b54cfcfea4c981cb0d5aed68d3bdf152ada0f1c53842cc1ec489bbdd7",
+  "python": "3.12.14",
+  "platform": "Linux",
+  "manifest_sha256": "9e788d504a0c3ce77a9990ce5a462363f4b60b1600560a160229833610647ddc",
   "scope": "Local engineering checks; remote CI, full external links and human scholarly review are not covered",
   "gates": [
     {
@@ -17,7 +17,7 @@
       ],
       "exit_code": 0,
       "stdout": "",
-      "stderr": "Audited 42 packages in 0.03ms\n"
+      "stderr": "Checked 41 packages in 0.40ms\n"
     },
     {
       "command": [
@@ -63,7 +63,7 @@
       ],
       "exit_code": 0,
       "stdout": "Audited 448 module/node records; 303 sources; 72 life competencies\nGraph audit: 0 errors; 0 warnings\nCatalog and manifests generated\nSynchronized release metadata and generated evidence to 0.6.0\n",
-      "stderr": "...........................................................\n----------------------------------------------------------------------\nRan 59 tests in 27.128s\n\nOK\n"
+      "stderr": "...........................................................\n----------------------------------------------------------------------\nRan 59 tests in 10.146s\n\nOK\n"
     },
     {
       "command": [
@@ -175,7 +175,7 @@
         "scripts/build_docs.py"
       ],
       "exit_code": 0,
-      "stdout": "Build started\nBuild finished in 11.85s\n",
+      "stdout": "Build started\nBuild finished in 9.23s\n",
       "stderr": "No issues found\n"
     },
     {

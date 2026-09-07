@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "release_version": "0.2.0",
+  "release_version": "0.2.1",
   "method": "Sequential evidence gates; source roles and review are not inferred from counts",
   "inventory": {
     "ai-modes": {

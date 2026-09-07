@@ -1,5 +1,5 @@
 {
-  "version": "0.2.0",
+  "version": "0.2.1",
   "name": "Open Frontier Curriculum",
   "legacy_technical_program_weeks": 136,
   "frontier_targets": 100,
@@ -41,7 +41,7 @@
     }
   ],
   "obelisk": {
-    "version": "0.2.0",
+    "version": "0.2.1",
     "name": "Open Frontier Curriculum",
     "release_state": "reference-candidate",
     "architecture": {

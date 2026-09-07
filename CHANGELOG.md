@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v0.2.1 (2026-09-07)
+
+### Bug Fixes
+
+- **release**: Separate generated source staging from asset uploads
+  ([`5f67bd2`](https://github.com/RCSnyder/open-frontier-curriculum/commit/5f67bd276e58fc470bccd23f7480f2c99dd55645))
+
+
 ## v0.2.0 (2026-09-07)
 
 ### Features
