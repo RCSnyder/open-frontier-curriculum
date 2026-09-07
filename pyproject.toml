@@ -26,8 +26,8 @@ commit_parser = "conventional"
 tag_format = "v{version}"
 version_toml = ["release.toml:version"]
 commit_message = "chore(release): v{version} [skip ci]"
-build_command = "python scripts/sync_release_version.py && python scripts/verify_release.py"
-assets = ["CITATION.cff", "data", "docs", "BUILD_MANIFEST.json", "CONTENT_MATURITY.md", "SOURCE_MATURITY.md", "RELEASE_READINESS.md", "reports/obelisk-audit.json", "reports/release-verification.json"]
+build_command = "python scripts/sync_release_version.py && python scripts/verify_release.py && git add -- CITATION.cff data docs BUILD_MANIFEST.json CONTENT_MATURITY.md SOURCE_MATURITY.md RELEASE_READINESS.md reports/obelisk-audit.json reports/release-verification.json"
+assets = []
 allow_zero_version = true
 major_on_zero = true
 

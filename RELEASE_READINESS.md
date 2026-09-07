@@ -24,9 +24,9 @@ Scholarly reference-grade readiness: **BLOCKED**. Empirical efficacy: **NOT ESTA
 | `uv run --frozen python scripts/build_docs.py` | PASS |
 | `uv run --frozen python scripts/audit_ui.py --site .verification/site` | PASS |
 
-Runtime: Python 3.12.14 on Linux.
+Runtime: Python 3.12.3 on Windows.
 
-Manifest SHA-256: `2e8c60062023c4a64a9cb5d6bd71fc875821d49376e019953ed78f3702f4b016`.
+Manifest SHA-256: `0e2d7e2b54cfcfea4c981cb0d5aed68d3bdf152ada0f1c53842cc1ec489bbdd7`.
 
 Exact commands, exit codes and output: [verification report](reports/release-verification.json).
 The manifest is LF-normalized source integrity, not a signed release or proof of learning.

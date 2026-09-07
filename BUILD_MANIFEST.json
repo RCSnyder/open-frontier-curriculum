@@ -1091,7 +1091,7 @@
     "docs/project/index.md": "f5f6b9c80c68a5a22c3495c104dfacaeab7c6c1bd7474e38cbe917c698838074",
     "docs/stylesheets/atlas.css": "b7f7edf44cb0fc7bfc86166c9f5c0bc434d8a49b77edfd6829c7add7331b6ccf",
     "docs/stylesheets/extra.css": "dae606d680f5a587f95751c128f76d1215d93794cb22f744e3d12d6d90ed4795",
-    "pyproject.toml": "4d6059647beb404ffa2632d76ec5baa2e516c1c7adfbbf08c158155768c7c4a0",
+    "pyproject.toml": "781004f3aa634069f0daf0587a533ca2523f403b172625c225e360d550a812ce",
     "release.toml": "5d05618a348778854c5736364b87d8f412b15765c7493afd5551ec625b463ef4",
     "rfcs/0000-template.md": "6c363416861ffc6314398511942adf52a3d4f982977901c20f3b69eb208de7c6",
     "rfcs/curriculum/0001-obelisk-architecture.md": "cec13cb4eabac41276bf859bc8d8ec466c036aa3ab09733297d6c326a80dd9db",
@@ -1138,7 +1138,7 @@
     "tests/test_obelisk.py": "ec64eee1db3e86bcc1d6c7812ece2aadbec0fd19f90cc7cac96990afe98e66d4",
     "tests/test_preservation.py": "192871ecc18acea3eeb5212b341d779289a70a282e3fb4913814fc6bf3b8b3d6",
     "tests/test_publication.py": "c71a0029d7bab394f932aac87dd591beb699d48257c0637c7902795414c16fa0",
-    "tests/test_release_automation.py": "c8368bd3a33dda1853780869e09b14c3cb4a340992df10639a69ed6dcca267d2",
+    "tests/test_release_automation.py": "b722063d6e912ef822236214cc19a3ddd3288815e106ac12df97e402018d002e",
     "tests/test_repo.py": "282602506cf03f1a00c463ac881410eba0fabdeabe0ef5a35446821b70c015dc",
     "uv.lock": "88be5c60c3d653d1c9558e02131fe0173df16d47b1811213fb16410b125f73fe",
     "zensical.toml": "0bf2ca9c43dfd8e624d158a3033ad127242db1252042362b4052446b2ad663a4"
