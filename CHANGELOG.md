@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v0.2.0 (2026-09-07)
+
+### Features
+
+- **curriculum**: Unify discovery, study routes and release automation
+  ([`07bc971`](https://github.com/RCSnyder/open-frontier-curriculum/commit/07bc971c0f9e43ee152ba17f38c830313ac72829))
+
+
 ## Legacy repository history
 
 The following labels are retained from base commit `8b98ed1`. Some predate the

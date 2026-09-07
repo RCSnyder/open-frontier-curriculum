@@ -1,6 +1,6 @@
 # Publication status and evidence
 
-**Public preview: 0.6.0-rc.1.**
+**Public preview: 0.2.0.**
 
 This is an unfinished curriculum and reference project, not a validated qualification or a reference-grade scholarly edition.
 
